@@ -12,7 +12,7 @@ const ctx={window:{}};vm.runInNewContext(fs.readFileSync(path.join(__dirname,"..
 const SEED=ctx.window.AG_SEED;const known={...SEED.courses};
 const all={};Object.values(SEED.questions).forEach(q=>all[q.id]=q);
 let bad=0,n=0;const fromBank=new Set();const coverage=[];
-const DECISIONS=["included","included_adapted","duplicate","held","excluded","key_source","used","units","not_examinable","not_a_question"];
+const DECISIONS=["included","included_adapted","duplicate","held","excluded","key_source","used","units","not_examinable","not_a_question","not_read"];
 
 for(const f of fs.readdirSync(__dirname).filter(f=>/^bank_.*\.json$/.test(f)).sort()){
   const b=JSON.parse(fs.readFileSync(path.join(__dirname,f),"utf8"));(b.courses||[]).forEach(c=>known[c.code]=c);

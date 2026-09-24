@@ -100,7 +100,9 @@
     43,
     44
    ],
-   "slide_groups": [],
+   "slide_groups": [
+    "L12C"
+   ],
    "est_minutes": 14,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -128,7 +130,12 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
-   }
+   },
+   "units": [
+    "L12-U11",
+    "L12-U12",
+    "L12-U13"
+   ]
   },
   {
    "id": "30257-L3-01",
@@ -233,7 +240,9 @@
     15,
     16
    ],
-   "slide_groups": [],
+   "slide_groups": [
+    "L3A"
+   ],
    "est_minutes": 18,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -261,7 +270,12 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
-   }
+   },
+   "units": [
+    "L3-U3",
+    "L3-U4",
+    "L3-U5"
+   ]
   },
   {
    "id": "30257-L3-02",
@@ -357,7 +371,9 @@
     28,
     29
    ],
-   "slide_groups": [],
+   "slide_groups": [
+    "L3C"
+   ],
    "est_minutes": 16,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -385,7 +401,11 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
-   }
+   },
+   "units": [
+    "L3-U10",
+    "L3-U11"
+   ]
   },
   {
    "id": "30257-L4-01",
@@ -499,7 +519,10 @@
     36,
     39
    ],
-   "slide_groups": [],
+   "slide_groups": [
+    "L4B",
+    "L4C"
+   ],
    "est_minutes": 18,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -527,7 +550,12 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
-   }
+   },
+   "units": [
+    "L4-U7",
+    "L4-U8",
+    "L4-U11"
+   ]
   },
   {
    "id": "30257-L5-01",
@@ -642,7 +670,11 @@
     27,
     28
    ],
-   "slide_groups": [],
+   "slide_groups": [
+    "L5C",
+    "L5A",
+    "L5D"
+   ],
    "est_minutes": 18,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -670,7 +702,12 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
-   }
+   },
+   "units": [
+    "L5-U2",
+    "L5-U4",
+    "L5-U6"
+   ]
   },
   {
    "id": "30257-L6-01",
@@ -773,7 +810,10 @@
     4,
     6
    ],
-   "slide_groups": [],
+   "slide_groups": [
+    "L6",
+    "L3B"
+   ],
    "est_minutes": 16,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -801,7 +841,3724 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L6-U4.1",
+    "L3-U6",
+    "L5-U4"
+   ]
+  },
+  {
+   "id": "30257-L5-10",
+   "course": "30257",
+   "deck": "L5",
+   "topic": "What raises FCFO",
+   "syllabus_objective": "Cash flows for valuation: what enters FCFO",
+   "shape": "concept MCQ",
+   "stem": "Free cash flows from operations (FCFO), other things being equal, increase if:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+    "location": "AY 26-27 instructor mock exam (file labelled 'Academic Year 2025/2026 Mock Exam'), Part I, MCQ 1; official key from the AY 24-25 mock's solutions workbook (same question), Reference/Past Exams and Mock Exams/30257 Corporate Valuation AY 24-25 - Mock Exam Solutions v1.xlsx; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Free cash flows from operations (FCFO), other things being equal, increase if:",
+     "options": [
+      "Shareholders underwrite a capital increase",
+      "Dividends decrease",
+      "Accounts receivables decrease",
+      "Trade liabilities decrease"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: C (x in the AY 24-25 solutions workbook).",
+    "A fall in receivables lowers noncash working capital, releasing cash; A and B are equity flows below FCFO; D ties up cash."
+   ],
+   "citations": [
+    {
+     "deck": "L5",
+     "slide": 24,
+     "quote": "FCFO = NOPAT - increase in core capital employed during the year"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L5C"
+   ],
+   "units": [
+    "L5-U4"
+   ],
+   "est_minutes": 1.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
    }
+  },
+  {
+   "id": "30257-L5-11",
+   "course": "30257",
+   "deck": "L5",
+   "topic": "What is not an investment in FCFO",
+   "syllabus_objective": "Cash flows for valuation: investments subtracted from gross cash flows",
+   "shape": "concept MCQ",
+   "stem": "In calculating free cash flows, which of the following is/are not NOT an investment that should be subtracted from gross cash flows?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+    "location": "AY 26-27 instructor mock exam (file labelled 'Academic Year 2025/2026 Mock Exam'), Part I, MCQ 2; official key from the AY 24-25 mock's solutions workbook (same question), Reference/Past Exams and Mock Exams/30257 Corporate Valuation AY 24-25 - Mock Exam Solutions v1.xlsx; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "In calculating free cash flows, which of the following is/are not NOT an investment that should be subtracted from gross cash flows?",
+     "options": [
+      "Change in operating working capital",
+      "Change in debt outstanding",
+      "Net capital expenditures",
+      "Investment in goodwill and acquired intangibles"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "B",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: B. The question's 'not NOT' is in the source; it asks which item is not an investment: debt is a financing flow (it enters FCFE, not FCFO).",
+    "Solutions workbook note: 'CAPEX = CAPITAL EXPENDITURES IS NET OF D&A'."
+   ],
+   "citations": [
+    {
+     "deck": "L5",
+     "slide": 22,
+     "quote": "- ↑ or + ↓ in noncash WC"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L5C"
+   ],
+   "units": [
+    "L5-U4"
+   ],
+   "est_minutes": 1.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L5-12",
+   "course": "30257",
+   "deck": "L5",
+   "topic": "Depreciation and FCFO",
+   "syllabus_objective": "Cash flows for valuation: D&A, taxes and FCFO",
+   "shape": "concept MCQ",
+   "stem": "A company records a free cash flows from operations (FCFO) equal to 100 and depreciation expenses equal to 20 in 2016. If the depreciation expense were equal to 30, FCFO would be:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+    "location": "AY 26-27 instructor mock exam (file labelled 'Academic Year 2025/2026 Mock Exam'), Part I, MCQ 3; official key from the AY 24-25 mock's solutions workbook (same question), Reference/Past Exams and Mock Exams/30257 Corporate Valuation AY 24-25 - Mock Exam Solutions v1.xlsx; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "A company records a free cash flows from operations (FCFO) equal to 100 and depreciation expenses equal to 20 in 2016. If the depreciation expense were equal to 30, FCFO would be:",
+     "options": [
+      "Unchanged, since depreciation expenses are a non-monetary cost",
+      "Higher by 10, therefore equal to 110",
+      "Lower by 10, therefore equal to 90",
+      "The question cannot be answered with the given inputs only"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: D.",
+    "Higher depreciation lowers operating taxes by 10 × t, so FCFO rises by the tax saving; without the tax rate the change cannot be computed. A ignores the tax effect."
+   ],
+   "citations": [
+    {
+     "deck": "L5",
+     "slide": 22,
+     "quote": "- Operational taxes"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L5C"
+   ],
+   "units": [
+    "L5-U4"
+   ],
+   "est_minutes": 1.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L4-10",
+   "course": "30257",
+   "deck": "L4",
+   "topic": "What weights the MRP",
+   "syllabus_objective": "Cost of equity: the CAPM",
+   "shape": "concept MCQ",
+   "stem": "In determining the levered cost of equity of a company, the market risk premium is weighted by its:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+    "location": "AY 26-27 instructor mock exam (file labelled 'Academic Year 2025/2026 Mock Exam'), Part I, MCQ 4; official key from the AY 24-25 mock's solutions workbook (same question), Reference/Past Exams and Mock Exams/30257 Corporate Valuation AY 24-25 - Mock Exam Solutions v1.xlsx; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "In determining the levered cost of equity of a company, the market risk premium is weighted by its:",
+     "options": [
+      "Variance",
+      "Standard deviation",
+      "Beta",
+      "Alpha"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: C: kEL = rF + β × (rM − rF)."
+   ],
+   "citations": [
+    {
+     "deck": "L4",
+     "slide": 7,
+     "quote": "The expected return (cost) of equity capital is generally estimated using the capital asset pricing model"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L4A"
+   ],
+   "units": [
+    "L4-U2"
+   ],
+   "est_minutes": 1,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L4-11",
+   "course": "30257",
+   "deck": "L4",
+   "topic": "Pre-tax cost of debt from a rating",
+   "syllabus_objective": "Cost of debt: rating-based model",
+   "shape": "concept MCQ",
+   "stem": "Island Inc is a publicly traded company that has 120 in bank loans on its books, with a stated interest rate of 3% and 165 in publicly traded bonds,, which were issues under par, with a coupon rate of 3,9%. The company currently has a bond rating of BBB, with a default spread of 1,75% over the risk free rate. If the current T-Bill rate is 1%, the ten-year T-Bond rates 4,5% and the marginal tax rate is 40%, what is the pre-tax cost of debt?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+    "location": "AY 26-27 instructor mock exam (file labelled 'Academic Year 2025/2026 Mock Exam'), Part I, MCQ 5; official key from the AY 24-25 mock's solutions workbook (same question), Reference/Past Exams and Mock Exams/30257 Corporate Valuation AY 24-25 - Mock Exam Solutions v1.xlsx; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Island Inc is a publicly traded company that has 120 in bank loans on its books, with a stated interest rate of 3% and 165 in publicly traded bonds,, which were issues under par, with a coupon rate of 3,9%. The company currently has a bond rating of BBB, with a default spread of 1,75% over the risk free rate. If the current T-Bill rate is 1%, the ten-year T-Bond rates 4,5% and the marginal tax rate is 40%, what is the pre-tax cost of debt?",
+     "options": [
+      "3,52%",
+      "6,25%",
+      "2,75%",
+      "8,02%"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "B",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: B. Solution (mock): kD = 4,5% + 1,75% = 6,25%.",
+    "Use the long-term (10-year) risk-free rate plus the rating spread; the book coupons and the T-Bill rate are distractors; 'pre-tax' means no (1 − t)."
+   ],
+   "citations": [
+    {
+     "deck": "L4",
+     "slide": 36,
+     "quote": "The spread associated to a rating"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L4C"
+   ],
+   "units": [
+    "L4-U11"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L12-10",
+   "course": "30257",
+   "deck": "L12",
+   "topic": "Fundamental approaches to valuation",
+   "syllabus_objective": "General approaches and specific methods",
+   "shape": "concept MCQ",
+   "stem": "Which of the following is not one of the fundamental approaches of firm valuation?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+    "location": "AY 26-27 instructor mock exam (file labelled 'Academic Year 2025/2026 Mock Exam'), Part I, MCQ 6; official key from the AY 24-25 mock's solutions workbook (same question), Reference/Past Exams and Mock Exams/30257 Corporate Valuation AY 24-25 - Mock Exam Solutions v1.xlsx; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Which of the following is not one of the fundamental approaches of firm valuation?",
+     "options": [
+      "An approach based on the present value of future cash flows or earnings",
+      "An approach based on current market share with respect to other competing businesses",
+      "An approach based on the relative value of other businesses with respect to a driver",
+      "An approach based on current value of assets, net of the current value of outstanding liabilities"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "B",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: B. A, C and D are the income, market and cost approaches."
+   ],
+   "citations": [
+    {
+     "deck": "L12",
+     "slide": 16,
+     "quote": "Income approach Market approach Cost approach"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L12B"
+   ],
+   "units": [
+    "L12-U4"
+   ],
+   "est_minutes": 1,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L3-10",
+   "course": "30257",
+   "deck": "L3",
+   "topic": "Discount rate for an equity-side DCF",
+   "syllabus_objective": "The three DCF models and their discount rates",
+   "shape": "concept MCQ",
+   "stem": "With an equity side discounted cash flows model, cash flows to shareholders should be discounted using:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+    "location": "AY 26-27 instructor mock exam (file labelled 'Academic Year 2025/2026 Mock Exam'), Part I, MCQ 7; official key from the AY 24-25 mock's solutions workbook (same question), Reference/Past Exams and Mock Exams/30257 Corporate Valuation AY 24-25 - Mock Exam Solutions v1.xlsx; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "With an equity side discounted cash flows model, cash flows to shareholders should be discounted using:",
+     "options": [
+      "the cost of debt",
+      "the weighted average cost of capital",
+      "the unlevered cost of equity",
+      "the levered cost of equity"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: D."
+   ],
+   "citations": [
+    {
+     "deck": "L3",
+     "slide": 12,
+     "quote": "We can compute equity value also considering the cash flows to shareholders directly, as a perpetuity"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L3A"
+   ],
+   "units": [
+    "L3-U4"
+   ],
+   "est_minutes": 1,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L3-11",
+   "course": "30257",
+   "deck": "L3",
+   "topic": "EV at a year-end valuation date",
+   "syllabus_objective": "Two-stage DCF and the valuation date",
+   "shape": "concept MCQ",
+   "stem": "A company generates FCFO of 100 in 2016, 110 in 2017 and 121 in 2018. WACC is 10% and perpetual growth is 0%. How much is enterprise value on 31/12/2016?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+    "location": "AY 26-27 instructor mock exam (file labelled 'Academic Year 2025/2026 Mock Exam'), Part I, MCQ 8; official key from the AY 24-25 mock's solutions workbook (same question), Reference/Past Exams and Mock Exams/30257 Corporate Valuation AY 24-25 - Mock Exam Solutions v1.xlsx; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "A company generates FCFO of 100 in 2016, 110 in 2017 and 121 in 2018. WACC is 10% and perpetual growth is 0%. How much is enterprise value on 31/12/2016?",
+     "options": [
+      "1.510,0",
+      "1.410,0",
+      "1.200,0",
+      "1.300,0"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: C. Solution (mock): PV of FCFO = 110/1,1 + 121/1,1^2 = 200; TV = 121/0,1 = 1210; PV of TV = 1210/1,1^2 = 1000; EV = 200 + 1000 = 1200.",
+    "The 2016 FCFO has already happened at 31/12/2016, so it is not discounted. Same problem as Workbook 4.1 (L6), in € thousand there."
+   ],
+   "citations": [
+    {
+     "deck": "L6",
+     "slide": 6,
+     "quote": "What is the enterprise value as of 31/12/2016?"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L3B",
+    "L6"
+   ],
+   "units": [
+    "L3-U6",
+    "L6-U4.1"
+   ],
+   "est_minutes": 2.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L3-12",
+   "course": "30257",
+   "deck": "L3",
+   "topic": "Tax shields in APV and asset-side DCF",
+   "syllabus_objective": "Where tax benefits enter the DCF models",
+   "shape": "short essay (written)",
+   "stem": "Consider an asset-side discounted cash flows model and an adjusted present value model. Please discuss if and how they incorporate the value generated from the possibility to deduct interest payments from income taxes",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+    "location": "AY 26-27 instructor mock exam (file labelled 'Academic Year 2025/2026 Mock Exam'), Part II, open question 1; official key from the AY 24-25 mock's solutions workbook (same question), Reference/Past Exams and Mock Exams/30257 Corporate Valuation AY 24-25 - Mock Exam Solutions v1.xlsx; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null,
+    "check": "The official key writes 'discounted using either kEL or kD'; the deck uses kD or kEU (kTS). Kept as printed; flagged."
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Discuss (maximum 200 words).",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "APV: yes, it values tax shields as a sepatate components of enterprise value. The value of the tax shields is equal to the PV of forecast TSs, discounted using either kEL or kD. DCF asset-side: yes, it values tax shields by adjusting (backwards) the discount rate. While in APV FCFO are discounted with the kEU, in an asset-side DCF the discount rate is the WACC, which is lower than kEU to incorporate the tax benefit.",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 3,
+   "mark_scheme": [
+    "Official model answer (mock and AY 24-25 solutions workbook), quoted as the key.",
+    "Note: the key says the tax shields are discounted 'using either kEL or kD'; the L3 deck discounts them at kTS, 'kD or kEU' — the key's 'kEL' looks like a slip for kEU.",
+    "Points: both include the benefit; APV adds V(TS) separately to VU (FCFO at kEU); asset-side DCF puts it in the discount rate (WACC < kEU via kD × (1 − t))."
+   ],
+   "citations": [
+    {
+     "deck": "L3",
+     "slide": 3,
+     "quote": "Where are tax benefits taken into account in the DCF models?"
+    },
+    {
+     "deck": "L3",
+     "slide": 14,
+     "quote": "will be lower than the kEU as it incorporates the tax benefits that was otherwise a separate item in APV"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L3A"
+   ],
+   "units": [
+    "L3-U3",
+    "L3-U5"
+   ],
+   "est_minutes": 6,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L5-13",
+   "course": "30257",
+   "deck": "L5",
+   "topic": "FCFO from two balance sheets and an income statement",
+   "syllabus_objective": "Reorganizing financials; building FCFO",
+   "shape": "short problem (written)",
+   "stem": "Based on the company’s following balance sheets and income statements and assuming a marginal tax rateequal to 30%, compute its free cash flows from operations in the only possible year.",
+   "data": "| Balance sheet (€m) | 2011 | 2012 | Balance sheet (€m) | 2011 | 2012 |\n|---|---|---|---|---|---|\n| Excess cash | 18,0 | 19,4 | Short-term debt | 40,0 | 30,0 |\n| Account receivable | 40,0 | 44,0 | Account payables | 108,0 | 180,0 |\n| Inventory | 80,0 | 40,0 | Tax payable | 40,0 | 36,0 |\n| | | | Dividend payable | 26,0 | 26,0 |\n| Total current Assets | 138,0 | 103,4 | Total current liabilities | 214,0 | 272,0 |\n| Net tangible fixed assets | 200,0 | 230,0 | Long-term debt | 40,0 | 20,0 |\n| Non-operating assets | 60,0 | 70,0 | Shareholder equity | 100,0 | 92,4 |\n| | | | Minority interests | 44,0 | 19,0 |\n| Total Assets | 398,0 | 403,4 | Total liabilities and equity | 398,0 | 403,4 |\n\n| Income statement (€m) | 2011 | 2012 |\n|---|---|---|\n| Sales | 100,0 | 120,0 |\n| Raw materials | (40,0) | (60,0) |\n| Depreciation | (6,0) | (3,0) |\n| Interest paid | (6,0) | (6,0) |\n| Interest received | 1,0 | 1,0 |\n| Income taxes | (7,6) | (6,8) |\n| Net profit | 41,4 | 45,2 |",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+    "location": "AY 26-27 instructor mock exam (file labelled 'Academic Year 2025/2026 Mock Exam'), Part III, problem 1; official key from the AY 24-25 mock's solutions workbook (same question), Reference/Past Exams and Mock Exams/30257 Corporate Valuation AY 24-25 - Mock Exam Solutions v1.xlsx; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Compute FCFO for 2012.",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "FCFO 2012 = 113,9: EBIT 57 − operating taxes 17,1 + D&A 3 + decrease in noncash WC 104 − CAPEX 33.",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 3,
+   "mark_scheme": [
+    "Official solution: noncash working capital 2011 = 40+80−108−40 = −28; 2012 = 44+40−180−36 = −132; EBIT = 120−60−3 = 57; operating taxes = −57×0,3 = −17,1; +D&A 3; −increase in NWC = −[(−132) − (−28)] = +104; CAPEX = −(230−200) − 3 = −33; FCFO = 113,9.",
+    "Only 2012 is possible because FCFO needs the change in balance-sheet items. Excess cash, non-operating assets, debt and dividends payable are not operating."
+   ],
+   "citations": [
+    {
+     "deck": "L5",
+     "slide": 24,
+     "quote": "FCFO = NOPAT - increase in core capital employed during the year"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L5C",
+    "L5A"
+   ],
+   "units": [
+    "L5-U2",
+    "L5-U4"
+   ],
+   "est_minutes": 8,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L5-14",
+   "course": "30257",
+   "deck": "L5",
+   "topic": "Supermarkets and noncash working capital",
+   "syllabus_objective": "Reorganizing the balance sheet: noncash working capital",
+   "shape": "concept MCQ",
+   "stem": "A supermarket chain will most likely:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/valuation-mock-exam-v2-final-exam.pdf",
+    "location": "Valuation - Mock Exam v2 (Studocu copy of an instructor mock), multiple choice question 9; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "A supermarket chain will most likely:",
+     "options": [
+      "Have negative noncash working capital",
+      "Not easily get a bank loan",
+      "Have high fixed costs",
+      "Never be a target of a leveraged buyout"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "A",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Answer A (no key in the source; solved twice). Route 1: supermarkets sell for cash (almost no receivables), turn inventory fast and pay suppliers on 60–90 days, so trade payables exceed receivables + inventory. Route 2: B and D are unfounded generalisations and C is not the defining trait asked for."
+   ],
+   "citations": [
+    {
+     "deck": "L5",
+     "slide": 10,
+     "quote": "only includes the assets and the liabilities with an operating nature generated by the ordinary execution of the business model"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L5A"
+   ],
+   "units": [
+    "L5-U2"
+   ],
+   "est_minutes": 1,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L12-11",
+   "course": "30257",
+   "deck": "L12",
+   "topic": "Probability of success in a young business's DCF",
+   "syllabus_objective": "Value and uncertainty: modelling cash flows and discount rates",
+   "shape": "concept MCQ",
+   "stem": "You are valuing a young business in the hardware industry. Its 2023 forecast FCFO is equal to € 10 million, whose probability of success is equal to 70%. The weighted average cost of capital (WACC) based on similarly young businesses in the industry is equal to 18%, while based on more mature hardware companies it would be equal to 10%. In a DCF model, in 2023 you should consider:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/valuation-mock-exam-v2-final-exam.pdf",
+    "location": "Valuation - Mock Exam v2 (Studocu copy of an instructor mock), multiple choice question 10; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null,
+    "check": "No official key. The key (D) relies on the double-counting argument; please confirm against the L1-2 slide 53 table (its content is an image)."
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "In a DCF model, in 2023 you should consider:",
+     "options": [
+      "A FCFO of 7 and a WACC of 18%",
+      "A FCFO of 10 and a WACC of 18%",
+      "A FCFO of 10 and a WACC of 10%",
+      "None of the above"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Answer D (no key in the source; solved twice). Route 1: the risk of failure is taken once — either in the cash flow (expected FCFO = 70% × 10 = 7) discounted at the mature 10% WACC, or in a higher rate on the success-case flow — so the consistent pair (7; 10%) is not listed. Route 2: A counts the failure risk twice; B and C each mix one convention with the other's number.",
+    "The deck's 'Alternative approaches to cash flow representation' slide makes this point in a table the text layer does not show; this key rests on the double-counting argument."
+   ],
+   "citations": [
+    {
+     "deck": "L12",
+     "slide": 53,
+     "quote": "Alternative approaches to cash flow representation"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L12D"
+   ],
+   "units": [
+    "L12-U15"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L4-12",
+   "course": "30257",
+   "deck": "L4",
+   "topic": "Methods to estimate the market risk premium",
+   "syllabus_objective": "Cost of equity: the market risk premium",
+   "shape": "short essay (written)",
+   "stem": "Explain the methods to estimate the Market Risk Premium (2 points)",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+    "location": "30257 exam, 11 January 2019 (Studocu copy; questions only), question 1; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Explain the methods to estimate the Market Risk Premium.",
+     "options": [],
+     "marks": 2
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "Four methods (L4): 1) historical: rM = historical return on a market index (choice of index, sample 6–24 months, arithmetic/geometric, daily/weekly), MRP = rM − rF; 2) implied: rM implied by the cash returned to shareholders of the index (dividends + buybacks) at consensus growth; 3) Damodaran's estimates (implied premium separating country risk); 4) Fernandez's survey of professionals.",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 2,
+   "mark_scheme": [
+    "No official answer in the source; the key lists the four methods on L4 slides 11–12.",
+    "Full marks: each method named with how rM is obtained; a comment on the choices (index, sample, averaging)."
+   ],
+   "citations": [
+    {
+     "deck": "L4",
+     "slide": 11,
+     "quote": "Historical approach: rM equal to the historical return of a market index"
+    },
+    {
+     "deck": "L4",
+     "slide": 12,
+     "quote": "Implied risk premium approach"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L4A"
+   ],
+   "units": [
+    "L4-U3"
+   ],
+   "est_minutes": 5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L3-13",
+   "course": "30257",
+   "deck": "L3",
+   "topic": "Enterprise DCF at a target leverage",
+   "syllabus_objective": "Asset-side DCF: FCFO, WACC at target leverage, the bridge to equity",
+   "shape": "short problem (written)",
+   "stem": "Based on below data compute the enterprise and equity value of Company Alpha at the end of year 1 using enterprise DCF, assuming a target leverage equal to year 2 leverage. (3 points)",
+   "data": "| | 1 | 2 |\n|---|---|---|\n| EBIT | 29,5 | 33,0 |\n| Investent rate | 30,0% | 30,0% |\n| Operating Working Capital | 46,0 | 45,0 |\n| Variation in WC | 3,0 | (1,0) |\n| Net fixed assets | 125,0 | 130,0 |\n| Market cap. | 102,0 | 105,0 |\n| Excess cash | 45,0 | 48,0 |\n| Long term debt | 122,0 | 111,0 |\n| Account payables | 52,0 | 56,0 |\n| Tax rate | 30,0% | 30,0% |\n| Growth rate | | 3,0% |\n| EBITDA | 31,0 | 37,0 |\n| kEL | 13,2% | 13,2% |\n| kD | 7,5% | 7,5% |",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+    "location": "30257 exam, 11 January 2019 (Studocu copy; questions only), question 6; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null,
+    "check": "No official key. Solved with the method of Workbook 4.3's official solution (same data); please confirm the reading of 'investment rate' as extraneous."
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Enterprise value and equity value at the end of year 1.",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "WACC 10.22%; FCFO year 2 = 19.1; EV = 264.6; equity value = 187.6.",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 3,
+   "mark_scheme": [
+    "No official answer in the source. Method = official solution of Workbook 4.3 (same company data, different debt): net debt = long-term debt − excess cash (payables are operating); WACC at year-2 weights: ND 63, E 105 → D/V 37,5%; WACC = 62,5% × 13,2% + 37,5% × 7,5% × 70% = 10.22%.",
+    "FCFO year 2 = EBIT 33 × 70% + D&A (37 − 33 = 4) + decrease in WC 1 − CAPEX (130 − 125 + 4 = 9) = 19.1.",
+    "EV end of year 1 = 19.1 / (10.22% − 3%) = 264.6; equity = EV − net debt year 1 (122 − 45 = 77) = 187.6.",
+    "The 'Investent rate 30%' (spelled so in the source) and EBITDA 1 are not needed: the workbook version labels the same 30% as ROCE."
+   ],
+   "citations": [
+    {
+     "deck": "L3",
+     "slide": 18,
+     "quote": "a second subsequent stage (the terminal value), with a constant growth assumption"
+    },
+    {
+     "deck": "L4",
+     "slide": 30,
+     "quote": "Medium/long-term target financial leverage"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L3B",
+    "L4C",
+    "L5D"
+   ],
+   "units": [
+    "L3-U6",
+    "L4-U10",
+    "L5-U6"
+   ],
+   "est_minutes": 10,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L4-13",
+   "course": "30257",
+   "deck": "L4",
+   "topic": "Levered and unlevered cost of equity from peers",
+   "syllabus_objective": "Cost of equity: bottom-up beta (Hamada), CAPM",
+   "shape": "short problem (written)",
+   "stem": "With rF = 5,8%, a MRP = 6,3%, a kD = 7,5%, and a peer of comparable companies, determine the levered and unlevered cost of equity for Company Beta, which operates in the same country company 2 does and whose target leverage is aligned with market average. (3 points)",
+   "data": "| Company | Average mkt cap. | Short term financial debt | Long term financial debt | Cash | Tax Rate | Lev. Beta |\n|---|---|---|---|---|---|---|\n| 1 | 17.979,7 | 4.883,4 | 1.247,9 | 767,9 | 30,0% | 0,850 |\n| 2 | 18.614,1 | 4.682,7 | 2.703,9 | 1.253,5 | 28,0% | 1,260 |\n| 3 | 17.965,5 | 6.756,0 | 10.373,7 | 95,5 | 30,0% | 1,610 |",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+    "location": "30257 exam, 11 January 2019 (Studocu copy; questions only), question 8; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null,
+    "check": "No official key. Two defensible kEL routes exist (L4 slide 39); the key gives CAPM relevering as the main answer, as the workbook's official solution to the same table does."
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Unlevered and levered cost of equity of Company Beta.",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "βU (average) = 0.896; kEU = 11.4%; relevered β = 1.235 at D/E 52.5% and t = 28%; kEL = 13.6% (CAPM). Via MM with kD: 12.9%.",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 3,
+   "mark_scheme": [
+    "No official answer in the source. The same peer table is Workbook problem 3.5, whose official solution uses net debt, Hamada per peer, the average βU, then relevers at the average D/E and applies CAPM ('first way'), also showing the MM route ('second way').",
+    "Net-debt D/E: 29.8%, 32.9%, 94.8%; βU: 0.703, 1.018, 0.968; average 0.896.",
+    "kEU = 5,8% + 0.896 × 6,3% = 11.45% (question 9 of the same exam gives kEU = 11,4%, which confirms it).",
+    "Relever at the market-average D/E 52.5% with company 2's 28% tax: β = 1.235; kEL = 13.58%. The MM route gives 12.94%: the two agree only if kD = rF (L4 slide 39)."
+   ],
+   "citations": [
+    {
+     "deck": "L4",
+     "slide": 24,
+     "quote": "Unlever each bL with the Hamada formula: obtain bU for each"
+    },
+    {
+     "deck": "L4",
+     "slide": 39,
+     "quote": "Option 1 = Option 2 when kD = rF !"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L4B"
+   ],
+   "units": [
+    "L4-U7",
+    "L4-U8",
+    "L4-U12"
+   ],
+   "est_minutes": 10,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L3-14",
+   "course": "30257",
+   "deck": "L3",
+   "topic": "APV with kTS = kEU",
+   "syllabus_objective": "Adjusted present value in a two-stage model",
+   "shape": "short problem (written)",
+   "stem": "Based on data of the previous exercise Compute the EV of Company Beta at the end of year 0 with the APV methodology (assume kTS=kEU). (3 points)",
+   "data": "| | 0 | 1 | 2 |\n|---|---|---|---|\n| FCF | | 17,7 | 24,1 |\n| Tax shields | | 10,2 | 12,6 |\n| Growth | | | 3,0% |\n| kEU | 11,4% | | |",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+    "location": "30257 exam, 11 January 2019 (Studocu copy; questions only), question 9; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "EV at the end of year 0 (APV).",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "EV ≈ 417.2 (VU 273.4 + V(TS) 143.8).",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 3,
+   "mark_scheme": [
+    "No official answer. VU = 17,7/1,114 + 24,1/1,114² + [24,1 × 1,03 / (11,4% − 3%)]/1,114²; V(TS) the same with 10,2 and 12,6 (kTS = kEU); EV = 417.2.",
+    "Second route: because kTS = kEU, discount (FCF + TS) together: 27,9/1,114 + 36,7/1,114² + 36,7 × 1,03/0,084/1,114² = 417.2."
+   ],
+   "citations": [
+    {
+     "deck": "L3",
+     "slide": 19,
+     "quote": "and in the APV valuation"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L3A"
+   ],
+   "units": [
+    "L3-U3",
+    "L3-U6"
+   ],
+   "est_minutes": 8,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L5-15",
+   "course": "30257",
+   "deck": "L5",
+   "topic": "FCFO, FCFE and total cash flow of the year",
+   "syllabus_objective": "Building cash flows for valuation (FCFO, FCFE, change in cash)",
+   "shape": "short problem (written)",
+   "stem": "Compute 2011 FCFO, FCFE and the total cash flow of company Theta (consider an effective tax rate). (2 points)",
+   "data": "| Balance sheet | 2010 | 2011 | Income statement | 2010 | 2011 |\n|---|---|---|---|---|---|\n| Excess cash | 598,0 | 2.324,0 | Sales | 9.011,0 | 9.255,0 |\n| Account receivable | 1.066,0 | 1.205,0 | Operating costs | (5.673,0) | (6.023,0) |\n| Inventory | 765,0 | 834,0 | EBITDA | 3.338,0 | 3.232,0 |\n| Other current assets | 204,0 | 174,0 | Depreciation | (491,0) | (609,0) |\n| Tangible fixed assets | 4.133,0 | 5.053,0 | EBIT | 2.847,0 | 2.623,0 |\n| Real estate assets | 401,0 | 671,0 | Interest paid | (146,0) | (180,0) |\n| Total Assets | 7.167,0 | 10.261,0 | Interest received | 37,0 | 40,0 |\n| Short-term debt | 1.039,0 | 1.676,0 | Profit before taxes | 2.738,0 | 2.483,0 |\n| Account payables | 870,0 | 745,0 | Taxation | (364,0) | (319,0) |\n| Long-term debt | 2.082,0 | 4.140,0 | Net profit | 2.374,0 | 2.164,0 |\n| Non-operating provisions | 633,0 | 533,0 | | | |\n| Shareholder equity | 2.543,0 | 3.167,0 | | | |\n| Total liabilities and equity | 7.167,0 | 10.261,0 | | | |",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+    "location": "30257 exam, 11 January 2019 (Studocu copy; questions only), question 10; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "2011 FCFO, FCFE and total cash flow.",
+     "options": [],
+     "marks": 2
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "Effective tax rate 12.85%; FCFO = 1063.0; FCFE = 3266.0; total cash flow = 1726.0 (= change in excess cash 2.324 − 598).",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 2,
+   "mark_scheme": [
+    "No official answer. EBIT 2.623 × (1 − 12.85%) + D&A 609 − ΔNWC (1,468 − 1,165 = 303) − CAPEX (920 + 609 = 1,529) = 1063.0.",
+    "FCFE = FCFO − net interest 140 + tax shield 18.0 − increase in real estate (surplus) 270 − decrease in non-operating provisions 100 + increase in gross debt 2.695 = 3266.0.",
+    "Total cash flow = FCFE + equity flows (Δequity 624 − net profit 2.164 = −1.540) = 1726.0, which equals the change in excess cash 2.324 − 598 = 1.726: the check closes."
+   ],
+   "citations": [
+    {
+     "deck": "L5",
+     "slide": 21,
+     "quote": "A new CF can be built ad-hoc for valuation, highlighting the CFs for the 3 DCF valuation models"
+    },
+    {
+     "deck": "L4",
+     "slide": 27,
+     "quote": "Superficial and prone to mistakes (not directly associated with interest tax shields), but easily applicable"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L5C"
+   ],
+   "units": [
+    "L5-U4",
+    "L5-U5"
+   ],
+   "est_minutes": 8,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L12-12",
+   "course": "30257",
+   "deck": "L12",
+   "topic": "Where a sum-of-the-parts DCF fits",
+   "syllabus_objective": "DCF: valuing a multi-business company",
+   "shape": "short answer (MCQ in the exam; options not captured)",
+   "stem": "A sum of the parts discounted cash flows valuation model is better suited to value:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/past paper.pdf",
+    "location": "30257 exam of 26 January 2023, Blackboard review screen photographed (question 8); transcribed from the screen photographs and checked against them on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "A sum of the parts discounted cash flows valuation model is better suited to value:",
+     "options": [],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "Holding companies",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Blackboard's correct answer: Holding companies. The other options were not photographed, so this is asked as a short answer."
+   ],
+   "citations": [
+    {
+     "deck": "L12",
+     "slide": 28,
+     "quote": "The value of a company is the result of the sum of the business units’s value"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L12B"
+   ],
+   "units": [
+    "L12-U7"
+   ],
+   "est_minutes": 1.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L4-14",
+   "course": "30257",
+   "deck": "L4",
+   "topic": "Unlevered beta from market data",
+   "syllabus_objective": "Beta: Hamada formula with market values",
+   "shape": "short answer (MCQ in the exam; options not captured)",
+   "stem": "A company finances itself on regulated financial markets. The main market inputs are: price per share = 30; total number of shares = 20; beta (levered) = 1,0; market value of financial debt = 300. Also, the yield on Government bonds is 3%. The company published the following balance sheet data: shareholders' equity = 350; book value of financial debt = 250; market value of financial debt = 300. The income tax rate is 30%. Derive the unlevered beta of the company",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/past paper.pdf",
+    "location": "30257 exam of 26 January 2023, Blackboard review screen photographed (question 11); transcribed from the screen photographs and checked against them on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "A company finances itself on regulated financial markets. The main market inputs are: price per share = 30; total number of shares = 20; beta (levered) = 1,0; market value of financial debt = 300. Also, the yield on Government bonds is 3%. The company published the following balance sheet data: shareholders' equity = 350; book value of financial debt = 250; market value of financial debt = 300. The income tax rate is 30%. Derive the unlevered beta of the company",
+     "options": [],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "0.741",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Blackboard's correct answer: 0.741.",
+    "E = 30 × 20 = 600 (market), D = 300 (market); βU = 1,0 / (1 + 0,7 × 300/600) = 0,741. Book equity and book debt are distractors."
+   ],
+   "citations": [
+    {
+     "deck": "L4",
+     "slide": 22,
+     "quote": "Debt and equity should be measured at market values (more on this later)"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L4B"
+   ],
+   "units": [
+    "L4-U7",
+    "L4-U10"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L5-16",
+   "course": "30257",
+   "deck": "L5",
+   "topic": "FCFO when bank loans and fixed assets rise",
+   "syllabus_objective": "Cash flows for valuation: FCFO",
+   "shape": "short answer (MCQ in the exam; options not captured)",
+   "stem": "A company's 2019 annual report shows: EBITDA = 350; D&A = 50; interest expenses = 50; effective tax rate =50%. Meanwhile, the book value of bank loans and of fixed assets (after D&A) increased by 20 each. How much is FCFO 2019?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/past paper.pdf",
+    "location": "30257 exam of 26 January 2023, Blackboard review screen photographed (question 12); transcribed from the screen photographs and checked against them on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "A company's 2019 annual report shows: EBITDA = 350; D&A = 50; interest expenses = 50; effective tax rate =50%. Meanwhile, the book value of bank loans and of fixed assets (after D&A) increased by 20 each. How much is FCFO 2019?",
+     "options": [],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "130.0",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Blackboard's correct answer: 130.0.",
+    "EBIT 300 × 50% = 150 + D&A 50 − CAPEX (20 + 50 = 70) = 130. Bank loans and interest are financing items, not in FCFO."
+   ],
+   "citations": [
+    {
+     "deck": "L5",
+     "slide": 22,
+     "quote": "- (FA Y2 – Y1) – D&A Y2"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L5C"
+   ],
+   "units": [
+    "L5-U4"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L3-15",
+   "course": "30257",
+   "deck": "L3",
+   "topic": "Terminal value at the end of the explicit period",
+   "syllabus_objective": "Two-stage DCF: the terminal value",
+   "shape": "short answer (MCQ in the exam; options not captured)",
+   "stem": "It's Dec. 31, 2021. A company estimated its free cash flows from operations for the period 2022 - 2026 (included). In a DCF asset-side valuation, the terminal value (assuming some growth exists) on Dec. 31, 2026, will be equal to:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/past paper.pdf",
+    "location": "30257 exam of 26 January 2023, Blackboard review screen photographed (question 14); transcribed from the screen photographs and checked against them on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "It's Dec. 31, 2021. A company estimated its free cash flows from operations for the period 2022 - 2026 (included). In a DCF asset-side valuation, the terminal value (assuming some growth exists) on Dec. 31, 2026, will be equal to:",
+     "options": [],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "FCFO in 2026 * (1 + long term growth rate) / (WACC - long term growth rate)",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Blackboard's correct answer: FCFO in 2026 × (1 + g) / (WACC − g)."
+   ],
+   "citations": [
+    {
+     "deck": "L3",
+     "slide": 18,
+     "quote": "a second subsequent stage (the terminal value), with a constant growth assumption"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L3B"
+   ],
+   "units": [
+    "L3-U6"
+   ],
+   "est_minutes": 1.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L5-17",
+   "course": "30257",
+   "deck": "L5",
+   "topic": "What does not affect FCFO",
+   "syllabus_objective": "Cash flows for valuation: FCFO versus equity flows",
+   "shape": "short answer (MCQ in the exam; options not captured)",
+   "stem": "Free cash from operations, defined for valuation purposes, won't be affected by:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/past paper.pdf",
+    "location": "30257 exam of 26 January 2023, Blackboard review screen photographed (question 17); transcribed from the screen photographs and checked against them on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Free cash from operations, defined for valuation purposes, won't be affected by:",
+     "options": [],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "An increase in the dividend paid to shareholders",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Blackboard's correct answer: an increase in the dividend paid to shareholders."
+   ],
+   "citations": [
+    {
+     "deck": "L5",
+     "slide": 25,
+     "quote": "Free cash flows to equity (FCFE) = cash that would be available to shareholders (after repaying debtholders)"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L5C"
+   ],
+   "units": [
+    "L5-U5"
+   ],
+   "est_minutes": 1.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L5-18",
+   "course": "30257",
+   "deck": "L5",
+   "topic": "FCFO from forecast statements (15% tax)",
+   "syllabus_objective": "Building FCFO from two balance sheets",
+   "shape": "short problem (written)",
+   "stem": "Starting from the company's forecast 2011 and 2012 income statements and balance sheets, determine the appropriate cash flow to be discounted in a DCF asset-side valuation model. Apply a 15% income tax rate, if necessary.",
+   "data": "| Balance sheet ($m) | 2011 | 2012 |\n|---|---|---|\n| Cash | 240 | 300 |\n| Account receivables | 600 | 700 |\n| Tangible assets | 3,000 | 3,600 |\n| Investments in subsidiaries | 900 | 1,000 |\n| Assets | 4,740 | 5,600 |\n| Taxes payable | 540 | 540 |\n| Bank loans | 580 | 300 |\n| Equity | 3,620 | 4,760 |\n| Liabilities and equity | 4,740 | 5,600 |\n\n| Income statement ($m) | 2011 | 2012 |\n|---|---|---|\n| Sales | 1,500 | 1,800 |\n| Raw materials | (600) | (900) |\n| Depreciation | (90) | (46) |\n| Interests | (30) | (30) |\n| Income taxes | (120) | (100) |\n| Net income | 660 | 724 |",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/past paper.pdf",
+    "location": "30257 exam of 26 January 2023, Blackboard review screen photographed (question 2, essay); transcribed from the screen photographs and checked against them on 2026-09-24; the essay's 'Correct answer' field is [None]",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "The appropriate cash flow (FCFO 2012).",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "FCFO 2012 = 25,9: EBIT 854 − 15% operating taxes 128,1 + D&A 46 − ΔNWC 100 − CAPEX 646.",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 3,
+   "mark_scheme": [
+    "No official answer (essay). The photographed student answer (25,9) matches this key: EBIT 2012 = 1.800 − 900 − 46 = 854; NWC = receivables − taxes payable: 60 → 160 (Δ +100); CAPEX = 3.600 − 3.000 + 46 = 646; FCFO = 854 × 0,85 + 46 − 100 − 646 = 25,9.",
+    "Cash and investments in subsidiaries are not operating; the bank loans are financing. The BSc paper (Q3) has the same question with every figure halved: its answer, 12,95, is exactly half — a second check."
+   ],
+   "citations": [
+    {
+     "deck": "L5",
+     "slide": 24,
+     "quote": "FCFO = NOPAT - increase in core capital employed during the year"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L5C"
+   ],
+   "units": [
+    "L5-U4",
+    "L5-U2"
+   ],
+   "est_minutes": 8,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L3-16",
+   "course": "30257",
+   "deck": "L3",
+   "topic": "Tax shields in APV, asset-side and equity-side DCF",
+   "syllabus_objective": "Where tax benefits enter the three DCF models",
+   "shape": "short essay (written)",
+   "stem": "Briefly describe how the (1) adjusted present value (APV) model, the (2) asset-side discounted cash flows (DCF) model and (3) the equity-side DCF model incorporate into the valuation process the benefits originating from the tax treatment of debt interest payments.",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/past paper.pdf",
+    "location": "30257 exam of 26 January 2023, Blackboard review screen photographed (question 5, essay); transcribed from the screen photographs and checked against them on 2026-09-24; the 'Correct answer' field is [None]",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Describe (maximum 200 words).",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "(1) APV: EV = VU + V(TS); FCFO at kEU, tax shields D × kD × t discounted separately at kTS (kD or kEU). (2) Asset-side DCF: FCFO at the WACC, whose after-tax kD × (1 − t) builds the benefit into the rate (WACC < kEU). (3) Equity-side DCF: FCFE already includes each year's tax shield (FCFE = FCFO − interest + tax shield ± Δdebt), discounted at kEL.",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 3,
+   "mark_scheme": [
+    "No official answer. Key from L3 slides 8–16 and 21: APV separates the tax shields; WACC embeds them in the rate; FCFE embeds them in the cash flow.",
+    "The photographed student answer said no tax-shield benefit enters the equity-side DCF; that is wrong — FCFE adds the tax shield of the year (L3 slide 21)."
+   ],
+   "citations": [
+    {
+     "deck": "L3",
+     "slide": 21,
+     "quote": "+ Tax shields"
+    },
+    {
+     "deck": "L3",
+     "slide": 14,
+     "quote": "will be lower than the kEU as it incorporates the tax benefits that was otherwise a separate item in APV"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L3A"
+   ],
+   "units": [
+    "L3-U3",
+    "L3-U4",
+    "L3-U5"
+   ],
+   "est_minutes": 6,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L3-17",
+   "course": "30257",
+   "deck": "L3",
+   "topic": "Enterprise value from NOPAT, growth and return on new capital",
+   "syllabus_objective": "Growth and value: g = ROI × reinvestment",
+   "shape": "short answer (MCQ in the exam; options not captured)",
+   "stem": "Consider the following inputs: NOPAT t+1 = $72.2m. NOPAT growth rate = 2%. Return on new invested capital = 11.21. WACC = 7.4%. Which of the following is closest to the enterprise value at the end of year t?",
+   "difficulty": "exam",
+   "source": {
+    "type": "adapted",
+    "file": "Reference/Clean/Old Exam 1.pdf",
+    "location": "Old Exam 1.pdf (a typed index of the January 2023 exam), question 3; the matching screen photograph is not in the folder",
+    "label": "SUPPORTING",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null,
+    "check": "Adapted: taken from a typed index of the exam (not the photographs); the options are not recorded and '11.21' has lost its % sign. Please check against the original if you have it."
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Enterprise value at the end of year t.",
+     "options": [],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "≈ $1.098,5m: 72,2 × (1 − 2%/11,21%) / (7,4% − 2%).",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Reinvestment = g / RONIC = 2% / 11,21% = 17.84%; FCFO = 72,2 × 0.8216 = 59.32; EV = 59.32 / 5,4% = 1098.5.",
+    "Second route: EV = NOPAT/WACC-type check — with RONIC > WACC, EV exceeds the no-growth value 72,2/7,4% = 975,7, as it should."
+   ],
+   "citations": [
+    {
+     "deck": "L3",
+     "slide": 26,
+     "quote": "the growth rate in earnings (g) should be equal to the product of the reinvestments into the business (CRR) and the return"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L3C"
+   ],
+   "units": [
+    "L3-U10"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L5-19",
+   "course": "30257",
+   "deck": "L5",
+   "topic": "When FCFO equals NOPAT",
+   "syllabus_objective": "FCFO in a zero-growth, maintenance-investment scenario",
+   "shape": "short essay (written)",
+   "stem": "Consider the estimation of the free cash flows from operations (FCFO) in a DCF asset-side model. Under which conditions will it be equivalent to the net operating profit after taxes (NOPAT)?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/BSc.pdf",
+    "location": "BSc past exam (Blackboard online exam, 60 minutes; photographs in BSc.pdf = Old Exam 2.pdf), question 1; transcribed from the screen photographs and checked against them on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Explain.",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "When net investment is zero: no change in noncash working capital and CAPEX equal to D&A (maintenance investments only), i.e. the zero-growth steady state; then FCFO = EBIT × (1 − t) = NOPAT.",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 3,
+   "mark_scheme": [
+    "No official answer. L3 slide 7 and slide 21: in a zero-growth scenario with 'Maintenance investments (no ∆WC and CAPEX = D&A)', FCFO = EBIT − operating taxes; FCFO = NOPAT − increase in core capital employed (L5 slide 24), so they coincide when capital employed does not grow."
+   ],
+   "citations": [
+    {
+     "deck": "L3",
+     "slide": 7,
+     "quote": "Maintenance investments (no ∆WC and CAPEX = D&A)"
+    },
+    {
+     "deck": "L5",
+     "slide": 24,
+     "quote": "FCFO = NOPAT - increase in core capital employed during the year"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L5C",
+    "L3B"
+   ],
+   "units": [
+    "L5-U5",
+    "L3-U7"
+   ],
+   "est_minutes": 5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L4-15",
+   "course": "30257",
+   "deck": "L4",
+   "topic": "WACC from market data (Umbrella Inc)",
+   "syllabus_objective": "WACC: CAPM, rating spread, market weights",
+   "shape": "short problem (written)",
+   "stem": "According to the following financials, estimate the weighted average cost of capital.",
+   "data": "| Umbrella Inc ($m) | |\n|---|---|\n| Levered beta | 0,70 |\n| Spread on debt | 2,0% |\n| Tax rate | 30,0% |\n| Risk-free rate | 1,0% |\n| Market risk premium | 6,5% |\n| Share price (€) | 25,0 |\n| Number of shares | 28,0 |\n| Financial debt | 130,0 |",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/BSc.pdf",
+    "location": "BSc past exam (Blackboard online exam, 60 minutes; photographs in BSc.pdf = Old Exam 2.pdf), question 4; transcribed from the screen photographs and checked against them on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "WACC.",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "WACC ≈ 5.01%: kEL 5.55%, kD 3,0% (after tax 2,1%), E 700, D 130.",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 3,
+   "mark_scheme": [
+    "No official answer. kEL = 1% + 0,70 × 6,5% = 5.55%; kD = 1% + 2% = 3%; E = 25 × 28 = 700; D = 130; WACC = 5.55% × 700/830 + 3% × 0,7 × 130/830 = 5.01%.",
+    "Workbook 3.15 is the same company with different figures (official WACC 5,0% there)."
+   ],
+   "citations": [
+    {
+     "deck": "L4",
+     "slide": 32,
+     "quote": "For a listed company a good proxy is the market capitalization"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L4C"
+   ],
+   "units": [
+    "L4-U10",
+    "L4-U11"
+   ],
+   "est_minutes": 6,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L12-13",
+   "course": "30257",
+   "deck": "L12",
+   "topic": "When a sum-of-the-parts DCF can be built",
+   "syllabus_objective": "DCF: valuing a multi-business company",
+   "shape": "concept MCQ",
+   "stem": "A sum of the parts DCF model can be designed if:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/BSc.pdf",
+    "location": "BSc past exam (Blackboard online exam, 60 minutes; photographs in BSc.pdf = Old Exam 2.pdf), question 5; transcribed from the screen photographs and checked against them on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "A sum of the parts DCF model can be designed if:",
+     "options": [
+      "Standalone value can be separated from the value of expected synergies",
+      "A cash flow can be derived for each business unit",
+      "The value of the growth opportunities can be separated from the value of the assets in place",
+      "For each business unit at least revenues can be identified"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "B",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Answer B (no key recorded; solved twice). Route 1: a SOTP DCF discounts each BU's own cash flows. Route 2: A and C describe the acquisition value and the NPVGO split (other items on the same slide); revenues alone (D) are not enough for a DCF."
+   ],
+   "citations": [
+    {
+     "deck": "L12",
+     "slide": 28,
+     "quote": "The value of a company is the result of the sum of the business units’s value"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L12B"
+   ],
+   "units": [
+    "L12-U7"
+   ],
+   "est_minutes": 1.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L5-21",
+   "course": "30257",
+   "deck": "L5",
+   "topic": "Classifying a drawn line of credit",
+   "syllabus_objective": "Reorganizing the balance sheet: net debt",
+   "shape": "concept MCQ",
+   "stem": "According to the reformulated Balance Sheet, how would you classify the drawn portion of a short-term line of credit?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/BSc.pdf",
+    "location": "BSc past exam (Blackboard online exam, 60 minutes; photographs in BSc.pdf = Old Exam 2.pdf), question 6; transcribed from the screen photographs and checked against them on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "According to the reformulated Balance Sheet, how would you classify the drawn portion of a short-term line of credit?",
+     "options": [
+      "As an increase of noncash WC",
+      "As an increase of fixed assets",
+      "As an increase of net debt",
+      "As a decrease of net equity"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Answer C (solved twice): a drawn credit line is interest-bearing bank financing, so net debt; it is not an operating liability (A)."
+   ],
+   "citations": [
+    {
+     "deck": "L5",
+     "slide": 11,
+     "quote": "Net debt represents the net exposure to third-party investors (banks, bondholders…)"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L5A"
+   ],
+   "units": [
+    "L5-U2"
+   ],
+   "est_minutes": 1.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L5-22",
+   "course": "30257",
+   "deck": "L5",
+   "topic": "FCFO when payables and fixed assets rise",
+   "syllabus_objective": "Cash flows for valuation: FCFO",
+   "shape": "concept MCQ",
+   "stem": "A company's 2019 annual report shows: EBITDA = 350; D&A = 50; interest expenses = 50; effective tax rate = 50%. Meanwhile, the book value of accounts payable and of fixed assets increased by 20 each. How much is FCFO 2019?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/BSc.pdf",
+    "location": "BSc past exam (Blackboard online exam, 60 minutes; photographs in BSc.pdf = Old Exam 2.pdf), question 7; transcribed from the screen photographs and checked against them on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "A company's 2019 annual report shows: EBITDA = 350; D&A = 50; interest expenses = 50; effective tax rate = 50%. Meanwhile, the book value of accounts payable and of fixed assets increased by 20 each. How much is FCFO 2019?",
+     "options": [
+      "175,0",
+      "200,0",
+      "150,0",
+      "225,0"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Answer C (solved twice): EBIT 300 × 50% = 150 + D&A 50 + increase in payables 20 − CAPEX (20 + 50) = 150.",
+    "Check against the January 2023 version (bank loans instead of payables): 130; the extra +20 here is the payables' release of working capital."
+   ],
+   "citations": [
+    {
+     "deck": "L5",
+     "slide": 22,
+     "quote": "- ↑ or + ↓ in noncash WC"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L5C"
+   ],
+   "units": [
+    "L5-U4"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L3-18",
+   "course": "30257",
+   "deck": "L3",
+   "topic": "Top-down revenue forecasting",
+   "syllabus_objective": "Business plans and cash-flow forecasts",
+   "shape": "concept MCQ",
+   "stem": "A top-down approach to forecast revenues for a company:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/BSc.pdf",
+    "location": "BSc past exam (Blackboard online exam, 60 minutes; photographs in BSc.pdf = Old Exam 2.pdf), question 8; transcribed from the screen photographs and checked against them on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "A top-down approach to forecast revenues for a company:",
+     "options": [
+      "Forecasts future revenues of the company as the sum of the forecast revenues of each product class",
+      "Forecasts future revenues of the company as the product of the company's forecast cost of goods sold and a mark-up factor to cost of goods sold",
+      "Forecasts future revenues of the company as the product of the forecast industry revenues and the company's forecast market share",
+      "None of the other answers is correct"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Answer C (solved twice): top-down starts from the market (industry revenues × market share); A is bottom-up.",
+    "Forecasting techniques are covered in the Workbook (Ch. 2, 'Forecasting Techniques and Business Planning'), which is exam material."
+   ],
+   "citations": [
+    {
+     "deck": "L3",
+     "slide": 20,
+     "quote": "The FCFO forecasts in the first stage should be based on a detailed business plan"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L3B"
+   ],
+   "units": [
+    "L3-U7"
+   ],
+   "est_minutes": 1.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L3-19",
+   "course": "30257",
+   "deck": "L3",
+   "topic": "Why APV uses the unlevered cost of equity",
+   "syllabus_objective": "APV: unlevered value",
+   "shape": "concept MCQ",
+   "stem": "In the APV method, why is the unlevered cost of equity used instead of the WACC?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/BSc.pdf",
+    "location": "BSc past exam (Blackboard online exam, 60 minutes; photographs in BSc.pdf = Old Exam 2.pdf), question 9; transcribed from the screen photographs and checked against them on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "In the APV method, why is the unlevered cost of equity used instead of the WACC?",
+     "options": [
+      "To account for retained earnings risk",
+      "To avoid measuring the impact of debt",
+      "To determine a value as if it were all equity financed",
+      "To incorporate the risk of newly issued shares"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Answer C (solved twice): VU is the value as if all-equity financed; debt's effect is added separately as V(TS), so B is wrong."
+   ],
+   "citations": [
+    {
+     "deck": "L3",
+     "slide": 9,
+     "quote": "Adjusted present value (APV) method"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L3A"
+   ],
+   "units": [
+    "L3-U3"
+   ],
+   "est_minutes": 1.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L4-16",
+   "course": "30257",
+   "deck": "L4",
+   "topic": "What moves the unlevered beta",
+   "syllabus_objective": "Beta determinants: financial and operating leverage",
+   "shape": "concept MCQ",
+   "stem": "Is the unlevered beta of a listed company affected by a higher (a) financial leverage( And by (b) operating leverage?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/BSc.pdf",
+    "location": "BSc past exam (Blackboard online exam, 60 minutes; photographs in BSc.pdf = Old Exam 2.pdf), question 10; transcribed from the screen photographs and checked against them on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Is the unlevered beta of a listed company affected by a higher (a) financial leverage( And by (b) operating leverage?",
+     "options": [
+      "(a) Yes, beta increases. (b) Yes, beta increases",
+      "(a) No. (b) Yes, beta decreases",
+      "(a) No. (b) Yes, beta increases",
+      "(a) No. (b) No."
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Answer C (solved twice): financial leverage affects only the levered beta; operating leverage is a business factor in βU and raises it."
+   ],
+   "citations": [
+    {
+     "deck": "L4",
+     "slide": 21,
+     "quote": "More operating leverage (fixed operating costs versus variable costs) increases beta"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L4B"
+   ],
+   "units": [
+    "L4-U6"
+   ],
+   "est_minutes": 1.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L4-17",
+   "course": "30257",
+   "deck": "L4",
+   "topic": "Bounds on the WACC",
+   "syllabus_objective": "WACC and the after-tax cost of debt",
+   "shape": "concept MCQ",
+   "stem": "A company has cost of debt of 6%, a fixed required return of equity of 9% and a tax rate of 50%. WACC is:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Clean/BSc.pdf",
+    "location": "BSc past exam (Blackboard online exam, 60 minutes; photographs in BSc.pdf = Old Exam 2.pdf), question 11; transcribed from the screen photographs and checked against them on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "A company has cost of debt of 6%, a fixed required return of equity of 9% and a tax rate of 50%. WACC is:",
+     "options": [
+      "Between 6% and 9%",
+      "Between 3% and 9%",
+      "Between 0% and 9%",
+      "None of the above because some inputs are missing"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "B",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer B: the same question (options not photographed) in the January 2023 exam shows Blackboard's correct answer 'Between 3% and 9%'.",
+    "After-tax kD = 6% × 50% = 3%, so WACC lies between 3% and 9% whatever the weights."
+   ],
+   "citations": [
+    {
+     "deck": "L3",
+     "slide": 14,
+     "quote": "The \"one-shot\" discount rate, the weighted average cost of capital"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L4C",
+    "L3A"
+   ],
+   "units": [
+    "L4-U12",
+    "L3-U5"
+   ],
+   "est_minutes": 1.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L6-10",
+   "course": "30257",
+   "deck": "L6",
+   "topic": "Workbook 2.3: reorganizing Omega's balance sheet",
+   "syllabus_objective": "Reorganizing the balance sheet by sources and uses",
+   "shape": "short problem (written)",
+   "stem": "Omega Inc. closed FY 2019 with the following balance sheet. Reorganize it according to its sources and uses.",
+   "data": "| Omega Inc. - Balance sheet (€m) | 2019 | | 2019 |\n|---|---|---|---|\n| Operating cash | 185,0 | Short-term debt | 1.113,0 |\n| Excess cash | 2.324,0 | Account payables | 745,0 |\n| Account receivable | 1.205,0 | Tax payable | 392,0 |\n| Inventory | 834,0 | Dividend payable | 16,0 |\n| Other current assets | 174,0 | Other current liabilities | 644,0 |\n| Total current Assets | 4.722,0 | Total current liabilities | 2.910,0 |\n| Net tangible fixed assets | 5.053,0 | Long-term debt | 3.540,0 |\n| Non-operating financial assets | 707,0 | Other provisions | 133,0 |\n| | | Shareholder equity | 3.167,0 |\n| | | Minority interest | 732,0 |\n| Total Assets | 10.482,0 | Total liabilities and equity | 10.482,0 |",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Slides/Corporate Valuation - C31 - Lecture 6 - DCF Exercises - v1.pdf",
+    "location": "L6 slides (Workbook selection, 2nd ed.), problem 2.3; text checked word for word against the PDF text layer on 2026-09-24; official key: Corporate Valuation Workbook II solutions, Ch. 2",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Reorganized balance sheet.",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "Noncash WC 617; core invested capital 5.670; surplus assets 707 − provisions 133; net invested capital 6.244 = net debt 2.345 (1.113 + 16 + 3.540 − 2.324) + equity 3.899 (3.167 + 732).",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 3,
+   "mark_scheme": [
+    "Official solution: NWC = 185 + 1.205 + 834 + 174 − 745 − 392 − 644 = 617; + fixed assets 5.053 = core 5.670; + surplus 707 − provisions 133 = 6.244.",
+    "Net debt = short-term debt 1.113 + dividend payable 16 + long-term debt 3.540 − excess cash 2.324 = 2.345; equity incl. minorities 3.899; total 6.244."
+   ],
+   "citations": [
+    {
+     "deck": "L5",
+     "slide": 9,
+     "quote": "Items can be dragged within sides (= sign) and across sides (change sign)"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L6",
+    "L5A"
+   ],
+   "units": [
+    "L6-U2.3",
+    "L5-U2"
+   ],
+   "est_minutes": 8,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L6-11",
+   "course": "30257",
+   "deck": "L6",
+   "topic": "Workbook 2.5: Square Pizza's FCFO",
+   "syllabus_objective": "FCFO for valuation",
+   "shape": "short problem (written)",
+   "stem": "Square Pizzas Srl, a restaurant, shows the following key financials in FYs 2018 and 2019. How much is the company’s FCFO for valuation purposes in 2019?",
+   "data": "| Square Pizza Srl - Key financials (€m) | |\n|---|---|\n| EBITDA 2019 | 300,0 |\n| D&A 2019 | 50,0 |\n| New investments 2019 | 40,0 |\n| Disposals 2019 | 5,0 |\n| Noncash working capital in balance sheet 2019 | 60,0 |\n| Noncash working capital in balance sheet 2018 | 80,0 |\n| Tax rate | 30,0% |\n| Debt in balance sheet 2019 | 52,0 |\n| Debt in balance sheet 2018 | 68,0 |\n| Interests 2019 | 4,0 |",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Slides/Corporate Valuation - C31 - Lecture 6 - DCF Exercises - v1.pdf",
+    "location": "L6 slides (Workbook selection, 2nd ed.), problem 2.5; text checked word for word against the PDF text layer on 2026-09-24; official key: Corporate Valuation Workbook II solutions, Ch. 2",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "FCFO 2019.",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "FCFO 2019 = 210: EBIT 250 − taxes 75 + D&A 50 + decrease in NWC 20 − CAPEX 35.",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 3,
+   "mark_scheme": [
+    "Official solution: EBIT = 300 − 50 = 250; operating taxes 75; D&A 50; change in NWC +20; CAPEX = 40 − 5 = 35; FCFO = 210. Debt and interest are not in FCFO."
+   ],
+   "citations": [
+    {
+     "deck": "L5",
+     "slide": 24,
+     "quote": "FCFO = NOPAT - increase in core capital employed during the year"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L6",
+    "L5C"
+   ],
+   "units": [
+    "L6-U2.5",
+    "L5-U4"
+   ],
+   "est_minutes": 5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L6-12",
+   "course": "30257",
+   "deck": "L6",
+   "topic": "Workbook 2.6: Full House's FCFE",
+   "syllabus_objective": "FCFE",
+   "shape": "short problem (written)",
+   "stem": "Full House LLC, a real estate company, discloses its FY 2019 annual report, which shows an EBIT equal to $500 million; capital expenditures for $100 million and interest expenses for $50 million. Meanwhile, Full House raised a new loan for $130 million and paid a dividend of $30 million. The business has no noncash working capital, no D&A and no income taxation.",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Slides/Corporate Valuation - C31 - Lecture 6 - DCF Exercises - v1.pdf",
+    "location": "L6 slides (Workbook selection, 2nd ed.), problem 2.6; text checked word for word against the PDF text layer on 2026-09-24; official key: Corporate Valuation Workbook II solutions, Ch. 2",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "How much is FCFE in 2019?",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "FCFE = 480: FCFO 400 (500 − 100) − interest 50 + new debt 130. The dividend is a use of FCFE, not a deduction.",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 3,
+   "mark_scheme": [
+    "Official solution: FCFO = 500 − 100 = 400; FCFE = 400 − 50 + 130 = 480."
+   ],
+   "citations": [
+    {
+     "deck": "L5",
+     "slide": 25,
+     "quote": "Free cash flows to equity (FCFE) = cash that would be available to shareholders (after repaying debtholders)"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L6",
+    "L5C"
+   ],
+   "units": [
+    "L6-U2.6",
+    "L5-U5"
+   ],
+   "est_minutes": 4,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L6-13",
+   "course": "30257",
+   "deck": "L6",
+   "topic": "Workbook 3.8: Champagne's WACC with a synthetic rating",
+   "syllabus_objective": "WACC: synthetic rating, bottom-up beta",
+   "shape": "short problem (written)",
+   "stem": "Estimate Champagne SA’s WACC considering that its 2019 book value of equity is €300 million and the debt to equity leverage 0,2x. On the income statement, 2019 EBIT is €1.000 million, interests are €700 million and the income tax rate is 30%. Riskless securities have a return of 3%, whereas equity risk premium is 6%.\n\nThe cost of debt is based on a synthetic rating, with a spread following the interest coverage ratio, as below. Market data on comparable companies is also collected. If relevant, adopt the CAPM model.",
+   "data": "| Interest coverage | Credit spread |\n|---|---|\n| Interest coverage > 2 | - |\n| 1 < Interest coverage < 2 | 2,0% |\n| Interest coverage < 1 | 4,0% |\n\n| Comparables | Market capitalization | Minorities | Bonds | Trade payables | Cash | Levered beta |\n|---|---|---|---|---|---|---|\n| Prosecco SpA | 15.000,0 | 2.000,0 | 2.000,0 | 1.400,0 | 500,0 | 1,250 |\n| Franciacorta SpA | 17.500,0 | - | 1.000,0 | - | 1.000,0 | 0,900 |\n| Sekt AG | 20.000,0 | 500,0 | 5.000,0 | 900,0 | - | 1,150 |",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Slides/Corporate Valuation - C31 - Lecture 6 - DCF Exercises - v1.pdf",
+    "location": "L6 slides (Workbook selection, 2nd ed.), problem 3.8; text checked word for word against the PDF text layer on 2026-09-24; official key: Corporate Valuation Workbook II solutions, Ch. 3; the comparables table is not in the slide's text layer and is taken from the official solutions workbook's inputs",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null,
+    "check": "The comparables table comes from the official solutions workbook (its input block), because the slide shows it only as an image."
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "WACC.",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "WACC ≈ 8,9%: coverage 1,4x → spread 2% → kD 5%; average βU 1,020 → relevered 1,163 → kEL 10,0%; ND/(ND+E) 16,7%.",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 3,
+   "mark_scheme": [
+    "Official solution: EBIT/interests = 1,4x → spread 2,0% → kD = 5,0%; peers' net debt (bonds − cash; payables are operating, minorities are equity) → D/E 8,8%, 0, 24,4% → βU 1,177, 0,900, 0,982, average 1,020; kEU 9,1%; relevered β 1,163 at D/E 0,2 → kEL 10,0% (CAPM); weights 16,7%/83,3%; WACC 8,9%.",
+    "Book equity (300) is a distractor for weights: the target D/E 0,2x is given."
+   ],
+   "citations": [
+    {
+     "deck": "L4",
+     "slide": 36,
+     "quote": "A \"synthetic\" rating, such as using Damodan's model"
+    },
+    {
+     "deck": "L4",
+     "slide": 24,
+     "quote": "Unlever each bL with the Hamada formula: obtain bU for each"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L6",
+    "L4C"
+   ],
+   "units": [
+    "L6-U3.8",
+    "L4-U8",
+    "L4-U11"
+   ],
+   "est_minutes": 10,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L6-14",
+   "course": "30257",
+   "deck": "L6",
+   "topic": "Workbook 4.9: Solar Beam's equity-side DCF",
+   "syllabus_objective": "Equity-side DCF: FCFE, kEL, terminal value, implied ROE",
+   "shape": "short problem (written)",
+   "stem": "A renewable energy group, Solar Beam SA, is developing a solar field, which is expected to generate the following key performance indicators between 2020 and 2023:\n\nThe setup will be financed by bonds, whose principal payment is €450 million per year up to and including year 4.\n\nStarting year 5 debt will be constantly refinanced to maintain the same outstanding level. In addition, little extra reinvestment will be needed, estimated at 10% of net income; residual earnings will be available to shareholders.\n\nIn this mature state the business’ earnings will grow 0,5% per year. On stock and money markets, the risk-free rate is 1%, the solar industry beta is 0,5 (already levered according to Solar Beam’s gearing) and the MRP is 6,5%.",
+   "data": "| Solar Beam SA (€m) | 2019 | 2020 | 2021 | 2022 | 2023 |\n|---|---|---|---|---|---|\n| Net income | | 3.200,0 | 4.800,0 | 3.500,0 | 1.150,0 |\n| Investments for new projects (CAPEX) | | 1.000,0 | 500,0 | 500,0 | 100,0 |\n| EOP solar fields book value (Fixed assets) | 9.500,0 | 10.000,0 | 9.900,0 | 9.600,0 | 9.000,0 |",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Slides/Corporate Valuation - C31 - Lecture 6 - DCF Exercises - v1.pdf",
+    "location": "L6 slides (Workbook selection, 2nd ed.), problem 4.9; text checked word for word against the PDF text layer on 2026-09-24; official key: Corporate Valuation Workbook II solutions, Ch. 4",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "a",
+     "prompt": "Estimate the company’s free cash flows to equity between 2020 and 2023.",
+     "options": [],
+     "marks": "UNKNOWN"
+    },
+    {
+     "n": "b",
+     "prompt": "What is the appropriate discount rate?",
+     "options": [],
+     "marks": "UNKNOWN"
+    },
+    {
+     "n": "c",
+     "prompt": "Value Solar Beam with an equity DCF model as of the end of 2019.",
+     "options": [],
+     "marks": "UNKNOWN"
+    },
+    {
+     "n": "d",
+     "prompt": "What is the return on equity implied into the model’s long-term assumptions? Knowing that mature solar businesses rarely beat the market by more than 1% in equity returns, is it a reasonable underlying return?",
+     "options": [],
+     "marks": "UNKNOWN"
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "a",
+     "answer": "FCFE 2020–2023 = 2.250; 4.450; 3.350; 1.300 (NI + implied D&A − CAPEX − 450 principal; implied D&A 500, 600, 800, 700).",
+     "answer_status": "official"
+    },
+    {
+     "n": "b",
+     "answer": "kEL = 1% + 0,5 × 6,5% = 4,25% (≈ 4,3%).",
+     "answer_status": "official"
+    },
+    {
+     "n": "c",
+     "answer": "Equity value ≈ €33.794m: PV of FCFE 2020–23 = 10.310 + PV of TV 23.484 (TV = 1.155,8 × 90% / (4,25% − 0,5%) = 27.738).",
+     "answer_status": "official"
+    },
+    {
+     "n": "d",
+     "answer": "Implied ROE = g / reinvestment = 0,5% / 10% = 5,0%; reasonable, as it is less than 1% above kEL (4,25%).",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": "UNKNOWN",
+   "mark_scheme": [
+    "Official solution: implied D&A from fixed assets (FA1 = FA0 + CAPEX − D&A): 500, 600, 800, 700; FCFE = NI + D&A − CAPEX − 450.",
+    "kEL 4,3%; TV at 2023: NI 2024 = 1.150 × 1,005 = 1.155,8; FCFE = 90% = 1.040,2; TV = 27.738,0; PV 23.483,9; equity value 33.794,2.",
+    "Implied long-term ROE 5,0%."
+   ],
+   "citations": [
+    {
+     "deck": "L3",
+     "slide": 19,
+     "quote": "Similarly, DCF equity side in a two-staged model will be"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L6",
+    "L3B"
+   ],
+   "units": [
+    "L6-U4.9",
+    "L3-U6",
+    "L3-U10"
+   ],
+   "est_minutes": 16,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30257-L12-02",
+   "course": "30257",
+   "deck": "L12",
+   "topic": "Users and uses of valuation, the Kellanova bid and the 'glue'",
+   "syllabus_objective": "Users and uses of valuation; bases of the introductory example; fundamental skills",
+   "shape": "concept MCQ (statements)",
+   "stem": "Introduction to valuation: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Corporate Valuation - AY 26-27 - Lectures 1-2 - Introduction - v3.pdf",
+    "location": "L1-2 slides 3–14 (users and uses, Kellanova example, fundamental skills)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about who values companies and why.\n\nI. A fairness opinion is prepared by an independent, unbiased party to assess the fairness of an offered price, as Morgan Stanley did for Scania's board when Volkswagen bid.\nII. An investment bank's equity research report on a listed firm ends with a target price the stock should reasonably reach in about a year, based on public information.\nIII. Mars's offer valued Kellanova about 32.5% above its 2 August 2024 market capitalization, and Kellanova's share price then rose all the way to the $83.5 offer price.\nIV. Because valuation is a 'collage' of business, finance and economics, mastering each discipline separately is enough to produce consistent valuations.\nV. Private equity and venture capital investors value companies to acquire majority or minority stakes, to value startups and in leveraged buyouts.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II and V only",
+      "I, II, IV and V only",
+      "I, II, III and V only",
+      "II and V only"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "A",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "skills_taken_as_a_collage",
+     "trap": "1:B skills taken as a collage"
+    },
+    {
+     "tag": "price_moved_to_the_offer",
+     "trap": "1:C price moved to the offer"
+    },
+    {
+     "tag": "fairness_opinion_misread",
+     "trap": "1:D fairness opinion misread"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) I true (fairness opinion, Scania/Volkswagen); (2) II true (target price, ~1 year, public information); (3) III: premium = 83,5/63,0 − 1 = 32,5%, but the price rose to about $80, not to 83,5 — false; (4) IV false: the deck calls the real determinant the 'glue' that holds the fields together; (5) V true; (6) I, II and V.",
+    "Second route: III and IV each start from a fact on the slides and end with a conclusion the slides reject ('Why not up to 83,5?'; 'more than a collage')."
+   ],
+   "citations": [
+    {
+     "deck": "L12",
+     "slide": 7,
+     "quote": "Morgan Stanley prepared a fairness opinion for Scania's board of directors"
+    },
+    {
+     "deck": "L12",
+     "slide": 10,
+     "quote": "Why did the market price increase to about $ 80? Why not up to 83,5?"
+    },
+    {
+     "deck": "L12",
+     "slide": 14,
+     "quote": "valuation is more than a \"collage of knowledge\" and technique"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L12A"
+   ],
+   "est_minutes": 3,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "extra_step"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L12-U1",
+    "L12-U2",
+    "L12-U3"
+   ]
+  },
+  {
+   "id": "30257-L12-03",
+   "course": "30257",
+   "deck": "L12",
+   "topic": "Income, market and cost approaches; economic profit; asset-based methods",
+   "syllabus_objective": "General approaches and specific methods",
+   "shape": "concept MCQ (statements)",
+   "stem": "Valuation approaches: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Corporate Valuation - AY 26-27 - Lectures 1-2 - Introduction - v3.pdf",
+    "location": "L1-2 slides 16–37 (approaches, methods, DCF, relative valuation, economic profit, asset-based)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about valuation approaches and methods.\n\nI. The income approach values an asset as the present value of all future benefits, while the cost approach revalues each balance-sheet item at its current conditions.\nII. Relative valuation is less exposed to market moods than DCF, which is why it is preferred when pricing an IPO.\nIII. Economic profit models value a business as the adjusted book value of its invested capital plus the present value of excess returns, which can be negative.\nIV. Asset-based methods and DCF can give the same value for a firm with no growth opportunities whose asset values reflect expected cash flows.\nV. EVA is the equity-side version of the economic profit approach and the residual income method is its asset-side version.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, III and IV only",
+      "III and IV only",
+      "I, II, III and IV only",
+      "I, III, IV and V only"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "A",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "income_and_cost_approach_misread",
+     "trap": "1:B income and cost approach misread"
+    },
+    {
+     "tag": "relative_valuation_moods_reversed",
+     "trap": "1:C relative valuation moods reversed"
+    },
+    {
+     "tag": "eva_and_residual_income_swapped",
+     "trap": "1:D eva and residual income swapped"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) I true; (2) II false: relative valuation is MORE likely to reflect market moods — that is an advantage for an IPO; (3) III true; (4) IV true; (5) V false: EVA is the asset-side, residual income the equity-side version; (6) I, III and IV.",
+    "Second route: II keeps the right conclusion (IPO) with the reason reversed; V swaps two labels."
+   ],
+   "citations": [
+    {
+     "deck": "L12",
+     "slide": 33,
+     "quote": "Relative valuation is much more likely to reflect market perceptions and moods than DCF"
+    },
+    {
+     "deck": "L12",
+     "slide": 35,
+     "quote": "as an asset-side method: the economic value added method"
+    },
+    {
+     "deck": "L12",
+     "slide": 37,
+     "quote": "Asset based methods and DCF may yield the same values if we have a firm that has no growth opportunities"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L12B"
+   ],
+   "est_minutes": 3,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L12-U4",
+    "L12-U5",
+    "L12-U6",
+    "L12-U8",
+    "L12-U9",
+    "L12-U10"
+   ]
+  },
+  {
+   "id": "30257-L12-04",
+   "course": "30257",
+   "deck": "L12",
+   "topic": "Uncertainty, flexibility and how to represent risk in a DCF",
+   "syllabus_objective": "Value and uncertainty",
+   "shape": "concept MCQ (statements)",
+   "stem": "Value and uncertainty: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Corporate Valuation - AY 26-27 - Lectures 1-2 - Introduction - v3.pdf",
+    "location": "L1-2 slides 47–53 (value and uncertainty)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about value and uncertainty.\n\nI. The choice between a static and a dynamic valuation standpoint depends on the level of uncertainty and on managerial flexibility.\nII. The value of a new venture can be seen as its base-case standalone value plus the value generated by new choices and opportunities.\nIII. Because firms and managers are exposed to uncertainty but cannot influence it, the process to deal with risk starts from the cash flow model.\nIV. For a young business whose €10m FCFO has a 70% chance of success, discounting the expected €7m at a young-business WACC of 18% counts the failure risk twice.\nV. All industrial sectors have the same predictability of performance, so uncertainty matters only for startups.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II, III and IV only",
+      "I, II, IV and V only",
+      "I, II and IV only",
+      "I and II only"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "risk_process_order_reversed",
+     "trap": "1:A risk process order reversed"
+    },
+    {
+     "tag": "sector_predictability_misread",
+     "trap": "1:B sector predictability misread"
+    },
+    {
+     "tag": "double_counting_missed",
+     "trap": "1:D double counting missed"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) I true; (2) II true (base-case value + value of new choices); (3) III false: firms and management 'influence and generate risk', and the process starts by assessing the business model; (4) IV: expected FCFO 0,7 × 10 = 7 already prices failure, so 18% (which embeds it again) double-counts — true; (5) V false; (6) I, II and IV.",
+    "Second route: IV is the same logic as the valuation mock v2 question 10 (answer 'none of the above')."
+   ],
+   "citations": [
+    {
+     "deck": "L12",
+     "slide": 47,
+     "quote": "Firms and management are subjected to change, but also influence and generate risk and uncertainty"
+    },
+    {
+     "deck": "L12",
+     "slide": 49,
+     "quote": "The level of uncertainty"
+    },
+    {
+     "deck": "L12",
+     "slide": 52,
+     "quote": "Value generated by new choices and opportunities"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L12D"
+   ],
+   "est_minutes": 3,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "extra_step"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L12-U14",
+    "L12-U15"
+   ]
+  },
+  {
+   "id": "30257-L3-03",
+   "course": "30257",
+   "deck": "L3",
+   "topic": "Leverage and accounting returns, MM without taxes, growth strategies",
+   "syllabus_objective": "Capital structure recap; growth and value",
+   "shape": "concept MCQ (statements)",
+   "stem": "Leverage, returns and growth: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Corporate Valuation - AY 26-27 - Lecture 3 - DCF Valuation - v6.pdf",
+    "location": "L3 slides 4–6 and 29–30",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about leverage, returns and growth.\n\nI. With no taxes, financing part of the invested capital with 5% debt raises the average ROE when ROI averages 10%, and widens the gap between worst- and best-case ROE.\nII. Under Modigliani & Miller without taxes, higher leverage raises enterprise value because it raises ROE.\nIII. With ROE = ROI + D/E × (ROI − interest rate), a company with ROI 8%, D/E 1,5 and a 5% interest rate earns an ROE of 12,5%.\nIV. Convincing existing customers to buy more of a product is a high-value-creating growth strategy with a low risk of retaliation, because all competitors benefit.\nV. Any growth creates value as long as the return on new investments is positive.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II, III and IV only",
+      "I and III only",
+      "I, III and IV only",
+      "I, III, IV and V only"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "roe_taken_as_value",
+     "trap": "1:A roe taken as value"
+    },
+    {
+     "tag": "growth_strategies_misread",
+     "trap": "1:B growth strategies misread"
+    },
+    {
+     "tag": "growth_valued_without_wacc",
+     "trap": "1:D growth valued without wacc"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) I true (L3 slide 4: ROE 10% → 13%, range 3–23%); (2) II false: without taxes EV does not change; (3) III: 8% + 1,5 × 3% = 12.5% — true; (4) IV true; (5) V false: growth creates value only if ROI > WACC; (6) I, III and IV.",
+    "Second route: II and V both confuse higher accounting returns with value creation."
+   ],
+   "citations": [
+    {
+     "deck": "L3",
+     "slide": 5,
+     "quote": "Financial leverage magnifies the volatility of accounting profitability"
+    },
+    {
+     "deck": "L3",
+     "slide": 6,
+     "quote": "does not affect enterprise (asset) value"
+    },
+    {
+     "deck": "L3",
+     "slide": 29,
+     "quote": "If ROI < WACC, an increase in the growth rate decreases value"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L3A",
+    "L3C"
+   ],
+   "est_minutes": 3,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "extra_step",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L3-U1",
+    "L3-U2",
+    "L3-U11",
+    "L3-U12"
+   ]
+  },
+  {
+   "id": "30257-L3-04",
+   "course": "30257",
+   "deck": "L3",
+   "topic": "Two-stage DCF with a value-driver terminal value, then RONIC = WACC",
+   "syllabus_objective": "Two-stage DCF; terminal value; growth and value",
+   "shape": "short problem (written)",
+   "stem": "Delta Srl expects FCFO of €80m, €95m and €105m in 2027, 2028 and 2029 (end of year). From 2030 it enters a steady state: NOPAT 2030 = €150m, long-term growth 2% (nominal GDP is expected to grow 3%), return on new invested capital 12%. WACC is 9%; net debt at 31/12/2026 is €400m. The 2026 FCFO (€70m) has already been generated.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Corporate Valuation - AY 26-27 - Lecture 3 - DCF Valuation - v6.pdf",
+    "location": "L3 slides 18–29 (two-stage DCF, terminal value, growth and value)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Value the equity at 31/12/2026 with a two-stage asset-side DCF.",
+     "options": [],
+     "marks": 3
+    },
+    {
+     "n": "2",
+     "prompt": "The board argues that in the long run the return on new capital will fall to the WACC. Recompute the equity value and the share of EV that comes from the terminal value.",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "Equity value ≈ €1213.3m (EV 1613.3; TV 1785.7 at end-2029).",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "2",
+     "answer": "Equity value ≈ €1121.4m; the TV is 84.6% of EV. With RONIC = WACC, TV = NOPAT/WACC = 1666.7 whatever g.",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "tv_from_last_fcfo",
+     "trap": "1: TV = 105 × 1,02 / 7% = 1530.0 → equity 1015.9"
+    },
+    {
+     "tag": "reinvestment_ignored",
+     "trap": "1: TV = 150 / 7% → equity 1489.1"
+    },
+    {
+     "tag": "tv_discounted_4_years",
+     "trap": "1: equity 1099.5"
+    },
+    {
+     "tag": "growth_still_counted",
+     "trap": "2: keeping the 2% reinvestment at 12% RONIC"
+    }
+   ],
+   "marks": 6,
+   "mark_scheme": [
+    "[1] Steps: (1) reinvestment rate = g / RONIC = 2%/12% = 16,7%; (2) FCFO 2030 = 150 × 83,3% = 125; (3) TV 2029 = 125 / (9% − 2%) = 1785.7; (4) discount 3 years: 1378.9; (5–7) PV of 80, 95, 105 = 73.4, 80.0, 81.1; (8) EV = 1613.3; (9) equity = EV − 400 = 1213.3. g = 2% ≤ GDP 3%, so admissible.",
+    "[2] Steps: (1) RONIC = WACC; (2) reinvestment = 2%/9% = 22,2%; (3) FCFO 2030 = 116.7; (4) TV = 116.7/7% = 1666.7 = 150/9%; (5) PV TV = 1287.0; (6) EV = 1521.4; (7) equity = 1121.4; (8) TV share of EV = 84.6%.",
+    "Second route for 2: with RONIC = WACC growth adds no value, so the TV is the no-growth value NOPAT/WACC.",
+    "Not needed: the 2026 FCFO (already generated at the valuation date) and nominal GDP except as a check."
+   ],
+   "citations": [
+    {
+     "deck": "L3",
+     "slide": 25,
+     "quote": "The TV growth rate should not exceed the growth rate of the economy as a whole"
+    },
+    {
+     "deck": "L3",
+     "slide": 27,
+     "quote": "In the LT, ROI should converge to WACC. This has a powerful consequence: value no longer depends on long term growth!"
+    },
+    {
+     "deck": "L3",
+     "slide": 18,
+     "quote": "a first stage, where T cash flows will be individually forecast and discounted one-by-one"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L3B",
+    "L3C"
+   ],
+   "est_minutes": 18,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "short problem",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 9,
+      "concepts": 3
+     },
+     {
+      "n": "2",
+      "steps": 8,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "chain",
+     "what_if_followon",
+     "extraneous_data",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L3-U6",
+    "L3-U9",
+    "L3-U11"
+   ]
+  },
+  {
+   "id": "30257-L4-02",
+   "course": "30257",
+   "deck": "L4",
+   "topic": "Implied market risk premium, beta from volatilities, Blume's adjustment",
+   "syllabus_objective": "CAPM inputs: risk-free rate, MRP, top-down beta",
+   "shape": "short problem (written)",
+   "stem": "You estimate Kappa SpA's cost of equity. The market index trades at 4.000; over the last twelve months it paid a dividend yield of 2,0% and a buyback yield of 2,5%. Cash returned to shareholders is expected to grow 3% next year and at that rate forever. The 10-year government bond yields 3,5% and the 3-month T-Bill 2,1%. Over the last two years of weekly returns, Kappa's volatility was 30%, the index's 18%, and their correlation 0,75 (R² 0,56).",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Corporate Valuation - C31 - Lecture 4 - Cost of Capital - v3.pdf",
+    "location": "L4 slides 7–19 (CAPM, risk-free rate, MRP, top-down beta, Blume)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Estimate the company's levered cost of equity.",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "Implied rM = 7.63%, MRP = 4.13%; raw β = 1,25, Blume β = 1.167; kEL ≈ 8.32%.",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "no_blume",
+     "trap": "1: kEL with raw beta: 8.67%"
+    },
+    {
+     "tag": "dividend_yield_only",
+     "trap": "1: buybacks left out of the implied return"
+    },
+    {
+     "tag": "growth_not_applied",
+     "trap": "1: yield not grown to next year's cash flows"
+    }
+   ],
+   "marks": 3,
+   "mark_scheme": [
+    "[1] Steps: (1) total cash yield = 2,0% + 2,5% = 4,5%; (2) next year's cash = 4,5% × 1,03 = 4.635% of the index; (3) implied rM = 4.635% + 3% = 7.635%; (4) MRP = rM − 10-year rF 3,5% = 4.135%; (5) cov = 0,75 × 30% × 18%; (6) raw β = cov/σM² = 0,75 × 30/18 = 1,25; (7) Blume: 1,25 × 2/3 + 1/3 = 1.1667; (8) kEL = 3,5% + 1.1667 × 4.135% = 8.324%.",
+    "Second route for β: β = ρ × σi/σM directly = 1,25.",
+    "Not needed: the T-Bill rate (the deck uses a 5–10 year maturity for rF) and R²."
+   ],
+   "citations": [
+    {
+     "deck": "L4",
+     "slide": 12,
+     "quote": "Implied risk premium approach: rM as implied in estimates of CF returned to all shareholders in the index (dividends and buybacks), at consensus growth"
+    },
+    {
+     "deck": "L4",
+     "slide": 17,
+     "quote": "the estimated levered (\"raw\") beta after a number of years tends to converge (\"adj\") toward 1"
+    },
+    {
+     "deck": "L4",
+     "slide": 9,
+     "quote": "Medium long term: 5-10 years"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L4A",
+    "L4B"
+   ],
+   "est_minutes": 10,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "short problem",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 8,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "extra_step",
+     "extraneous_data",
+     "chain"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L4-U1",
+    "L4-U2",
+    "L4-U3",
+    "L4-U4",
+    "L4-U5"
+   ]
+  },
+  {
+   "id": "30257-L4-03",
+   "course": "30257",
+   "deck": "L4",
+   "topic": "IRES versus IRAP, market-value weights and the two paths to kEL",
+   "syllabus_objective": "WACC inputs: tax rate, leverage at market values, cost of debt, final choices",
+   "shape": "short problem (written)",
+   "stem": "Gamma SpA (Italy) is listed with a market capitalization of €900m. It has bonds with a face value of €500m trading at 92% of par (yield to maturity 5,5%), bank loans of €150m (book value), and cash of €50m. Last year's interest expense was €34m. It pays IRES of 24% on pre-tax profit and IRAP of 3,9% on EBIT plus personnel costs. The industry unlevered beta is 0,9, the risk-free rate 3% and the MRP 6%. Use net debt and the market cost of debt.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Corporate Valuation - C31 - Lecture 4 - Cost of Capital - v3.pdf",
+    "location": "L4 slides 27–39 (tax rate, leverage, cost of debt, final choices)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Estimate the WACC relevering the industry beta and using the CAPM (option 2 in the slides).",
+     "options": [],
+     "marks": 3
+    },
+    {
+     "n": "2",
+     "prompt": "Recompute the WACC with option 1 (unlevered cost of equity from the CAPM, then Modigliani & Miller's second proposition) and explain the difference.",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "WACC ≈ 8.36%: t = 24%, D = 560.0 (bonds at market), D/E 0.622, βL 1.326, kEL 10.95%, kD 5,5%.",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "2",
+     "answer": "WACC ≈ 7.63%: kEU 8.40%, kEL 9.77%. The two agree only if kD = rF; here kD 5,5% > rF 3%.",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "irap_included_in_t",
+     "trap": "1: t = 27,9%"
+    },
+    {
+     "tag": "bonds_at_face_value",
+     "trap": "1: D = 600"
+    },
+    {
+     "tag": "accounting_kD_used",
+     "trap": "1: kD = 34/650 = 5.23%"
+    }
+   ],
+   "marks": 6,
+   "mark_scheme": [
+    "[1] Steps: (1) relevant t = 24% (IRAP is levied on EBIT + personnel, so interest gives no IRAP shield); (2) bonds at market = 460; (3) net debt = 460 + 150 − 50 = 560.0; (4) D/E = 0.6222; (5) βL = 0,9 × (1 + 0,76 × 0.6222) = 1.3256; (6) kEL = 3% + 1.3256 × 6% = 10.954%; (7) weights D/V 38.36%; (8) WACC = 10.954% × 61.64% + 5,5% × 0,76 × 38.36% = 8.356%.",
+    "[2] Steps: (1) kEU = 3% + 0,9 × 6% = 8.40%; (2) MM2: kEL = kEU + D/E × (kEU − kD) × (1 − t) = 9.771%; (3) same weights; (4) WACC = 7.627%; (5) difference 0.73 points; (6) cause: option 2's CAPM relevering treats debt as riskless (implicitly kD = rF); (7) they coincide only if kD = rF.",
+    "Not needed: book equity and last year's interest expense (the accounting kD), except as distractors."
+   ],
+   "citations": [
+    {
+     "deck": "L4",
+     "slide": 28,
+     "quote": "Second portion of income taxes: ~ equal to 3,9% of (EBIT + personnel expenses)"
+    },
+    {
+     "deck": "L4",
+     "slide": 32,
+     "quote": "Debt and equity should be measured with their market values"
+    },
+    {
+     "deck": "L4",
+     "slide": 39,
+     "quote": "Option 1 = Option 2 when kD = rF !"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L4C"
+   ],
+   "est_minutes": 18,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "short problem",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 8,
+      "concepts": 3
+     },
+     {
+      "n": "2",
+      "steps": 7,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "extra_classification",
+     "extraneous_data",
+     "what_if_followon",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L4-U9",
+    "L4-U10",
+    "L4-U11",
+    "L4-U12"
+   ]
+  },
+  {
+   "id": "30257-L5-02",
+   "course": "30257",
+   "deck": "L5",
+   "topic": "Reorganizing a balance sheet with borderline items",
+   "syllabus_objective": "Reorganizing the balance sheet for valuation",
+   "shape": "short problem (written)",
+   "stem": "Epsilon SpA's balance sheet is below (€m). €10m of the cash is needed for daily operations. The building is held for sale and not used in operations.",
+   "data": "| Assets | €m | Liabilities and equity | €m |\n|---|---|---|---|\n| PP&E | 620 | Trade payables | 240 |\n| Goodwill | 140 | Income tax payable | 35 |\n| Trade receivables | 210 | Dividends payable | 20 |\n| Inventory | 180 | Employee severance (pensions) | 40 |\n| VAT receivable | 25 | Restructuring provision (one-off) | 25 |\n| Investment in associates | 60 | Bank loans | 300 |\n| Non-core building held for sale | 45 | Bonds | 250 |\n| Cash (of which operating cash 10) | 90 | Lease liabilities | 80 |\n| Marketable securities | 30 | Minorities | 30 |\n|  |  | Group equity | 380 |\n| **Total** | **1.400** | **Total** | **1.400** |",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Corporate Valuation - C31 - Lecture 5 - Reorganizing and CFs - v13.pdf",
+    "location": "L5 slides 7–13 (reorganizing the balance sheet)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Reorganize the balance sheet: noncash working capital, core capital employed, surplus assets net of other liabilities, net debt and equity.",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "NWC 150; core CE 910; surplus assets − other liabilities 40; net capital employed 950 = net debt 540 + equity 410.",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "all_cash_as_excess",
+     "trap": "1: operating cash left out of NWC"
+    },
+    {
+     "tag": "dividends_payable_in_nwc",
+     "trap": "1: dividends payable as operating"
+    },
+    {
+     "tag": "leases_left_out",
+     "trap": "1: lease liabilities not in net debt"
+    }
+   ],
+   "marks": 3,
+   "mark_scheme": [
+    "[1] Steps: (1) NWC = receivables 210 + inventory 180 + VAT 25 + operating cash 10 − payables 240 − income tax payable 35 = 150; (2) fixed assets = 620 + 140 = 760; (3) core CE = 910; (4) surplus assets = associates 60 + building 45; (5) other liabilities = severance 40 + restructuring provision 25 → net 40; (6) gross debt = 300 + 250 + 80 + dividends payable 20 = 650; (7) excess cash and securities = 80 + 30; (8) net debt = 540; (9) equity incl. minorities = 410; check 950 = 950.",
+    "Second route: sources − uses must balance: 540 + 410 = 950 = 910 + 40."
+   ],
+   "citations": [
+    {
+     "deck": "L5",
+     "slide": 12,
+     "quote": "Associates: non- consolidated equity investments"
+    },
+    {
+     "deck": "L5",
+     "slide": 12,
+     "quote": "\"Pensions\": employee termination indemnities"
+    },
+    {
+     "deck": "L5",
+     "slide": 10,
+     "quote": "There are tricky exceptions which should be assessed on a case by case basis"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L5A",
+    "L5D"
+   ],
+   "est_minutes": 10,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "short problem",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 9,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "extra_classification",
+     "extraneous_data",
+     "chain"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L5-U1",
+    "L5-U2"
+   ]
+  },
+  {
+   "id": "30257-L5-03",
+   "course": "30257",
+   "deck": "L5",
+   "topic": "From a by-function income statement to recurring EBITDA",
+   "syllabus_objective": "Reorganizing the income statement; the importance of EBITDA",
+   "shape": "short problem (written)",
+   "stem": "Zeta SpA reports by function (€m): revenues 1.200; cost of goods sold 620 (including D&A of 40); SG&A 300 (including D&A of 20 and a one-off restructuring charge of 25); other operating income 15 (of which 12 is a gain on selling a non-core building); income from associates 8; interest expense 30; interest income 4; income taxes 70. Management's press release shows an 'EBITDA' of 400.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Corporate Valuation - C31 - Lecture 5 - Reorganizing and CFs - v13.pdf",
+    "location": "L5 slides 14–19 (reorganizing the income statement)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Recurring EBITDA and its margin, recurring EBIT and NOPAT (24% tax).",
+     "options": [],
+     "marks": 3
+    },
+    {
+     "n": "2",
+     "prompt": "Rebuild EBT from recurring EBIT in the reorganized layout, showing the exceptional items, associates and net interest.",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "Recurring EBITDA 368 (30.7% of sales); EBIT 308; NOPAT 234.1.",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "2",
+     "answer": "EBT 277 = EBIT 308 − exceptional items 13 (−25 + 12) + associates 8 − net interest 26.",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "exceptionals_kept",
+     "trap": "1: restructuring charge and building gain left in EBITDA"
+    },
+    {
+     "tag": "da_not_added_back",
+     "trap": "1: D&A inside COGS and SG&A left in"
+    }
+   ],
+   "marks": 6,
+   "mark_scheme": [
+    "[1] Steps: (1) COGS excl. D&A = 580; (2) SG&A excl. D&A and the one-off = 255; (3) recurring other income = 3; (4) recurring EBITDA = 1.200 − 580 − 255 + 3 = 368; (5) margin = 30.67%; (6) D&A = 60; (7) EBIT = 308; (8) NOPAT = 308 × 0,76 = 234.08. Management's 400 is not the recurring figure ('do not always trust published EBITDA').",
+    "[2] Steps: (1) exceptional items = −25 + 12 = −13; (2) associates +8 (below EBIT); (3) net interest = −30 + 4 = −26; (4) EBT = 308 − 13 + 8 − 26 = 277; (5) cross-check with the as-reported lines: 1.200 − 620 − 300 + 15 + 8 − 30 + 4 = 277; (6) net income = 277 − 70 = 207; (7) effective tax rate 25.3% differs from 24% because of the exceptionals.",
+    "Not needed: management's 'EBITDA' of 400 (a trap)."
+   ],
+   "citations": [
+    {
+     "deck": "L5",
+     "slide": 16,
+     "quote": "It's a non-GAAP metric: do not always trust published EBITDA!"
+    },
+    {
+     "deck": "L5",
+     "slide": 16,
+     "quote": "Income by associates, dividend income, non recurring gains and losses.."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L5B"
+   ],
+   "est_minutes": 16,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "short problem",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 8,
+      "concepts": 2
+     },
+     {
+      "n": "2",
+      "steps": 7,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "extra_classification",
+     "extraneous_data",
+     "chain"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L5-U3"
+   ]
+  },
+  {
+   "id": "30257-L5-04",
+   "course": "30257",
+   "deck": "L5",
+   "topic": "Bridge to equity, and the enterprise value the market implies",
+   "syllabus_objective": "The bridge between enterprise value and equity value",
+   "shape": "short problem (written)",
+   "stem": "An asset-side DCF gives Eta SpA an enterprise value of €5.000m. At the valuation date: net debt €1.400m; pension deficit €150m; a non-recurring long-term provision €60m; minorities €200m at market value (€90m book); preferred equity €100m; associates €250m at market value (€180m book); non-core real estate €120m. There are 200m common shares.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Corporate Valuation - C31 - Lecture 5 - Reorganizing and CFs - v13.pdf",
+    "location": "L5 slides 26–28 (the bridge to equity)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Equity value and value per share from the DCF.",
+     "options": [],
+     "marks": 3
+    },
+    {
+     "n": "2",
+     "prompt": "The shares trade at €15,00. What enterprise value does the market imply, and how far is it from the DCF?",
+     "options": [],
+     "marks": 3
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "Equity value = €3460m; €17.30 per share.",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "2",
+     "answer": "Implied EV = €4540m, -9.2% versus the DCF's 5.000.",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "associates_subtracted",
+     "trap": "1: associates treated as debt-like"
+    },
+    {
+     "tag": "preferred_as_equity",
+     "trap": "1: preferred equity left in common equity"
+    }
+   ],
+   "marks": 6,
+   "mark_scheme": [
+    "[1] Steps: (1) start from EV 5.000; (2) − net debt 1.400; (3) − pension deficit 150 and − provision 60 (debt-like); (4) − minorities 200 and − preferred 100 (equity-like claims of others, at market value); (5) + associates 250 and + non-core real estate 120; (6) equity = 3460; (7) per share = 3460 / 200 = 17.30.",
+    "[2] Steps: (1) market cap = 15 × 200 = 3.000; (2) add back debt-like items 1.610; (3) add equity-like claims 300; (4) subtract associates and real estate 370; (5) implied EV = 4540; (6) versus 5.000: -9.2%; (7) the market prices the operations about 9.2% below the DCF.",
+    "Not needed: book values of minorities and associates (use market values)."
+   ],
+   "citations": [
+    {
+     "deck": "L5",
+     "slide": 27,
+     "quote": "Moving from EV to EqV and vice-versa requires the \"bridge\" of other remaining balance sheet items"
+    },
+    {
+     "deck": "L5",
+     "slide": 28,
+     "quote": "Other debt-like claims might include long term nonrecurring provisions"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "L5D"
+   ],
+   "est_minutes": 16,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 1,
+    "wrong": 0,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "short problem",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 7,
+      "concepts": 2
+     },
+     {
+      "n": "2",
+      "steps": 7,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "working_backwards",
+     "extraneous_data",
+     "extra_classification"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L5-U6"
+   ]
   }
  ],
  "courses": [
@@ -836,23 +4593,493 @@
    "decks": {
     "L12": {
      "title": "Lectures 1-2: Introduction to Valuation",
-     "file": "Slides/Corporate Valuation - AY 26-27 - Lectures 1-2 - Introduction - v3.pdf"
+     "file": "Slides/Corporate Valuation - AY 26-27 - Lectures 1-2 - Introduction - v3.pdf",
+     "sections": [
+      {
+       "id": "L12A",
+       "title": "Users and uses; the Kellanova example; fundamental skills"
+      },
+      {
+       "id": "L12B",
+       "title": "Approaches and methods (DCF, relative, economic profit, asset-based)"
+      },
+      {
+       "id": "L12C",
+       "title": "Bases of value"
+      },
+      {
+       "id": "L12D",
+       "title": "Value and uncertainty"
+      }
+     ],
+     "units": [
+      {
+       "id": "L12-U1",
+       "section": "L12A",
+       "title": "Users and uses of valuation (banks, advisors, PE/VC, strategic investors, appraisers); equity research, M&A report, fairness opinion",
+       "where": "slides 3–8",
+       "examinable": true
+      },
+      {
+       "id": "L12-U2",
+       "section": "L12A",
+       "title": "Introductory example: Mars's bid for Kellanova (market value vs offer)",
+       "where": "slides 10–11",
+       "examinable": true
+      },
+      {
+       "id": "L12-U3",
+       "section": "L12A",
+       "title": "Fundamental skills and the 'glue'",
+       "where": "slides 13–14",
+       "examinable": true
+      },
+      {
+       "id": "L12-U4",
+       "section": "L12B",
+       "title": "Three general approaches: income, market, cost",
+       "where": "slide 16",
+       "examinable": true
+      },
+      {
+       "id": "L12-U5",
+       "section": "L12B",
+       "title": "Specific methods discussed in the course",
+       "where": "slides 17–18",
+       "examinable": true
+      },
+      {
+       "id": "L12-U6",
+       "section": "L12B",
+       "title": "DCF: general framework, inputs, steps, pros and cons (Netflix report)",
+       "where": "slides 20–27",
+       "examinable": true
+      },
+      {
+       "id": "L12-U7",
+       "section": "L12B",
+       "title": "What we will learn on DCF: sum of the parts, NPVGO, acquisition value, APV",
+       "where": "slides 28–29",
+       "examinable": true
+      },
+      {
+       "id": "L12-U8",
+       "section": "L12B",
+       "title": "Relative valuation: basis, inputs, pros and cons",
+       "where": "slides 31–33",
+       "examinable": true
+      },
+      {
+       "id": "L12-U9",
+       "section": "L12B",
+       "title": "Economic profit models (EVA, residual income)",
+       "where": "slide 35",
+       "examinable": true
+      },
+      {
+       "id": "L12-U10",
+       "section": "L12B",
+       "title": "Asset-based methods",
+       "where": "slide 37",
+       "examinable": true
+      },
+      {
+       "id": "L12-U11",
+       "section": "L12C",
+       "title": "Price versus value; bases of value",
+       "where": "slides 39–40",
+       "examinable": true
+      },
+      {
+       "id": "L12-U12",
+       "section": "L12C",
+       "title": "Market value",
+       "where": "slide 41",
+       "examinable": true
+      },
+      {
+       "id": "L12-U13",
+       "section": "L12C",
+       "title": "Investment value; the apartment example",
+       "where": "slides 42–45",
+       "examinable": true
+      },
+      {
+       "id": "L12-U14",
+       "section": "L12D",
+       "title": "Predictability, the risk process, scenarios",
+       "where": "slides 47–48",
+       "examinable": true
+      },
+      {
+       "id": "L12-U15",
+       "section": "L12D",
+       "title": "Static vs dynamic standpoint; value of a new venture; representing risk in CF or rate",
+       "where": "slides 49–53",
+       "examinable": true
+      },
+      {
+       "id": "L12-U0",
+       "section": "L12A",
+       "title": "Tables of contents",
+       "where": "slides 2, 9, 12, 15, 19, 30, 34, 36, 38, 46",
+       "examinable": false,
+       "reason": "Navigation only."
+      }
+     ]
     },
     "L3": {
      "title": "Lecture 3: DCF Valuation",
-     "file": "Slides/Corporate Valuation - AY 26-27 - Lecture 3 - DCF Valuation - v6.pdf"
+     "file": "Slides/Corporate Valuation - AY 26-27 - Lecture 3 - DCF Valuation - v6.pdf",
+     "sections": [
+      {
+       "id": "L3A",
+       "title": "Capital structure recap: MM, APV, equity-side DCF, WACC"
+      },
+      {
+       "id": "L3B",
+       "title": "Two-stage DCF in practice and the terminal value"
+      },
+      {
+       "id": "L3C",
+       "title": "Growth and value"
+      }
+     ],
+     "units": [
+      {
+       "id": "L3-U1",
+       "section": "L3A",
+       "title": "Accounting returns and leverage without taxes (ROE formula)",
+       "where": "slides 4–5",
+       "examinable": true
+      },
+      {
+       "id": "L3-U2",
+       "section": "L3A",
+       "title": "MM without taxes: leverage does not change EV",
+       "where": "slide 6",
+       "examinable": true
+      },
+      {
+       "id": "L3-U3",
+       "section": "L3A",
+       "title": "MM with taxes: tax shields, VTS = D × t, APV",
+       "where": "slides 7–11",
+       "examinable": true
+      },
+      {
+       "id": "L3-U4",
+       "section": "L3A",
+       "title": "MM 2: levered cost of equity; equity-side DCF",
+       "where": "slides 12–13",
+       "examinable": true
+      },
+      {
+       "id": "L3-U5",
+       "section": "L3A",
+       "title": "WACC and the asset-side DCF; equivalence of the three models",
+       "where": "slides 14–16",
+       "examinable": true
+      },
+      {
+       "id": "L3-U6",
+       "section": "L3B",
+       "title": "Two-stage DCF formulas (asset, equity, APV)",
+       "where": "slides 18–19",
+       "examinable": true
+      },
+      {
+       "id": "L3-U7",
+       "section": "L3B",
+       "title": "Practical step-by-step: business plan, WACC, TV assumptions; CF definitions with growth",
+       "where": "slides 20–21",
+       "examinable": true
+      },
+      {
+       "id": "L3-U8",
+       "section": "L3B",
+       "title": "Netflix case: a shortened 5-year first stage vs Credit Suisse's long stage",
+       "where": "slides 22–23",
+       "examinable": false,
+       "reason": "Illustrative case: its figures are not examinable on their own; the method it illustrates is unit L3-U6 (two-stage DCF)."
+      },
+      {
+       "id": "L3-U9",
+       "section": "L3B",
+       "title": "Terminal value growth rules (≤ nominal GDP; can be negative; inflationary)",
+       "where": "slide 25",
+       "examinable": true
+      },
+      {
+       "id": "L3-U10",
+       "section": "L3C",
+       "title": "g = ROI × reinvestment rate; FCFO = NOPAT × (1 − g/ROI)",
+       "where": "slides 26–27",
+       "examinable": true
+      },
+      {
+       "id": "L3-U11",
+       "section": "L3C",
+       "title": "When growth creates value (ROI vs WACC); sensitivity",
+       "where": "slides 27–29",
+       "examinable": true
+      },
+      {
+       "id": "L3-U12",
+       "section": "L3C",
+       "title": "Growth strategies that create value",
+       "where": "slide 30",
+       "examinable": true
+      },
+      {
+       "id": "L3-U0",
+       "section": "L3A",
+       "title": "Tables of contents",
+       "where": "slides 2, 17, 24",
+       "examinable": false,
+       "reason": "Navigation only."
+      }
+     ]
     },
     "L4": {
      "title": "Lecture 4: Cost of Capital",
-     "file": "Slides/Corporate Valuation - C31 - Lecture 4 - Cost of Capital - v3.pdf"
+     "file": "Slides/Corporate Valuation - C31 - Lecture 4 - Cost of Capital - v3.pdf",
+     "sections": [
+      {
+       "id": "L4A",
+       "title": "CAPM inputs: risk-free rate and market risk premium"
+      },
+      {
+       "id": "L4B",
+       "title": "Beta: top-down, Blume, determinants, Hamada, bottom-up"
+      },
+      {
+       "id": "L4C",
+       "title": "Tax rate, leverage, cost of debt and final choices"
+      }
+     ],
+     "units": [
+      {
+       "id": "L4-U1",
+       "section": "L4A",
+       "title": "Discount rates in the three DCF models (recap)",
+       "where": "slides 4–5",
+       "examinable": true
+      },
+      {
+       "id": "L4-U2",
+       "section": "L4A",
+       "title": "CAPM and the risk-free rate (maturity, country, sample)",
+       "where": "slides 7–10",
+       "examinable": true
+      },
+      {
+       "id": "L4-U3",
+       "section": "L4A",
+       "title": "Market risk premium: historical, implied, Damodaran, Fernandez",
+       "where": "slides 11–14",
+       "examinable": true
+      },
+      {
+       "id": "L4-U4",
+       "section": "L4B",
+       "title": "Top-down beta: regression, sample, R²",
+       "where": "slides 15–16, 18–19",
+       "examinable": true
+      },
+      {
+       "id": "L4-U5",
+       "section": "L4B",
+       "title": "Blume's adjustment",
+       "where": "slide 17",
+       "examinable": true
+      },
+      {
+       "id": "L4-U6",
+       "section": "L4B",
+       "title": "Beta determinants: financial and operating leverage",
+       "where": "slides 20–21",
+       "examinable": true
+      },
+      {
+       "id": "L4-U7",
+       "section": "L4B",
+       "title": "Hamada formula (unlever/relever)",
+       "where": "slide 22",
+       "examinable": true
+      },
+      {
+       "id": "L4-U8",
+       "section": "L4B",
+       "title": "Bottom-up beta: steps and advantages",
+       "where": "slides 23–26",
+       "examinable": true
+      },
+      {
+       "id": "L4-U9",
+       "section": "L4C",
+       "title": "The tax rate: statutory vs effective; IRES/IRAP quiz",
+       "where": "slides 27–29",
+       "examinable": true
+      },
+      {
+       "id": "L4-U10",
+       "section": "L4C",
+       "title": "Leverage: standpoint, market values, total vs net debt",
+       "where": "slides 30–33",
+       "examinable": true
+      },
+      {
+       "id": "L4-U11",
+       "section": "L4C",
+       "title": "Cost of debt: market YTM, rating-based (synthetic), accounting, contractual",
+       "where": "slides 35–37",
+       "examinable": true
+      },
+      {
+       "id": "L4-U12",
+       "section": "L4C",
+       "title": "Two paths to kEL; option 1 = option 2 when kD = rF",
+       "where": "slide 39",
+       "examinable": true
+      },
+      {
+       "id": "L4-U0",
+       "section": "L4A",
+       "title": "Acronyms, tables of contents, notes, references",
+       "where": "slides 2–3, 6, 34, 38, 40–43",
+       "examinable": false,
+       "reason": "Navigation and reference only."
+      }
+     ]
     },
     "L5": {
      "title": "Lecture 5: Reorganizing Financials and Cash Flows",
-     "file": "Slides/Corporate Valuation - C31 - Lecture 5 - Reorganizing and CFs - v13.pdf"
+     "file": "Slides/Corporate Valuation - C31 - Lecture 5 - Reorganizing and CFs - v13.pdf",
+     "sections": [
+      {
+       "id": "L5A",
+       "title": "Reorganizing the balance sheet"
+      },
+      {
+       "id": "L5B",
+       "title": "Reorganizing the income statement"
+      },
+      {
+       "id": "L5C",
+       "title": "Cash flows for valuation"
+      },
+      {
+       "id": "L5D",
+       "title": "The bridge to equity"
+      }
+     ],
+     "units": [
+      {
+       "id": "L5-U1",
+       "section": "L5A",
+       "title": "Why reorganize: operating, financing and residual items",
+       "where": "slides 4–5",
+       "examinable": true
+      },
+      {
+       "id": "L5-U2",
+       "section": "L5A",
+       "title": "Reorganized balance sheet: noncash WC, core CE, net debt, surplus assets and other liabilities (Campari)",
+       "where": "slides 7–13",
+       "examinable": true
+      },
+      {
+       "id": "L5-U3",
+       "section": "L5B",
+       "title": "Reorganized income statement; EBITDA and its limits (Campari)",
+       "where": "slides 15–19",
+       "examinable": true
+      },
+      {
+       "id": "L5-U4",
+       "section": "L5C",
+       "title": "Cash-flow format for valuation (EBIT → FCFO → FCFE → change in cash)",
+       "where": "slides 21–23",
+       "examinable": true
+      },
+      {
+       "id": "L5-U5",
+       "section": "L5C",
+       "title": "FCFO and FCFE defined and linked to BS/IS",
+       "where": "slides 24–25",
+       "examinable": true
+      },
+      {
+       "id": "L5-U6",
+       "section": "L5D",
+       "title": "The bridge from EV to equity value",
+       "where": "slides 27–28",
+       "examinable": true
+      },
+      {
+       "id": "L5-U0",
+       "section": "L5A",
+       "title": "Acronyms, tables of contents, notes",
+       "where": "slides 2–3, 6, 14, 20, 26, 29–32",
+       "examinable": false,
+       "reason": "Navigation and reference only."
+      }
+     ]
     },
     "L6": {
      "title": "Lecture 6: DCF Exercises (Workbook selection)",
-     "file": "Slides/Corporate Valuation - C31 - Lecture 6 - DCF Exercises - v1.pdf"
+     "file": "Slides/Corporate Valuation - C31 - Lecture 6 - DCF Exercises - v1.pdf",
+     "sections": [
+      {
+       "id": "L6",
+       "title": "Workbook exercise selection (2.3, 2.5, 2.6, 3.8, 4.1, 4.9)"
+      }
+     ],
+     "units": [
+      {
+       "id": "L6-U2.3",
+       "section": "L6",
+       "title": "Workbook 2.3 (Omega: reorganize the BS)",
+       "where": "slide 2",
+       "examinable": true
+      },
+      {
+       "id": "L6-U2.5",
+       "section": "L6",
+       "title": "Workbook 2.5 (Square Pizza: FCFO)",
+       "where": "slide 3",
+       "examinable": true
+      },
+      {
+       "id": "L6-U2.6",
+       "section": "L6",
+       "title": "Workbook 2.6 (Full House: FCFE)",
+       "where": "slide 4",
+       "examinable": true
+      },
+      {
+       "id": "L6-U3.8",
+       "section": "L6",
+       "title": "Workbook 3.8 (Champagne: WACC)",
+       "where": "slide 5",
+       "examinable": true
+      },
+      {
+       "id": "L6-U4.1",
+       "section": "L6",
+       "title": "Workbook 4.1 (EV at the valuation date)",
+       "where": "slide 6",
+       "examinable": true
+      },
+      {
+       "id": "L6-U4.9",
+       "section": "L6",
+       "title": "Workbook 4.9 (Solar Beam: equity DCF)",
+       "where": "slide 7",
+       "examinable": true
+      }
+     ]
     }
    },
    "fingerprint": {
@@ -860,7 +5087,8 @@
     "label": "SUPPORTING - scored by Claude from the course's own exam material and slide examples; not a real past-paper analysis",
     "sources": [
      "30257 Corporate Valuation AY 24-25 - Mock Exam v1.pdf (Q3 FCFO: 5 steps; Q4 multiples: 6 steps)",
-     "L6 problems 2.3, 2.5, 2.6, 3.8, 4.1 and the L3 APV example (2-6 steps)"
+     "L6 problems 2.3, 2.5, 2.6, 3.8, 4.1 and the L3 APV example (2-6 steps)",
+     "AY 24-25 / AY 26-27 mocks, MCQs (1-3 steps each; median 1,5) - scored 2026-09-24 for the concept MCQ shape"
     ],
     "by_shape": {
      "short problem": {
@@ -876,6 +5104,23 @@
        "median": 2,
        "range": [
         2,
+        2
+       ]
+      }
+     },
+     "concept MCQ": {
+      "n": 11,
+      "steps": {
+       "median": 1.5,
+       "range": [
+        1,
+        3
+       ]
+      },
+      "concepts_combined": {
+       "median": 1,
+       "range": [
+        1,
         2
        ]
       }
@@ -929,6 +5174,10 @@
       "short problem": {
        "steps_min": 7,
        "concepts_min": 2
+      },
+      "concept MCQ": {
+       "steps_min": 3,
+       "concepts_min": 2
       }
      }
     },
@@ -944,7 +5193,1455 @@
      "settle_with": "your exam calendar (set it on the Courses screen)"
     }
    ],
-   "updated_at": "2026-09-24T18:00:00Z"
+   "updated_at": "2026-09-24T18:00:00Z",
+   "source_ledger": [
+    {
+     "file": "syllabus (10).pdf",
+     "item": "Syllabus 2026-27",
+     "decision": "used",
+     "ids": [],
+     "reason": "Exam format, materials (book, workbook), Financial Modeling excluded for attending students."
+    },
+    {
+     "file": "30257 Corporate Valuation - AY 26-27 - CVW2 Required Problems - v1 (1).pdf",
+     "item": "Required-problems grid",
+     "decision": "used",
+     "ids": [],
+     "reason": "Green/yellow/red per problem; recorded in banks/intake_30257_notes.md."
+    },
+    {
+     "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+     "item": "MCQ 1-8",
+     "decision": "included",
+     "ids": [
+      "30257-L5-10",
+      "30257-L5-11",
+      "30257-L5-12",
+      "30257-L4-10",
+      "30257-L4-11",
+      "30257-L12-10",
+      "30257-L3-10",
+      "30257-L3-11"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+     "item": "MCQ 9-13 (EV/sales, forward multiple, M&A x2, carbon beta)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Multiples, M&A, rights issues and ESG are lectures 9-15 (from 7 Oct 2026); their decks are not in the folder yet. Held until they arrive."
+    },
+    {
+     "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+     "item": "Open question 1 (tax shields in APV and asset-side DCF)",
+     "decision": "included",
+     "ids": [
+      "30257-L3-12"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+     "item": "Open question 2 (forward P/E breakdown)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Multiples, M&A, rights issues and ESG are lectures 9-15 (from 7 Oct 2026); their decks are not in the folder yet. Held until they arrive."
+    },
+    {
+     "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+     "item": "Problem 1 (FCFO)",
+     "decision": "included",
+     "ids": [
+      "30257-L5-13"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+     "item": "Problem 2 (EV/EBITDA and P/E valuation)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Multiples, M&A, rights issues and ESG are lectures 9-15 (from 7 Oct 2026); their decks are not in the folder yet. Held until they arrive. Note: the PDF's P/E solution (3.189,1) is an arithmetic slip; the solutions workbook gives 2.689,1."
+    },
+    {
+     "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+     "item": "Non-attending MCQs 1-6",
+     "decision": "excluded",
+     "ids": [],
+     "reason": "Only in the non-attending version of the exam (research readings); the course is set up for the attending exam."
+    },
+    {
+     "file": "Reference/.../30257 Corporate Valuation AY 24-25 - Mock Exam v1.pdf",
+     "item": "Questions 1-17",
+     "decision": "duplicate",
+     "ids": [
+      "30257-L3-12",
+      "30257-L5-13"
+     ],
+     "reason": "Same items as the AY 26-27 mock except MCQ 16 (TERP, held: rights issues)."
+    },
+    {
+     "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation AY 24-25 - Mock Exam Solutions v1.xlsx",
+     "item": "Solutions workbook",
+     "decision": "key_source",
+     "ids": [
+      "30257-L5-10",
+      "30257-L5-11",
+      "30257-L5-12",
+      "30257-L4-10",
+      "30257-L4-11",
+      "30257-L12-10",
+      "30257-L3-10",
+      "30257-L3-11",
+      "30257-L3-12",
+      "30257-L5-13"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Reference/Clean/valuation-mock-exam-v2-final-exam.pdf",
+     "item": "Open questions 1-2, problems 3-4, MCQ 1-4, 6, 7, 11-13",
+     "decision": "duplicate",
+     "ids": [],
+     "reason": "Same as the AY mocks (kept once)."
+    },
+    {
+     "file": "Reference/Clean/valuation-mock-exam-v2-final-exam.pdf",
+     "item": "MCQ 5 (Facebook IPO) and MCQ 8 (forward +2 multiple)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Multiples, M&A, rights issues and ESG are lectures 9-15 (from 7 Oct 2026); their decks are not in the folder yet. Held until they arrive."
+    },
+    {
+     "file": "Reference/Clean/valuation-mock-exam-v2-final-exam.pdf",
+     "item": "MCQ 9 (supermarket working capital)",
+     "decision": "included",
+     "ids": [
+      "30257-L5-14"
+     ],
+     "reason": "No key in the source; solved twice."
+    },
+    {
+     "file": "Reference/Clean/valuation-mock-exam-v2-final-exam.pdf",
+     "item": "MCQ 10 (young business, probability of success)",
+     "decision": "included",
+     "ids": [
+      "30257-L12-11"
+     ],
+     "reason": "No key in the source; solved twice; flagged for a check."
+    },
+    {
+     "file": "Reference/Valuation - Mock Exam Solutions v1.xlsx",
+     "item": "Solutions workbook (quantitative MCQs)",
+     "decision": "key_source",
+     "ids": [],
+     "reason": "Keys for MCQs 4, 6, 8 (all duplicates or held)."
+    },
+    {
+     "file": "Reference/Past Exams and Mock Exams/Mock exams/Valuation - Mock Exam v2.docx",
+     "item": "Whole file",
+     "decision": "duplicate",
+     "ids": [],
+     "reason": "Word version of the v2 mock."
+    },
+    {
+     "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+     "item": "Q1 (market risk premium methods)",
+     "decision": "included",
+     "ids": [
+      "30257-L4-12"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+     "item": "Q2 (scenario vs sensitivity analysis)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Scenario analysis is not in the L1-6 decks (workbook 2.21 on scenarios is marked out of scope). Held until a deck covers it."
+    },
+    {
+     "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+     "item": "Q3 (carbon risk), Q4 (M&A value creation), Q5 (peer group), Q7 (rights issue/TERP)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Multiples, M&A, rights issues and ESG are lectures 9-15 (from 7 Oct 2026); their decks are not in the folder yet. Held until they arrive."
+    },
+    {
+     "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+     "item": "Q6 (enterprise DCF, target leverage)",
+     "decision": "included",
+     "ids": [
+      "30257-L3-13"
+     ],
+     "reason": "No key in the source; solved with Workbook 4.3's official method; flagged."
+    },
+    {
+     "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+     "item": "Q8 (levered and unlevered cost of equity from peers)",
+     "decision": "included",
+     "ids": [
+      "30257-L4-13"
+     ],
+     "reason": "No key in the source; same table as Workbook 3.5 (official method)."
+    },
+    {
+     "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+     "item": "Q9 (APV)",
+     "decision": "included",
+     "ids": [
+      "30257-L3-14"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+     "item": "Q10 (FCFO, FCFE, total cash flow)",
+     "decision": "included",
+     "ids": [
+      "30257-L5-15"
+     ],
+     "reason": "Check closes: total cash flow = change in excess cash."
+    },
+    {
+     "file": "Reference/Clean/past paper.pdf",
+     "item": "Q2 essay (FCFO)",
+     "decision": "included",
+     "ids": [
+      "30257-L5-18"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Reference/Clean/past paper.pdf",
+     "item": "Q5 essay (tax shields in three DCF models)",
+     "decision": "included",
+     "ids": [
+      "30257-L3-16"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Reference/Clean/past paper.pdf",
+     "item": "Q6 (WACC bounds)",
+     "decision": "included",
+     "ids": [
+      "30257-L4-17"
+     ],
+     "reason": "Options photographed in the BSc paper; answer from this paper."
+    },
+    {
+     "file": "Reference/Clean/past paper.pdf",
+     "item": "Q8, Q11, Q12, Q14, Q17 (MCQs; options not photographed)",
+     "decision": "included",
+     "ids": [
+      "30257-L12-12",
+      "30257-L4-14",
+      "30257-L5-16",
+      "30257-L3-15",
+      "30257-L5-17"
+     ],
+     "reason": "Kept as short-answer questions with Blackboard's correct answer (decided 2026-09-24)."
+    },
+    {
+     "file": "Reference/Clean/past paper.pdf",
+     "item": "Q4, Q7, Q9, Q10, Q13, Q15, Q16",
+     "decision": "held",
+     "ids": [],
+     "reason": "Multiples, M&A, rights issues and ESG are lectures 9-15 (from 7 Oct 2026); their decks are not in the folder yet. Held until they arrive."
+    },
+    {
+     "file": "Reference/Clean/past paper.pdf",
+     "item": "Q1, Q3 (no photograph)",
+     "decision": "not_a_question",
+     "ids": [],
+     "reason": "No photograph of these questions; Q3 is known only from the typed index (Old Exam 1)."
+    },
+    {
+     "file": "Reference/Clean/Old Exam 1.pdf",
+     "item": "Typed index of the January 2023 exam",
+     "decision": "included_adapted",
+     "ids": [
+      "30257-L3-17"
+     ],
+     "reason": "Q3 taken from the index (adapted, flagged); the rest duplicates the photographs."
+    },
+    {
+     "file": "Reference/Clean/BSc.pdf",
+     "item": "Q1, Q4, Q5-Q11",
+     "decision": "included",
+     "ids": [
+      "30257-L5-19",
+      "30257-L4-15",
+      "30257-L12-13",
+      "30257-L5-21",
+      "30257-L5-22",
+      "30257-L3-18",
+      "30257-L3-19",
+      "30257-L4-16",
+      "30257-L4-17"
+     ],
+     "reason": "No answers recorded in the source except via the January 2023 paper for Q11; others solved twice."
+    },
+    {
+     "file": "Reference/Clean/BSc.pdf",
+     "item": "Q3 (FCFO from forecast statements)",
+     "decision": "duplicate",
+     "ids": [
+      "30257-L5-18"
+     ],
+     "reason": "The January 2023 essay with every figure doubled (answer 25,9 = 2 × 12,95); kept the January 2023 version."
+    },
+    {
+     "file": "Reference/Clean/BSc.pdf",
+     "item": "Q2 (two methods to estimate the equity risk premium)",
+     "decision": "duplicate",
+     "ids": [
+      "30257-L4-12"
+     ],
+     "reason": "The January 2019 version ('explain the methods') is the harder form; kept that one."
+    },
+    {
+     "file": "Reference/Clean/BSc.pdf",
+     "item": "Q12 (normalized P/E), Q13 (P/BV), Q15 (rights issue), Q16 (carbon factor), Q17 (SPACs)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Multiples, M&A, rights issues and ESG are lectures 9-15 (from 7 Oct 2026); their decks are not in the folder yet. Held until they arrive."
+    },
+    {
+     "file": "Reference/Clean/BSc.pdf",
+     "item": "Q14",
+     "decision": "not_a_question",
+     "ids": [],
+     "reason": "Not photographed."
+    },
+    {
+     "file": "Reference/Clean/BSc - Past Exam - CLEAN PAPER.pdf",
+     "item": "Retyped BSc paper",
+     "decision": "duplicate",
+     "ids": [],
+     "reason": "Checked word for word against the photographs on 2026-09-24; the photographs are the source."
+    },
+    {
+     "file": "Reference/Clean/Valuation - Past paper 1.pdf",
+     "item": "38 photographed pages",
+     "decision": "not_read",
+     "ids": [],
+     "reason": "7 MB of photographs; the Drive connection drops on files this large. Please re-upload it split or compressed."
+    },
+    {
+     "file": "Slides/Corporate Valuation - C31 - Lecture 6 - DCF Exercises - v1.pdf",
+     "item": "Workbook 2.3, 2.5, 2.6, 3.8, 4.9 (slide text)",
+     "decision": "included",
+     "ids": [
+      "30257-L6-10",
+      "30257-L6-11",
+      "30257-L6-12",
+      "30257-L6-13",
+      "30257-L6-14"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Slides/Corporate Valuation - C31 - Lecture 6 - DCF Exercises - v1.pdf",
+     "item": "Workbook 4.1 (slide text)",
+     "decision": "duplicate",
+     "ids": [
+      "30257-L3-11"
+     ],
+     "reason": "Same numbers as AY 26-27 mock MCQ 8 (€ thousand in the workbook)."
+    },
+    {
+     "file": "CV Workbook Chapter 1-4.pdf",
+     "item": "Ch. 1-4 required (green) and related (yellow) problems not on the L6 slides",
+     "decision": "held",
+     "ids": [],
+     "reason": "Waiting for readable page images: Will is splitting the scanned workbook so each problem can be copied word for word (decided 2026-09-24)."
+    },
+    {
+     "file": "CV Workbook Chapter 1-4.pdf",
+     "item": "Ch. 2 problems 21-22, Ch. 4 problems 18-20",
+     "decision": "excluded",
+     "ids": [],
+     "reason": "Marked out of scope (red) on the Required Problems grid."
+    },
+    {
+     "file": "CV Workbook Chapters 5-6.pdf",
+     "item": "Ch. 5 (multiples) and Ch. 6 (M&A) problems",
+     "decision": "held",
+     "ids": [],
+     "reason": "Multiples, M&A, rights issues and ESG are lectures 9-15 (from 7 Oct 2026); their decks are not in the folder yet. Held until they arrive. Also needs readable page images."
+    },
+    {
+     "file": "Corporate Valuation Workbook II - Solutions/CVW2 - Ch. 1-6",
+     "item": "Solutions workbooks",
+     "decision": "key_source",
+     "ids": [
+      "30257-L6-10",
+      "30257-L6-11",
+      "30257-L6-12",
+      "30257-L6-13",
+      "30257-L6-14"
+     ],
+     "reason": "Official keys; also confirm the method for Jan 2019 Q6 (4.3) and Q8 (3.5)."
+    },
+    {
+     "file": "Corporate Valuation Workbook II - Solutions/CVW2 - Ch. 7-15",
+     "item": "Solutions workbooks",
+     "decision": "not_examinable",
+     "ids": [],
+     "reason": "Chapters 7-15 are out of scope or have no required problems (grid)."
+    },
+    {
+     "file": "Book 2026-2027.pdf",
+     "item": "Textbook",
+     "decision": "not_a_question",
+     "ids": [],
+     "reason": "Reference reading; no exercises."
+    },
+    {
+     "file": "Slides/Corporate Valuation - C31 - Lectures 7-8 - Intro to Financial Modeling - v10.pdf",
+     "item": "Deck",
+     "decision": "not_examinable",
+     "ids": [],
+     "reason": "Excluded for attending students by the syllabus."
+    },
+    {
+     "file": "Mock Exam/30257 Lecture 4, Lecture 5, L1-2, L3 DCF (PAPER, MARK SCHEME)",
+     "item": "Whole files",
+     "decision": "excluded",
+     "ids": [],
+     "reason": "Written by Claude in earlier chats: not evidence."
+    },
+    {
+     "file": "Claude outputs/30257 Chapters 1-4 Skill cards - RemNote deck.md",
+     "item": "Whole file",
+     "decision": "excluded",
+     "ids": [],
+     "reason": "Claude-written flashcards: not evidence."
+    },
+    {
+     "file": "Reference/Corporate Valuation - Overview (L1 & 2).xmind",
+     "item": "Mind map",
+     "decision": "not_a_question",
+     "ids": [],
+     "reason": "Your notes; no questions."
+    },
+    {
+     "file": "Slides/Corporate Valuation - AY 26-27 - Lectures 1-2 - Introduction - v3.pdf",
+     "item": "Deck",
+     "decision": "units",
+     "ids": [],
+     "reason": "16 units; 15 examinable."
+    },
+    {
+     "file": "Slides/Corporate Valuation - AY 26-27 - Lecture 3 - DCF Valuation - v6.pdf",
+     "item": "Deck",
+     "decision": "units",
+     "ids": [],
+     "reason": "13 units; 11 examinable."
+    },
+    {
+     "file": "Slides/Corporate Valuation - C31 - Lecture 4 - Cost of Capital - v3.pdf",
+     "item": "Deck",
+     "decision": "units",
+     "ids": [],
+     "reason": "13 units; 12 examinable."
+    },
+    {
+     "file": "Slides/Corporate Valuation - C31 - Lecture 5 - Reorganizing and CFs - v13.pdf",
+     "item": "Deck",
+     "decision": "units",
+     "ids": [],
+     "reason": "7 units; 6 examinable."
+    },
+    {
+     "file": "Slides/Corporate Valuation - C31 - Lecture 6 - DCF Exercises - v1.pdf",
+     "item": "Deck",
+     "decision": "units",
+     "ids": [],
+     "reason": "6 units, all examinable."
+    }
+   ]
   }
- ]
+ ],
+ "coverage": {
+  "course": "30257",
+  "sections": {
+   "L12": [
+    {
+     "id": "L12A",
+     "title": "Users and uses; the Kellanova example; fundamental skills"
+    },
+    {
+     "id": "L12B",
+     "title": "Approaches and methods (DCF, relative, economic profit, asset-based)"
+    },
+    {
+     "id": "L12C",
+     "title": "Bases of value"
+    },
+    {
+     "id": "L12D",
+     "title": "Value and uncertainty"
+    }
+   ],
+   "L3": [
+    {
+     "id": "L3A",
+     "title": "Capital structure recap: MM, APV, equity-side DCF, WACC"
+    },
+    {
+     "id": "L3B",
+     "title": "Two-stage DCF in practice and the terminal value"
+    },
+    {
+     "id": "L3C",
+     "title": "Growth and value"
+    }
+   ],
+   "L4": [
+    {
+     "id": "L4A",
+     "title": "CAPM inputs: risk-free rate and market risk premium"
+    },
+    {
+     "id": "L4B",
+     "title": "Beta: top-down, Blume, determinants, Hamada, bottom-up"
+    },
+    {
+     "id": "L4C",
+     "title": "Tax rate, leverage, cost of debt and final choices"
+    }
+   ],
+   "L5": [
+    {
+     "id": "L5A",
+     "title": "Reorganizing the balance sheet"
+    },
+    {
+     "id": "L5B",
+     "title": "Reorganizing the income statement"
+    },
+    {
+     "id": "L5C",
+     "title": "Cash flows for valuation"
+    },
+    {
+     "id": "L5D",
+     "title": "The bridge to equity"
+    }
+   ],
+   "L6": [
+    {
+     "id": "L6",
+     "title": "Workbook exercise selection (2.3, 2.5, 2.6, 3.8, 4.1, 4.9)"
+    }
+   ]
+  },
+  "units": {
+   "L12": [
+    {
+     "id": "L12-U1",
+     "section": "L12A",
+     "title": "Users and uses of valuation (banks, advisors, PE/VC, strategic investors, appraisers); equity research, M&A report, fairness opinion",
+     "where": "slides 3–8",
+     "examinable": true
+    },
+    {
+     "id": "L12-U2",
+     "section": "L12A",
+     "title": "Introductory example: Mars's bid for Kellanova (market value vs offer)",
+     "where": "slides 10–11",
+     "examinable": true
+    },
+    {
+     "id": "L12-U3",
+     "section": "L12A",
+     "title": "Fundamental skills and the 'glue'",
+     "where": "slides 13–14",
+     "examinable": true
+    },
+    {
+     "id": "L12-U4",
+     "section": "L12B",
+     "title": "Three general approaches: income, market, cost",
+     "where": "slide 16",
+     "examinable": true
+    },
+    {
+     "id": "L12-U5",
+     "section": "L12B",
+     "title": "Specific methods discussed in the course",
+     "where": "slides 17–18",
+     "examinable": true
+    },
+    {
+     "id": "L12-U6",
+     "section": "L12B",
+     "title": "DCF: general framework, inputs, steps, pros and cons (Netflix report)",
+     "where": "slides 20–27",
+     "examinable": true
+    },
+    {
+     "id": "L12-U7",
+     "section": "L12B",
+     "title": "What we will learn on DCF: sum of the parts, NPVGO, acquisition value, APV",
+     "where": "slides 28–29",
+     "examinable": true
+    },
+    {
+     "id": "L12-U8",
+     "section": "L12B",
+     "title": "Relative valuation: basis, inputs, pros and cons",
+     "where": "slides 31–33",
+     "examinable": true
+    },
+    {
+     "id": "L12-U9",
+     "section": "L12B",
+     "title": "Economic profit models (EVA, residual income)",
+     "where": "slide 35",
+     "examinable": true
+    },
+    {
+     "id": "L12-U10",
+     "section": "L12B",
+     "title": "Asset-based methods",
+     "where": "slide 37",
+     "examinable": true
+    },
+    {
+     "id": "L12-U11",
+     "section": "L12C",
+     "title": "Price versus value; bases of value",
+     "where": "slides 39–40",
+     "examinable": true
+    },
+    {
+     "id": "L12-U12",
+     "section": "L12C",
+     "title": "Market value",
+     "where": "slide 41",
+     "examinable": true
+    },
+    {
+     "id": "L12-U13",
+     "section": "L12C",
+     "title": "Investment value; the apartment example",
+     "where": "slides 42–45",
+     "examinable": true
+    },
+    {
+     "id": "L12-U14",
+     "section": "L12D",
+     "title": "Predictability, the risk process, scenarios",
+     "where": "slides 47–48",
+     "examinable": true
+    },
+    {
+     "id": "L12-U15",
+     "section": "L12D",
+     "title": "Static vs dynamic standpoint; value of a new venture; representing risk in CF or rate",
+     "where": "slides 49–53",
+     "examinable": true
+    },
+    {
+     "id": "L12-U0",
+     "section": "L12A",
+     "title": "Tables of contents",
+     "where": "slides 2, 9, 12, 15, 19, 30, 34, 36, 38, 46",
+     "examinable": false,
+     "reason": "Navigation only."
+    }
+   ],
+   "L3": [
+    {
+     "id": "L3-U1",
+     "section": "L3A",
+     "title": "Accounting returns and leverage without taxes (ROE formula)",
+     "where": "slides 4–5",
+     "examinable": true
+    },
+    {
+     "id": "L3-U2",
+     "section": "L3A",
+     "title": "MM without taxes: leverage does not change EV",
+     "where": "slide 6",
+     "examinable": true
+    },
+    {
+     "id": "L3-U3",
+     "section": "L3A",
+     "title": "MM with taxes: tax shields, VTS = D × t, APV",
+     "where": "slides 7–11",
+     "examinable": true
+    },
+    {
+     "id": "L3-U4",
+     "section": "L3A",
+     "title": "MM 2: levered cost of equity; equity-side DCF",
+     "where": "slides 12–13",
+     "examinable": true
+    },
+    {
+     "id": "L3-U5",
+     "section": "L3A",
+     "title": "WACC and the asset-side DCF; equivalence of the three models",
+     "where": "slides 14–16",
+     "examinable": true
+    },
+    {
+     "id": "L3-U6",
+     "section": "L3B",
+     "title": "Two-stage DCF formulas (asset, equity, APV)",
+     "where": "slides 18–19",
+     "examinable": true
+    },
+    {
+     "id": "L3-U7",
+     "section": "L3B",
+     "title": "Practical step-by-step: business plan, WACC, TV assumptions; CF definitions with growth",
+     "where": "slides 20–21",
+     "examinable": true
+    },
+    {
+     "id": "L3-U8",
+     "section": "L3B",
+     "title": "Netflix case: a shortened 5-year first stage vs Credit Suisse's long stage",
+     "where": "slides 22–23",
+     "examinable": false,
+     "reason": "Illustrative case: its figures are not examinable on their own; the method it illustrates is unit L3-U6 (two-stage DCF)."
+    },
+    {
+     "id": "L3-U9",
+     "section": "L3B",
+     "title": "Terminal value growth rules (≤ nominal GDP; can be negative; inflationary)",
+     "where": "slide 25",
+     "examinable": true
+    },
+    {
+     "id": "L3-U10",
+     "section": "L3C",
+     "title": "g = ROI × reinvestment rate; FCFO = NOPAT × (1 − g/ROI)",
+     "where": "slides 26–27",
+     "examinable": true
+    },
+    {
+     "id": "L3-U11",
+     "section": "L3C",
+     "title": "When growth creates value (ROI vs WACC); sensitivity",
+     "where": "slides 27–29",
+     "examinable": true
+    },
+    {
+     "id": "L3-U12",
+     "section": "L3C",
+     "title": "Growth strategies that create value",
+     "where": "slide 30",
+     "examinable": true
+    },
+    {
+     "id": "L3-U0",
+     "section": "L3A",
+     "title": "Tables of contents",
+     "where": "slides 2, 17, 24",
+     "examinable": false,
+     "reason": "Navigation only."
+    }
+   ],
+   "L4": [
+    {
+     "id": "L4-U1",
+     "section": "L4A",
+     "title": "Discount rates in the three DCF models (recap)",
+     "where": "slides 4–5",
+     "examinable": true
+    },
+    {
+     "id": "L4-U2",
+     "section": "L4A",
+     "title": "CAPM and the risk-free rate (maturity, country, sample)",
+     "where": "slides 7–10",
+     "examinable": true
+    },
+    {
+     "id": "L4-U3",
+     "section": "L4A",
+     "title": "Market risk premium: historical, implied, Damodaran, Fernandez",
+     "where": "slides 11–14",
+     "examinable": true
+    },
+    {
+     "id": "L4-U4",
+     "section": "L4B",
+     "title": "Top-down beta: regression, sample, R²",
+     "where": "slides 15–16, 18–19",
+     "examinable": true
+    },
+    {
+     "id": "L4-U5",
+     "section": "L4B",
+     "title": "Blume's adjustment",
+     "where": "slide 17",
+     "examinable": true
+    },
+    {
+     "id": "L4-U6",
+     "section": "L4B",
+     "title": "Beta determinants: financial and operating leverage",
+     "where": "slides 20–21",
+     "examinable": true
+    },
+    {
+     "id": "L4-U7",
+     "section": "L4B",
+     "title": "Hamada formula (unlever/relever)",
+     "where": "slide 22",
+     "examinable": true
+    },
+    {
+     "id": "L4-U8",
+     "section": "L4B",
+     "title": "Bottom-up beta: steps and advantages",
+     "where": "slides 23–26",
+     "examinable": true
+    },
+    {
+     "id": "L4-U9",
+     "section": "L4C",
+     "title": "The tax rate: statutory vs effective; IRES/IRAP quiz",
+     "where": "slides 27–29",
+     "examinable": true
+    },
+    {
+     "id": "L4-U10",
+     "section": "L4C",
+     "title": "Leverage: standpoint, market values, total vs net debt",
+     "where": "slides 30–33",
+     "examinable": true
+    },
+    {
+     "id": "L4-U11",
+     "section": "L4C",
+     "title": "Cost of debt: market YTM, rating-based (synthetic), accounting, contractual",
+     "where": "slides 35–37",
+     "examinable": true
+    },
+    {
+     "id": "L4-U12",
+     "section": "L4C",
+     "title": "Two paths to kEL; option 1 = option 2 when kD = rF",
+     "where": "slide 39",
+     "examinable": true
+    },
+    {
+     "id": "L4-U0",
+     "section": "L4A",
+     "title": "Acronyms, tables of contents, notes, references",
+     "where": "slides 2–3, 6, 34, 38, 40–43",
+     "examinable": false,
+     "reason": "Navigation and reference only."
+    }
+   ],
+   "L5": [
+    {
+     "id": "L5-U1",
+     "section": "L5A",
+     "title": "Why reorganize: operating, financing and residual items",
+     "where": "slides 4–5",
+     "examinable": true
+    },
+    {
+     "id": "L5-U2",
+     "section": "L5A",
+     "title": "Reorganized balance sheet: noncash WC, core CE, net debt, surplus assets and other liabilities (Campari)",
+     "where": "slides 7–13",
+     "examinable": true
+    },
+    {
+     "id": "L5-U3",
+     "section": "L5B",
+     "title": "Reorganized income statement; EBITDA and its limits (Campari)",
+     "where": "slides 15–19",
+     "examinable": true
+    },
+    {
+     "id": "L5-U4",
+     "section": "L5C",
+     "title": "Cash-flow format for valuation (EBIT → FCFO → FCFE → change in cash)",
+     "where": "slides 21–23",
+     "examinable": true
+    },
+    {
+     "id": "L5-U5",
+     "section": "L5C",
+     "title": "FCFO and FCFE defined and linked to BS/IS",
+     "where": "slides 24–25",
+     "examinable": true
+    },
+    {
+     "id": "L5-U6",
+     "section": "L5D",
+     "title": "The bridge from EV to equity value",
+     "where": "slides 27–28",
+     "examinable": true
+    },
+    {
+     "id": "L5-U0",
+     "section": "L5A",
+     "title": "Acronyms, tables of contents, notes",
+     "where": "slides 2–3, 6, 14, 20, 26, 29–32",
+     "examinable": false,
+     "reason": "Navigation and reference only."
+    }
+   ],
+   "L6": [
+    {
+     "id": "L6-U2.3",
+     "section": "L6",
+     "title": "Workbook 2.3 (Omega: reorganize the BS)",
+     "where": "slide 2",
+     "examinable": true
+    },
+    {
+     "id": "L6-U2.5",
+     "section": "L6",
+     "title": "Workbook 2.5 (Square Pizza: FCFO)",
+     "where": "slide 3",
+     "examinable": true
+    },
+    {
+     "id": "L6-U2.6",
+     "section": "L6",
+     "title": "Workbook 2.6 (Full House: FCFE)",
+     "where": "slide 4",
+     "examinable": true
+    },
+    {
+     "id": "L6-U3.8",
+     "section": "L6",
+     "title": "Workbook 3.8 (Champagne: WACC)",
+     "where": "slide 5",
+     "examinable": true
+    },
+    {
+     "id": "L6-U4.1",
+     "section": "L6",
+     "title": "Workbook 4.1 (EV at the valuation date)",
+     "where": "slide 6",
+     "examinable": true
+    },
+    {
+     "id": "L6-U4.9",
+     "section": "L6",
+     "title": "Workbook 4.9 (Solar Beam: equity DCF)",
+     "where": "slide 7",
+     "examinable": true
+    }
+   ]
+  },
+  "existing_units": {
+   "30257-L12-01": [
+    "L12-U11",
+    "L12-U12",
+    "L12-U13"
+   ],
+   "30257-L3-01": [
+    "L3-U3",
+    "L3-U4",
+    "L3-U5"
+   ],
+   "30257-L3-02": [
+    "L3-U10",
+    "L3-U11"
+   ],
+   "30257-L4-01": [
+    "L4-U7",
+    "L4-U8",
+    "L4-U11"
+   ],
+   "30257-L5-01": [
+    "L5-U2",
+    "L5-U4",
+    "L5-U6"
+   ],
+   "30257-L6-01": [
+    "L6-U4.1",
+    "L3-U6",
+    "L5-U4"
+   ]
+  },
+  "ledger": [
+   {
+    "file": "syllabus (10).pdf",
+    "item": "Syllabus 2026-27",
+    "decision": "used",
+    "ids": [],
+    "reason": "Exam format, materials (book, workbook), Financial Modeling excluded for attending students."
+   },
+   {
+    "file": "30257 Corporate Valuation - AY 26-27 - CVW2 Required Problems - v1 (1).pdf",
+    "item": "Required-problems grid",
+    "decision": "used",
+    "ids": [],
+    "reason": "Green/yellow/red per problem; recorded in banks/intake_30257_notes.md."
+   },
+   {
+    "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+    "item": "MCQ 1-8",
+    "decision": "included",
+    "ids": [
+     "30257-L5-10",
+     "30257-L5-11",
+     "30257-L5-12",
+     "30257-L4-10",
+     "30257-L4-11",
+     "30257-L12-10",
+     "30257-L3-10",
+     "30257-L3-11"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+    "item": "MCQ 9-13 (EV/sales, forward multiple, M&A x2, carbon beta)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Multiples, M&A, rights issues and ESG are lectures 9-15 (from 7 Oct 2026); their decks are not in the folder yet. Held until they arrive."
+   },
+   {
+    "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+    "item": "Open question 1 (tax shields in APV and asset-side DCF)",
+    "decision": "included",
+    "ids": [
+     "30257-L3-12"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+    "item": "Open question 2 (forward P/E breakdown)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Multiples, M&A, rights issues and ESG are lectures 9-15 (from 7 Oct 2026); their decks are not in the folder yet. Held until they arrive."
+   },
+   {
+    "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+    "item": "Problem 1 (FCFO)",
+    "decision": "included",
+    "ids": [
+     "30257-L5-13"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+    "item": "Problem 2 (EV/EBITDA and P/E valuation)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Multiples, M&A, rights issues and ESG are lectures 9-15 (from 7 Oct 2026); their decks are not in the folder yet. Held until they arrive. Note: the PDF's P/E solution (3.189,1) is an arithmetic slip; the solutions workbook gives 2.689,1."
+   },
+   {
+    "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation - AY 26-27 - Mock Exam - v1.pdf",
+    "item": "Non-attending MCQs 1-6",
+    "decision": "excluded",
+    "ids": [],
+    "reason": "Only in the non-attending version of the exam (research readings); the course is set up for the attending exam."
+   },
+   {
+    "file": "Reference/.../30257 Corporate Valuation AY 24-25 - Mock Exam v1.pdf",
+    "item": "Questions 1-17",
+    "decision": "duplicate",
+    "ids": [
+     "30257-L3-12",
+     "30257-L5-13"
+    ],
+    "reason": "Same items as the AY 26-27 mock except MCQ 16 (TERP, held: rights issues)."
+   },
+   {
+    "file": "Reference/Past Exams and Mock Exams/30257 Corporate Valuation AY 24-25 - Mock Exam Solutions v1.xlsx",
+    "item": "Solutions workbook",
+    "decision": "key_source",
+    "ids": [
+     "30257-L5-10",
+     "30257-L5-11",
+     "30257-L5-12",
+     "30257-L4-10",
+     "30257-L4-11",
+     "30257-L12-10",
+     "30257-L3-10",
+     "30257-L3-11",
+     "30257-L3-12",
+     "30257-L5-13"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference/Clean/valuation-mock-exam-v2-final-exam.pdf",
+    "item": "Open questions 1-2, problems 3-4, MCQ 1-4, 6, 7, 11-13",
+    "decision": "duplicate",
+    "ids": [],
+    "reason": "Same as the AY mocks (kept once)."
+   },
+   {
+    "file": "Reference/Clean/valuation-mock-exam-v2-final-exam.pdf",
+    "item": "MCQ 5 (Facebook IPO) and MCQ 8 (forward +2 multiple)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Multiples, M&A, rights issues and ESG are lectures 9-15 (from 7 Oct 2026); their decks are not in the folder yet. Held until they arrive."
+   },
+   {
+    "file": "Reference/Clean/valuation-mock-exam-v2-final-exam.pdf",
+    "item": "MCQ 9 (supermarket working capital)",
+    "decision": "included",
+    "ids": [
+     "30257-L5-14"
+    ],
+    "reason": "No key in the source; solved twice."
+   },
+   {
+    "file": "Reference/Clean/valuation-mock-exam-v2-final-exam.pdf",
+    "item": "MCQ 10 (young business, probability of success)",
+    "decision": "included",
+    "ids": [
+     "30257-L12-11"
+    ],
+    "reason": "No key in the source; solved twice; flagged for a check."
+   },
+   {
+    "file": "Reference/Valuation - Mock Exam Solutions v1.xlsx",
+    "item": "Solutions workbook (quantitative MCQs)",
+    "decision": "key_source",
+    "ids": [],
+    "reason": "Keys for MCQs 4, 6, 8 (all duplicates or held)."
+   },
+   {
+    "file": "Reference/Past Exams and Mock Exams/Mock exams/Valuation - Mock Exam v2.docx",
+    "item": "Whole file",
+    "decision": "duplicate",
+    "ids": [],
+    "reason": "Word version of the v2 mock."
+   },
+   {
+    "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+    "item": "Q1 (market risk premium methods)",
+    "decision": "included",
+    "ids": [
+     "30257-L4-12"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+    "item": "Q2 (scenario vs sensitivity analysis)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Scenario analysis is not in the L1-6 decks (workbook 2.21 on scenarios is marked out of scope). Held until a deck covers it."
+   },
+   {
+    "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+    "item": "Q3 (carbon risk), Q4 (M&A value creation), Q5 (peer group), Q7 (rights issue/TERP)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Multiples, M&A, rights issues and ESG are lectures 9-15 (from 7 Oct 2026); their decks are not in the folder yet. Held until they arrive."
+   },
+   {
+    "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+    "item": "Q6 (enterprise DCF, target leverage)",
+    "decision": "included",
+    "ids": [
+     "30257-L3-13"
+    ],
+    "reason": "No key in the source; solved with Workbook 4.3's official method; flagged."
+   },
+   {
+    "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+    "item": "Q8 (levered and unlevered cost of equity from peers)",
+    "decision": "included",
+    "ids": [
+     "30257-L4-13"
+    ],
+    "reason": "No key in the source; same table as Workbook 3.5 (official method)."
+   },
+   {
+    "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+    "item": "Q9 (APV)",
+    "decision": "included",
+    "ids": [
+     "30257-L3-14"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference/Clean/prova-desame-30257-corporate-valuation-gennaio-2019-domande-e-risposte.pdf",
+    "item": "Q10 (FCFO, FCFE, total cash flow)",
+    "decision": "included",
+    "ids": [
+     "30257-L5-15"
+    ],
+    "reason": "Check closes: total cash flow = change in excess cash."
+   },
+   {
+    "file": "Reference/Clean/past paper.pdf",
+    "item": "Q2 essay (FCFO)",
+    "decision": "included",
+    "ids": [
+     "30257-L5-18"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference/Clean/past paper.pdf",
+    "item": "Q5 essay (tax shields in three DCF models)",
+    "decision": "included",
+    "ids": [
+     "30257-L3-16"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference/Clean/past paper.pdf",
+    "item": "Q6 (WACC bounds)",
+    "decision": "included",
+    "ids": [
+     "30257-L4-17"
+    ],
+    "reason": "Options photographed in the BSc paper; answer from this paper."
+   },
+   {
+    "file": "Reference/Clean/past paper.pdf",
+    "item": "Q8, Q11, Q12, Q14, Q17 (MCQs; options not photographed)",
+    "decision": "included",
+    "ids": [
+     "30257-L12-12",
+     "30257-L4-14",
+     "30257-L5-16",
+     "30257-L3-15",
+     "30257-L5-17"
+    ],
+    "reason": "Kept as short-answer questions with Blackboard's correct answer (decided 2026-09-24)."
+   },
+   {
+    "file": "Reference/Clean/past paper.pdf",
+    "item": "Q4, Q7, Q9, Q10, Q13, Q15, Q16",
+    "decision": "held",
+    "ids": [],
+    "reason": "Multiples, M&A, rights issues and ESG are lectures 9-15 (from 7 Oct 2026); their decks are not in the folder yet. Held until they arrive."
+   },
+   {
+    "file": "Reference/Clean/past paper.pdf",
+    "item": "Q1, Q3 (no photograph)",
+    "decision": "not_a_question",
+    "ids": [],
+    "reason": "No photograph of these questions; Q3 is known only from the typed index (Old Exam 1)."
+   },
+   {
+    "file": "Reference/Clean/Old Exam 1.pdf",
+    "item": "Typed index of the January 2023 exam",
+    "decision": "included_adapted",
+    "ids": [
+     "30257-L3-17"
+    ],
+    "reason": "Q3 taken from the index (adapted, flagged); the rest duplicates the photographs."
+   },
+   {
+    "file": "Reference/Clean/BSc.pdf",
+    "item": "Q1, Q4, Q5-Q11",
+    "decision": "included",
+    "ids": [
+     "30257-L5-19",
+     "30257-L4-15",
+     "30257-L12-13",
+     "30257-L5-21",
+     "30257-L5-22",
+     "30257-L3-18",
+     "30257-L3-19",
+     "30257-L4-16",
+     "30257-L4-17"
+    ],
+    "reason": "No answers recorded in the source except via the January 2023 paper for Q11; others solved twice."
+   },
+   {
+    "file": "Reference/Clean/BSc.pdf",
+    "item": "Q3 (FCFO from forecast statements)",
+    "decision": "duplicate",
+    "ids": [
+     "30257-L5-18"
+    ],
+    "reason": "The January 2023 essay with every figure doubled (answer 25,9 = 2 × 12,95); kept the January 2023 version."
+   },
+   {
+    "file": "Reference/Clean/BSc.pdf",
+    "item": "Q2 (two methods to estimate the equity risk premium)",
+    "decision": "duplicate",
+    "ids": [
+     "30257-L4-12"
+    ],
+    "reason": "The January 2019 version ('explain the methods') is the harder form; kept that one."
+   },
+   {
+    "file": "Reference/Clean/BSc.pdf",
+    "item": "Q12 (normalized P/E), Q13 (P/BV), Q15 (rights issue), Q16 (carbon factor), Q17 (SPACs)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Multiples, M&A, rights issues and ESG are lectures 9-15 (from 7 Oct 2026); their decks are not in the folder yet. Held until they arrive."
+   },
+   {
+    "file": "Reference/Clean/BSc.pdf",
+    "item": "Q14",
+    "decision": "not_a_question",
+    "ids": [],
+    "reason": "Not photographed."
+   },
+   {
+    "file": "Reference/Clean/BSc - Past Exam - CLEAN PAPER.pdf",
+    "item": "Retyped BSc paper",
+    "decision": "duplicate",
+    "ids": [],
+    "reason": "Checked word for word against the photographs on 2026-09-24; the photographs are the source."
+   },
+   {
+    "file": "Reference/Clean/Valuation - Past paper 1.pdf",
+    "item": "38 photographed pages",
+    "decision": "not_read",
+    "ids": [],
+    "reason": "7 MB of photographs; the Drive connection drops on files this large. Please re-upload it split or compressed."
+   },
+   {
+    "file": "Slides/Corporate Valuation - C31 - Lecture 6 - DCF Exercises - v1.pdf",
+    "item": "Workbook 2.3, 2.5, 2.6, 3.8, 4.9 (slide text)",
+    "decision": "included",
+    "ids": [
+     "30257-L6-10",
+     "30257-L6-11",
+     "30257-L6-12",
+     "30257-L6-13",
+     "30257-L6-14"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Slides/Corporate Valuation - C31 - Lecture 6 - DCF Exercises - v1.pdf",
+    "item": "Workbook 4.1 (slide text)",
+    "decision": "duplicate",
+    "ids": [
+     "30257-L3-11"
+    ],
+    "reason": "Same numbers as AY 26-27 mock MCQ 8 (€ thousand in the workbook)."
+   },
+   {
+    "file": "CV Workbook Chapter 1-4.pdf",
+    "item": "Ch. 1-4 required (green) and related (yellow) problems not on the L6 slides",
+    "decision": "held",
+    "ids": [],
+    "reason": "Waiting for readable page images: Will is splitting the scanned workbook so each problem can be copied word for word (decided 2026-09-24)."
+   },
+   {
+    "file": "CV Workbook Chapter 1-4.pdf",
+    "item": "Ch. 2 problems 21-22, Ch. 4 problems 18-20",
+    "decision": "excluded",
+    "ids": [],
+    "reason": "Marked out of scope (red) on the Required Problems grid."
+   },
+   {
+    "file": "CV Workbook Chapters 5-6.pdf",
+    "item": "Ch. 5 (multiples) and Ch. 6 (M&A) problems",
+    "decision": "held",
+    "ids": [],
+    "reason": "Multiples, M&A, rights issues and ESG are lectures 9-15 (from 7 Oct 2026); their decks are not in the folder yet. Held until they arrive. Also needs readable page images."
+   },
+   {
+    "file": "Corporate Valuation Workbook II - Solutions/CVW2 - Ch. 1-6",
+    "item": "Solutions workbooks",
+    "decision": "key_source",
+    "ids": [
+     "30257-L6-10",
+     "30257-L6-11",
+     "30257-L6-12",
+     "30257-L6-13",
+     "30257-L6-14"
+    ],
+    "reason": "Official keys; also confirm the method for Jan 2019 Q6 (4.3) and Q8 (3.5)."
+   },
+   {
+    "file": "Corporate Valuation Workbook II - Solutions/CVW2 - Ch. 7-15",
+    "item": "Solutions workbooks",
+    "decision": "not_examinable",
+    "ids": [],
+    "reason": "Chapters 7-15 are out of scope or have no required problems (grid)."
+   },
+   {
+    "file": "Book 2026-2027.pdf",
+    "item": "Textbook",
+    "decision": "not_a_question",
+    "ids": [],
+    "reason": "Reference reading; no exercises."
+   },
+   {
+    "file": "Slides/Corporate Valuation - C31 - Lectures 7-8 - Intro to Financial Modeling - v10.pdf",
+    "item": "Deck",
+    "decision": "not_examinable",
+    "ids": [],
+    "reason": "Excluded for attending students by the syllabus."
+   },
+   {
+    "file": "Mock Exam/30257 Lecture 4, Lecture 5, L1-2, L3 DCF (PAPER, MARK SCHEME)",
+    "item": "Whole files",
+    "decision": "excluded",
+    "ids": [],
+    "reason": "Written by Claude in earlier chats: not evidence."
+   },
+   {
+    "file": "Claude outputs/30257 Chapters 1-4 Skill cards - RemNote deck.md",
+    "item": "Whole file",
+    "decision": "excluded",
+    "ids": [],
+    "reason": "Claude-written flashcards: not evidence."
+   },
+   {
+    "file": "Reference/Corporate Valuation - Overview (L1 & 2).xmind",
+    "item": "Mind map",
+    "decision": "not_a_question",
+    "ids": [],
+    "reason": "Your notes; no questions."
+   },
+   {
+    "file": "Slides/Corporate Valuation - AY 26-27 - Lectures 1-2 - Introduction - v3.pdf",
+    "item": "Deck",
+    "decision": "units",
+    "ids": [],
+    "reason": "16 units; 15 examinable."
+   },
+   {
+    "file": "Slides/Corporate Valuation - AY 26-27 - Lecture 3 - DCF Valuation - v6.pdf",
+    "item": "Deck",
+    "decision": "units",
+    "ids": [],
+    "reason": "13 units; 11 examinable."
+   },
+   {
+    "file": "Slides/Corporate Valuation - C31 - Lecture 4 - Cost of Capital - v3.pdf",
+    "item": "Deck",
+    "decision": "units",
+    "ids": [],
+    "reason": "13 units; 12 examinable."
+   },
+   {
+    "file": "Slides/Corporate Valuation - C31 - Lecture 5 - Reorganizing and CFs - v13.pdf",
+    "item": "Deck",
+    "decision": "units",
+    "ids": [],
+    "reason": "7 units; 6 examinable."
+   },
+   {
+    "file": "Slides/Corporate Valuation - C31 - Lecture 6 - DCF Exercises - v1.pdf",
+    "item": "Deck",
+    "decision": "units",
+    "ids": [],
+    "reason": "6 units, all examinable."
+   }
+  ]
+ }
 }
