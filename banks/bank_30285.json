@@ -113,7 +113,10 @@
     13,
     20
    ],
-   "slide_groups": [],
+   "slide_groups": [
+    "L1B-2",
+    "L1B-3"
+   ],
    "est_minutes": 9,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -141,7 +144,12 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
-   }
+   },
+   "units": [
+    "L1B-U5",
+    "L1B-U6",
+    "L1B-U10"
+   ]
   },
   {
    "id": "30285-L1C-01",
@@ -256,7 +264,9 @@
     12,
     14
    ],
-   "slide_groups": [],
+   "slide_groups": [
+    "L1C-2"
+   ],
    "est_minutes": 9,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -283,7 +293,13 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
-   }
+   },
+   "units": [
+    "L1C-U5",
+    "L1C-U7",
+    "L1C-U8",
+    "L1C-U9"
+   ]
   },
   {
    "id": "30285-L2-01",
@@ -396,7 +412,9 @@
     12,
     18
    ],
-   "slide_groups": [],
+   "slide_groups": [
+    "L2-2"
+   ],
    "est_minutes": 10,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -424,7 +442,15 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
-   }
+   },
+   "units": [
+    "L2-U4",
+    "L2-U5",
+    "L2-U6",
+    "L2-U7",
+    "L2B-U9",
+    "L2B-U11"
+   ]
   },
   {
    "id": "30285-L2B-01",
@@ -539,7 +565,9 @@
     15,
     18
    ],
-   "slide_groups": [],
+   "slide_groups": [
+    "L2B-3"
+   ],
    "est_minutes": 9,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -566,7 +594,13 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
-   }
+   },
+   "units": [
+    "L2B-U8",
+    "L2B-U10",
+    "L2B-U11",
+    "L2B-U13"
+   ]
   },
   {
    "id": "30285-L2C-01",
@@ -680,7 +714,10 @@
     13,
     15
    ],
-   "slide_groups": [],
+   "slide_groups": [
+    "L2C-2",
+    "L2C-3"
+   ],
    "est_minutes": 10,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -707,7 +744,2186 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
-   }
+   },
+   "units": [
+    "L2C-U5",
+    "L2C-U6",
+    "L2C-U7",
+    "L2C-U8",
+    "L2C-U10",
+    "L2C-U11"
+   ]
+  },
+  {
+   "id": "30285-L1B-10",
+   "course": "30285",
+   "deck": "L1B",
+   "topic": "What financial econometrics is",
+   "syllabus_objective": "The goal of financial econometrics",
+   "shape": "concept MCQ",
+   "stem": "Financial Econometrics:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Practice Quiz/Practice_2_Solutions.docx",
+    "location": "Practice #2 (Practice Quiz folder), question 2; text copied from the .docx text layer on 2026-09-24; the Greek letters are Symbol-font characters in the file and were read back as β, and the subscripts are written as Unicode subscripts; the official answer is the option set in bold",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Financial Econometrics:",
+     "options": [
+      "Uses tools derived from statistics",
+      "Uses statistic tools to address financial economics problems",
+      "Requires us to be aware of the potential limitations of our estimators.",
+      "All of the above"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: D (bold in the solutions).",
+    "Route 1: the 1b slide defines econometrics as measurement 'done by applying statistical tools' and financial econometrics as econometrics applied to financial variables — A and B are true.",
+    "Route 2: C is the reason the course studies standard errors and inference (estimation uncertainty, 1c and 2b) — true, so all three hold."
+   ],
+   "citations": [
+    {
+     "deck": "L1B",
+     "slide": 3,
+     "quote": "Def of Econometrics: measurement in economics done by applying statistical tools"
+    }
+   ],
+   "slides": [
+    3
+   ],
+   "slide_groups": [
+    "L1B-1"
+   ],
+   "units": [
+    "L1B-U1"
+   ],
+   "est_minutes": 1,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30285-L1B-11",
+   "course": "30285",
+   "deck": "L1B",
+   "topic": "What financial econometrics is (variant)",
+   "syllabus_objective": "The goal of financial econometrics",
+   "shape": "concept MCQ",
+   "stem": "Financial Econometrics:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Practice Exam/Practice_2_Solutions.docx",
+    "location": "Practice #2 (Practice Exam folder), question 2; text copied from the .docx text layer on 2026-09-24; the Greek letters are Symbol-font characters in the file and were read back as β, and the subscripts are written as Unicode subscripts; the official answer is the option set in bold",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Financial Econometrics:",
+     "options": [
+      "Uses special tools not derived from statistics",
+      "Uses statistic tools to address financial economics problems",
+      "Requires us know population parameters.",
+      "All of the above"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "B",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: B (bold in the solutions).",
+    "Route 1: the tools are statistical (A is false) and they are applied to financial variables (B true).",
+    "Route 2: econometrics estimates population parameters from a sample precisely because we do not know them (C is false; 1c 'The Population and the Sample'). So only B."
+   ],
+   "citations": [
+    {
+     "deck": "L1B",
+     "slide": 3,
+     "quote": "Def of Econometrics: measurement in economics done by applying statistical tools"
+    },
+    {
+     "deck": "L1C",
+     "slide": 11,
+     "quote": "Since our samples are not identical to the population, our estimates are subject to estimation uncertainty."
+    }
+   ],
+   "slides": [
+    3
+   ],
+   "slide_groups": [
+    "L1B-1"
+   ],
+   "units": [
+    "L1B-U1",
+    "L1C-U6"
+   ],
+   "est_minutes": 1,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30285-L1B-12",
+   "course": "30285",
+   "deck": "L1B",
+   "topic": "Gross, net and log return with a dividend",
+   "syllabus_objective": "Returns: raw gross, raw net and log returns",
+   "shape": "concept MCQ",
+   "stem": "If I buy a stock at 50, I get a dividend payout of 5 and I sell at 70",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Practice Quiz/Practice_2_Solutions.docx",
+    "location": "Practice #2 (Practice Quiz folder), question 5; text copied from the .docx text layer on 2026-09-24; the Greek letters are Symbol-font characters in the file and were read back as β, and the subscripts are written as Unicode subscripts; the official answer is the option set in bold",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "If I buy a stock at 50, I get a dividend payout of 5 and I sell at 70",
+     "options": [
+      "My log return is (70+5)/50",
+      "My net return in raw units is (70+5)/50",
+      "My raw-units return is ln(75/50)",
+      "None of the above"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: D (bold in the solutions).",
+    "Route 1: gross return R = (70 + 5)/50 = 1.5; net return r = R − 1 = 0.5 = 50%; log return = ln(1.5) = 0.405.",
+    "Route 2: check each option against its label — A gives the gross return, not the log; B gives the gross, not the net; C gives the log return, not a raw-units return. None matches."
+   ],
+   "citations": [
+    {
+     "deck": "L1B",
+     "slide": 11,
+     "quote": "Raw Net Return: gross return minus the initial investment"
+    }
+   ],
+   "slides": [
+    11
+   ],
+   "slide_groups": [
+    "L1B-2"
+   ],
+   "units": [
+    "L1B-U5"
+   ],
+   "est_minutes": 1,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30285-L1C-11",
+   "course": "30285",
+   "deck": "L1C",
+   "topic": "Average and variance of a data vector",
+   "syllabus_objective": "Sample average and variance in vector form",
+   "shape": "concept MCQ",
+   "stem": "Consider a vector X which comprises T observations of the variable x. Use 1_T to denote a vector of ones with T elements:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Practice Quiz/Practice_1_Solutions.docx",
+    "location": "Practice #1 (Practice Quiz folder), question 4; text copied from the .docx text layer on 2026-09-24; the Greek letters are Symbol-font characters in the file and were read back as β, and the subscripts are written as Unicode subscripts; the official answer is the option set in bold",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider a vector X which comprises T observations of the variable x. Use 1_T to denote a vector of ones with T elements:",
+     "options": [
+      "Avg(x) = (1_T’X)/(T-1)",
+      "Avg(x^2) = (X’X)/(T^2)",
+      "V(x) =  ((X’X) - (1_T’X))/T",
+      "None of the above"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: D (bold in the solutions).",
+    "Route 1: Avg(x) = (1_T′X)/T, not /(T − 1); Avg(x²) = (X′X)/T, not /T²; V(x) = X′X/T − (1_T′X/T)², not (X′X − 1_T′X)/T.",
+    "Route 2: test with X = (1, 3)′, T = 2: Avg = 2, Avg(x²) = 5, V = 1. Option A gives 4, B gives 2.5, C gives (10 − 4)/2 = 3. None is right."
+   ],
+   "citations": [
+    {
+     "deck": "L1C",
+     "slide": 8,
+     "quote": "The sample average can be computed as"
+    },
+    {
+     "deck": "L2B",
+     "slide": 4,
+     "quote": "has dimension T by 1 (vector!) and represents the linear regression setting!"
+    }
+   ],
+   "slides": [
+    8
+   ],
+   "slide_groups": [
+    "L1C-2"
+   ],
+   "units": [
+    "L1C-U5",
+    "L2B-U2"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30285-L2-10",
+   "course": "30285",
+   "deck": "L2",
+   "topic": "What the disturbance term captures",
+   "syllabus_objective": "The disturbance term",
+   "shape": "concept MCQ",
+   "stem": "The disturbance term that we add to our linear representation in our simple regression framework can be interpreted as:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Practice Quiz/Practice_1_Solutions.docx",
+    "location": "Practice #1 (Practice Quiz folder), question 2; the same question is Practice #2 (Quiz) question 3 and Practice #2 (Exam) question 3; text copied from the .docx text layer on 2026-09-24; the Greek letters are Symbol-font characters in the file and were read back as β, and the subscripts are written as Unicode subscripts; the official answer is the option set in bold",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "The disturbance term that we add to our linear representation in our simple regression framework can be interpreted as:",
+     "options": [
+      "The result of omitted variables",
+      "Errors in measurement",
+      "Random outside influences",
+      "All of the above"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: D (bold in all three solution files).",
+    "Route 1: the 2a slide 'Why do we include a Disturbance?' lists exactly three features: omitted variables, errors in the measurement of yₜ, random outside influences.",
+    "Route 2: each of A, B and C is one item of that list, so none alone is complete."
+   ],
+   "citations": [
+    {
+     "deck": "L2",
+     "slide": 10,
+     "quote": "Omitted variables: we always leave out some determinants of yt"
+    }
+   ],
+   "slides": [
+    10
+   ],
+   "slide_groups": [
+    "L2-1"
+   ],
+   "units": [
+    "L2-U3"
+   ],
+   "est_minutes": 1,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30285-L2-11",
+   "course": "30285",
+   "deck": "L2",
+   "topic": "Linear in the parameters",
+   "syllabus_objective": "Linearity: which models OLS can estimate",
+   "shape": "concept MCQ",
+   "stem": "Consider the following regression:\nyₜ = β₁ +  x₂ₜ / β₂ + β₃x₃ₜ + β₄x₄ₜ + uₜ",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Practice Quiz/Practice_2_Solutions.docx",
+    "location": "Practice #2 (Practice Quiz folder), question 7; text copied from the .docx text layer on 2026-09-24; the Greek letters are Symbol-font characters in the file and were read back as β, and the subscripts are written as Unicode subscripts; the official answer is the option set in bold",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "yₜ = β₁ +  x₂ₜ / β₂ + β₃x₃ₜ + β₄x₄ₜ + uₜ",
+     "options": [
+      "It is not linear and hence it cannot be estimated with OLS",
+      "It suffers of heteroscedasticity and must use a White correction",
+      "Is equivalent to have no constant.",
+      "None of the above"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "A",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: A (bold in the solutions).",
+    "Route 1: the 2a 'Linearity' slide: linear in the parameters means the parameters are 'not multiplied together, divided, squared or cubed' — here x₂ₜ is divided by β₂.",
+    "Route 2: B is about the errors, not the functional form; C is false because β₁ is still a constant. Follow the slide's definition on the exam."
+   ],
+   "citations": [
+    {
+     "deck": "L2",
+     "slide": 21,
+     "quote": "Linear in the parameters means that the parameters are not multiplied together, divided, squared or cubed etc."
+    }
+   ],
+   "slides": [
+    21
+   ],
+   "slide_groups": [
+    "L2-3"
+   ],
+   "units": [
+    "L2-U8"
+   ],
+   "est_minutes": 1,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30285-L2C-12",
+   "course": "30285",
+   "deck": "L2C",
+   "topic": "The restricted regression for 2β₂ = β₃",
+   "syllabus_objective": "Building the restricted regression for an F-test",
+   "shape": "concept MCQ",
+   "stem": "Consider the following regression:\nyₜ = β₁ + β₂x₂ₜ + β₃x₃ₜ + β₄x₄ₜ + uₜ\nYou want to test H_0: 2β₂=β₃.",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Practice Quiz/Practice_1_Solutions.docx",
+    "location": "Practice #1 (Practice Quiz folder), question 5 (options printed as separate numbered lines); text copied from the .docx text layer on 2026-09-24; the Greek letters are Symbol-font characters in the file and were read back as β, and the subscripts are written as Unicode subscripts; the official answer is the option set in bold",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "You want to test H_0: 2β₂=β₃.",
+     "options": [
+      "You can use a regular t-stat",
+      "You cannot test this restriction",
+      "The companion restricted regression for an F-test is: yₜ = β₁ + β₂(x₂ₜ + 2 x₃ₜ ) + β₄x₄ₜ + uₜ",
+      "None of the above"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: C (bold in the solutions).",
+    "Route 1: substitute the restriction β₃ = 2β₂: β₂x₂ₜ + 2β₂x₃ₜ = β₂(x₂ₜ + 2x₃ₜ) — the restricted regression in C.",
+    "Route 2: the restriction involves two coefficients, so a regular t-stat on one coefficient does not test it (A); it is one linear restriction (m = 1), testable with the F-test (B is false)."
+   ],
+   "citations": [
+    {
+     "deck": "L2C",
+     "slide": 11,
+     "quote": "This is the restricted regression. We actually estimate it by creating two new variables"
+    }
+   ],
+   "slides": [
+    11
+   ],
+   "slide_groups": [
+    "L2C-2"
+   ],
+   "units": [
+    "L2C-U5",
+    "L2C-U4"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30285-L2C-13",
+   "course": "30285",
+   "deck": "L2C",
+   "topic": "The restricted regression for 2β₂ = β₃ (variant)",
+   "syllabus_objective": "Building the restricted regression for an F-test",
+   "shape": "concept MCQ",
+   "stem": "Consider the following regression:\nyₜ = β₁ + β₂x₂ₜ + β₃x₃ₜ + β₄x₄ₜ + uₜ\nYou want to test H_0: 2β₂=β₃.",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Practice Exam/Practice_1_Solutions.docx",
+    "location": "Practice #1 (Practice Exam folder), question 3 (its options are printed as questions 5-8 of the numbered list); text copied from the .docx text layer on 2026-09-24; the Greek letters are Symbol-font characters in the file and were read back as β, and the subscripts are written as Unicode subscripts; the official answer is the option set in bold",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "You want to test H_0: 2β₂=β₃.",
+     "options": [
+      "You can use a regular t-stat",
+      "You cannot test this restriction",
+      "The companion restricted regression for an F-test is: yₜ = β₁ + β₂(2x₂ₜ +  x₃ₜ ) + β₄x₄ₜ + uₜ",
+      "None of the above"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: D (bold in the solutions).",
+    "Route 1: with β₃ = 2β₂ the restricted regression is yₜ = β₁ + β₂(x₂ₜ + 2x₃ₜ) + β₄x₄ₜ + uₜ; option C puts the 2 on x₂ₜ, which imposes β₃ = β₂/2 instead.",
+    "Route 2: A and B are false as in the quiz version (a single-coefficient t-stat does not test a restriction across two coefficients; the restriction is testable). Nothing else is right, so D."
+   ],
+   "citations": [
+    {
+     "deck": "L2C",
+     "slide": 11,
+     "quote": "This is the restricted regression. We actually estimate it by creating two new variables"
+    }
+   ],
+   "slides": [
+    11
+   ],
+   "slide_groups": [
+    "L2C-2"
+   ],
+   "units": [
+    "L2C-U5",
+    "L2C-U4"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30285-L2C-14",
+   "course": "30285",
+   "deck": "L2C",
+   "topic": "Size of the variance-covariance matrix",
+   "syllabus_objective": "Multiple regression: the K×K variance-covariance matrix of β̂",
+   "shape": "concept MCQ",
+   "stem": "Consider the following regression:\nyₜ = β₁ + β₂ x₂ₜ + β₃x₃ₜ + β₄x₄ₜ + uₜ",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Practice Quiz/Practice_2_Solutions.docx",
+    "location": "Practice #2 (Practice Quiz folder), question 6 (options printed as separate numbered lines); text copied from the .docx text layer on 2026-09-24; the Greek letters are Symbol-font characters in the file and were read back as β, and the subscripts are written as Unicode subscripts; the official answer is the option set in bold",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "yₜ = β₁ + β₂ x₂ₜ + β₃x₃ₜ + β₄x₄ₜ + uₜ",
+     "options": [
+      "The variance-covariance matrix of the ols estimator will be 4-by-4",
+      "The variance-covariance matrix of the ols estimator will be T-by-T",
+      "Your standard errors may be extremely large",
+      "None of the above"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "A",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: A (bold in the solutions).",
+    "Route 1: k = 4 coefficients (including the constant), so Var(β̂) = σ²(X′X)⁻¹ is k × k = 4 × 4.",
+    "Route 2: X is T × 4, so X′X is (4 × T)(T × 4) = 4 × 4; the T × T matrix is Var(u) = σ²I_T, not Var(β̂). Nothing in the question points to large standard errors."
+   ],
+   "citations": [
+    {
+     "deck": "L2C",
+     "slide": 7,
+     "quote": "And the (K by K) variance-covariance matrix is still"
+    }
+   ],
+   "slides": [
+    7
+   ],
+   "slide_groups": [
+    "L2C-1"
+   ],
+   "units": [
+    "L2C-U3",
+    "L2C-U2"
+   ],
+   "est_minutes": 1,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30285-L2C-10",
+   "course": "30285",
+   "deck": "L2C",
+   "topic": "Testing β₁ = β₂ with a t-stat",
+   "syllabus_objective": "t-test on a linear combination of coefficients; counting restrictions",
+   "shape": "concept MCQ",
+   "stem": "Consider the following data generating process (DGP):\nyₜ = β₀ + β₁xₜ + β₂zₜ + uₜ,\nOver a sample of T observations. Assume that our standard assumptions for the OLS estimator hold. You want to test whether H₀: β₁ = β₂",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Econometrics past exam 1.pdf",
+    "location": "Final exam 20 Dec 2021, question 3; photo of the Blackboard 'Review Test Submission' screen of the 20 Dec 2021 final; text transcribed from the image and checked word for word against the clearer screenshots in the Studocu copy (econometrics-final-exam-past-paper-2-empirical-methods-for-finance.pdf); the green tick marks the official answer",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Over a sample of T observations. Assume that our standard assumptions for the OLS estimator hold. You want to test whether H₀: β₁ = β₂",
+     "options": [
+      "This null hypothesis can be test with an F-test in which the number of restrictions is m=2",
+      "This null hypothesis can be tested with a t-stat on H₀: 2β₁ = 0 since β₁ = β₂.",
+      "This null hypothesis can be tested with a t-stat on H₀: β₁ − β₂ = 0 and it requires us to use the estimated cov(β̂₁, β̂₂)",
+      "None of the above"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: C (green tick).",
+    "Route 1: count the '=' signs: one restriction (m = 1), so A is false. Rewrite it as β₁ − β₂ = 0; t = (β̂₁ − β̂₂)/SE(β̂₁ − β̂₂) with Var(β̂₁ − β̂₂) = V(β̂₁) + V(β̂₂) − 2cov(β̂₁, β̂₂), the off-diagonal entry of σ²(X′X)⁻¹.",
+    "Route 2: B substitutes the null into itself and loses β₂; it tests a different hypothesis."
+   ],
+   "citations": [
+    {
+     "deck": "L2C",
+     "slide": 15,
+     "quote": "Count the number of ‘=’ signs!"
+    },
+    {
+     "deck": "L2C",
+     "slide": 7,
+     "quote": "And the (K by K) variance-covariance matrix is still"
+    }
+   ],
+   "slides": [
+    7,
+    15
+   ],
+   "slide_groups": [
+    "L2C-2"
+   ],
+   "units": [
+    "L2C-U7",
+    "L2C-U3",
+    "L2B-U11"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30285-L2B-10",
+   "course": "30285",
+   "deck": "L2B",
+   "topic": "What the standard assumptions give you",
+   "syllabus_objective": "Assumptions, unbiasedness and BLUE; omitted variables",
+   "shape": "concept MCQ",
+   "stem": "Consider the following data generating process (DGP):\nyₜ = β₀ + β₁xₜ + β₂zₜ + uₜ,\nOver a sample of T observations. Assume that our standard assumptions for the OLS estimator hold.",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Econometrics past exam 1.pdf",
+    "location": "Final exam 20 Dec 2021, question 7; photo of the Blackboard 'Review Test Submission' screen of the 20 Dec 2021 final; text transcribed from the image and checked word for word against the clearer screenshots in the Studocu copy (econometrics-final-exam-past-paper-2-empirical-methods-for-finance.pdf); the green tick marks the official answer",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Over a sample of T observations. Assume that our standard assumptions for the OLS estimator hold.",
+     "options": [
+      "T must be equal or greater than 4 if you want to estimate all coefficients.",
+      "The OLS estimator is unbiased and efficient given this DGP",
+      "If we omit zₜ, our estimate of β₁ is for sure unbiased",
+      "All of the above"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "B",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: B (green tick).",
+    "Route 1: under assumptions 1-4 OLS is BLUE — unbiased and, by Gauss-Markov, best (minimum variance) among linear unbiased estimators: B.",
+    "Route 2: A is false — three coefficients need T ≥ 3, not 4. C is false — omitting zₜ puts β₂zₜ in the error, which is correlated with xₜ unless corr(zₜ, xₜ) = 0 (assumption 4 fails), so 'for sure unbiased' is wrong."
+   ],
+   "citations": [
+    {
+     "deck": "L2B",
+     "slide": 10,
+     "quote": "means that the OLS estimator has minimum variance among the class of linear unbiased estimators"
+    },
+    {
+     "deck": "L2B",
+     "slide": 8,
+     "quote": "No relationship between the error and corresponding x variate"
+    }
+   ],
+   "slides": [
+    8,
+    10
+   ],
+   "slide_groups": [
+    "L2B-2"
+   ],
+   "units": [
+    "L2B-U4",
+    "L2B-U5",
+    "L2B-U6",
+    "L2B-U7",
+    "L2-U3"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30285-L2B-12",
+   "course": "30285",
+   "deck": "L2B",
+   "topic": "Distribution of a combination of the estimates",
+   "syllabus_objective": "Normality: distribution of β̂; variance of a linear combination (sandwich rule)",
+   "shape": "calc MCQ",
+   "stem": "Consider the following univariate regression:\nyₜ = β₁ + β₂xₜ + uₜ,\nOver a sample of T observations. Assume that our standard assumptions for the OLS estimator hold. Assume that V(β̂) = [16 12; 12 9] (rows separated by ';') and that the point estimates are [0; 6]. Under our standard assumptions, we can say that:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Econometrics past exam 1.pdf",
+    "location": "Final exam 20 Dec 2021, question 11 (the matrix and the vector are printed as brackets; written here row by row); photo of the Blackboard 'Review Test Submission' screen of the 20 Dec 2021 final; text transcribed from the image and checked word for word against the clearer screenshots in the Studocu copy (econometrics-final-exam-past-paper-2-empirical-methods-for-finance.pdf); the green tick marks the official answer",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Over a sample of T observations. Assume that our standard assumptions for the OLS estimator hold. Assume that V(β̂) = [16 12; 12 9] (rows separated by ';') and that the point estimates are [0; 6]. Under our standard assumptions, we can say that:",
+     "options": [
+      "β̂₁ + 3β̂₂ ~ N(18, 205)",
+      "β̂₁ ~ N(6, 16)",
+      "β̂₁ + 2β̂₂ ~ N(12, 34)",
+      "None of the above"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: D (green tick).",
+    "Route 1: β̂₁ + 3β̂₂ has mean 0 + 18 = 18 and variance 16 + 9·9 + 2·3·12 = 169, not 205 (A false); β̂₁ has mean 0, not 6 (B false); β̂₁ + 2β̂₂ has mean 12 and variance 16 + 4·9 + 2·2·12 = 100, not 34 (C false).",
+    "Route 2: sandwich rule a′V a with a = (1, 3)′ and (1, 2)′; since V = (4, 3)′(4, 3), a′V a = (4a₁ + 3a₂)² = 13² = 169 and 10² = 100. Both options drop the covariance term."
+   ],
+   "citations": [
+    {
+     "deck": "L2B",
+     "slide": 15,
+     "quote": "What if the errors are not normally distributed? Will the parameter estimates still be normally distributed?"
+    },
+    {
+     "deck": "L1C",
+     "slide": 14,
+     "quote": "Rule 4 (sandwich): the v-cov matrix of a vector Y multiplied by a matrix A of scalars"
+    }
+   ],
+   "slides": [
+    15
+   ],
+   "slide_groups": [
+    "L2B-3"
+   ],
+   "units": [
+    "L2B-U10",
+    "L2B-U8",
+    "L1C-U8"
+   ],
+   "est_minutes": 3,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30285-L2C-11",
+   "course": "30285",
+   "deck": "L2C",
+   "topic": "Python: a regression on a constant",
+   "syllabus_objective": "The sample average in a regression setting; its standard error",
+   "shape": "concept MCQ",
+   "stem": "Consider the following Python code:\nimport numpy as np\nfrom numpy.linalg import inv\n\n# convert dataframe to matrix\ny = df['LeadReal'].to_numpy()  # flat arrat\ny = y[:, None]  # 2D array (matrix)\nx = np.ones(y.shape)\nnobs = x.shape[0]\n\n# compute predicted\nalpha_hat = inv(x.T @ x) @ x.T @ y\ny_hat = x @ alpha_hat\n\n# compute residuals to get sigma hat\nres = y - y_hat\nsigma_hat = 1/(nobs - 1)*res.T @ res\nalpha_hat_se = np.sqrt(sigma_hat*inv(x.T @ x))\n\nprint(f\"alpha: {np.round(alpha_hat, 3)}.\")\nprint(f\"SE alpha: {np.round(alpha_hat_se, 3)}\")",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Econometrics past exam 1.pdf",
+    "location": "Final exam 20 Dec 2021, question 10 (code cell [20] as printed, including its comment typo 'arrat'); photo of the Blackboard 'Review Test Submission' screen of the 20 Dec 2021 final; text transcribed from the image and checked word for word against the clearer screenshots in the Studocu copy (econometrics-final-exam-past-paper-2-empirical-methods-for-finance.pdf); the green tick marks the official answer",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following Python code:",
+     "options": [
+      "All of the below",
+      "This code implements a multivariate regression",
+      "This code has a typo in the main commands",
+      "This code is what you need in order to estimate the mean of a variable"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: D (green tick).",
+    "Route 1: X is a column of ones, so (X′X)⁻¹X′y = (1/T)Σyₜ — the sample mean, as on the 2c slide 'The sample average in a regression setting'.",
+    "Route 2: SE = √(s²/T) with s² = Σ(yₜ − ȳ)²/(T − 1) (one parameter estimated) — the 1c standard error of the mean. There is one regressor (not multivariate) and the commands run as written (only a comment has a typo)."
+   ],
+   "citations": [
+    {
+     "deck": "L2C",
+     "slide": 4,
+     "quote": "Estimating the sample avg. in a regression setting"
+    },
+    {
+     "deck": "L1C",
+     "slide": 12,
+     "quote": "First, realize that across random samples the sample estimate is a random number."
+    }
+   ],
+   "slides": [
+    4
+   ],
+   "slide_groups": [
+    "L2C-1"
+   ],
+   "units": [
+    "L2C-U1",
+    "L1C-U7",
+    "L1C-U9"
+   ],
+   "est_minutes": 3,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30285-L2B-11",
+   "course": "30285",
+   "deck": "L2B",
+   "topic": "What the standard assumptions give you (variant)",
+   "syllabus_objective": "Assumptions, unbiasedness and BLUE; omitted-variable bias",
+   "shape": "concept MCQ",
+   "stem": "Consider the following data generating process (DGP):\nyₜ = β₀ + β₁xₜ + β₂zₜ + uₜ,\nOver a sample of T observations. Assume that our standard assumptions for the OLS estimator hold.",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Econometrics past exam 2.pdf",
+    "location": "Past exam 2, question 1; photo of the Blackboard review screen of another sitting (1-point questions); text transcribed from the image and checked word for word; the green tick marks the official answer",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Over a sample of T observations. Assume that our standard assumptions for the OLS estimator hold.",
+     "options": [
+      "T must be equal or greater than 3 if you want to estimate all coefficients.",
+      "The OLS estimator is unbiased and efficient given this DGP",
+      "If we omit zₜ, our estimate of β₁ is biased unless corr(zₜ, xₜ) = 0",
+      "All of the above"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: D (green tick).",
+    "Route 1: three coefficients need at least three observations (A true); assumptions 1-4 make OLS BLUE (B true).",
+    "Route 2: omitting zₜ moves β₂zₜ into the error; Cov(error, xₜ) = β₂Cov(zₜ, xₜ), zero only if the two are uncorrelated (C true). Compare the Dec 2021 version, where 'T ≥ 4' and 'for sure unbiased' made B the only answer."
+   ],
+   "citations": [
+    {
+     "deck": "L2B",
+     "slide": 8,
+     "quote": "No relationship between the error and corresponding x variate"
+    },
+    {
+     "deck": "L2B",
+     "slide": 10,
+     "quote": "means that the OLS estimator has minimum variance among the class of linear unbiased estimators"
+    }
+   ],
+   "slides": [
+    8,
+    10
+   ],
+   "slide_groups": [
+    "L2B-2"
+   ],
+   "units": [
+    "L2B-U5",
+    "L2B-U7",
+    "L2-U3"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30285-L2B-13",
+   "course": "30285",
+   "deck": "L2B",
+   "topic": "Distribution of a combination of the estimates (variant)",
+   "syllabus_objective": "Normality: distribution of β̂; variance of a linear combination",
+   "shape": "calc MCQ",
+   "stem": "Consider the following univariate regression:\nyₜ = β₁ + β₂xₜ + uₜ,\nOver a sample of T observations. Assume that our standard assumptions for the OLS estimator hold. Assume that V(β̂) = [16 12; 12 9] (rows separated by ';') and that the point estimates are [5; 1]. Under our standard assumptions, we can say that:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference/Econometrics past exam 2.pdf",
+    "location": "Past exam 2, question 5 (matrix and vector written row by row); photo of the Blackboard review screen of another sitting (1-point questions); text transcribed from the image and checked word for word; the green tick marks the official answer",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": true,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Over a sample of T observations. Assume that our standard assumptions for the OLS estimator hold. Assume that V(β̂) = [16 12; 12 9] (rows separated by ';') and that the point estimates are [5; 1]. Under our standard assumptions, we can say that:",
+     "options": [
+      "β̂₁ + 3β̂₂ ~ N(8, 25)",
+      "β̂₁ ~ N(1, 16)",
+      "β̂₁ + 2β̂₂ ~ N(11, 34)",
+      "β̂₁ + 3β̂₂ ~ N(8, 169)"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Official answer: D (green tick).",
+    "Route 1: mean 5 + 3·1 = 8; variance 16 + 9·9 + 2·3·12 = 169 → D; A leaves out the covariance and the 3² (16 + 9 = 25).",
+    "Route 2: (4a₁ + 3a₂)² with a = (1, 3) gives 13² = 169. B has the wrong mean (β̂₁ = 5); C has the wrong mean (7) and variance (100)."
+   ],
+   "citations": [
+    {
+     "deck": "L2B",
+     "slide": 15,
+     "quote": "What if the errors are not normally distributed? Will the parameter estimates still be normally distributed?"
+    }
+   ],
+   "slides": [
+    15
+   ],
+   "slide_groups": [
+    "L2B-3"
+   ],
+   "units": [
+    "L2B-U10",
+    "L2B-U8"
+   ],
+   "est_minutes": 3,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30285-L1B-13",
+   "course": "30285",
+   "deck": "L1B",
+   "topic": "Moments of a discrete return distribution and of an uncorrelated portfolio",
+   "syllabus_objective": "Expected value, variance and standard deviation from probabilities; portfolio mean and variance",
+   "shape": "written exercise (practice sheet)",
+   "stem": "Consider the following distribution of returns for an asset (A):\n\nConsider now a second asset (B) with a return distribution as follows:",
+   "data": "| Asset A: Return | Probability |\n|---|---|\n| 50 | 0.4 |\n| 20 | 0.4 |\n| 10 | 0.2 |\n\n| Asset B: Return | Probability |\n|---|---|\n| 30 | 0.3 |\n| 20 | 0.4 |\n| 10 | 0.3 |",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Practice Material/expected value, variance, and matrix operations.pdf",
+    "location": "Practice sheet 'Discrete distribution moments and matrix exercises' (V. Scrutinio, September 2026), exercises 1-2; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Compute the expected return, the variance of the return, and the standard deviation (approximate all numbers to the third decimal place where necessary).",
+     "options": [],
+     "marks": "UNKNOWN"
+    },
+    {
+     "n": "2",
+     "prompt": "Assume now that both assets are included in a portfolio and that 40% of the capital is invested in A and 60% in B. Compute the expected value and the variance of the portfolio under the assumption that the returns of the assets are uncorrelated (i.e. the correlation coefficient is zero). Remember that th expected value is a linear operator, that is, given a constant a and a random variable x, we have that E(ax) = aE(x). Approximate all numbers to the third decimal place where necessary.",
+     "options": [],
+     "marks": "UNKNOWN"
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "E(A) = 30.000; Var(A) = 280.000; SD(A) = 16.733.",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "2",
+     "answer": "E(B) = 20.000, Var(B) = 60.000; E(p) = 0.4 × 30 + 0.6 × 20 = 24.000; Var(p) = 0.4² × 280 + 0.6² × 60 = 66.400 (SD 8.149).",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": "UNKNOWN",
+   "mark_scheme": [
+    "No key in the source; solved twice (asserted in c30285.py).",
+    "[1] Route 1: E = 0.4·50 + 0.4·20 + 0.2·10 = 30; E(R²) = 0.4·2500 + 0.4·400 + 0.2·100 = 1180; Var = 1180 − 30² = 280; SD = √280 = 16.733. Route 2: deviations 20, −10, −20 → 0.4·400 + 0.4·100 + 0.2·400 = 280.",
+    "[2] E(B) = 9 + 8 + 3 = 20; Var(B) = 0.3·100 + 0 + 0.3·100 = 60. With zero correlation the covariance term drops: Var(p) = 0.16·280 + 0.36·60 = 44.8 + 21.6 = 66.4. Where marks are lost: using weights instead of squared weights (0.4·280 + 0.6·60 = 148)."
+   ],
+   "citations": [
+    {
+     "deck": "L1B",
+     "slide": 18,
+     "quote": "Expected value: think of"
+    },
+    {
+     "deck": "L1B",
+     "slide": 20,
+     "quote": "Useful formulas for a portfolio with two assets"
+    }
+   ],
+   "slides": [
+    18,
+    20
+   ],
+   "slide_groups": [
+    "L1B-3"
+   ],
+   "units": [
+    "L1B-U8",
+    "L1B-U9",
+    "L1B-U10"
+   ],
+   "est_minutes": 8,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30285-L1C-10",
+   "course": "30285",
+   "deck": "L1C",
+   "topic": "A row vector times a matrix times a transpose",
+   "syllabus_objective": "Matrix multiplication and transposes",
+   "shape": "written exercise (practice sheet)",
+   "stem": "Matrix product:\nConsider the two following matrices A and B and the vector x.\nA = [3 5; 2 1; −1 1]\nB = [3 −2; 1 1]\nx = (1 4 0)",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Practice Material/expected value, variance, and matrix operations.pdf",
+    "location": "Practice sheet 'Discrete distribution moments and matrix exercises' (V. Scrutinio, September 2026), exercise 3; text checked against the PDF text layer on 2026-09-24 (matrices written row by row)",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Perform the following computation: xAB′",
+     "options": [],
+     "marks": "UNKNOWN"
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "xAB′ = (15, 20).",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": "UNKNOWN",
+   "mark_scheme": [
+    "No key in the source; solved twice (asserted in c30285.py).",
+    "Route 1: xA = (1·3 + 4·2 + 0·(−1), 1·5 + 4·1 + 0·1) = (11, 9); B′ = [3 1; −2 1]; (11, 9)B′ = (33 − 18, 11 + 9) = (15, 20).",
+    "Route 2: AB′ = [−1 8; 4 3; −5 0]; x(AB′) = (−1 + 16, 8 + 12) = (15, 20). Dimensions: (1×3)(3×2)(2×2) = 1×2."
+   ],
+   "citations": [
+    {
+     "deck": "L1C",
+     "slide": 5,
+     "quote": "Matrix multiplication rule: Definitions"
+    }
+   ],
+   "slides": [
+    5
+   ],
+   "slide_groups": [
+    "L1C-1"
+   ],
+   "units": [
+    "L1C-U2",
+    "L1C-U3"
+   ],
+   "est_minutes": 4,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30285-L1B-02",
+   "course": "30285",
+   "deck": "L1B",
+   "topic": "Data dimensions, number scales and data quality",
+   "syllabus_objective": "Financial econometrics and its data: time series, cross-section, panel; cardinal, ordinal and nominal numbers; data quality",
+   "shape": "concept MCQ (statements)",
+   "stem": "Financial data: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/1b_Introduction_to_Content.pdf",
+    "location": "1b slides: goal of financial econometrics, good news about the data, data dimensions, cardinal/ordinal/nominal",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about financial data.\n\nI. Daily closing prices of the 40 DAX stocks from 2015 to 2024 form a panel; if some of the stocks were listed only in 2018, it is not a balanced panel.\nII. Credit ratings coded AAA = 1, AA = 2, A = 3, BBB = 4 are ordinal: a bond coded 4 is riskier than one coded 2, but not twice as risky.\nIII. A code for the exchange a stock trades on (1 = NYSE, 2 = Nasdaq) is ordinal, because a Nasdaq stock gets the higher number.\nIV. Share prices are cardinal: a price of €12 is twice a price of €6.\nV. Because recorded prices are those at which the trade took place, financial data have no measurement error and are not noisy.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II, III and IV only",
+      "II and IV only",
+      "I, II, IV and V only",
+      "I, II and IV only"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "code_read_as_ordinal",
+     "trap": "1:A code read as ordinal"
+    },
+    {
+     "tag": "unbalanced_panel_read_as_not_a_panel",
+     "trap": "1:B unbalanced panel read as not a panel"
+    },
+    {
+     "tag": "no_error_read_as_no_noise",
+     "trap": "1:C no error read as no noise"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) I: T (days) and N (stocks) → panel; different time spans → not balanced — true; (2) II: ratings only order the bonds — ordinal, 'better' but not 'twice as good' — true; (3) III: exchange codes are arbitrary labels — nominal, not ordinal — false; (4) IV: prices have equal distances and a meaningful ratio — cardinal — true; (5) V: the slide says there is no measurement error but financial data are 'noisy' — false; (6) I, II and IV.",
+    "Second route: II, III and IV are the slide's three scales (ordering with no ratio, no ordering, ratios meaningful); only III gives a label an order it does not have."
+   ],
+   "citations": [
+    {
+     "deck": "L1B",
+     "slide": 6,
+     "quote": "When all series have the same time-span, we call it Balanced Panel."
+    },
+    {
+     "deck": "L1B",
+     "slide": 10,
+     "quote": "Nominal numbers: occur where there is no natural ordering of the values at all."
+    },
+    {
+     "deck": "L1B",
+     "slide": 4,
+     "quote": "No possibility for measurement error but financial data are “noisy”"
+    }
+   ],
+   "slides": [
+    4,
+    6,
+    10
+   ],
+   "slide_groups": [
+    "L1B-1"
+   ],
+   "est_minutes": 4,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "calc MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "extra_classification"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L1B-U1",
+    "L1B-U2",
+    "L1B-U3",
+    "L1B-U4"
+   ]
+  },
+  {
+   "id": "30285-L1B-03",
+   "course": "30285",
+   "deck": "L1B",
+   "topic": "Expected value, variance, covariance, correlation and a near-riskless portfolio",
+   "syllabus_objective": "Risk: expected values from probabilities, variance, covariance and correlation, portfolio variance",
+   "shape": "numerical MCQ with derivation",
+   "stem": "Next year's returns (%) on two assets depend on the state of the economy.",
+   "data": "| State | Probability | Asset 1 | Asset 2 |\n|---|---|---|---|\n| Boom | 0.25 | 20 | −5 |\n| Normal | 0.50 | 10 | 5 |\n| Bust | 0.25 | −4 | 15 |",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/1b_Introduction_to_Content.pdf",
+    "location": "1b slides: averages and expected values, variance, variance of a sum and covariance, correlation",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Invest 40% in asset 1 and 60% in asset 2. What are the portfolio's expected return and standard deviation, and the correlation between the two assets?",
+     "options": [
+      "E(Rp) = 6.6%; σ(Rp) = 0.94%; corr = -0.99",
+      "E(Rp) = 6.6%; σ(Rp) = 3.91%; corr = -0.99",
+      "E(Rp) = 6.6%; σ(Rp) = 5.45%; corr = -0.99",
+      "E(Rp) = 6.6%; σ(Rp) = 0.94%; corr = -0.49"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "A",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "covariance_term_not_doubled",
+     "trap": "1:B covariance term not doubled"
+    },
+    {
+     "tag": "covariance_term_dropped",
+     "trap": "1:C covariance term dropped"
+    },
+    {
+     "tag": "correlation_over_sum_of_variances",
+     "trap": "1:D correlation over sum of variances"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) E(R1) = 5 + 5 − 1 = 9; (2) E(R2) = −1.25 + 2.5 + 3.75 = 5; (3) V(R1) = 0.25·121 + 0.5·1 + 0.25·169 = 73; (4) V(R2) = 0.25·100 + 0 + 0.25·100 = 50; (5) COV = 0.25·(11)(−10) + 0.5·(1)(0) + 0.25·(−13)(10) = −60; (6) corr = −60/√(73·50) = -0.993; (7) V(Rp) = 0.16·73 + 0.36·50 + 2·0.4·0.6·(−60) = 11.68 + 18 − 28.8 = 0.88; σ = 0.938%; E(Rp) = 6.6%.",
+    "Second route: portfolio return by state = 5, 7, 7.4 → mean 6.6, variance 0.25·2.56 + 0.5·0.16 + 0.25·0.64 = 0.88 (asserted).",
+    "Where marks are lost: dropping or not doubling the covariance term, dividing the covariance by the sum of the variances instead of the product of the standard deviations."
+   ],
+   "citations": [
+    {
+     "deck": "L1B",
+     "slide": 20,
+     "quote": "Useful formulas for a portfolio with two assets"
+    },
+    {
+     "deck": "L1B",
+     "slide": 23,
+     "quote": "The correlation between two variables ranges from -1 (perfectly inverse) to +1 (perfect positive)."
+    },
+    {
+     "deck": "L1B",
+     "slide": 19,
+     "quote": "Variance: Average value of squared deviations from mean"
+    }
+   ],
+   "slides": [
+    19,
+    20,
+    23
+   ],
+   "slide_groups": [
+    "L1B-3"
+   ],
+   "est_minutes": 5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "calc MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 8,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "chain",
+     "extra_step",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L1B-U8",
+    "L1B-U9",
+    "L1B-U10",
+    "L1B-U11",
+    "L2-U5"
+   ]
+  },
+  {
+   "id": "30285-L1C-02",
+   "course": "30285",
+   "deck": "L1C",
+   "topic": "X′X, X′y, conformability and a matrix sum",
+   "syllabus_objective": "Linear algebra: vectors and matrices, transposes, multiplication and sums",
+   "shape": "concept MCQ (statements)",
+   "stem": "Matrix algebra: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/1c_LinearAlgebra_and_Inference_v2.pdf",
+    "location": "1c slides: vectors and matrices, multiplication (X′X example), sums",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "X = [1 2; 1 −1; 1 4] (3 × 2), y = (3, 0, 6)′ and A = [2 1; 0 3]. Rows are separated by ';'.\n\nI. X′X = [3 5; 5 21].\nII. X′y = (9, 30)′.\nIII. XA is 3 × 2 and its first row is (2, 7).\nIV. AX is defined and is 2 × 2.\nV. X′X + A = [5 6; 5 24], and it is symmetric like X′X.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II, III and IV only",
+      "I, II and III only",
+      "I, II, III and V only",
+      "I and III only"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "B",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "non_conformable_product",
+     "trap": "1:A non conformable product"
+    },
+    {
+     "tag": "sum_assumed_symmetric",
+     "trap": "1:C sum assumed symmetric"
+    },
+    {
+     "tag": "xty_rows_and_columns_mixed",
+     "trap": "1:D xty rows and columns mixed"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) X′X: 1+1+1 = 3; 2−1+4 = 5; 4+1+16 = 21 — I true; (2) X′y: 3+0+6 = 9; 6+0+24 = 30 — II true; (3) XA: (3×2)(2×2) = 3×2; row 1 = (1·2 + 2·0, 1·1 + 2·3) = (2, 7) — III true; (4) AX: (2×2)(3×2) — 2 ≠ 3, not conformable — IV false; (5) X′X + A = [5 6; 5 24] is right but 6 ≠ 5, so it is not symmetric — V false; (6) I, II and III.",
+    "Second route: the off-diagonal of X′X with a column of ones is the sum of the regressor (2 − 1 + 4 = 5); a product AB is defined only if A's columns equal B's rows."
+   ],
+   "citations": [
+    {
+     "deck": "L1C",
+     "slide": 5,
+     "quote": "Matrix multiplication rule: Definitions"
+    },
+    {
+     "deck": "L1C",
+     "slide": 6,
+     "quote": "Rule to sum up matrices: Definitions"
+    },
+    {
+     "deck": "L1C",
+     "slide": 4,
+     "quote": "Def of a Matrix A matrix with dimension T (rows) × N (columns) is a collection of N column vectors with T entries."
+    }
+   ],
+   "slides": [
+    4,
+    5,
+    6
+   ],
+   "slide_groups": [
+    "L1C-1"
+   ],
+   "est_minutes": 5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "calc MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 7,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "extra_step"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L1C-U2",
+    "L1C-U3",
+    "L1C-U4"
+   ]
+  },
+  {
+   "id": "30285-L2-02",
+   "course": "30285",
+   "deck": "L2",
+   "topic": "Regression vocabulary, residuals and what the disturbance captures",
+   "syllabus_objective": "Regression basics: dependent and independent variables; the line of best fit; the disturbance term",
+   "shape": "concept MCQ (statements)",
+   "stem": "Simple regression: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/2_Simple_LinRegr.pdf",
+    "location": "2a slides: regression, notation, fund XXX data, line of best fit, disturbance, using the estimates",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about the simple regression yₜ = α + βxₜ + uₜ of the fund XXX example.\n\nI. In the fund XXX regression, the fund's excess return is the regressand (the explained, LHS variable) and the market's excess return is the regressor (the explanatory, RHS variable).\nII. With the slide's fitted line ŷₜ = −1.74 + 1.64xₜ, the residual is +2.69 pp in year 2 (x = 23.2, y = 39.0) and -1.23 pp in year 5 (x = 12.3, y = 17.2).\nIII. The disturbance uₜ captures errors in measuring the market's excess return xₜ; errors in measuring yₜ are ruled out because prices are transaction prices.\nIV. If the fund's returns also depend on its exposure to small caps, which the regression leaves out, that effect ends up in uₜ.\nV. The disturbance is needed only when T is small: with enough years, the points would lie exactly on y = a + bx.\n\nWhich of the statements are correct?",
+     "options": [
+      "I and IV only",
+      "I, II and IV only",
+      "I, II, IV and V only",
+      "I, II, III and IV only"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "B",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "residual_sign_reversed",
+     "trap": "1:A residual sign reversed"
+    },
+    {
+     "tag": "disturbance_only_small_samples",
+     "trap": "1:C disturbance only small samples"
+    },
+    {
+     "tag": "measurement_error_in_x",
+     "trap": "1:D measurement error in x"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) I: y = regressand/LHS, x = regressor/RHS — true; (2) II: ŷ₂ = −1.74 + 1.64·23.2 = 36.308, û₂ = +2.692; ŷ₅ = 18.432, û₅ = -1.232 — true; (3) III: the slide lists errors in the measurement of yₜ, not xₜ — false; (4) IV: an omitted determinant is the first item on the slide's list — true; (5) V: random outside influences never vanish with more data; y = a + bx is 'completely deterministic' — false; (6) I, II and IV.",
+    "Second route for II: residual = actual − fitted; the fund beat the line in year 2 and fell short in year 5, so the signs are + and −."
+   ],
+   "citations": [
+    {
+     "deck": "L2",
+     "slide": 4,
+     "quote": "Denote the dependent variable by y and the independent variable(s) by x1, x2, ... , xk"
+    },
+    {
+     "deck": "L2",
+     "slide": 10,
+     "quote": "There may be errors in the measurement of yt that cannot be modelled."
+    },
+    {
+     "deck": "L2",
+     "slide": 7,
+     "quote": "Suppose that we have the following data on the excess returns on a fund manager’s portfolio"
+    }
+   ],
+   "slides": [
+    4,
+    7,
+    10
+   ],
+   "slide_groups": [
+    "L2-1"
+   ],
+   "est_minutes": 5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "calc MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 7,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "extra_step"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L2-U1",
+    "L2-U2",
+    "L2-U3"
+   ]
+  },
+  {
+   "id": "30285-L2-03",
+   "course": "30285",
+   "deck": "L2",
+   "topic": "Linear in parameters, transformations and extrapolating the intercept",
+   "syllabus_objective": "Important issues: linearity and transformations; accuracy of the intercept; population vs sample",
+   "shape": "concept MCQ (statements)",
+   "stem": "OLS: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/2_Simple_LinRegr.pdf",
+    "location": "2a slides: linearity, linear and non-linear models, accuracy of the intercept, population and sample",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about what OLS can estimate and how far to trust it.\n\nI. yₜ = β₁ + β₂ ln(xₜ) + uₜ can be estimated by OLS after defining zₜ = ln(xₜ).\nII. Yₜ = e^β₁ · Xₜ^β₂ · e^uₜ can be estimated by OLS after taking logs of both sides.\nIII. yₜ = β₁ + β₂xₜ^β₃ + uₜ is linear in the parameters, because only xₜ is raised to a power.\nIV. The fund XXX line was estimated with market excess returns between 6.9% and 23.2%, so its intercept of −1.74 is a precise estimate of the fund's excess return when the market's excess return is zero.\nV. Across different random samples the OLS estimate β̂ changes, so β̂ is a random variable; its standard error measures this estimation uncertainty.\n\nWhich of the statements are correct?",
+     "options": [
+      "I and V only",
+      "I, II, IV and V only",
+      "I, II, III and V only",
+      "I, II and V only"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "log_model_not_linearised",
+     "trap": "1:A log model not linearised"
+    },
+    {
+     "tag": "intercept_extrapolated",
+     "trap": "1:B intercept extrapolated"
+    },
+    {
+     "tag": "power_of_x_read_as_linear",
+     "trap": "1:C power of x read as linear"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) I: nonlinear in the variable only; substitute zₜ = ln xₜ — true; (2) II: logs give ln Yₜ = β₁ + β₂ ln Xₜ + uₜ, linear in β₁, β₂ — true; (3) III: β₃ is an exponent on a parameter's regressor — intrinsically non-linear — false; (4) IV: no observations near x = 0, so the intercept is an extrapolation — false; (5) V: the estimator is a random variable across samples — true; (6) I, II and V.",
+    "Second route: apply the slide's test to each model — are the parameters multiplied, divided or raised to a power? Only III fails it."
+   ],
+   "citations": [
+    {
+     "deck": "L2",
+     "slide": 21,
+     "quote": "Linear in the parameters means that the parameters are not multiplied together, divided, squared or cubed etc."
+    },
+    {
+     "deck": "L2",
+     "slide": 23,
+     "quote": "Care needs to be exercised when considering the intercept estimate, particularly if there are no or few observations close to the y-axis"
+    },
+    {
+     "deck": "L2",
+     "slide": 24,
+     "quote": "Since our samples are not identical to the population, our estimates are subject to estimation uncertainty."
+    }
+   ],
+   "slides": [
+    21,
+    23,
+    24
+   ],
+   "slide_groups": [
+    "L2-3"
+   ],
+   "est_minutes": 5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "calc MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 7,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "extra_classification",
+     "extra_step"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L2-U8",
+    "L2-U9",
+    "L2-U10",
+    "L1C-U6"
+   ]
+  },
+  {
+   "id": "30285-L2B-02",
+   "course": "30285",
+   "deck": "L2B",
+   "topic": "OLS by matrix algebra: X′X, its inverse and β̂",
+   "syllabus_objective": "OLS in matrix form: inverse of a 2×2 matrix, X′X and X′Y, the estimator β̂ = (X′X)⁻¹X′Y",
+   "shape": "numerical MCQ with derivation",
+   "stem": "Four observations: Z = (0, 1, 2, 3)′ and Y = (1, 3, 4, 6)′. The regression is Y = Xβ + u with X = [1_T Z] (T × 2).",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/2b_Simple_LinRegr_Inference.pdf",
+    "location": "2b slides: inverse of a squared matrix, definitions, linear regression in matrix format, extra derivations",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Using β̂ = (X′X/T)⁻¹(X′Y/T) with X = [1_T Z], what is β̂ = (β̂₁, β̂₂)′ (constant first), and the fitted value when z = 5?",
+     "options": [
+      "β̂ = (1.1, 1.6)′; ŷ at z = 5 is 9.1",
+      "β̂ = (18.5, 10.0)′; ŷ at z = 5 is 68.5",
+      "β̂ = (22.0, 32.0)′; ŷ at z = 5 is 182.0",
+      "β̂ = (1.6, 1.1)′; ŷ at z = 5 is 7.1"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "A",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "off_diagonal_signs_not_flipped",
+     "trap": "1:B off diagonal signs not flipped"
+    },
+    {
+     "tag": "determinant_left_out",
+     "trap": "1:C determinant left out"
+    },
+    {
+     "tag": "constant_and_slope_swapped",
+     "trap": "1:D constant and slope swapped"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) X′X = [4 6; 6 14]; (2) det = 4·14 − 6·6 = 20; (3) (X′X)⁻¹ = (1/20)[14 −6; −6 4]; (4) X′Y = (14, 29)′; (5) β̂₁ = (14·14 − 6·29)/20 = 22/20 = 1.1; (6) β̂₂ = (−6·14 + 4·29)/20 = 32/20 = 1.6; (7) ŷ = 1.1 + 1.6·5 = 9.1. The T's cancel: (X′X/T)⁻¹(X′Y/T) = (X′X)⁻¹X′Y.",
+    "Second route: β̂₂ = cov(y, z)/var(z) = 8/5 = 1.6; β̂₁ = ȳ − β̂₂z̄ = 3.5 − 2.4 = 1.1 (asserted).",
+    "Where marks are lost: not flipping the signs of the off-diagonal entries, forgetting to divide by the determinant, swapping the constant and the slope."
+   ],
+   "citations": [
+    {
+     "deck": "L2B",
+     "slide": 3,
+     "quote": "Computation: in the 2x2 case"
+    },
+    {
+     "deck": "L2B",
+     "slide": 5,
+     "quote": "Using FOCs, one can prove that the OLS estimator can be expressed as"
+    },
+    {
+     "deck": "L2B",
+     "slide": 4,
+     "quote": "has dimension T by 1 (vector!) and represents the linear regression setting!"
+    }
+   ],
+   "slides": [
+    3,
+    4,
+    5
+   ],
+   "slide_groups": [
+    "L2B-1"
+   ],
+   "est_minutes": 5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "calc MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 7,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "chain",
+     "cross_section",
+     "extra_step"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L2B-U1",
+    "L2B-U2",
+    "L2B-U3"
+   ]
+  },
+  {
+   "id": "30285-L2B-03",
+   "course": "30285",
+   "deck": "L2B",
+   "topic": "Which assumption does what: bias, BLUE, s², test errors and a standard error",
+   "syllabus_objective": "Assumptions 1-4; unbiasedness vs efficiency; BLUE; estimating σ²; variance of β̂; type I and II errors",
+   "shape": "concept MCQ (statements)",
+   "stem": "OLS properties: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/2b_Simple_LinRegr_Inference.pdf",
+    "location": "2b slides: PRF and SRF, assumptions, implications, BLUE, variance of the estimator, estimation of σ², inference errors",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about the assumptions and properties of OLS in yₜ = α + βxₜ + uₜ.\n\nI. If an omitted variable that is correlated with xₜ ends up in uₜ, then Cov(uₜ, xₜ) ≠ 0 and OLS is biased.\nII. If Var(uₜ) grows with xₜ, the OLS estimator is biased.\nIII. In a simple regression with T = 12 and Σûₜ² = 40, the estimate of σ² is s² = 4.0.\nIV. 'Best' in BLUE means that OLS has the smallest variance of all estimators, linear or not.\nV. Lowering the size of a test from 5% to 1% makes a type I error less likely and a type II error more likely.\nVI. With s² = 4.0 and Σ(xₜ − x̄)² = 25, SE(β̂) = 0.4.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II, III, V and VI only",
+      "I, III, IV, V and VI only",
+      "I, V and VI only",
+      "I, III, V and VI only"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "heteroscedasticity_read_as_bias",
+     "trap": "1:A heteroscedasticity read as bias"
+    },
+    {
+     "tag": "best_among_all_estimators",
+     "trap": "1:B best among all estimators"
+    },
+    {
+     "tag": "s2_divided_by_T",
+     "trap": "1:C s2 divided by T"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) I: assumption 4 (Cov(uₜ, xₜ) = 0) fails → biased — true; (2) II: a non-constant variance breaks assumption 2, which BLUE needs, but unbiasedness needs only E(u|X) = 0 — false; (3) III: s² = 40/(12 − 2) = 4.0 (not 40/12 = 3.33) — true; (4) IV: 'best' is among linear unbiased estimators (Gauss-Markov) — false; (5) V: a smaller size means fewer false rejections and more failures to reject a false null — true; (6) VI: SE = √(s²/Σ(x − x̄)²) = √(4/25) = 0.4 — true; (7) I, III, V and VI.",
+    "Second route for VI: Var(β̂₂) = σ²/(T·V(x)) on the slide, and T·V(x) = Σ(x − x̄)² = 25."
+   ],
+   "citations": [
+    {
+     "deck": "L2B",
+     "slide": 8,
+     "quote": "No relationship between the error and corresponding x variate"
+    },
+    {
+     "deck": "L2B",
+     "slide": 10,
+     "quote": "means that the OLS estimator has minimum variance among the class of linear unbiased estimators"
+    },
+    {
+     "deck": "L2B",
+     "slide": 17,
+     "quote": "Reducing the probability of type I error increases 1:1 the prob of type 2 error."
+    }
+   ],
+   "slides": [
+    8,
+    10,
+    17
+   ],
+   "slide_groups": [
+    "L2B-2"
+   ],
+   "est_minutes": 5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "calc MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 7,
+      "concepts": 4
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "extra_step",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L2B-U5",
+    "L2B-U6",
+    "L2B-U7",
+    "L2B-U8",
+    "L2B-U9",
+    "L2B-U12"
+   ]
+  },
+  {
+   "id": "30285-L2C-02",
+   "course": "30285",
+   "deck": "L2C",
+   "topic": "Reading the K × K variance-covariance matrix: a t-test on β₂ − β₃",
+   "syllabus_objective": "Multiple regression: the K×K variance-covariance matrix σ²(X′X)⁻¹; testing a linear combination; variance of a combination",
+   "shape": "numerical MCQ with derivation",
+   "stem": "yₜ = β₁ + β₂x₂ₜ + β₃x₃ₜ + uₜ is estimated by OLS on T = 53 observations: β̂ = (0.5, 1.2, 0.7)′ and the estimated variance-covariance matrix of β̂ is [0.04 0.00 0.01; 0.00 0.09 0.05; 0.01 0.05 0.16] (rows separated by ';').",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/2c_LinearRegr_FTest.pdf",
+    "location": "2c slides: multiple linear regression, OLS results; 2b hypothesis testing; 1c sandwich rule",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Test H₀: β₂ = β₃ at 5% (two-sided; t with 50 degrees of freedom, critical value 2.01). What are the t-statistic and the decision, and what is the variance of β̂₂ + 2β̂₃?",
+     "options": [
+      "t = 0.85, do not reject H₀; V(β̂₂ + 2β̂₃) = 0.53",
+      "t = 3.33, reject H₀; V(β̂₂ + 2β̂₃) = 0.93",
+      "t = 1.29, do not reject H₀; V(β̂₂ + 2β̂₃) = 0.93",
+      "t = 1.00, do not reject H₀; V(β̂₂ + 2β̂₃) = 0.73"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "covariance_sign_flipped",
+     "trap": "1:A covariance sign flipped"
+    },
+    {
+     "tag": "variance_not_square_rooted",
+     "trap": "1:B variance not square rooted"
+    },
+    {
+     "tag": "covariance_ignored",
+     "trap": "1:D covariance ignored"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) the matrix is K × K = 3 × 3 and V(β̂₂) = 0.09, V(β̂₃) = 0.16, cov = 0.05; (2) β̂₂ − β̂₃ = 0.5; (3) V(β̂₂ − β̂₃) = 0.09 + 0.16 − 2·0.05 = 0.15; (4) SE = √0.15 = 0.3873; (5) t = 0.5/0.3873 = 1.291 < 2.01 → do not reject; (6) V(β̂₂ + 2β̂₃) = 0.09 + 4·0.16 + 2·2·0.05 = 0.93.",
+    "Second route: a′Va with a = (0, 1, −1)′ and (0, 1, 2)′ — the sandwich rule (asserted).",
+    "Where marks are lost: dropping the covariance, adding it with the wrong sign, dividing by the variance instead of the standard error; degrees of freedom T − k = 50."
+   ],
+   "citations": [
+    {
+     "deck": "L2C",
+     "slide": 7,
+     "quote": "And the (K by K) variance-covariance matrix is still"
+    },
+    {
+     "deck": "L2C",
+     "slide": 6,
+     "quote": "Just add more columns to your X matrix and more betas!!"
+    },
+    {
+     "deck": "L2B",
+     "slide": 16,
+     "quote": "Use a N(0,1) for (2-0)/0.5 = 4"
+    }
+   ],
+   "slides": [
+    6,
+    7
+   ],
+   "slide_groups": [
+    "L2C-1"
+   ],
+   "est_minutes": 5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "calc MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "cross_section",
+     "extra_step",
+     "what_if_followon"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L2C-U2",
+    "L2C-U3",
+    "L2B-U10",
+    "L2B-U11"
+   ]
+  },
+  {
+   "id": "30285-L2C-03",
+   "course": "30285",
+   "deck": "L2C",
+   "topic": "R², adjusted R² and the regression F-test from the sums of squares",
+   "syllabus_objective": "Goodness of fit: TSS = ESS + RSS, R², R² and the F-test, adjusted R²",
+   "shape": "concept MCQ (statements)",
+   "stem": "Goodness of fit: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/2c_LinearRegr_FTest.pdf",
+    "location": "2c slides: defining R², R² and the F-test, adjusted R²",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "A regression with a constant and three regressors (k = 4) on T = 45 observations has TSS = 200 and RSS = 150.\n\nI. R² = 0.25 and the explained sum of squares is 50.\nII. Adjusted R² is about 0.195.\nIII. The F-statistic for H₀: β₂ = β₃ = β₄ = 0 is about 4.56, with (3, 41) degrees of freedom.\nIV. Adding a fifth regressor that lowers the RSS to 147 raises both R² and adjusted R².\nV. With the F(3, 41) critical value of 2.83 at 5%, we reject that all slope coefficients are zero.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II, III, IV and V only",
+      "I, II, III and V only",
+      "I, III and V only",
+      "I, II and III only"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "B",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "adjusted_r2_always_rises",
+     "trap": "1:A adjusted r2 always rises"
+    },
+    {
+     "tag": "adjusted_r2_formula_misapplied",
+     "trap": "1:C adjusted r2 formula misapplied"
+    },
+    {
+     "tag": "f_statistic_not_compared",
+     "trap": "1:D f statistic not compared"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) R² = 1 − 150/200 = 0.25; ESS = 200 − 150 = 50 — I true; (2) adj R² = 1 − (44/41)(0.75) = 0.1951 — II true; (3) F = (0.25/0.75)(41/3) = 4.556 with (k − 1, T − k) = (3, 41) — III true; (4) new R² = 0.265 but adj R² = 1 − (44/40)(0.735) = 0.1915 falls — IV false; (5) 4.56 > 2.83 → reject — V true; (6) I, II, III and V.",
+    "Second route for III: F = (ESS/3)/(RSS/41) = 16.667/3.659 = 4.556 (asserted).",
+    "Where marks are lost: assuming adjusted R² always rises with R², using (T − 1)/(T − k) the wrong way up, reading the degrees of freedom in the wrong order."
+   ],
+   "citations": [
+    {
+     "deck": "L2C",
+     "slide": 18,
+     "quote": "R2 must always lie between zero and one"
+    },
+    {
+     "deck": "L2C",
+     "slide": 20,
+     "quote": "The F-test for the assumption that all coefficients are null, except the intercept"
+    },
+    {
+     "deck": "L2C",
+     "slide": 21,
+     "quote": "So if we add an extra regressor, k increases and unless R2 increases by a more than offsetting amount"
+    }
+   ],
+   "slides": [
+    18,
+    20,
+    21
+   ],
+   "slide_groups": [
+    "L2C-3"
+   ],
+   "est_minutes": 5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "calc MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 7,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "what_if_followon",
+     "extra_step",
+     "near_true_statements"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "L2C-U9",
+    "L2C-U10",
+    "L2C-U11"
+   ]
   }
  ],
  "courses": [
@@ -722,8 +2938,8 @@
    "format_profile": [
     {
      "item": "Final exam",
-     "value": "multiple choice only, including derivations; 60% or 80% of the grade (Dec/Jan), quiz 20% or 0%, homework 20%",
-     "label": "COURSE-AUTHORITATIVE (syllabus 2026-27; Practice #2 instructions)",
+     "value": "multiple choice only, including derivations; 60% or 80% of the grade (Dec/Jan), quiz 20% or 0%, homework 20%; exam first page: 15 MCQs in 35 minutes",
+     "label": "COURSE-AUTHORITATIVE (syllabus 2026-27; Practice #2 instructions); Exam_First_Page.docx",
      "settle_with": "-"
     }
    ],
@@ -731,26 +2947,482 @@
     "L1B": {
      "title": "1b Introduction to Content (methodology, returns, risk)",
      "file": "Slides/1b_Introduction_to_Content.pdf",
+     "sections": [
+      {
+       "id": "L1B-1",
+       "title": "Financial econometrics and its data"
+      },
+      {
+       "id": "L1B-2",
+       "title": "Returns"
+      },
+      {
+       "id": "L1B-3",
+       "title": "Risk: expected values, variance, covariance and correlation"
+      }
+     ],
+     "units": [
+      {
+       "id": "L1B-U1",
+       "section": "L1B-1",
+       "title": "What financial econometrics is and what it is used for",
+       "where": "slides 2–3",
+       "examinable": true
+      },
+      {
+       "id": "L1B-U2",
+       "section": "L1B-1",
+       "title": "Financial data: frequency, quality, noise",
+       "where": "slide 4",
+       "examinable": true
+      },
+      {
+       "id": "L1B-U3",
+       "section": "L1B-1",
+       "title": "Data dimensions: time series, cross-section, panel (balanced)",
+       "where": "slides 5–9",
+       "examinable": true
+      },
+      {
+       "id": "L1B-U4",
+       "section": "L1B-1",
+       "title": "Cardinal, ordinal and nominal numbers",
+       "where": "slide 10",
+       "examinable": true
+      },
+      {
+       "id": "L1B-U5",
+       "section": "L1B-2",
+       "title": "Raw gross, raw net and log returns",
+       "where": "slides 11–12",
+       "examinable": true
+      },
+      {
+       "id": "L1B-U6",
+       "section": "L1B-2",
+       "title": "Portfolio returns; log returns do not add up across assets",
+       "where": "slide 13",
+       "examinable": true
+      },
+      {
+       "id": "L1B-U7",
+       "section": "L1B-3",
+       "title": "The value of $1 invested in 1899 (nominal and real)",
+       "where": "slides 14–16",
+       "examinable": false,
+       "reason": "Charts only (a historical illustration with no figures to work with); the return definitions behind them are examined through L1B-U5."
+      },
+      {
+       "id": "L1B-U8",
+       "section": "L1B-3",
+       "title": "Histograms, averages and expected values",
+       "where": "slides 17–18",
+       "examinable": true
+      },
+      {
+       "id": "L1B-U9",
+       "section": "L1B-3",
+       "title": "Variance and standard deviation as risk",
+       "where": "slide 19",
+       "examinable": true
+      },
+      {
+       "id": "L1B-U10",
+       "section": "L1B-3",
+       "title": "Portfolio variance and covariance",
+       "where": "slides 20–22",
+       "examinable": true
+      },
+      {
+       "id": "L1B-U11",
+       "section": "L1B-3",
+       "title": "Correlation",
+       "where": "slide 23",
+       "examinable": true
+      }
+     ],
      "slide_count": 24
     },
     "L1C": {
      "title": "1c Linear Algebra and Inference",
      "file": "Slides/1c_LinearAlgebra_and_Inference_v2.pdf",
+     "sections": [
+      {
+       "id": "L1C-1",
+       "title": "Linear algebra"
+      },
+      {
+       "id": "L1C-2",
+       "title": "Statistics in vector form and standard errors"
+      }
+     ],
+     "units": [
+      {
+       "id": "L1C-U1",
+       "section": "L1C-1",
+       "title": "Guidance: what computations and derivations the exam needs",
+       "where": "slide 3",
+       "examinable": false,
+       "reason": "Course guidance on how the exam treats computations (Python) and derivations ('just the simplest ones'), not content."
+      },
+      {
+       "id": "L1C-U2",
+       "section": "L1C-1",
+       "title": "Vectors, matrices, transposes and the variance-covariance matrix",
+       "where": "slide 4",
+       "examinable": true
+      },
+      {
+       "id": "L1C-U3",
+       "section": "L1C-1",
+       "title": "Matrix multiplication",
+       "where": "slide 5",
+       "examinable": true
+      },
+      {
+       "id": "L1C-U4",
+       "section": "L1C-1",
+       "title": "Matrix sums",
+       "where": "slide 6",
+       "examinable": true
+      },
+      {
+       "id": "L1C-U5",
+       "section": "L1C-2",
+       "title": "Sample average and variance in vector form",
+       "where": "slide 8",
+       "examinable": true
+      },
+      {
+       "id": "L1C-U6",
+       "section": "L1C-2",
+       "title": "Population and sample; estimation uncertainty and inference",
+       "where": "slides 10–11",
+       "examinable": true
+      },
+      {
+       "id": "L1C-U7",
+       "section": "L1C-2",
+       "title": "The sample mean as a random variable; its standard error σ/√T",
+       "where": "slide 12",
+       "examinable": true
+      },
+      {
+       "id": "L1C-U8",
+       "section": "L1C-2",
+       "title": "Rules for random vectors: expectation, var-cov matrix, the sandwich rule",
+       "where": "slide 14",
+       "examinable": true
+      },
+      {
+       "id": "L1C-U9",
+       "section": "L1C-2",
+       "title": "The sample mean in vector form: expectation and variance by the sandwich rule",
+       "where": "slide 15",
+       "examinable": true
+      }
+     ],
      "slide_count": 16
     },
     "L2": {
      "title": "2 Simple Linear Regression",
      "file": "Slides/2_Simple_LinRegr.pdf",
+     "sections": [
+      {
+       "id": "L2-1",
+       "title": "Regression and the disturbance term"
+      },
+      {
+       "id": "L2-2",
+       "title": "Deriving and using the OLS estimator"
+      },
+      {
+       "id": "L2-3",
+       "title": "Important issues: linearity, the intercept, the sample"
+      }
+     ],
+     "units": [
+      {
+       "id": "L2-U1",
+       "section": "L2-1",
+       "title": "Regression: definition and notation (dependent and independent variables)",
+       "where": "slides 3–4",
+       "examinable": true
+      },
+      {
+       "id": "L2-U2",
+       "section": "L2-1",
+       "title": "Simple regression: examples and the fund XXX data",
+       "where": "slides 6–8",
+       "examinable": true
+      },
+      {
+       "id": "L2-U3",
+       "section": "L2-1",
+       "title": "Line of best fit and the disturbance term",
+       "where": "slides 9–10",
+       "examinable": true
+      },
+      {
+       "id": "L2-U4",
+       "section": "L2-2",
+       "title": "OLS: minimising the residual sum of squares; actual and fitted values",
+       "where": "slides 12–15",
+       "examinable": true
+      },
+      {
+       "id": "L2-U5",
+       "section": "L2-2",
+       "title": "Covariance review",
+       "where": "slide 16",
+       "examinable": true
+      },
+      {
+       "id": "L2-U6",
+       "section": "L2-2",
+       "title": "The OLS estimator: β̂ = cov/var, α̂ = ȳ − β̂x̄; its derivation",
+       "where": "slides 17, 27–28",
+       "examinable": true
+      },
+      {
+       "id": "L2-U7",
+       "section": "L2-2",
+       "title": "Using the estimates; estimators vs estimates",
+       "where": "slides 18–19",
+       "examinable": true
+      },
+      {
+       "id": "L2-U8",
+       "section": "L2-3",
+       "title": "Linearity in the parameters and transformations",
+       "where": "slides 21–22",
+       "examinable": true
+      },
+      {
+       "id": "L2-U9",
+       "section": "L2-3",
+       "title": "Accuracy of the intercept: extrapolation",
+       "where": "slide 23",
+       "examinable": true
+      },
+      {
+       "id": "L2-U10",
+       "section": "L2-3",
+       "title": "Population and sample: estimation uncertainty",
+       "where": "slide 24",
+       "examinable": true
+      }
+     ],
      "slide_count": 28
     },
     "L2B": {
      "title": "2b Simple Linear Regression: Inference",
      "file": "Slides/2b_Simple_LinRegr_Inference.pdf",
+     "sections": [
+      {
+       "id": "L2B-1",
+       "title": "OLS in matrix form"
+      },
+      {
+       "id": "L2B-2",
+       "title": "Assumptions and properties of OLS"
+      },
+      {
+       "id": "L2B-3",
+       "title": "Inference"
+      }
+     ],
+     "units": [
+      {
+       "id": "L2B-U1",
+       "section": "L2B-1",
+       "title": "Inverse of a 2×2 matrix",
+       "where": "slides 3, 21",
+       "examinable": true
+      },
+      {
+       "id": "L2B-U2",
+       "section": "L2B-1",
+       "title": "Average, variance and covariance in matrix form; Xβ",
+       "where": "slide 4",
+       "examinable": true
+      },
+      {
+       "id": "L2B-U3",
+       "section": "L2B-1",
+       "title": "OLS in matrix form: β̂ = (X′X/T)⁻¹(X′Y/T)",
+       "where": "slides 5, 22–23",
+       "examinable": true
+      },
+      {
+       "id": "L2B-U4",
+       "section": "L2B-2",
+       "title": "Population and sample regression functions (PRF, SRF)",
+       "where": "slide 7",
+       "examinable": true
+      },
+      {
+       "id": "L2B-U5",
+       "section": "L2B-2",
+       "title": "Assumptions 1-4 on the errors",
+       "where": "slide 8",
+       "examinable": true
+      },
+      {
+       "id": "L2B-U6",
+       "section": "L2B-2",
+       "title": "Consistency and unbiasedness",
+       "where": "slide 9",
+       "examinable": true
+      },
+      {
+       "id": "L2B-U7",
+       "section": "L2B-2",
+       "title": "BLUE and the Gauss-Markov theorem",
+       "where": "slide 10",
+       "examinable": true
+      },
+      {
+       "id": "L2B-U8",
+       "section": "L2B-2",
+       "title": "Efficiency and the variance of β̂: σ²(X′X)⁻¹",
+       "where": "slides 11–12",
+       "examinable": true
+      },
+      {
+       "id": "L2B-U9",
+       "section": "L2B-2",
+       "title": "Estimating σ²: s² = Σû²/(T − 2)",
+       "where": "slide 13",
+       "examinable": true
+      },
+      {
+       "id": "L2B-U10",
+       "section": "L2B-3",
+       "title": "Normality and the distribution of β̂; t vs normal",
+       "where": "slide 15",
+       "examinable": true
+      },
+      {
+       "id": "L2B-U11",
+       "section": "L2B-3",
+       "title": "Hypothesis tests (two- and one-sided)",
+       "where": "slide 16",
+       "examinable": true
+      },
+      {
+       "id": "L2B-U12",
+       "section": "L2B-3",
+       "title": "Type I and type II errors",
+       "where": "slide 17",
+       "examinable": true
+      },
+      {
+       "id": "L2B-U13",
+       "section": "L2B-3",
+       "title": "Confidence intervals",
+       "where": "slide 18",
+       "examinable": true
+      }
+     ],
      "slide_count": 23
     },
     "L2C": {
      "title": "2c Linear Regression: F-test",
      "file": "Slides/2c_LinearRegr_FTest.pdf",
+     "sections": [
+      {
+       "id": "L2C-1",
+       "title": "Multiple regression"
+      },
+      {
+       "id": "L2C-2",
+       "title": "Testing multiple hypotheses: the F-test"
+      },
+      {
+       "id": "L2C-3",
+       "title": "Goodness of fit"
+      }
+     ],
+     "units": [
+      {
+       "id": "L2C-U1",
+       "section": "L2C-1",
+       "title": "The sample average as a regression on a constant",
+       "where": "slide 4",
+       "examinable": true
+      },
+      {
+       "id": "L2C-U2",
+       "section": "L2C-1",
+       "title": "Simple and multiple regression in matrix form",
+       "where": "slides 5–6",
+       "examinable": true
+      },
+      {
+       "id": "L2C-U3",
+       "section": "L2C-1",
+       "title": "OLS results: the K×K var-cov matrix and s² = û′û/(T − k)",
+       "where": "slide 7",
+       "examinable": true
+      },
+      {
+       "id": "L2C-U4",
+       "section": "L2C-2",
+       "title": "Why an F-test: restricted and unrestricted regressions",
+       "where": "slide 9",
+       "examinable": true
+      },
+      {
+       "id": "L2C-U5",
+       "section": "L2C-2",
+       "title": "Imposing a restriction: building the restricted regression",
+       "where": "slides 10–11",
+       "examinable": true
+      },
+      {
+       "id": "L2C-U6",
+       "section": "L2C-2",
+       "title": "The F-statistic, its distribution and the decision",
+       "where": "slides 12–14",
+       "examinable": true
+      },
+      {
+       "id": "L2C-U7",
+       "section": "L2C-2",
+       "title": "Counting restrictions; the regression F-statistic",
+       "where": "slide 15",
+       "examinable": true
+      },
+      {
+       "id": "L2C-U8",
+       "section": "L2C-2",
+       "title": "Worked example: unit sensitivity to two factors",
+       "where": "slide 16",
+       "examinable": true
+      },
+      {
+       "id": "L2C-U9",
+       "section": "L2C-3",
+       "title": "R-squared: TSS, ESS and RSS",
+       "where": "slides 18–19",
+       "examinable": true
+      },
+      {
+       "id": "L2C-U10",
+       "section": "L2C-3",
+       "title": "R-squared and the F-test",
+       "where": "slide 20",
+       "examinable": true
+      },
+      {
+       "id": "L2C-U11",
+       "section": "L2C-3",
+       "title": "Adjusted R-squared",
+       "where": "slide 21",
+       "examinable": true
+      }
+     ],
      "slide_count": 22
     }
    },
@@ -759,7 +3431,8 @@
     "label": "SUPPORTING - scored by Claude from the course's own exam material and slide examples; not a real past-paper analysis",
     "sources": [
      "Practice #2 (APT market prices of risk: 3 steps; correlogram: 1; AR(1) R-squared: 3)",
-     "Slide examples: fund XXX OLS (5), F-test example (4), t-tests (2), return examples (2)"
+     "Slide examples: fund XXX OLS (5), F-test example (4), t-tests (2), return examples (2)",
+     "Past finals (20 Dec 2021 and another sitting) and Practice #1/#2: in-scope items are 1-step concept MCQs and 3-step variance-of-a-combination items - read 2026-09-24, consistent with the median of 3"
     ],
     "by_shape": {
      "calc MCQ": {
@@ -843,7 +3516,1817 @@
      "settle_with": "your exam calendar (set it on the Courses screen)"
     }
    ],
-   "updated_at": "2026-09-24T18:00:00Z"
+   "updated_at": "2026-09-24T18:00:00Z",
+   "source_ledger": [
+    {
+     "file": "Syllabus and Additional Material/syllabus.pdf",
+     "item": "Syllabus 2026-27",
+     "decision": "used",
+     "ids": [],
+     "reason": "Final exam 60% or 80% of the grade, quiz and homework; sets the course format."
+    },
+    {
+     "file": "Syllabus and Additional Material/Exam_First_Page.docx",
+     "item": "Exam first page",
+     "decision": "used",
+     "ids": [],
+     "reason": "Instructions: 15 MCQs in 35 minutes; sets the count and the time per question."
+    },
+    {
+     "file": "Slides/1_Introduction_to_Course",
+     "item": "Course introduction deck",
+     "decision": "not_examinable",
+     "ids": [],
+     "reason": "Course organisation (grading, calendar, materials), not examinable content."
+    },
+    {
+     "file": "Slides/1b_Introduction_to_Content.pdf",
+     "item": "1b deck",
+     "decision": "units",
+     "ids": [],
+     "reason": "Sections L1B-1 to L1B-3."
+    },
+    {
+     "file": "Slides/1c_LinearAlgebra_and_Inference_v2.pdf",
+     "item": "1c deck",
+     "decision": "units",
+     "ids": [],
+     "reason": "Sections L1C-1 and L1C-2."
+    },
+    {
+     "file": "Slides/2_Simple_LinRegr.pdf",
+     "item": "2a deck",
+     "decision": "units",
+     "ids": [],
+     "reason": "Sections L2-1 to L2-3."
+    },
+    {
+     "file": "Slides/2b_Simple_LinRegr_Inference.pdf",
+     "item": "2b deck",
+     "decision": "units",
+     "ids": [],
+     "reason": "Sections L2B-1 to L2B-3."
+    },
+    {
+     "file": "Slides/2c_LinearRegr_FTest.pdf",
+     "item": "2c deck",
+     "decision": "units",
+     "ids": [],
+     "reason": "Sections L2C-1 to L2C-3."
+    },
+    {
+     "file": "Practice Material/expected value, variance, and matrix operations.pdf",
+     "item": "Exercises 1-2 (moments, uncorrelated portfolio)",
+     "decision": "included",
+     "ids": [
+      "30285-L1B-13"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Practice Material/expected value, variance, and matrix operations.pdf",
+     "item": "Exercise 3 (xAB′)",
+     "decision": "included",
+     "ids": [
+      "30285-L1C-10"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Practice Quiz/Practice_1_Solutions.docx",
+     "item": "Q1 (APT, MKT 6% / LL 5%)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (APT: time-series and cross-sectional tests, Fama-MacBeth); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Quiz/Practice_1_Solutions.docx",
+     "item": "Q2 (disturbance term)",
+     "decision": "included",
+     "ids": [
+      "30285-L2-10"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Practice Quiz/Practice_1_Solutions.docx",
+     "item": "Q3 (correlogram, 100 observations)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (serial correlation, the correlogram and HAC standard errors); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Quiz/Practice_1_Solutions.docx",
+     "item": "Q4 (average and variance in vector form)",
+     "decision": "included",
+     "ids": [
+      "30285-L1C-11"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Practice Quiz/Practice_1_Solutions.docx",
+     "item": "Q5 (restricted regression for 2β₂ = β₃)",
+     "decision": "included",
+     "ids": [
+      "30285-L2C-12"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Practice Quiz/Practice_1_Solutions.docx",
+     "item": "Q6 (Python: HAC options commented out)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (serial correlation, the correlogram and HAC standard errors); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Quiz/Practice_1_Solutions.docx",
+     "item": "Q7 (Montecarlo)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (Montecarlo simulations and the bootstrap); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Quiz/Practice_1_Solutions.docx",
+     "item": "Q8 (residual scatter plot)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (heteroscedasticity, residual plots and White standard errors); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Quiz/Practice_1_Solutions.docx",
+     "item": "Q9 (standard error of the mean under heteroscedasticity: White)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (heteroscedasticity, residual plots and White standard errors); that deck is not in the folder yet. Held until it arrives. The key (c) depends on the White correction."
+    },
+    {
+     "file": "Practice Quiz/Practice_1_Solutions.docx",
+     "item": "Q10 (T = 8 chi-square sample, Montecarlo)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (Montecarlo simulations and the bootstrap); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Exam/Practice_1_Solutions.docx",
+     "item": "Q1 (APT, MKT 5% / LL 5%)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (APT: time-series and cross-sectional tests, Fama-MacBeth); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Exam/Practice_1_Solutions.docx",
+     "item": "Q2 (correlogram)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (serial correlation, the correlogram and HAC standard errors); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Exam/Practice_1_Solutions.docx",
+     "item": "Q3 (restricted regression, variant with 2x₂ₜ + x₃ₜ)",
+     "decision": "included",
+     "ids": [
+      "30285-L2C-13"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Practice Exam/Practice_1_Solutions.docx",
+     "item": "Q4 (Montecarlo)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (Montecarlo simulations and the bootstrap); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Exam/Practice_1_Solutions.docx",
+     "item": "Q5 (residual scatter plot)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (heteroscedasticity, residual plots and White standard errors); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Exam/Practice_1_Solutions.docx",
+     "item": "Q6 (Fama-MacBeth)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (APT: time-series and cross-sectional tests, Fama-MacBeth); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Exam/Practice_1_Solutions.docx",
+     "item": "Q7 (ARIMA(0,1,0))",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (AR, MA and ARIMA processes); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Exam/Practice_1_Solutions.docx",
+     "item": "Q8 (Lettau and Ludvigson)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (return predictability and Lettau-Ludvigson); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Exam/Practice_1_Solutions.docx",
+     "item": "Q9 (fixed effects)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (panel data: fixed effects, time effects, between estimator); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Exam/Practice_1_Solutions.docx",
+     "item": "Q10 (APT, two assets, market prices of risk)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (APT: time-series and cross-sectional tests, Fama-MacBeth); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Exam/Practice_1_Solutions.docx",
+     "item": "Essay (AR(1) cash flow: present value 5.5 and its variance)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (AR, MA and ARIMA processes); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Quiz/Practice_2_Solutions.docx",
+     "item": "Q1 (what financial econometrics is)",
+     "decision": "included",
+     "ids": [
+      "30285-L1B-10"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Practice Quiz/Practice_2_Solutions.docx",
+     "item": "Q2 (disturbance term)",
+     "decision": "duplicate",
+     "ids": [
+      "30285-L2-10"
+     ],
+     "reason": "Word for word the same as Practice Quiz #1 Q2."
+    },
+    {
+     "file": "Practice Quiz/Practice_2_Solutions.docx",
+     "item": "Q3 (correlogram)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (serial correlation, the correlogram and HAC standard errors); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Quiz/Practice_2_Solutions.docx",
+     "item": "Q4 (buy at 50, dividend 5, sell at 70)",
+     "decision": "included",
+     "ids": [
+      "30285-L1B-12"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Practice Quiz/Practice_2_Solutions.docx",
+     "item": "Q5 (bootstrap)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (Montecarlo simulations and the bootstrap); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Quiz/Practice_2_Solutions.docx",
+     "item": "Q6 (Python command for heteroscedasticity)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (heteroscedasticity, residual plots and White standard errors); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Quiz/Practice_2_Solutions.docx",
+     "item": "Q7 (residual scatter plot)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (heteroscedasticity, residual plots and White standard errors); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Quiz/Practice_2_Solutions.docx",
+     "item": "Q8 (correlogram of residuals, HAC with L = 4)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (serial correlation, the correlogram and HAC standard errors); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Quiz/Practice_2_Solutions.docx",
+     "item": "Q9 (4-by-4 variance-covariance matrix)",
+     "decision": "included",
+     "ids": [
+      "30285-L2C-14"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Practice Quiz/Practice_2_Solutions.docx",
+     "item": "Q10 (x₂ₜ/β₂: not linear)",
+     "decision": "included",
+     "ids": [
+      "30285-L2-11"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Practice Exam/Practice_2_Solutions.docx",
+     "item": "Q1 (what financial econometrics is, variant)",
+     "decision": "included",
+     "ids": [
+      "30285-L1B-11"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Practice Exam/Practice_2_Solutions.docx",
+     "item": "Q2 (disturbance term)",
+     "decision": "duplicate",
+     "ids": [
+      "30285-L2-10"
+     ],
+     "reason": "Word for word the same as Practice Quiz #1 Q2."
+    },
+    {
+     "file": "Practice Exam/Practice_2_Solutions.docx",
+     "item": "Q3 (AR(1) correlogram)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (serial correlation, the correlogram and HAC standard errors); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Exam/Practice_2_Solutions.docx",
+     "item": "Q4 (bootstrap)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (Montecarlo simulations and the bootstrap); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Exam/Practice_2_Solutions.docx",
+     "item": "Q5 (Fama-MacBeth, 10 stocks and 200 observations)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (APT: time-series and cross-sectional tests, Fama-MacBeth); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Exam/Practice_2_Solutions.docx",
+     "item": "Q6 (ARIMA(0,0,0))",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (AR, MA and ARIMA processes); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Exam/Practice_2_Solutions.docx",
+     "item": "Q7 (panel: fixed or random effects)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (panel data: fixed effects, time effects, between estimator); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Exam/Practice_2_Solutions.docx",
+     "item": "Q8 (between estimator)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (panel data: fixed effects, time effects, between estimator); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Exam/Practice_2_Solutions.docx",
+     "item": "Q9 (APT, two assets)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (APT: time-series and cross-sectional tests, Fama-MacBeth); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Exam/Practice_2_Solutions.docx",
+     "item": "Q10 (time fixed effects)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (panel data: fixed effects, time effects, between estimator); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Practice Exam/Practice_2_Solutions.docx",
+     "item": "Essay (AR(1): population R² = ρ², SE of ρ̂, White errors)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (AR, MA and ARIMA processes); that deck is not in the folder yet. Held until it arrives. Part 3 also needs White errors."
+    },
+    {
+     "file": "Practice Quiz/ and Practice Exam/ (Practice_1 and Practice_2 question papers, .pdf and .docx)",
+     "item": "All items",
+     "decision": "duplicate",
+     "ids": [],
+     "reason": "The same questions as the solution files, without the bold key; the solution files are used."
+    },
+    {
+     "file": "Reference/Econometrics past exam 1.pdf",
+     "item": "20 Dec 2021 final: Q1 (APT), Q4 (cross-sectional APT tests), Q8 (APT market prices of risk)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (APT: time-series and cross-sectional tests, Fama-MacBeth); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Reference/Econometrics past exam 1.pdf",
+     "item": "20 Dec 2021 final: Q2 (correlogram, 12 observations)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (serial correlation, the correlogram and HAC standard errors); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Reference/Econometrics past exam 1.pdf",
+     "item": "20 Dec 2021 final: Q3 (t-test on β₁ − β₂)",
+     "decision": "included",
+     "ids": [
+      "30285-L2C-10"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Reference/Econometrics past exam 1.pdf",
+     "item": "20 Dec 2021 final: Q5, Q6",
+     "decision": "not_read",
+     "ids": [],
+     "reason": "Not in the photos or in the Studocu screenshots of the review."
+    },
+    {
+     "file": "Reference/Econometrics past exam 1.pdf",
+     "item": "20 Dec 2021 final: Q7 (DGP: T ≥ 4, BLUE, omitted zₜ)",
+     "decision": "included",
+     "ids": [
+      "30285-L2B-10"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Reference/Econometrics past exam 1.pdf",
+     "item": "20 Dec 2021 final: Q9 (panel inputs)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (panel data: fixed effects, time effects, between estimator); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Reference/Econometrics past exam 1.pdf",
+     "item": "20 Dec 2021 final: Q10 (Python: regression on a constant)",
+     "decision": "included",
+     "ids": [
+      "30285-L2C-11"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Reference/Econometrics past exam 1.pdf",
+     "item": "20 Dec 2021 final: Q11 (V(β̂) = [16 12; 12 9], estimates (0, 6))",
+     "decision": "included",
+     "ids": [
+      "30285-L2B-12"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Reference/Econometrics past exam 1.pdf",
+     "item": "20 Dec 2021 final: Q12-Q15 (MA(2) process)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (AR, MA and ARIMA processes); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Reference/econometrics-final-exam-past-paper-2-empirical-methods-for-finance.pdf",
+     "item": "Whole file",
+     "decision": "key_source",
+     "ids": [
+      "30285-L2C-10",
+      "30285-L2B-10",
+      "30285-L2C-11",
+      "30285-L2B-12"
+     ],
+     "reason": "Studocu copy of the 20 Dec 2021 Blackboard review (Q1-Q4, Q7-Q15, green ticks): used to check the transcription and the keys of the photos."
+    },
+    {
+     "file": "Reference/Econometrics past exam 2.pdf",
+     "item": "Q1 (DGP: T ≥ 3, BLUE, omitted-variable bias)",
+     "decision": "included",
+     "ids": [
+      "30285-L2B-11"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Reference/Econometrics past exam 2.pdf",
+     "item": "Q2 (correlogram, 52 observations)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (serial correlation, the correlogram and HAC standard errors); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Reference/Econometrics past exam 2.pdf",
+     "item": "Q3 (ARIMA(0,1,0))",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (AR, MA and ARIMA processes); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Reference/Econometrics past exam 2.pdf",
+     "item": "Q4 (panel, time fixed effects)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (panel data: fixed effects, time effects, between estimator); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Reference/Econometrics past exam 2.pdf",
+     "item": "Q5 (V(β̂) = [16 12; 12 9], estimates (5, 1))",
+     "decision": "included",
+     "ids": [
+      "30285-L2B-13"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Reference/Econometrics past exam 2.pdf",
+     "item": "Q6 (cross-sectional APT tests), Q7 (APT: two assets, market prices of risk)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (APT: time-series and cross-sectional tests, Fama-MacBeth); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Reference/Econometrics past exam 2.pdf",
+     "item": "Q8 (Montecarlo)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (Montecarlo simulations and the bootstrap); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Reference/Econometrics past exam 2.pdf",
+     "item": "Q9 (Lettau and Ludvigson)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (return predictability and Lettau-Ludvigson); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Reference/Econometrics past exam 2.pdf",
+     "item": "Page 6 (partial variant of Q10-Q11: Python code, estimates (5, 3))",
+     "decision": "duplicate",
+     "ids": [
+      "30285-L2C-11",
+      "30285-L2B-13"
+     ],
+     "reason": "Same questions with other numbers: the Python item is the Dec 2021 Q10; (5, 3) gives β̂₁ + 3β̂₂ ~ N(14, 169), the same method as Q5."
+    },
+    {
+     "file": "Reference/Econometrics past exam 3.pdf",
+     "item": "Whole file (32 photos of a sitting, no answers marked)",
+     "decision": "duplicate",
+     "ids": [
+      "30285-L2B-10",
+      "30285-L2B-12",
+      "30285-L2C-11"
+     ],
+     "reason": "The in-scope items (DGP with T ≥ 4, V(β̂) with estimates (0, 6), the Python code) are the Dec 2021 questions word for word."
+    },
+    {
+     "file": "Reference/Econometrics past exam 3.pdf",
+     "item": "AR(2), MA(2), ARIMA(1,0,0) and ARIMA(2,2,2) items; APT, panel, Montecarlo and Lettau-Ludvigson items",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (AR, MA and ARIMA processes); that deck is not in the folder yet. Held until it arrives. The other topics are held for the same reason (see above)."
+    },
+    {
+     "file": "Reference/Past Exams.pdf",
+     "item": "Whole file ('Finx 2019' student notes on past exams)",
+     "decision": "duplicate",
+     "ids": [
+      "30285-L2B-10",
+      "30285-L2C-11"
+     ],
+     "reason": "A student's OneNote copy of the same past-exam questions with the student's own answers highlighted; the official keys come from the Blackboard ticks."
+    },
+    {
+     "file": "Reference/Past Exams.pdf",
+     "item": "Predictability items (r = 8% + xₜ + e, AR(1) x with ρ = 0.9, R² and serial correlation of expected returns)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after deck 2c (return predictability and Lettau-Ludvigson); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Reference/quiz_mock.pdf",
+     "item": "Whole file",
+     "decision": "duplicate",
+     "ids": [
+      "30285-L2-10",
+      "30285-L1C-11",
+      "30285-L2C-12"
+     ],
+     "reason": "Studocu copy of Practice Quiz #1."
+    },
+    {
+     "file": "Reference/quiz_mock_2.pdf",
+     "item": "Whole file",
+     "decision": "duplicate",
+     "ids": [
+      "30285-L2-10",
+      "30285-L1C-11",
+      "30285-L2C-12"
+     ],
+     "reason": "Studocu copy of Practice Quiz #1 with a student's marks."
+    },
+    {
+     "file": "Reference/econometrics-past-exam-2-data-generating-processes-models.pdf",
+     "item": "Whole file",
+     "decision": "duplicate",
+     "ids": [
+      "30285-L2B-11",
+      "30285-L2B-13"
+     ],
+     "reason": "Studocu copy of 'Econometrics past exam 2' (same title, same pages)."
+    },
+    {
+     "file": "Reference/econometrics-past-exam-3-apt-model-ar-processes-analysis.pdf",
+     "item": "Whole file",
+     "decision": "duplicate",
+     "ids": [
+      "30285-L2B-10"
+     ],
+     "reason": "Studocu copy of 'Econometrics past exam 3' (same title, same size)."
+    },
+    {
+     "file": "Reference/Clean/",
+     "item": "Copies of past exams 1-3, Past Exams, quiz_mock, quiz_mock_2",
+     "decision": "duplicate",
+     "ids": [],
+     "reason": "Same files as in Reference/."
+    },
+    {
+     "file": "brooks_econometr_finance_2nd.pdf",
+     "item": "Textbook (Brooks, 2nd edition)",
+     "decision": "excluded",
+     "ids": [],
+     "reason": "Reference textbook; its end-of-chapter questions are not course exam material, and the slides define the syllabus."
+    },
+    {
+     "file": "Syllabus and Additional Material/Brooks_2nd_Index.pdf",
+     "item": "Brooks index",
+     "decision": "excluded",
+     "ids": [],
+     "reason": "Reference only: the textbook index."
+    },
+    {
+     "file": "Mock Exams/ (Claude-written mocks)",
+     "item": "All items",
+     "decision": "excluded",
+     "ids": [],
+     "reason": "Claude-written mocks are not evidence."
+    }
+   ]
   }
- ]
+ ],
+ "coverage": {
+  "course": "30285",
+  "sections": {
+   "L1B": [
+    {
+     "id": "L1B-1",
+     "title": "Financial econometrics and its data"
+    },
+    {
+     "id": "L1B-2",
+     "title": "Returns"
+    },
+    {
+     "id": "L1B-3",
+     "title": "Risk: expected values, variance, covariance and correlation"
+    }
+   ],
+   "L1C": [
+    {
+     "id": "L1C-1",
+     "title": "Linear algebra"
+    },
+    {
+     "id": "L1C-2",
+     "title": "Statistics in vector form and standard errors"
+    }
+   ],
+   "L2": [
+    {
+     "id": "L2-1",
+     "title": "Regression and the disturbance term"
+    },
+    {
+     "id": "L2-2",
+     "title": "Deriving and using the OLS estimator"
+    },
+    {
+     "id": "L2-3",
+     "title": "Important issues: linearity, the intercept, the sample"
+    }
+   ],
+   "L2B": [
+    {
+     "id": "L2B-1",
+     "title": "OLS in matrix form"
+    },
+    {
+     "id": "L2B-2",
+     "title": "Assumptions and properties of OLS"
+    },
+    {
+     "id": "L2B-3",
+     "title": "Inference"
+    }
+   ],
+   "L2C": [
+    {
+     "id": "L2C-1",
+     "title": "Multiple regression"
+    },
+    {
+     "id": "L2C-2",
+     "title": "Testing multiple hypotheses: the F-test"
+    },
+    {
+     "id": "L2C-3",
+     "title": "Goodness of fit"
+    }
+   ]
+  },
+  "units": {
+   "L1B": [
+    {
+     "id": "L1B-U1",
+     "section": "L1B-1",
+     "title": "What financial econometrics is and what it is used for",
+     "where": "slides 2–3",
+     "examinable": true
+    },
+    {
+     "id": "L1B-U2",
+     "section": "L1B-1",
+     "title": "Financial data: frequency, quality, noise",
+     "where": "slide 4",
+     "examinable": true
+    },
+    {
+     "id": "L1B-U3",
+     "section": "L1B-1",
+     "title": "Data dimensions: time series, cross-section, panel (balanced)",
+     "where": "slides 5–9",
+     "examinable": true
+    },
+    {
+     "id": "L1B-U4",
+     "section": "L1B-1",
+     "title": "Cardinal, ordinal and nominal numbers",
+     "where": "slide 10",
+     "examinable": true
+    },
+    {
+     "id": "L1B-U5",
+     "section": "L1B-2",
+     "title": "Raw gross, raw net and log returns",
+     "where": "slides 11–12",
+     "examinable": true
+    },
+    {
+     "id": "L1B-U6",
+     "section": "L1B-2",
+     "title": "Portfolio returns; log returns do not add up across assets",
+     "where": "slide 13",
+     "examinable": true
+    },
+    {
+     "id": "L1B-U7",
+     "section": "L1B-3",
+     "title": "The value of $1 invested in 1899 (nominal and real)",
+     "where": "slides 14–16",
+     "examinable": false,
+     "reason": "Charts only (a historical illustration with no figures to work with); the return definitions behind them are examined through L1B-U5."
+    },
+    {
+     "id": "L1B-U8",
+     "section": "L1B-3",
+     "title": "Histograms, averages and expected values",
+     "where": "slides 17–18",
+     "examinable": true
+    },
+    {
+     "id": "L1B-U9",
+     "section": "L1B-3",
+     "title": "Variance and standard deviation as risk",
+     "where": "slide 19",
+     "examinable": true
+    },
+    {
+     "id": "L1B-U10",
+     "section": "L1B-3",
+     "title": "Portfolio variance and covariance",
+     "where": "slides 20–22",
+     "examinable": true
+    },
+    {
+     "id": "L1B-U11",
+     "section": "L1B-3",
+     "title": "Correlation",
+     "where": "slide 23",
+     "examinable": true
+    }
+   ],
+   "L1C": [
+    {
+     "id": "L1C-U1",
+     "section": "L1C-1",
+     "title": "Guidance: what computations and derivations the exam needs",
+     "where": "slide 3",
+     "examinable": false,
+     "reason": "Course guidance on how the exam treats computations (Python) and derivations ('just the simplest ones'), not content."
+    },
+    {
+     "id": "L1C-U2",
+     "section": "L1C-1",
+     "title": "Vectors, matrices, transposes and the variance-covariance matrix",
+     "where": "slide 4",
+     "examinable": true
+    },
+    {
+     "id": "L1C-U3",
+     "section": "L1C-1",
+     "title": "Matrix multiplication",
+     "where": "slide 5",
+     "examinable": true
+    },
+    {
+     "id": "L1C-U4",
+     "section": "L1C-1",
+     "title": "Matrix sums",
+     "where": "slide 6",
+     "examinable": true
+    },
+    {
+     "id": "L1C-U5",
+     "section": "L1C-2",
+     "title": "Sample average and variance in vector form",
+     "where": "slide 8",
+     "examinable": true
+    },
+    {
+     "id": "L1C-U6",
+     "section": "L1C-2",
+     "title": "Population and sample; estimation uncertainty and inference",
+     "where": "slides 10–11",
+     "examinable": true
+    },
+    {
+     "id": "L1C-U7",
+     "section": "L1C-2",
+     "title": "The sample mean as a random variable; its standard error σ/√T",
+     "where": "slide 12",
+     "examinable": true
+    },
+    {
+     "id": "L1C-U8",
+     "section": "L1C-2",
+     "title": "Rules for random vectors: expectation, var-cov matrix, the sandwich rule",
+     "where": "slide 14",
+     "examinable": true
+    },
+    {
+     "id": "L1C-U9",
+     "section": "L1C-2",
+     "title": "The sample mean in vector form: expectation and variance by the sandwich rule",
+     "where": "slide 15",
+     "examinable": true
+    }
+   ],
+   "L2": [
+    {
+     "id": "L2-U1",
+     "section": "L2-1",
+     "title": "Regression: definition and notation (dependent and independent variables)",
+     "where": "slides 3–4",
+     "examinable": true
+    },
+    {
+     "id": "L2-U2",
+     "section": "L2-1",
+     "title": "Simple regression: examples and the fund XXX data",
+     "where": "slides 6–8",
+     "examinable": true
+    },
+    {
+     "id": "L2-U3",
+     "section": "L2-1",
+     "title": "Line of best fit and the disturbance term",
+     "where": "slides 9–10",
+     "examinable": true
+    },
+    {
+     "id": "L2-U4",
+     "section": "L2-2",
+     "title": "OLS: minimising the residual sum of squares; actual and fitted values",
+     "where": "slides 12–15",
+     "examinable": true
+    },
+    {
+     "id": "L2-U5",
+     "section": "L2-2",
+     "title": "Covariance review",
+     "where": "slide 16",
+     "examinable": true
+    },
+    {
+     "id": "L2-U6",
+     "section": "L2-2",
+     "title": "The OLS estimator: β̂ = cov/var, α̂ = ȳ − β̂x̄; its derivation",
+     "where": "slides 17, 27–28",
+     "examinable": true
+    },
+    {
+     "id": "L2-U7",
+     "section": "L2-2",
+     "title": "Using the estimates; estimators vs estimates",
+     "where": "slides 18–19",
+     "examinable": true
+    },
+    {
+     "id": "L2-U8",
+     "section": "L2-3",
+     "title": "Linearity in the parameters and transformations",
+     "where": "slides 21–22",
+     "examinable": true
+    },
+    {
+     "id": "L2-U9",
+     "section": "L2-3",
+     "title": "Accuracy of the intercept: extrapolation",
+     "where": "slide 23",
+     "examinable": true
+    },
+    {
+     "id": "L2-U10",
+     "section": "L2-3",
+     "title": "Population and sample: estimation uncertainty",
+     "where": "slide 24",
+     "examinable": true
+    }
+   ],
+   "L2B": [
+    {
+     "id": "L2B-U1",
+     "section": "L2B-1",
+     "title": "Inverse of a 2×2 matrix",
+     "where": "slides 3, 21",
+     "examinable": true
+    },
+    {
+     "id": "L2B-U2",
+     "section": "L2B-1",
+     "title": "Average, variance and covariance in matrix form; Xβ",
+     "where": "slide 4",
+     "examinable": true
+    },
+    {
+     "id": "L2B-U3",
+     "section": "L2B-1",
+     "title": "OLS in matrix form: β̂ = (X′X/T)⁻¹(X′Y/T)",
+     "where": "slides 5, 22–23",
+     "examinable": true
+    },
+    {
+     "id": "L2B-U4",
+     "section": "L2B-2",
+     "title": "Population and sample regression functions (PRF, SRF)",
+     "where": "slide 7",
+     "examinable": true
+    },
+    {
+     "id": "L2B-U5",
+     "section": "L2B-2",
+     "title": "Assumptions 1-4 on the errors",
+     "where": "slide 8",
+     "examinable": true
+    },
+    {
+     "id": "L2B-U6",
+     "section": "L2B-2",
+     "title": "Consistency and unbiasedness",
+     "where": "slide 9",
+     "examinable": true
+    },
+    {
+     "id": "L2B-U7",
+     "section": "L2B-2",
+     "title": "BLUE and the Gauss-Markov theorem",
+     "where": "slide 10",
+     "examinable": true
+    },
+    {
+     "id": "L2B-U8",
+     "section": "L2B-2",
+     "title": "Efficiency and the variance of β̂: σ²(X′X)⁻¹",
+     "where": "slides 11–12",
+     "examinable": true
+    },
+    {
+     "id": "L2B-U9",
+     "section": "L2B-2",
+     "title": "Estimating σ²: s² = Σû²/(T − 2)",
+     "where": "slide 13",
+     "examinable": true
+    },
+    {
+     "id": "L2B-U10",
+     "section": "L2B-3",
+     "title": "Normality and the distribution of β̂; t vs normal",
+     "where": "slide 15",
+     "examinable": true
+    },
+    {
+     "id": "L2B-U11",
+     "section": "L2B-3",
+     "title": "Hypothesis tests (two- and one-sided)",
+     "where": "slide 16",
+     "examinable": true
+    },
+    {
+     "id": "L2B-U12",
+     "section": "L2B-3",
+     "title": "Type I and type II errors",
+     "where": "slide 17",
+     "examinable": true
+    },
+    {
+     "id": "L2B-U13",
+     "section": "L2B-3",
+     "title": "Confidence intervals",
+     "where": "slide 18",
+     "examinable": true
+    }
+   ],
+   "L2C": [
+    {
+     "id": "L2C-U1",
+     "section": "L2C-1",
+     "title": "The sample average as a regression on a constant",
+     "where": "slide 4",
+     "examinable": true
+    },
+    {
+     "id": "L2C-U2",
+     "section": "L2C-1",
+     "title": "Simple and multiple regression in matrix form",
+     "where": "slides 5–6",
+     "examinable": true
+    },
+    {
+     "id": "L2C-U3",
+     "section": "L2C-1",
+     "title": "OLS results: the K×K var-cov matrix and s² = û′û/(T − k)",
+     "where": "slide 7",
+     "examinable": true
+    },
+    {
+     "id": "L2C-U4",
+     "section": "L2C-2",
+     "title": "Why an F-test: restricted and unrestricted regressions",
+     "where": "slide 9",
+     "examinable": true
+    },
+    {
+     "id": "L2C-U5",
+     "section": "L2C-2",
+     "title": "Imposing a restriction: building the restricted regression",
+     "where": "slides 10–11",
+     "examinable": true
+    },
+    {
+     "id": "L2C-U6",
+     "section": "L2C-2",
+     "title": "The F-statistic, its distribution and the decision",
+     "where": "slides 12–14",
+     "examinable": true
+    },
+    {
+     "id": "L2C-U7",
+     "section": "L2C-2",
+     "title": "Counting restrictions; the regression F-statistic",
+     "where": "slide 15",
+     "examinable": true
+    },
+    {
+     "id": "L2C-U8",
+     "section": "L2C-2",
+     "title": "Worked example: unit sensitivity to two factors",
+     "where": "slide 16",
+     "examinable": true
+    },
+    {
+     "id": "L2C-U9",
+     "section": "L2C-3",
+     "title": "R-squared: TSS, ESS and RSS",
+     "where": "slides 18–19",
+     "examinable": true
+    },
+    {
+     "id": "L2C-U10",
+     "section": "L2C-3",
+     "title": "R-squared and the F-test",
+     "where": "slide 20",
+     "examinable": true
+    },
+    {
+     "id": "L2C-U11",
+     "section": "L2C-3",
+     "title": "Adjusted R-squared",
+     "where": "slide 21",
+     "examinable": true
+    }
+   ]
+  },
+  "existing_units": {
+   "30285-L1B-01": [
+    "L1B-U5",
+    "L1B-U6",
+    "L1B-U10"
+   ],
+   "30285-L1C-01": [
+    "L1C-U5",
+    "L1C-U7",
+    "L1C-U8",
+    "L1C-U9"
+   ],
+   "30285-L2-01": [
+    "L2-U4",
+    "L2-U5",
+    "L2-U6",
+    "L2-U7",
+    "L2B-U9",
+    "L2B-U11"
+   ],
+   "30285-L2B-01": [
+    "L2B-U8",
+    "L2B-U10",
+    "L2B-U11",
+    "L2B-U13"
+   ],
+   "30285-L2C-01": [
+    "L2C-U5",
+    "L2C-U6",
+    "L2C-U7",
+    "L2C-U8",
+    "L2C-U10",
+    "L2C-U11"
+   ]
+  },
+  "ledger": [
+   {
+    "file": "Syllabus and Additional Material/syllabus.pdf",
+    "item": "Syllabus 2026-27",
+    "decision": "used",
+    "ids": [],
+    "reason": "Final exam 60% or 80% of the grade, quiz and homework; sets the course format."
+   },
+   {
+    "file": "Syllabus and Additional Material/Exam_First_Page.docx",
+    "item": "Exam first page",
+    "decision": "used",
+    "ids": [],
+    "reason": "Instructions: 15 MCQs in 35 minutes; sets the count and the time per question."
+   },
+   {
+    "file": "Slides/1_Introduction_to_Course",
+    "item": "Course introduction deck",
+    "decision": "not_examinable",
+    "ids": [],
+    "reason": "Course organisation (grading, calendar, materials), not examinable content."
+   },
+   {
+    "file": "Slides/1b_Introduction_to_Content.pdf",
+    "item": "1b deck",
+    "decision": "units",
+    "ids": [],
+    "reason": "Sections L1B-1 to L1B-3."
+   },
+   {
+    "file": "Slides/1c_LinearAlgebra_and_Inference_v2.pdf",
+    "item": "1c deck",
+    "decision": "units",
+    "ids": [],
+    "reason": "Sections L1C-1 and L1C-2."
+   },
+   {
+    "file": "Slides/2_Simple_LinRegr.pdf",
+    "item": "2a deck",
+    "decision": "units",
+    "ids": [],
+    "reason": "Sections L2-1 to L2-3."
+   },
+   {
+    "file": "Slides/2b_Simple_LinRegr_Inference.pdf",
+    "item": "2b deck",
+    "decision": "units",
+    "ids": [],
+    "reason": "Sections L2B-1 to L2B-3."
+   },
+   {
+    "file": "Slides/2c_LinearRegr_FTest.pdf",
+    "item": "2c deck",
+    "decision": "units",
+    "ids": [],
+    "reason": "Sections L2C-1 to L2C-3."
+   },
+   {
+    "file": "Practice Material/expected value, variance, and matrix operations.pdf",
+    "item": "Exercises 1-2 (moments, uncorrelated portfolio)",
+    "decision": "included",
+    "ids": [
+     "30285-L1B-13"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Practice Material/expected value, variance, and matrix operations.pdf",
+    "item": "Exercise 3 (xAB′)",
+    "decision": "included",
+    "ids": [
+     "30285-L1C-10"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Practice Quiz/Practice_1_Solutions.docx",
+    "item": "Q1 (APT, MKT 6% / LL 5%)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (APT: time-series and cross-sectional tests, Fama-MacBeth); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Quiz/Practice_1_Solutions.docx",
+    "item": "Q2 (disturbance term)",
+    "decision": "included",
+    "ids": [
+     "30285-L2-10"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Practice Quiz/Practice_1_Solutions.docx",
+    "item": "Q3 (correlogram, 100 observations)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (serial correlation, the correlogram and HAC standard errors); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Quiz/Practice_1_Solutions.docx",
+    "item": "Q4 (average and variance in vector form)",
+    "decision": "included",
+    "ids": [
+     "30285-L1C-11"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Practice Quiz/Practice_1_Solutions.docx",
+    "item": "Q5 (restricted regression for 2β₂ = β₃)",
+    "decision": "included",
+    "ids": [
+     "30285-L2C-12"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Practice Quiz/Practice_1_Solutions.docx",
+    "item": "Q6 (Python: HAC options commented out)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (serial correlation, the correlogram and HAC standard errors); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Quiz/Practice_1_Solutions.docx",
+    "item": "Q7 (Montecarlo)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (Montecarlo simulations and the bootstrap); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Quiz/Practice_1_Solutions.docx",
+    "item": "Q8 (residual scatter plot)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (heteroscedasticity, residual plots and White standard errors); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Quiz/Practice_1_Solutions.docx",
+    "item": "Q9 (standard error of the mean under heteroscedasticity: White)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (heteroscedasticity, residual plots and White standard errors); that deck is not in the folder yet. Held until it arrives. The key (c) depends on the White correction."
+   },
+   {
+    "file": "Practice Quiz/Practice_1_Solutions.docx",
+    "item": "Q10 (T = 8 chi-square sample, Montecarlo)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (Montecarlo simulations and the bootstrap); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Exam/Practice_1_Solutions.docx",
+    "item": "Q1 (APT, MKT 5% / LL 5%)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (APT: time-series and cross-sectional tests, Fama-MacBeth); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Exam/Practice_1_Solutions.docx",
+    "item": "Q2 (correlogram)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (serial correlation, the correlogram and HAC standard errors); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Exam/Practice_1_Solutions.docx",
+    "item": "Q3 (restricted regression, variant with 2x₂ₜ + x₃ₜ)",
+    "decision": "included",
+    "ids": [
+     "30285-L2C-13"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Practice Exam/Practice_1_Solutions.docx",
+    "item": "Q4 (Montecarlo)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (Montecarlo simulations and the bootstrap); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Exam/Practice_1_Solutions.docx",
+    "item": "Q5 (residual scatter plot)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (heteroscedasticity, residual plots and White standard errors); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Exam/Practice_1_Solutions.docx",
+    "item": "Q6 (Fama-MacBeth)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (APT: time-series and cross-sectional tests, Fama-MacBeth); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Exam/Practice_1_Solutions.docx",
+    "item": "Q7 (ARIMA(0,1,0))",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (AR, MA and ARIMA processes); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Exam/Practice_1_Solutions.docx",
+    "item": "Q8 (Lettau and Ludvigson)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (return predictability and Lettau-Ludvigson); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Exam/Practice_1_Solutions.docx",
+    "item": "Q9 (fixed effects)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (panel data: fixed effects, time effects, between estimator); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Exam/Practice_1_Solutions.docx",
+    "item": "Q10 (APT, two assets, market prices of risk)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (APT: time-series and cross-sectional tests, Fama-MacBeth); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Exam/Practice_1_Solutions.docx",
+    "item": "Essay (AR(1) cash flow: present value 5.5 and its variance)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (AR, MA and ARIMA processes); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Quiz/Practice_2_Solutions.docx",
+    "item": "Q1 (what financial econometrics is)",
+    "decision": "included",
+    "ids": [
+     "30285-L1B-10"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Practice Quiz/Practice_2_Solutions.docx",
+    "item": "Q2 (disturbance term)",
+    "decision": "duplicate",
+    "ids": [
+     "30285-L2-10"
+    ],
+    "reason": "Word for word the same as Practice Quiz #1 Q2."
+   },
+   {
+    "file": "Practice Quiz/Practice_2_Solutions.docx",
+    "item": "Q3 (correlogram)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (serial correlation, the correlogram and HAC standard errors); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Quiz/Practice_2_Solutions.docx",
+    "item": "Q4 (buy at 50, dividend 5, sell at 70)",
+    "decision": "included",
+    "ids": [
+     "30285-L1B-12"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Practice Quiz/Practice_2_Solutions.docx",
+    "item": "Q5 (bootstrap)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (Montecarlo simulations and the bootstrap); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Quiz/Practice_2_Solutions.docx",
+    "item": "Q6 (Python command for heteroscedasticity)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (heteroscedasticity, residual plots and White standard errors); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Quiz/Practice_2_Solutions.docx",
+    "item": "Q7 (residual scatter plot)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (heteroscedasticity, residual plots and White standard errors); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Quiz/Practice_2_Solutions.docx",
+    "item": "Q8 (correlogram of residuals, HAC with L = 4)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (serial correlation, the correlogram and HAC standard errors); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Quiz/Practice_2_Solutions.docx",
+    "item": "Q9 (4-by-4 variance-covariance matrix)",
+    "decision": "included",
+    "ids": [
+     "30285-L2C-14"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Practice Quiz/Practice_2_Solutions.docx",
+    "item": "Q10 (x₂ₜ/β₂: not linear)",
+    "decision": "included",
+    "ids": [
+     "30285-L2-11"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Practice Exam/Practice_2_Solutions.docx",
+    "item": "Q1 (what financial econometrics is, variant)",
+    "decision": "included",
+    "ids": [
+     "30285-L1B-11"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Practice Exam/Practice_2_Solutions.docx",
+    "item": "Q2 (disturbance term)",
+    "decision": "duplicate",
+    "ids": [
+     "30285-L2-10"
+    ],
+    "reason": "Word for word the same as Practice Quiz #1 Q2."
+   },
+   {
+    "file": "Practice Exam/Practice_2_Solutions.docx",
+    "item": "Q3 (AR(1) correlogram)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (serial correlation, the correlogram and HAC standard errors); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Exam/Practice_2_Solutions.docx",
+    "item": "Q4 (bootstrap)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (Montecarlo simulations and the bootstrap); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Exam/Practice_2_Solutions.docx",
+    "item": "Q5 (Fama-MacBeth, 10 stocks and 200 observations)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (APT: time-series and cross-sectional tests, Fama-MacBeth); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Exam/Practice_2_Solutions.docx",
+    "item": "Q6 (ARIMA(0,0,0))",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (AR, MA and ARIMA processes); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Exam/Practice_2_Solutions.docx",
+    "item": "Q7 (panel: fixed or random effects)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (panel data: fixed effects, time effects, between estimator); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Exam/Practice_2_Solutions.docx",
+    "item": "Q8 (between estimator)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (panel data: fixed effects, time effects, between estimator); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Exam/Practice_2_Solutions.docx",
+    "item": "Q9 (APT, two assets)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (APT: time-series and cross-sectional tests, Fama-MacBeth); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Exam/Practice_2_Solutions.docx",
+    "item": "Q10 (time fixed effects)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (panel data: fixed effects, time effects, between estimator); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Practice Exam/Practice_2_Solutions.docx",
+    "item": "Essay (AR(1): population R² = ρ², SE of ρ̂, White errors)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (AR, MA and ARIMA processes); that deck is not in the folder yet. Held until it arrives. Part 3 also needs White errors."
+   },
+   {
+    "file": "Practice Quiz/ and Practice Exam/ (Practice_1 and Practice_2 question papers, .pdf and .docx)",
+    "item": "All items",
+    "decision": "duplicate",
+    "ids": [],
+    "reason": "The same questions as the solution files, without the bold key; the solution files are used."
+   },
+   {
+    "file": "Reference/Econometrics past exam 1.pdf",
+    "item": "20 Dec 2021 final: Q1 (APT), Q4 (cross-sectional APT tests), Q8 (APT market prices of risk)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (APT: time-series and cross-sectional tests, Fama-MacBeth); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Reference/Econometrics past exam 1.pdf",
+    "item": "20 Dec 2021 final: Q2 (correlogram, 12 observations)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (serial correlation, the correlogram and HAC standard errors); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Reference/Econometrics past exam 1.pdf",
+    "item": "20 Dec 2021 final: Q3 (t-test on β₁ − β₂)",
+    "decision": "included",
+    "ids": [
+     "30285-L2C-10"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference/Econometrics past exam 1.pdf",
+    "item": "20 Dec 2021 final: Q5, Q6",
+    "decision": "not_read",
+    "ids": [],
+    "reason": "Not in the photos or in the Studocu screenshots of the review."
+   },
+   {
+    "file": "Reference/Econometrics past exam 1.pdf",
+    "item": "20 Dec 2021 final: Q7 (DGP: T ≥ 4, BLUE, omitted zₜ)",
+    "decision": "included",
+    "ids": [
+     "30285-L2B-10"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference/Econometrics past exam 1.pdf",
+    "item": "20 Dec 2021 final: Q9 (panel inputs)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (panel data: fixed effects, time effects, between estimator); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Reference/Econometrics past exam 1.pdf",
+    "item": "20 Dec 2021 final: Q10 (Python: regression on a constant)",
+    "decision": "included",
+    "ids": [
+     "30285-L2C-11"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference/Econometrics past exam 1.pdf",
+    "item": "20 Dec 2021 final: Q11 (V(β̂) = [16 12; 12 9], estimates (0, 6))",
+    "decision": "included",
+    "ids": [
+     "30285-L2B-12"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference/Econometrics past exam 1.pdf",
+    "item": "20 Dec 2021 final: Q12-Q15 (MA(2) process)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (AR, MA and ARIMA processes); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Reference/econometrics-final-exam-past-paper-2-empirical-methods-for-finance.pdf",
+    "item": "Whole file",
+    "decision": "key_source",
+    "ids": [
+     "30285-L2C-10",
+     "30285-L2B-10",
+     "30285-L2C-11",
+     "30285-L2B-12"
+    ],
+    "reason": "Studocu copy of the 20 Dec 2021 Blackboard review (Q1-Q4, Q7-Q15, green ticks): used to check the transcription and the keys of the photos."
+   },
+   {
+    "file": "Reference/Econometrics past exam 2.pdf",
+    "item": "Q1 (DGP: T ≥ 3, BLUE, omitted-variable bias)",
+    "decision": "included",
+    "ids": [
+     "30285-L2B-11"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference/Econometrics past exam 2.pdf",
+    "item": "Q2 (correlogram, 52 observations)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (serial correlation, the correlogram and HAC standard errors); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Reference/Econometrics past exam 2.pdf",
+    "item": "Q3 (ARIMA(0,1,0))",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (AR, MA and ARIMA processes); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Reference/Econometrics past exam 2.pdf",
+    "item": "Q4 (panel, time fixed effects)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (panel data: fixed effects, time effects, between estimator); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Reference/Econometrics past exam 2.pdf",
+    "item": "Q5 (V(β̂) = [16 12; 12 9], estimates (5, 1))",
+    "decision": "included",
+    "ids": [
+     "30285-L2B-13"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference/Econometrics past exam 2.pdf",
+    "item": "Q6 (cross-sectional APT tests), Q7 (APT: two assets, market prices of risk)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (APT: time-series and cross-sectional tests, Fama-MacBeth); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Reference/Econometrics past exam 2.pdf",
+    "item": "Q8 (Montecarlo)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (Montecarlo simulations and the bootstrap); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Reference/Econometrics past exam 2.pdf",
+    "item": "Q9 (Lettau and Ludvigson)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (return predictability and Lettau-Ludvigson); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Reference/Econometrics past exam 2.pdf",
+    "item": "Page 6 (partial variant of Q10-Q11: Python code, estimates (5, 3))",
+    "decision": "duplicate",
+    "ids": [
+     "30285-L2C-11",
+     "30285-L2B-13"
+    ],
+    "reason": "Same questions with other numbers: the Python item is the Dec 2021 Q10; (5, 3) gives β̂₁ + 3β̂₂ ~ N(14, 169), the same method as Q5."
+   },
+   {
+    "file": "Reference/Econometrics past exam 3.pdf",
+    "item": "Whole file (32 photos of a sitting, no answers marked)",
+    "decision": "duplicate",
+    "ids": [
+     "30285-L2B-10",
+     "30285-L2B-12",
+     "30285-L2C-11"
+    ],
+    "reason": "The in-scope items (DGP with T ≥ 4, V(β̂) with estimates (0, 6), the Python code) are the Dec 2021 questions word for word."
+   },
+   {
+    "file": "Reference/Econometrics past exam 3.pdf",
+    "item": "AR(2), MA(2), ARIMA(1,0,0) and ARIMA(2,2,2) items; APT, panel, Montecarlo and Lettau-Ludvigson items",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (AR, MA and ARIMA processes); that deck is not in the folder yet. Held until it arrives. The other topics are held for the same reason (see above)."
+   },
+   {
+    "file": "Reference/Past Exams.pdf",
+    "item": "Whole file ('Finx 2019' student notes on past exams)",
+    "decision": "duplicate",
+    "ids": [
+     "30285-L2B-10",
+     "30285-L2C-11"
+    ],
+    "reason": "A student's OneNote copy of the same past-exam questions with the student's own answers highlighted; the official keys come from the Blackboard ticks."
+   },
+   {
+    "file": "Reference/Past Exams.pdf",
+    "item": "Predictability items (r = 8% + xₜ + e, AR(1) x with ρ = 0.9, R² and serial correlation of expected returns)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after deck 2c (return predictability and Lettau-Ludvigson); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Reference/quiz_mock.pdf",
+    "item": "Whole file",
+    "decision": "duplicate",
+    "ids": [
+     "30285-L2-10",
+     "30285-L1C-11",
+     "30285-L2C-12"
+    ],
+    "reason": "Studocu copy of Practice Quiz #1."
+   },
+   {
+    "file": "Reference/quiz_mock_2.pdf",
+    "item": "Whole file",
+    "decision": "duplicate",
+    "ids": [
+     "30285-L2-10",
+     "30285-L1C-11",
+     "30285-L2C-12"
+    ],
+    "reason": "Studocu copy of Practice Quiz #1 with a student's marks."
+   },
+   {
+    "file": "Reference/econometrics-past-exam-2-data-generating-processes-models.pdf",
+    "item": "Whole file",
+    "decision": "duplicate",
+    "ids": [
+     "30285-L2B-11",
+     "30285-L2B-13"
+    ],
+    "reason": "Studocu copy of 'Econometrics past exam 2' (same title, same pages)."
+   },
+   {
+    "file": "Reference/econometrics-past-exam-3-apt-model-ar-processes-analysis.pdf",
+    "item": "Whole file",
+    "decision": "duplicate",
+    "ids": [
+     "30285-L2B-10"
+    ],
+    "reason": "Studocu copy of 'Econometrics past exam 3' (same title, same size)."
+   },
+   {
+    "file": "Reference/Clean/",
+    "item": "Copies of past exams 1-3, Past Exams, quiz_mock, quiz_mock_2",
+    "decision": "duplicate",
+    "ids": [],
+    "reason": "Same files as in Reference/."
+   },
+   {
+    "file": "brooks_econometr_finance_2nd.pdf",
+    "item": "Textbook (Brooks, 2nd edition)",
+    "decision": "excluded",
+    "ids": [],
+    "reason": "Reference textbook; its end-of-chapter questions are not course exam material, and the slides define the syllabus."
+   },
+   {
+    "file": "Syllabus and Additional Material/Brooks_2nd_Index.pdf",
+    "item": "Brooks index",
+    "decision": "excluded",
+    "ids": [],
+    "reason": "Reference only: the textbook index."
+   },
+   {
+    "file": "Mock Exams/ (Claude-written mocks)",
+    "item": "All items",
+    "decision": "excluded",
+    "ids": [],
+    "reason": "Claude-written mocks are not evidence."
+   }
+  ]
+ }
 }
