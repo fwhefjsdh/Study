@@ -82,26 +82,34 @@
    "citations": [
     {
      "deck": "S34",
-     "slide": "The Management Account Method: ONWC",
-     "quote": "Operating Net Working Capital = Operating Current Assets – Operating Short-term Liabilities"
+     "slide": 10,
+     "quote": "Operating Net Working Capital = Operating Current Assets – Operating Short-term Liabilities",
+     "title": "The Management Account Method: ONWC"
     },
     {
      "deck": "S34",
-     "slide": "Some items require attention",
-     "quote": "Non operating fixed assets are excluded from NIC."
+     "slide": 17,
+     "quote": "Non operating fixed assets are excluded from NIC.",
+     "title": "Some items require attention"
     },
     {
      "deck": "S34",
-     "slide": "Focus on the ONWC: borderline cases",
-     "quote": "Short-term financial receivables (eg. loans to related parties): exclude (financial)."
+     "slide": 31,
+     "quote": "Short-term financial receivables (eg. loans to related parties): exclude (financial).",
+     "title": "Focus on the ONWC: borderline cases"
     },
     {
      "deck": "S34",
-     "slide": "Some items require attention",
-     "quote": "it must be compared only against operational earnings (EBIT or NOPAT)"
+     "slide": 17,
+     "quote": "it must be compared only against operational earnings (EBIT or NOPAT)",
+     "title": "Some items require attention"
     }
    ],
-   "slides": [],
+   "slides": [
+    10,
+    17,
+    31
+   ],
    "slide_groups": [
     "S34A"
    ],
@@ -213,21 +221,28 @@
    "citations": [
     {
      "deck": "S34",
-     "slide": "Liquidity-based Balance Sheet",
-     "quote": "Treasury margin = short-term assets – inventories – short-term liabilities"
+     "slide": 21,
+     "quote": "Treasury margin = short-term assets – inventories – short-term liabilities",
+     "title": "Liquidity-based Balance Sheet"
     },
     {
      "deck": "S34",
-     "slide": "A Metric of Vertical Integration",
-     "quote": "Value Added Ratio = Value Added / Value of Production"
+     "slide": 46,
+     "quote": "Value Added Ratio = Value Added / Value of Production",
+     "title": "A Metric of Vertical Integration"
     },
     {
      "deck": "S34",
-     "slide": "Liquidity-based Balance Sheet: how do we interpret the values?",
-     "quote": "the company is forced to rely on future sales or bank credit to meet near-term payments"
+     "slide": 22,
+     "quote": "the company is forced to rely on future sales or bank credit to meet near-term payments",
+     "title": "Liquidity-based Balance Sheet: how do we interpret the values?"
     }
    ],
-   "slides": [],
+   "slides": [
+    21,
+    22,
+    46
+   ],
    "slide_groups": [
     "S34B",
     "S34C"
@@ -343,21 +358,28 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "The Cash Flow Statement: Methods",
-     "quote": "derives operating cash flow from profit or loss by adjusting for non-cash items, accruals and changes in operating working capital"
+     "slide": 39,
+     "quote": "derives operating cash flow from profit or loss by adjusting for non-cash items, accruals and changes in operating working capital",
+     "title": "The Cash Flow Statement: Methods"
     },
     {
      "deck": "S2",
-     "slide": "Statement of shareholders’ equity",
-     "quote": "Ending equity = Beginning equity + Profit or loss + Other comprehensive income + Owner contributions − Distributions to owners ± Other recognised equity movements"
+     "slide": 37,
+     "quote": "Ending equity = Beginning equity + Profit or loss + Other comprehensive income + Owner contributions − Distributions to owners ± Other recognised equity movements",
+     "title": "Statement of shareholders’ equity"
     },
     {
      "deck": "S2",
-     "slide": "The Cash Flow Statement: Reconciliation of Cash",
-     "quote": "If the CFI (typically negative) exceeds the CFO, the deficit can be covered by either borrowing (through CFF) or using existing cash at hand"
+     "slide": 41,
+     "quote": "If the CFI (typically negative) exceeds the CFO, the deficit can be covered by either borrowing (through CFF) or using existing cash at hand",
+     "title": "The Cash Flow Statement: Reconciliation of Cash"
     }
    ],
-   "slides": [],
+   "slides": [
+    37,
+    39,
+    41
+   ],
    "slide_groups": [
     "S2C"
    ],
@@ -466,21 +488,28 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "Accounting distortions: Income Statement",
-     "quote": "When a gift card is sold, the consideration received is generally recognised as a contract liability."
+     "slide": 51,
+     "quote": "When a gift card is sold, the consideration received is generally recognised as a contract liability.",
+     "title": "Accounting distortions: Income Statement"
     },
     {
      "deck": "S2",
-     "slide": "Accounting distortions: accrued and deferred revenues and expenses",
-     "quote": "The company has incurred an expense but the cash will be paid in the next period."
+     "slide": 52,
+     "quote": "The company has incurred an expense but the cash will be paid in the next period.",
+     "title": "Accounting distortions: accrued and deferred revenues and expenses"
     },
     {
      "deck": "S2",
-     "slide": "The Balance Sheet: Equity (optional)",
-     "quote": "Market premium = Market Value of Equity – Book Value of Equity"
+     "slide": 33,
+     "quote": "Market premium = Market Value of Equity – Book Value of Equity",
+     "title": "The Balance Sheet: Equity (optional)"
     }
    ],
-   "slides": [],
+   "slides": [
+    33,
+    51,
+    52
+   ],
    "slide_groups": [
     "S2D",
     "S2C"
@@ -590,26 +619,34 @@
    "citations": [
     {
      "deck": "S1",
-     "slide": "Juventus – Aston Villa: connected transactions across two reporting periods",
-     "quote": "Juventus acquired Douglas Luiz from Aston Villa for €50 million, payable over four financial years."
+     "slide": 7,
+     "quote": "Juventus acquired Douglas Luiz from Aston Villa for €50 million, payable over four financial years.",
+     "title": "Juventus – Aston Villa: connected transactions across two reporting periods"
     },
     {
      "deck": "S1",
-     "slide": "Juventus – Aston Villa: connected transactions across two reporting periods",
-     "quote": "The disposals generated positive economic impacts for Juventus of €11.9 million and €5.5 million, respectively, in financial year 2024/25."
+     "slide": 7,
+     "quote": "The disposals generated positive economic impacts for Juventus of €11.9 million and €5.5 million, respectively, in financial year 2024/25.",
+     "title": "Juventus – Aston Villa: connected transactions across two reporting periods"
     },
     {
      "deck": "S1",
-     "slide": "Armani: why company value is not a single number",
-     "quote": "Applying sector multiples mechanically would indicate an enterprise value of approximately €3.7–6.2 billion."
+     "slide": 19,
+     "quote": "Applying sector multiples mechanically would indicate an enterprise value of approximately €3.7–6.2 billion.",
+     "title": "Armani: why company value is not a single number"
     },
     {
      "deck": "S1",
-     "slide": "…what is the value of the company…?",
-     "quote": "Av. EV/EBITDA for the sector 11.1x; median 9.7x"
+     "slide": 20,
+     "quote": "Av. EV/EBITDA for the sector 11.1x; median 9.7x",
+     "title": "…what is the value of the company…?"
     }
    ],
-   "slides": [],
+   "slides": [
+    7,
+    19,
+    20
+   ],
    "slide_groups": [
     "S1B"
    ],
@@ -690,11 +727,19 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "Statement of shareholders’ equity",
-     "quote": "Ending equity = Beginning equity + Profit or loss + Other comprehensive income + Owner contributions − Distributions to owners"
+     "slide": 37,
+     "quote": "Ending equity = Beginning equity + Profit or loss + Other comprehensive income + Owner contributions − Distributions to owners",
+     "title": "Statement of shareholders’ equity"
+    },
+    {
+     "deck": "S1",
+     "slide": 25,
+     "quote": "WHAT DO YOU (NOT) KNOW ABOUT ACCOUNTING?"
     }
    ],
-   "slides": [],
+   "slides": [
+    25
+   ],
    "slide_groups": [
     "S1C"
    ],
@@ -748,11 +793,19 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "Accounting distortions: accrued and deferred revenues and expenses",
-     "quote": "The company has incurred an expense but the cash will be paid in the next period."
+     "slide": 52,
+     "quote": "The company has incurred an expense but the cash will be paid in the next period.",
+     "title": "Accounting distortions: accrued and deferred revenues and expenses"
+    },
+    {
+     "deck": "S1",
+     "slide": 25,
+     "quote": "WHAT DO YOU (NOT) KNOW ABOUT ACCOUNTING?"
     }
    ],
-   "slides": [],
+   "slides": [
+    25
+   ],
    "slide_groups": [
     "S1C"
    ],
@@ -808,11 +861,19 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "Accounting distortions: accrued and deferred revenues and expenses",
-     "quote": "The payment is initially recorded as an asset, which is reduced as the related goods or services are consumed"
+     "slide": 52,
+     "quote": "The payment is initially recorded as an asset, which is reduced as the related goods or services are consumed",
+     "title": "Accounting distortions: accrued and deferred revenues and expenses"
+    },
+    {
+     "deck": "S1",
+     "slide": 25,
+     "quote": "WHAT DO YOU (NOT) KNOW ABOUT ACCOUNTING?"
     }
    ],
-   "slides": [],
+   "slides": [
+    25
+   ],
    "slide_groups": [
     "S1C"
    ],
@@ -871,11 +932,19 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "The Balance Sheet: Non - Current Assets (optional)",
-     "quote": "tangible assets are carried at cost less accumulated depreciation and accumulated impairment losses"
+     "slide": 30,
+     "quote": "tangible assets are carried at cost less accumulated depreciation and accumulated impairment losses",
+     "title": "The Balance Sheet: Non - Current Assets (optional)"
+    },
+    {
+     "deck": "S1",
+     "slide": 25,
+     "quote": "WHAT DO YOU (NOT) KNOW ABOUT ACCOUNTING?"
     }
    ],
-   "slides": [],
+   "slides": [
+    25
+   ],
    "slide_groups": [
     "S1C"
    ],
@@ -934,11 +1003,19 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "The Balance Sheet: Current Assets (optional)",
-     "quote": "Under IAS 2, inventories are measured at the lower of cost and net realisable value."
+     "slide": 29,
+     "quote": "Under IAS 2, inventories are measured at the lower of cost and net realisable value.",
+     "title": "The Balance Sheet: Current Assets (optional)"
+    },
+    {
+     "deck": "S1",
+     "slide": 25,
+     "quote": "WHAT DO YOU (NOT) KNOW ABOUT ACCOUNTING?"
     }
    ],
-   "slides": [],
+   "slides": [
+    25
+   ],
    "slide_groups": [
     "S1C"
    ],
@@ -997,11 +1074,19 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "Accounting distortions: accrued and deferred revenues and expenses",
-     "quote": "Cash is received before the related revenue is earned; therefore, a liability is initially recognised."
+     "slide": 52,
+     "quote": "Cash is received before the related revenue is earned; therefore, a liability is initially recognised.",
+     "title": "Accounting distortions: accrued and deferred revenues and expenses"
+    },
+    {
+     "deck": "S1",
+     "slide": 25,
+     "quote": "WHAT DO YOU (NOT) KNOW ABOUT ACCOUNTING?"
     }
    ],
-   "slides": [],
+   "slides": [
+    25
+   ],
    "slide_groups": [
     "S1C"
    ],
@@ -1060,11 +1145,19 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "Accounting distortions: accrued and deferred revenues and expenses",
-     "quote": "The company has earned revenue but the cash will be received in the next period."
+     "slide": 52,
+     "quote": "The company has earned revenue but the cash will be received in the next period.",
+     "title": "Accounting distortions: accrued and deferred revenues and expenses"
+    },
+    {
+     "deck": "S1",
+     "slide": 25,
+     "quote": "WHAT DO YOU (NOT) KNOW ABOUT ACCOUNTING?"
     }
    ],
-   "slides": [],
+   "slides": [
+    25
+   ],
    "slide_groups": [
     "S1C"
    ],
@@ -1123,16 +1216,21 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "Reasons for accounting standards’ alignment",
-     "quote": "The two most commonly used accounting standards all over the world are US GAAP and IFRS."
+     "slide": 15,
+     "quote": "The two most commonly used accounting standards all over the world are US GAAP and IFRS.",
+     "title": "Reasons for accounting standards’ alignment"
     },
     {
      "deck": "S2",
-     "slide": "The Balance Sheet: Current Assets (optional)",
-     "quote": "FIFO and weighted-average cost are permitted; LIFO is prohibited under IFRS Accounting Standards."
+     "slide": 29,
+     "quote": "FIFO and weighted-average cost are permitted; LIFO is prohibited under IFRS Accounting Standards.",
+     "title": "The Balance Sheet: Current Assets (optional)"
     }
    ],
-   "slides": [],
+   "slides": [
+    15,
+    29
+   ],
    "slide_groups": [
     "S2A"
    ],
@@ -1192,11 +1290,14 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "The role of financial information",
-     "quote": "The benefits of providing financial reporting information should justify the costs of providing and using that information."
+     "slide": 11,
+     "quote": "The benefits of providing financial reporting information should justify the costs of providing and using that information.",
+     "title": "The role of financial information"
     }
    ],
-   "slides": [],
+   "slides": [
+    11
+   ],
    "slide_groups": [
     "S2A"
    ],
@@ -1256,11 +1357,14 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "Financial vs Managerial Accounting: a different perspective",
-     "quote": "Objectives Evaluating the company - Running the company"
+     "slide": 8,
+     "quote": "Objectives Evaluating the company - Running the company",
+     "title": "Financial vs Managerial Accounting: a different perspective"
     }
    ],
-   "slides": [],
+   "slides": [
+    8
+   ],
    "slide_groups": [
     "S2A"
    ],
@@ -1319,11 +1423,14 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "Users of financial information: investment style",
-     "quote": "Investment decision based on gut feeling. Simple approach."
+     "slide": 17,
+     "quote": "Investment decision based on gut feeling. Simple approach.",
+     "title": "Users of financial information: investment style"
     }
    ],
-   "slides": [],
+   "slides": [
+    17
+   ],
    "slide_groups": [
     "S2B"
    ],
@@ -1414,16 +1521,21 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "Is Accounting interesting?",
-     "quote": "what has been the impact of Covid-19 on Italian listed companies?"
+     "slide": 2,
+     "quote": "what has been the impact of Covid-19 on Italian listed companies?",
+     "title": "Is Accounting interesting?"
     },
     {
      "deck": "S2",
-     "slide": "Pandemic’s Effect by Industry",
-     "quote": "technology and medical companies proved more resilient, while transportation and fashion suffered sharp declines."
+     "slide": 4,
+     "quote": "technology and medical companies proved more resilient, while transportation and fashion suffered sharp declines.",
+     "title": "Pandemic’s Effect by Industry"
     }
    ],
-   "slides": [],
+   "slides": [
+    2,
+    4
+   ],
    "slide_groups": [
     "S2A"
    ],
@@ -1477,21 +1589,28 @@
    "citations": [
     {
      "deck": "S34",
-     "slide": "Focus on the ONWC",
-     "quote": "trade payables, contract liabilities and accrued operating expenses on the liability side."
+     "slide": 27,
+     "quote": "trade payables, contract liabilities and accrued operating expenses on the liability side.",
+     "title": "Focus on the ONWC"
     },
     {
      "deck": "S34",
-     "slide": "Focus on the NFP",
-     "quote": "NFP = (short-term debt + current portion long-term debt + long-term debt + lease liabilities)"
+     "slide": 23,
+     "quote": "NFP = (short-term debt + current portion long-term debt + long-term debt + lease liabilities)",
+     "title": "Focus on the NFP"
     },
     {
      "deck": "S34",
-     "slide": "Focus on the ONWC: borderline cases",
-     "quote": "if it is a financing deposit (security deposit) consider excluding."
+     "slide": 31,
+     "quote": "if it is a financing deposit (security deposit) consider excluding.",
+     "title": "Focus on the ONWC: borderline cases"
     }
    ],
-   "slides": [],
+   "slides": [
+    23,
+    27,
+    31
+   ],
    "slide_groups": [
     "S34A"
    ],
@@ -1570,16 +1689,21 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "The Cash Flow Statement: Reconciliation of Cash",
-     "quote": "If the CFI (typically negative) exceeds the CFO, the deficit can be covered by either borrowing (through CFF) or using existing cash at hand"
+     "slide": 41,
+     "quote": "If the CFI (typically negative) exceeds the CFO, the deficit can be covered by either borrowing (through CFF) or using existing cash at hand",
+     "title": "The Cash Flow Statement: Reconciliation of Cash"
     },
     {
      "deck": "S2",
-     "slide": "Statement of shareholders’ equity",
-     "quote": "Ending equity = Beginning equity + Profit or loss + Other comprehensive income + Owner contributions − Distributions to owners"
+     "slide": 37,
+     "quote": "Ending equity = Beginning equity + Profit or loss + Other comprehensive income + Owner contributions − Distributions to owners",
+     "title": "Statement of shareholders’ equity"
     }
    ],
-   "slides": [],
+   "slides": [
+    37,
+    41
+   ],
    "slide_groups": [
     "S2C"
    ],
@@ -1652,21 +1776,28 @@
    "citations": [
     {
      "deck": "S1",
-     "slide": "From financial information to investment decisions",
-     "quote": "Measurement of accounting quality: can the information be trusted?"
+     "slide": 3,
+     "quote": "Measurement of accounting quality: can the information be trusted?",
+     "title": "From financial information to investment decisions"
     },
     {
      "deck": "S1",
-     "slide": "Versace: price does not necessarily equal value",
-     "quote": "The transaction price tells us what Prada paid, not whether Prada made a good investment."
+     "slide": 21,
+     "quote": "The transaction price tells us what Prada paid, not whether Prada made a good investment.",
+     "title": "Versace: price does not necessarily equal value"
     },
     {
      "deck": "S1",
-     "slide": "A CONCLUSION",
-     "quote": "Financial statements do not speak for themselves."
+     "slide": 23,
+     "quote": "Financial statements do not speak for themselves.",
+     "title": "A CONCLUSION"
     }
    ],
-   "slides": [],
+   "slides": [
+    3,
+    21,
+    23
+   ],
    "slide_groups": [
     "S1A"
    ],
@@ -1758,21 +1889,28 @@
    "citations": [
     {
      "deck": "S1",
-     "slide": "The Credit Suisse Case: an adverse opinion on internal controls",
-     "quote": "Internal control over financial reporting: PwC issued an adverse opinion, because the controls were not effective."
+     "slide": 17,
+     "quote": "Internal control over financial reporting: PwC issued an adverse opinion, because the controls were not effective.",
+     "title": "The Credit Suisse Case: an adverse opinion on internal controls"
     },
     {
      "deck": "S1",
-     "slide": "The SEC review on the effectiveness of Credit Suisse’s reporting controls (2/2)",
-     "quote": "A material weakness does not necessarily mean that a material misstatement has already occurred."
+     "slide": 16,
+     "quote": "A material weakness does not necessarily mean that a material misstatement has already occurred.",
+     "title": "The SEC review on the effectiveness of Credit Suisse’s reporting controls (2/2)"
     },
     {
      "deck": "S1",
-     "slide": "Another accounting scandal: when Carillion’s aggressive accounting concealed a failing business",
-     "quote": "Carillion recognized no goodwill impairment in the five years before 2017"
+     "slide": 12,
+     "quote": "Carillion recognized no goodwill impairment in the five years before 2017",
+     "title": "Another accounting scandal: when Carillion’s aggressive accounting concealed a failing business"
     }
    ],
-   "slides": [],
+   "slides": [
+    12,
+    16,
+    17
+   ],
    "slide_groups": [
     "S1B"
    ],
@@ -1887,21 +2025,31 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "Accounting distortions: accrued and deferred revenues and expenses",
-     "quote": "Cash is paid before the related expense is recognised. The payment is initially recorded as an asset"
+     "slide": 52,
+     "quote": "Cash is paid before the related expense is recognised. The payment is initially recorded as an asset",
+     "title": "Accounting distortions: accrued and deferred revenues and expenses"
     },
     {
      "deck": "S2",
-     "slide": "Accounting distortions: accrued and deferred revenues and expenses",
-     "quote": "Cash is received before the related revenue is earned; therefore, a liability is initially recognised."
+     "slide": 52,
+     "quote": "Cash is received before the related revenue is earned; therefore, a liability is initially recognised.",
+     "title": "Accounting distortions: accrued and deferred revenues and expenses"
     },
     {
      "deck": "S2",
-     "slide": "Statement of shareholders’ equity",
-     "quote": "Ending equity = Beginning equity + Profit or loss + Other comprehensive income + Owner contributions − Distributions to owners"
+     "slide": 37,
+     "quote": "Ending equity = Beginning equity + Profit or loss + Other comprehensive income + Owner contributions − Distributions to owners",
+     "title": "Statement of shareholders’ equity"
+    },
+    {
+     "deck": "S1",
+     "slide": 25,
+     "quote": "WHAT DO YOU (NOT) KNOW ABOUT ACCOUNTING?"
     }
    ],
-   "slides": [],
+   "slides": [
+    25
+   ],
    "slide_groups": [
     "S1C"
    ],
@@ -2000,21 +2148,28 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "The role of financial information",
-     "quote": "Materiality is not a second general constraint. It is an entity-specific aspect of relevance."
+     "slide": 11,
+     "quote": "Materiality is not a second general constraint. It is an entity-specific aspect of relevance.",
+     "title": "The role of financial information"
     },
     {
      "deck": "S2",
-     "slide": "Accounting standards’ purpose",
-     "quote": "might also reduce firms’ cost of equity capital (transparency implied by comparability decreases the Corporate Governance Risk Premium)."
+     "slide": 14,
+     "quote": "might also reduce firms’ cost of equity capital (transparency implied by comparability decreases the Corporate Governance Risk Premium).",
+     "title": "Accounting standards’ purpose"
     },
     {
      "deck": "S2",
-     "slide": "Reasons for accounting standards’ alignment",
-     "quote": "Decrease costs of preparing financial statements, information risk, and cost of capital."
+     "slide": 15,
+     "quote": "Decrease costs of preparing financial statements, information risk, and cost of capital.",
+     "title": "Reasons for accounting standards’ alignment"
     }
    ],
-   "slides": [],
+   "slides": [
+    11,
+    14,
+    15
+   ],
    "slide_groups": [
     "S2A"
    ],
@@ -2107,21 +2262,28 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "Fundamental Investor Approach",
-     "quote": "A company is an attractive investment if the price is lower than the intrinsic value."
+     "slide": 18,
+     "quote": "A company is an attractive investment if the price is lower than the intrinsic value.",
+     "title": "Fundamental Investor Approach"
     },
     {
      "deck": "S2",
-     "slide": "Semi-strong form of efficient markets",
-     "quote": "Market prices reflect publicly available information; investors possessing private information may nevertheless have an informational advantage."
+     "slide": 22,
+     "quote": "Market prices reflect publicly available information; investors possessing private information may nevertheless have an informational advantage.",
+     "title": "Semi-strong form of efficient markets"
     },
     {
      "deck": "S2",
-     "slide": "Users of financial information: investment style",
-     "quote": "Relies on a fundamental analysis which strives at identifying the intrinsic value. However, this does not imply precision."
+     "slide": 17,
+     "quote": "Relies on a fundamental analysis which strives at identifying the intrinsic value. However, this does not imply precision.",
+     "title": "Users of financial information: investment style"
     }
    ],
-   "slides": [],
+   "slides": [
+    17,
+    18,
+    22
+   ],
    "slide_groups": [
     "S2B"
    ],
@@ -2213,21 +2375,28 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "The Balance Sheet: Non - Current Assets (optional)",
-     "quote": "defined as the higher of value in use and fair value less costs of disposal."
+     "slide": 30,
+     "quote": "defined as the higher of value in use and fair value less costs of disposal.",
+     "title": "The Balance Sheet: Non - Current Assets (optional)"
     },
     {
      "deck": "S2",
-     "slide": "Which Financial Statements?",
-     "quote": "intragroup balances, transactions, income, expenses and cash flows are eliminated in full."
+     "slide": 24,
+     "quote": "intragroup balances, transactions, income, expenses and cash flows are eliminated in full.",
+     "title": "Which Financial Statements?"
     },
     {
      "deck": "S2",
-     "slide": "The Income Statement: accounting principles",
-     "quote": "rather than only when cash is received or paid."
+     "slide": 36,
+     "quote": "rather than only when cash is received or paid.",
+     "title": "The Income Statement: accounting principles"
     }
    ],
-   "slides": [],
+   "slides": [
+    24,
+    30,
+    36
+   ],
    "slide_groups": [
     "S2C"
    ],
@@ -2315,21 +2484,28 @@
    "citations": [
     {
      "deck": "S2",
-     "slide": "Reverse accounting distortions",
-     "quote": "managerial discretion should not automatically be interpreted as earnings management."
+     "slide": 48,
+     "quote": "managerial discretion should not automatically be interpreted as earnings management.",
+     "title": "Reverse accounting distortions"
     },
     {
      "deck": "S2",
-     "slide": "Accounting distortions: Liabilities and equity",
-     "quote": "planned downsizing, long-term service provision with upfront payment"
+     "slide": 50,
+     "quote": "planned downsizing, long-term service provision with upfront payment",
+     "title": "Accounting distortions: Liabilities and equity"
     },
     {
      "deck": "S2",
-     "slide": "Accounting distortions: Income Statement",
-     "quote": "When a gift card is sold, the consideration received is generally recognised as a contract liability."
+     "slide": 51,
+     "quote": "When a gift card is sold, the consideration received is generally recognised as a contract liability.",
+     "title": "Accounting distortions: Income Statement"
     }
    ],
-   "slides": [],
+   "slides": [
+    48,
+    50,
+    51
+   ],
    "slide_groups": [
     "S2D"
    ],
@@ -2421,21 +2597,28 @@
    "citations": [
     {
      "deck": "S34",
-     "slide": "Focus on the ONWC: borderline cases",
-     "quote": "if it is a financing deposit (security deposit) consider excluding."
+     "slide": 31,
+     "quote": "if it is a financing deposit (security deposit) consider excluding.",
+     "title": "Focus on the ONWC: borderline cases"
     },
     {
      "deck": "S34",
-     "slide": "Some items require attention",
-     "quote": "In practice, many balance sheets contain mixed-purpose assets. An accurate reclassification requires: analytical judgment; access to notes disclosures."
+     "slide": 17,
+     "quote": "In practice, many balance sheets contain mixed-purpose assets. An accurate reclassification requires: analytical judgment; access to notes disclosures.",
+     "title": "Some items require attention"
     },
     {
      "deck": "S34",
-     "slide": "Reclassification of the Balance Sheet: an Introduction",
-     "quote": "Reclassification does not modify the underlying accounting information"
+     "slide": 8,
+     "quote": "Reclassification does not modify the underlying accounting information",
+     "title": "Reclassification of the Balance Sheet: an Introduction"
     }
    ],
-   "slides": [],
+   "slides": [
+    8,
+    17,
+    31
+   ],
    "slide_groups": [
     "S34A"
    ],
@@ -2532,21 +2715,27 @@
    "citations": [
     {
      "deck": "S34",
-     "slide": "Liquidity-based Balance Sheet",
-     "quote": "Treasury margin = short-term assets – inventories – short-term liabilities"
+     "slide": 21,
+     "quote": "Treasury margin = short-term assets – inventories – short-term liabilities",
+     "title": "Liquidity-based Balance Sheet"
     },
     {
      "deck": "S34",
-     "slide": "Liquidity-based Balance Sheet: how do we interpret the values?",
-     "quote": "This situation looks more severe than a negative Net Working Capital (NWC)"
+     "slide": 22,
+     "quote": "This situation looks more severe than a negative Net Working Capital (NWC)",
+     "title": "Liquidity-based Balance Sheet: how do we interpret the values?"
     },
     {
      "deck": "S34",
-     "slide": "Liquidity-based Balance Sheet",
-     "quote": "Operating NWC (used in the Management Account Method) is a narrower operational measure that excludes financial items."
+     "slide": 21,
+     "quote": "Operating NWC (used in the Management Account Method) is a narrower operational measure that excludes financial items.",
+     "title": "Liquidity-based Balance Sheet"
     }
    ],
-   "slides": [],
+   "slides": [
+    21,
+    22
+   ],
    "slide_groups": [
     "S34B"
    ],
@@ -2673,21 +2862,28 @@
    "citations": [
     {
      "deck": "S34",
-     "slide": "Value Added Income Statement: Definitions",
-     "quote": "Value of Production represents the total value generated by the company’s operating activity during the period"
+     "slide": 41,
+     "quote": "Value of Production represents the total value generated by the company’s operating activity during the period",
+     "title": "Value Added Income Statement: Definitions"
     },
     {
      "deck": "S34",
-     "slide": "A Metric of Vertical Integration",
-     "quote": "Value Added Ratio = Value Added / Value of Production"
+     "slide": 46,
+     "quote": "Value Added Ratio = Value Added / Value of Production",
+     "title": "A Metric of Vertical Integration"
     },
     {
      "deck": "S34",
-     "slide": "The Cost of Sales Method: Gross Margin",
-     "quote": "Gross Margin % = (Net Sales Revenues − COGS) / Net Sales Revenues × 100"
+     "slide": 39,
+     "quote": "Gross Margin % = (Net Sales Revenues − COGS) / Net Sales Revenues × 100",
+     "title": "The Cost of Sales Method: Gross Margin"
     }
    ],
-   "slides": [],
+   "slides": [
+    39,
+    41,
+    46
+   ],
    "slide_groups": [
     "S34C"
    ],
@@ -2790,21 +2986,28 @@
    "citations": [
     {
      "deck": "S34",
-     "slide": "Reclassification by Cost of Sales: some Points of Interest",
-     "quote": "EBITDA is not explicitly reported because depreciation and amortization are incorporated into the Cost of Sales calculation;"
+     "slide": 37,
+     "quote": "EBITDA is not explicitly reported because depreciation and amortization are incorporated into the Cost of Sales calculation;",
+     "title": "Reclassification by Cost of Sales: some Points of Interest"
     },
     {
      "deck": "S34",
-     "slide": "The Contribution Margin Income Statement: Definitions",
-     "quote": "estimate the level of sales required to cover fixed operating costs."
+     "slide": 51,
+     "quote": "estimate the level of sales required to cover fixed operating costs.",
+     "title": "The Contribution Margin Income Statement: Definitions"
     },
     {
      "deck": "S34",
-     "slide": "The three Methods: an Introduction",
-     "quote": "they all ultimately identify Operating Profit (EBIT or Earnings Before Interest and Taxes)."
+     "slide": 33,
+     "quote": "they all ultimately identify Operating Profit (EBIT or Earnings Before Interest and Taxes).",
+     "title": "The three Methods: an Introduction"
     }
    ],
-   "slides": [],
+   "slides": [
+    33,
+    37,
+    51
+   ],
    "slide_groups": [
     "S34C"
    ],
@@ -2898,49 +3101,49 @@
        "id": "S1-U3",
        "section": "S1B",
        "title": "Juventus–Aston Villa: connected transactions across two reporting periods",
-       "where": "Juventus slides",
+       "where": "slides 6–8",
        "examinable": true
       },
       {
        "id": "S1-U4",
        "section": "S1B",
        "title": "Apple: the CFO as a strategic business partner",
-       "where": "Apple slide",
+       "where": "slide 9",
        "examinable": true
       },
       {
        "id": "S1-U5",
        "section": "S1B",
        "title": "General Electric and Carillion: delayed impairment and aggressive estimates",
-       "where": "GE and Carillion slides",
+       "where": "slides 10–13",
        "examinable": true
       },
       {
        "id": "S1-U6",
        "section": "S1B",
        "title": "Credit Suisse and Macy's: material misstatement vs material weakness; adverse ICFR opinion",
-       "where": "Credit Suisse and Macy's slides",
+       "where": "slides 14–18",
        "examinable": true
       },
       {
        "id": "S1-U7",
        "section": "S1B",
        "title": "Armani and Prada–Versace: multiples, price vs value",
-       "where": "Armani and Versace slides",
+       "where": "slides 19–21",
        "examinable": true
       },
       {
        "id": "S1-U8",
        "section": "S1A",
        "title": "Conclusion: what financial statements really tell us",
-       "where": "cases summary and conclusion",
+       "where": "slides 22–23",
        "examinable": true
       },
       {
        "id": "S1-U9",
        "section": "S1A",
        "title": "Course organisation: materials, attending status, assessment",
-       "where": "last slides",
+       "where": "slides 24, 26–32",
        "examinable": false,
        "reason": "Course administration, not examinable content."
       },
@@ -2948,55 +3151,56 @@
        "id": "S1-U10",
        "section": "S1C",
        "title": "Share issue: par value, paid-in capital, contribution in kind",
-       "where": "handout Q1",
+       "where": "slide 25; handout Q1",
        "examinable": true
       },
       {
        "id": "S1-U11",
        "section": "S1C",
        "title": "Bond issue and accrued interest",
-       "where": "handout Q2",
+       "where": "slide 25; handout Q2",
        "examinable": true
       },
       {
        "id": "S1-U12",
        "section": "S1C",
        "title": "Rent paid in advance (pre-paid expense)",
-       "where": "handout Q3",
+       "where": "slide 25; handout Q3",
        "examinable": true
       },
       {
        "id": "S1-U13",
        "section": "S1C",
        "title": "Disposal of a non-current asset: gain or loss",
-       "where": "handout Q4",
+       "where": "slide 25; handout Q4",
        "examinable": true
       },
       {
        "id": "S1-U14",
        "section": "S1C",
        "title": "Inventory purchase with a note payable",
-       "where": "handout Q5",
+       "where": "slide 25; handout Q5",
        "examinable": true
       },
       {
        "id": "S1-U15",
        "section": "S1C",
        "title": "Cash collected in advance (unearned revenue)",
-       "where": "handout Q6",
+       "where": "slide 25; handout Q6",
        "examinable": true
       },
       {
        "id": "S1-U16",
        "section": "S1C",
        "title": "Credit sales and accounts receivable",
-       "where": "handout Q7",
+       "where": "slide 25; handout Q7",
        "examinable": true
       }
      ],
      "reading": [
       "Session 1 - Accounting Refresh - TEXT.pdf"
-     ]
+     ],
+     "slide_count": 32
     },
     "S2": {
      "title": "Session 2: Accounting basics and financial statements",
@@ -3024,28 +3228,28 @@
        "id": "S2-U1",
        "section": "S2A",
        "title": "The pandemic's effect on Italian listed companies (ROA, ROE, industries)",
-       "where": "slides 2–5",
+       "where": "slides 2–4",
        "examinable": true
       },
       {
        "id": "S2-U2",
        "section": "S2A",
        "title": "Accounting as valuable information: benefits of accounting quality",
-       "where": "slide 8",
+       "where": "slide 7",
        "examinable": true
       },
       {
        "id": "S2-U3",
        "section": "S2A",
        "title": "Financial vs managerial accounting",
-       "where": "slide 9",
+       "where": "slide 8",
        "examinable": true
       },
       {
        "id": "S2-U4",
        "section": "S2A",
        "title": "Purpose of financial statements, users, cost constraint and materiality",
-       "where": "slides 10–13",
+       "where": "slides 9–13",
        "examinable": true
       },
       {
@@ -3059,7 +3263,7 @@
        "id": "S2-U6",
        "section": "S2B",
        "title": "What FSA enables; fundamental analysis",
-       "where": "slide 16",
+       "where": "slides 16, 23",
        "examinable": true
       },
       {
@@ -3073,14 +3277,14 @@
        "id": "S2-U8",
        "section": "S2B",
        "title": "Price vs value (market, investment, intrinsic) and mispricing",
-       "where": "slides 18–19",
+       "where": "slides 18–20",
        "examinable": true
       },
       {
        "id": "S2-U9",
        "section": "S2B",
        "title": "Efficient markets, the semi-strong form and reporting",
-       "where": "slides 20–23",
+       "where": "slides 21–22",
        "examinable": true
       },
       {
@@ -3101,56 +3305,56 @@
        "id": "S2-U12",
        "section": "S2C",
        "title": "Balance sheet items and measurement (cash, receivables, inventories, PP&E, financial assets, intangibles, liabilities)",
-       "where": "slides 29–33 (optional)",
+       "where": "slides 29–32 (optional)",
        "examinable": true
       },
       {
        "id": "S2-U13",
        "section": "S2C",
        "title": "Equity: book vs market value, market premium",
-       "where": "slide 34",
+       "where": "slide 33",
        "examinable": true
       },
       {
        "id": "S2-U14",
        "section": "S2C",
        "title": "Income statement: definitions and the functional format",
-       "where": "slides 35–36",
+       "where": "slides 34–35",
        "examinable": true
       },
       {
        "id": "S2-U15",
        "section": "S2C",
        "title": "Income statement principles: revenue recognition, accruals, recognition uncertainty",
-       "where": "slide 37",
+       "where": "slide 36",
        "examinable": true
       },
       {
        "id": "S2-U16",
        "section": "S2C",
        "title": "Statement of shareholders' equity and retained earnings",
-       "where": "slide 38",
+       "where": "slide 37",
        "examinable": true
       },
       {
        "id": "S2-U17",
        "section": "S2C",
        "title": "Cash flow statement: CFO, CFI, CFF; direct and indirect methods",
-       "where": "slides 39–41",
+       "where": "slides 38–40",
        "examinable": true
       },
       {
        "id": "S2-U18",
        "section": "S2C",
        "title": "Reconciliation of cash and the interrelation of the statements",
-       "where": "slides 42–43",
+       "where": "slides 41–42",
        "examinable": true
       },
       {
        "id": "S2-U19",
        "section": "S2C",
        "title": "Fiat Chrysler: the statements of a real company",
-       "where": "slides 44–48",
+       "where": "slides 43–47",
        "examinable": false,
        "reason": "Illustration: the statements are shown as images with no figures in the text; the lesson (read the notes, connect the statements) is examined through S2-U18."
       },
@@ -3158,38 +3362,39 @@
        "id": "S2-U20",
        "section": "S2D",
        "title": "Reverse accounting distortions: judgement vs earnings management",
-       "where": "slide 49",
+       "where": "slide 48",
        "examinable": true
       },
       {
        "id": "S2-U21",
        "section": "S2D",
        "title": "Distortions in assets (leases, R&D, fair values, depreciation, allowances)",
-       "where": "slides 50–51",
+       "where": "slide 49",
        "examinable": true
       },
       {
        "id": "S2-U22",
        "section": "S2D",
        "title": "Distortions in liabilities and equity (provisions, leases, employment benefits, share-based payments)",
-       "where": "slide 52",
+       "where": "slide 50",
        "examinable": true
       },
       {
        "id": "S2-U23",
        "section": "S2D",
        "title": "Distortions in the income statement (revenue recognition, gift cards, deferred expenses)",
-       "where": "slide 53",
+       "where": "slide 51",
        "examinable": true
       },
       {
        "id": "S2-U24",
        "section": "S2D",
        "title": "Accrued and deferred revenues and expenses",
-       "where": "slides 54–55",
+       "where": "slides 52–53",
        "examinable": true
       }
-     ]
+     ],
+     "slide_count": 53
     },
     "S34": {
      "title": "Sessions 3-4: Financial statement reclassification",
@@ -3220,80 +3425,81 @@
        "id": "S34-U2",
        "section": "S34A",
        "title": "Operating NWC: definition and interpretation (negative ONWC)",
-       "where": "slides 9–10",
+       "where": "slides 9–11",
        "examinable": true
       },
       {
        "id": "S34-U3",
        "section": "S34A",
        "title": "Net Invested Capital: asset side and financing side",
-       "where": "slides 11–13",
+       "where": "slides 12–14",
        "examinable": true
       },
       {
        "id": "S34-U4",
        "section": "S34A",
        "title": "Net Financial Position: items included and excluded",
-       "where": "slides 13, 20–23",
+       "where": "slides 13–14, 23–26",
        "examinable": true
       },
       {
        "id": "S34-U5",
        "section": "S34A",
        "title": "Operating vs non-operating assets; non-operating fixed assets excluded from NIC; ROIC consistency",
-       "where": "slides 15–16",
+       "where": "slides 15–17",
        "examinable": true
       },
       {
        "id": "S34-U6",
        "section": "S34A",
        "title": "ONWC items included and excluded; borderline cases",
-       "where": "slides 24–28",
+       "where": "slides 27–31",
        "examinable": true
       },
       {
        "id": "S34-U7",
        "section": "S34B",
        "title": "Liquidity-based balance sheet: classification by liquidity and maturity",
-       "where": "slides 17–18",
+       "where": "slides 18–20",
        "examinable": true
       },
       {
        "id": "S34-U8",
        "section": "S34B",
        "title": "Financial NWC and treasury margin; interpretation",
-       "where": "slides 19–20",
+       "where": "slides 21–22",
        "examinable": true
       },
       {
        "id": "S34-U9",
        "section": "S34C",
        "title": "Income statement reclassification: the three methods and EBIT",
-       "where": "slides 29–32",
+       "where": "slides 32–34",
        "examinable": true
       },
       {
        "id": "S34-U10",
        "section": "S34C",
        "title": "Cost of sales (destination): COGS, cost drivers, gross margin %",
-       "where": "slides 33–37",
+       "where": "slides 35–39",
        "examinable": true
       },
       {
        "id": "S34-U11",
        "section": "S34C",
        "title": "Value added (nature): value of production, external/internal costs, distribution, VA ratio, outsourcing",
-       "where": "slides 38–46",
+       "where": "slides 40–48",
        "examinable": true
       },
       {
        "id": "S34-U12",
        "section": "S34C",
        "title": "Contribution margin (behaviour): variable/fixed costs, CVP uses",
-       "where": "slides 47–50",
+       "where": "slides 49–51",
        "examinable": true
       }
-     ]
+     ],
+     "slide_count": 51
     }
    },
    "fingerprint": {
@@ -3757,49 +3963,49 @@
      "id": "S1-U3",
      "section": "S1B",
      "title": "Juventus–Aston Villa: connected transactions across two reporting periods",
-     "where": "Juventus slides",
+     "where": "slides 6–8",
      "examinable": true
     },
     {
      "id": "S1-U4",
      "section": "S1B",
      "title": "Apple: the CFO as a strategic business partner",
-     "where": "Apple slide",
+     "where": "slide 9",
      "examinable": true
     },
     {
      "id": "S1-U5",
      "section": "S1B",
      "title": "General Electric and Carillion: delayed impairment and aggressive estimates",
-     "where": "GE and Carillion slides",
+     "where": "slides 10–13",
      "examinable": true
     },
     {
      "id": "S1-U6",
      "section": "S1B",
      "title": "Credit Suisse and Macy's: material misstatement vs material weakness; adverse ICFR opinion",
-     "where": "Credit Suisse and Macy's slides",
+     "where": "slides 14–18",
      "examinable": true
     },
     {
      "id": "S1-U7",
      "section": "S1B",
      "title": "Armani and Prada–Versace: multiples, price vs value",
-     "where": "Armani and Versace slides",
+     "where": "slides 19–21",
      "examinable": true
     },
     {
      "id": "S1-U8",
      "section": "S1A",
      "title": "Conclusion: what financial statements really tell us",
-     "where": "cases summary and conclusion",
+     "where": "slides 22–23",
      "examinable": true
     },
     {
      "id": "S1-U9",
      "section": "S1A",
      "title": "Course organisation: materials, attending status, assessment",
-     "where": "last slides",
+     "where": "slides 24, 26–32",
      "examinable": false,
      "reason": "Course administration, not examinable content."
     },
@@ -3807,49 +4013,49 @@
      "id": "S1-U10",
      "section": "S1C",
      "title": "Share issue: par value, paid-in capital, contribution in kind",
-     "where": "handout Q1",
+     "where": "slide 25; handout Q1",
      "examinable": true
     },
     {
      "id": "S1-U11",
      "section": "S1C",
      "title": "Bond issue and accrued interest",
-     "where": "handout Q2",
+     "where": "slide 25; handout Q2",
      "examinable": true
     },
     {
      "id": "S1-U12",
      "section": "S1C",
      "title": "Rent paid in advance (pre-paid expense)",
-     "where": "handout Q3",
+     "where": "slide 25; handout Q3",
      "examinable": true
     },
     {
      "id": "S1-U13",
      "section": "S1C",
      "title": "Disposal of a non-current asset: gain or loss",
-     "where": "handout Q4",
+     "where": "slide 25; handout Q4",
      "examinable": true
     },
     {
      "id": "S1-U14",
      "section": "S1C",
      "title": "Inventory purchase with a note payable",
-     "where": "handout Q5",
+     "where": "slide 25; handout Q5",
      "examinable": true
     },
     {
      "id": "S1-U15",
      "section": "S1C",
      "title": "Cash collected in advance (unearned revenue)",
-     "where": "handout Q6",
+     "where": "slide 25; handout Q6",
      "examinable": true
     },
     {
      "id": "S1-U16",
      "section": "S1C",
      "title": "Credit sales and accounts receivable",
-     "where": "handout Q7",
+     "where": "slide 25; handout Q7",
      "examinable": true
     }
    ],
@@ -3858,28 +4064,28 @@
      "id": "S2-U1",
      "section": "S2A",
      "title": "The pandemic's effect on Italian listed companies (ROA, ROE, industries)",
-     "where": "slides 2–5",
+     "where": "slides 2–4",
      "examinable": true
     },
     {
      "id": "S2-U2",
      "section": "S2A",
      "title": "Accounting as valuable information: benefits of accounting quality",
-     "where": "slide 8",
+     "where": "slide 7",
      "examinable": true
     },
     {
      "id": "S2-U3",
      "section": "S2A",
      "title": "Financial vs managerial accounting",
-     "where": "slide 9",
+     "where": "slide 8",
      "examinable": true
     },
     {
      "id": "S2-U4",
      "section": "S2A",
      "title": "Purpose of financial statements, users, cost constraint and materiality",
-     "where": "slides 10–13",
+     "where": "slides 9–13",
      "examinable": true
     },
     {
@@ -3893,7 +4099,7 @@
      "id": "S2-U6",
      "section": "S2B",
      "title": "What FSA enables; fundamental analysis",
-     "where": "slide 16",
+     "where": "slides 16, 23",
      "examinable": true
     },
     {
@@ -3907,14 +4113,14 @@
      "id": "S2-U8",
      "section": "S2B",
      "title": "Price vs value (market, investment, intrinsic) and mispricing",
-     "where": "slides 18–19",
+     "where": "slides 18–20",
      "examinable": true
     },
     {
      "id": "S2-U9",
      "section": "S2B",
      "title": "Efficient markets, the semi-strong form and reporting",
-     "where": "slides 20–23",
+     "where": "slides 21–22",
      "examinable": true
     },
     {
@@ -3935,56 +4141,56 @@
      "id": "S2-U12",
      "section": "S2C",
      "title": "Balance sheet items and measurement (cash, receivables, inventories, PP&E, financial assets, intangibles, liabilities)",
-     "where": "slides 29–33 (optional)",
+     "where": "slides 29–32 (optional)",
      "examinable": true
     },
     {
      "id": "S2-U13",
      "section": "S2C",
      "title": "Equity: book vs market value, market premium",
-     "where": "slide 34",
+     "where": "slide 33",
      "examinable": true
     },
     {
      "id": "S2-U14",
      "section": "S2C",
      "title": "Income statement: definitions and the functional format",
-     "where": "slides 35–36",
+     "where": "slides 34–35",
      "examinable": true
     },
     {
      "id": "S2-U15",
      "section": "S2C",
      "title": "Income statement principles: revenue recognition, accruals, recognition uncertainty",
-     "where": "slide 37",
+     "where": "slide 36",
      "examinable": true
     },
     {
      "id": "S2-U16",
      "section": "S2C",
      "title": "Statement of shareholders' equity and retained earnings",
-     "where": "slide 38",
+     "where": "slide 37",
      "examinable": true
     },
     {
      "id": "S2-U17",
      "section": "S2C",
      "title": "Cash flow statement: CFO, CFI, CFF; direct and indirect methods",
-     "where": "slides 39–41",
+     "where": "slides 38–40",
      "examinable": true
     },
     {
      "id": "S2-U18",
      "section": "S2C",
      "title": "Reconciliation of cash and the interrelation of the statements",
-     "where": "slides 42–43",
+     "where": "slides 41–42",
      "examinable": true
     },
     {
      "id": "S2-U19",
      "section": "S2C",
      "title": "Fiat Chrysler: the statements of a real company",
-     "where": "slides 44–48",
+     "where": "slides 43–47",
      "examinable": false,
      "reason": "Illustration: the statements are shown as images with no figures in the text; the lesson (read the notes, connect the statements) is examined through S2-U18."
     },
@@ -3992,35 +4198,35 @@
      "id": "S2-U20",
      "section": "S2D",
      "title": "Reverse accounting distortions: judgement vs earnings management",
-     "where": "slide 49",
+     "where": "slide 48",
      "examinable": true
     },
     {
      "id": "S2-U21",
      "section": "S2D",
      "title": "Distortions in assets (leases, R&D, fair values, depreciation, allowances)",
-     "where": "slides 50–51",
+     "where": "slide 49",
      "examinable": true
     },
     {
      "id": "S2-U22",
      "section": "S2D",
      "title": "Distortions in liabilities and equity (provisions, leases, employment benefits, share-based payments)",
-     "where": "slide 52",
+     "where": "slide 50",
      "examinable": true
     },
     {
      "id": "S2-U23",
      "section": "S2D",
      "title": "Distortions in the income statement (revenue recognition, gift cards, deferred expenses)",
-     "where": "slide 53",
+     "where": "slide 51",
      "examinable": true
     },
     {
      "id": "S2-U24",
      "section": "S2D",
      "title": "Accrued and deferred revenues and expenses",
-     "where": "slides 54–55",
+     "where": "slides 52–53",
      "examinable": true
     }
    ],
@@ -4036,77 +4242,77 @@
      "id": "S34-U2",
      "section": "S34A",
      "title": "Operating NWC: definition and interpretation (negative ONWC)",
-     "where": "slides 9–10",
+     "where": "slides 9–11",
      "examinable": true
     },
     {
      "id": "S34-U3",
      "section": "S34A",
      "title": "Net Invested Capital: asset side and financing side",
-     "where": "slides 11–13",
+     "where": "slides 12–14",
      "examinable": true
     },
     {
      "id": "S34-U4",
      "section": "S34A",
      "title": "Net Financial Position: items included and excluded",
-     "where": "slides 13, 20–23",
+     "where": "slides 13–14, 23–26",
      "examinable": true
     },
     {
      "id": "S34-U5",
      "section": "S34A",
      "title": "Operating vs non-operating assets; non-operating fixed assets excluded from NIC; ROIC consistency",
-     "where": "slides 15–16",
+     "where": "slides 15–17",
      "examinable": true
     },
     {
      "id": "S34-U6",
      "section": "S34A",
      "title": "ONWC items included and excluded; borderline cases",
-     "where": "slides 24–28",
+     "where": "slides 27–31",
      "examinable": true
     },
     {
      "id": "S34-U7",
      "section": "S34B",
      "title": "Liquidity-based balance sheet: classification by liquidity and maturity",
-     "where": "slides 17–18",
+     "where": "slides 18–20",
      "examinable": true
     },
     {
      "id": "S34-U8",
      "section": "S34B",
      "title": "Financial NWC and treasury margin; interpretation",
-     "where": "slides 19–20",
+     "where": "slides 21–22",
      "examinable": true
     },
     {
      "id": "S34-U9",
      "section": "S34C",
      "title": "Income statement reclassification: the three methods and EBIT",
-     "where": "slides 29–32",
+     "where": "slides 32–34",
      "examinable": true
     },
     {
      "id": "S34-U10",
      "section": "S34C",
      "title": "Cost of sales (destination): COGS, cost drivers, gross margin %",
-     "where": "slides 33–37",
+     "where": "slides 35–39",
      "examinable": true
     },
     {
      "id": "S34-U11",
      "section": "S34C",
      "title": "Value added (nature): value of production, external/internal costs, distribution, VA ratio, outsourcing",
-     "where": "slides 38–46",
+     "where": "slides 40–48",
      "examinable": true
     },
     {
      "id": "S34-U12",
      "section": "S34C",
      "title": "Contribution margin (behaviour): variable/fixed costs, CVP uses",
-     "where": "slides 47–50",
+     "where": "slides 49–51",
      "examinable": true
     }
    ]

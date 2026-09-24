@@ -1,5 +1,5 @@
 /* Pre-creation review. Exits non-zero on any failure.
-   Per question:  the site's own validator (validateQuestion); MCQ keys mark themselves correct;
+   Per question:  the site's own validator (validateQuestion); MCQ keys mark themselves correct; mapped to numbered slides;
                   generated questions pass the harder rule (reviewHarder) against the course fingerprint;
                   real questions are verbatim-verified; adapted questions carry a "check" note for Will.
    Per course with a coverage block (units + ledger):
@@ -23,6 +23,10 @@ for(const f of fs.readdirSync(__dirname).filter(f=>/^bank_.*\.json$/.test(f)).so
     if(type==="generated"&&g.status!=="pass")errs.push("harder rule: "+g.checks.filter(c=>!c.ok).map(c=>c.label+" ("+c.detail+")").join("; "));
     if(type!=="generated"&&g.status!=="exempt"&&g.status!=="pass")errs.push("harder rule on a "+type+" question marked hard: "+g.status);
     if(type==="adapted"&&!(q.source.check||"").trim())errs.push("adapted question without a check note for Will");
+    const deckInfo=((known[q.course]||{}).decks||{})[q.deck]||{};const sl=Array.isArray(q.slides)?q.slides:[];
+    if(!sl.length)errs.push("no slides: the question is not mapped to any slide of its deck (the site shows 'slides not mapped')");
+    sl.forEach(x=>{if(!Number.isInteger(x)||x<1||(deckInfo.slide_count&&x>deckInfo.slide_count))errs.push("slide "+x+" is not a page of deck "+q.deck+(deckInfo.slide_count?" ("+deckInfo.slide_count+" pages)":""));});
+    (q.citations||[]).forEach(c=>{if(!Number.isInteger(c.slide))errs.push("citation slide is not a page number: "+c.slide);});
     (q.subquestions||[]).forEach(s=>{if(s.options&&s.options.length){const r=E.mcqResults(q,{[s.n]:E.keyIndex(s,q.answer_key.find(k=>k.n===s.n))});if(!r.find(x=>x.n===s.n).correct)errs.push("key does not mark itself correct: "+s.n);}});
     const T=g.thresholds;const tag=type==="generated"?"":` [${type}${type==="adapted"?", check flagged":""}]`;
     console.log((errs.length?"FAIL ":"pass ")+q.id.padEnd(16)+(T&&type==="generated"?` [${T.sc}: steps > ${T.stepsFloor} & ≥ ${T.stepsMin}, concepts ≥ ${T.conceptsMin}, ≤ ${T.minutesCap} min/answer]`:tag)+(errs.length?"\n     "+errs.join("\n     "):""));

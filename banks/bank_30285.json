@@ -91,21 +91,28 @@
    "citations": [
     {
      "deck": "L1B",
-     "slide": "Returns in Financial Modelling",
-     "quote": "Raw Gross Return: what you get relative to what you invested"
+     "slide": 11,
+     "quote": "Raw Gross Return: what you get relative to what you invested",
+     "title": "Returns in Financial Modelling"
     },
     {
      "deck": "L1B",
-     "slide": "Disadvantages of Log Returns",
-     "quote": "Take away: units matter"
+     "slide": 13,
+     "quote": "Take away: units matter",
+     "title": "Disadvantages of Log Returns"
     },
     {
      "deck": "L1B",
-     "slide": "Variance of a Sum of Variables and Covariance",
-     "quote": "Example: assume the 2 assets are perfectly inversely related (correlated). What happens?"
+     "slide": 20,
+     "quote": "Example: assume the 2 assets are perfectly inversely related (correlated). What happens?",
+     "title": "Variance of a Sum of Variables and Covariance"
     }
    ],
-   "slides": [],
+   "slides": [
+    11,
+    13,
+    20
+   ],
    "slide_groups": [],
    "est_minutes": 9,
    "created_at": "2026-09-24T18:00:00Z",
@@ -227,21 +234,28 @@
    "citations": [
     {
      "deck": "L1C",
-     "slide": "Sample average and variance in vector form",
-     "quote": "The sample variance can be computed in two ways:"
+     "slide": 8,
+     "quote": "The sample variance can be computed in two ways:",
+     "title": "Sample average and variance in vector form"
     },
     {
      "deck": "L1C",
-     "slide": "Key rules",
-     "quote": "Rule 4 (sandwich): the v-cov matrix of a vector Y multiplied by a matrix A of scalars"
+     "slide": 14,
+     "quote": "Rule 4 (sandwich): the v-cov matrix of a vector Y multiplied by a matrix A of scalars",
+     "title": "Key rules"
     },
     {
      "deck": "L1C",
-     "slide": "An Example: the sample mean",
-     "quote": "Because of the iid assumption, there is no covariance to take care of"
+     "slide": 12,
+     "quote": "Because of the iid assumption, there is no covariance to take care of",
+     "title": "An Example: the sample mean"
     }
    ],
-   "slides": [],
+   "slides": [
+    8,
+    12,
+    14
+   ],
    "slide_groups": [],
    "est_minutes": 9,
    "created_at": "2026-09-24T18:00:00Z",
@@ -361,21 +375,27 @@
    "citations": [
     {
      "deck": "L2",
-     "slide": "Determining the Regression Coefficients",
-     "quote": "Choose α and β so that the (vertical) distances from the data points to the fitted lines"
+     "slide": 12,
+     "quote": "Choose α and β so that the (vertical) distances from the data points to the fitted lines",
+     "title": "Determining the Regression Coefficients"
     },
     {
      "deck": "L2",
-     "slide": "How Do We Use α and β?",
-     "quote": "If an analyst tells you that she expects the market to yield a return 20% higher than the risk-free rate next year"
+     "slide": 18,
+     "quote": "If an analyst tells you that she expects the market to yield a return 20% higher than the risk-free rate next year",
+     "title": "How Do We Use α and β?"
     },
     {
      "deck": "L2B",
-     "slide": "Estimation of σ",
-     "quote": "Use the sample counterpart of u and accounts for the estimation bias"
+     "slide": 13,
+     "quote": "Use the sample counterpart of u and accounts for the estimation bias",
+     "title": "Estimation of σ"
     }
    ],
-   "slides": [],
+   "slides": [
+    12,
+    18
+   ],
    "slide_groups": [],
    "est_minutes": 10,
    "created_at": "2026-09-24T18:00:00Z",
@@ -497,21 +517,28 @@
    "citations": [
     {
      "deck": "L2B",
-     "slide": "Interpretation of our results",
-     "quote": "The more observations we have, T, the less uncertainty"
+     "slide": 12,
+     "quote": "The more observations we have, T, the less uncertainty",
+     "title": "Interpretation of our results"
     },
     {
      "deck": "L2B",
-     "slide": "Assumption 5: normality",
-     "quote": "In principle, you should use a t-distribution with (T-2) degrees of freedom, but in large sample the t converges to a normal"
+     "slide": 15,
+     "quote": "In principle, you should use a t-distribution with (T-2) degrees of freedom, but in large sample the t converges to a normal",
+     "title": "Assumption 5: normality"
     },
     {
      "deck": "L2B",
-     "slide": "Confidence Intervals",
-     "quote": "Choose a significance level, α (again the convention is 5%)"
+     "slide": 18,
+     "quote": "Choose a significance level, α (again the convention is 5%)",
+     "title": "Confidence Intervals"
     }
    ],
-   "slides": [],
+   "slides": [
+    12,
+    15,
+    18
+   ],
    "slide_groups": [],
    "est_minutes": 9,
    "created_at": "2026-09-24T18:00:00Z",
@@ -631,21 +658,28 @@
    "citations": [
     {
      "deck": "L2C",
-     "slide": "Determining the # of Restrictions",
-     "quote": "Count the number of ‘=’signs"
+     "slide": 15,
+     "quote": "Count the number of ‘=’signs",
+     "title": "Determining the # of Restrictions"
     },
     {
      "deck": "L2C",
-     "slide": "F-test distribution and Inference",
-     "quote": "reject the null if the test statistic > critical F-value"
+     "slide": 13,
+     "quote": "reject the null if the test statistic > critical F-value",
+     "title": "F-test distribution and Inference"
     },
     {
      "deck": "L2C",
-     "slide": "F-test: Example (I)",
-     "quote": "We substitute the restriction (β3+β4 = 1) into the regression so that it is automatically imposed on the data."
+     "slide": 10,
+     "quote": "We substitute the restriction (β3+β4 = 1) into the regression so that it is automatically imposed on the data.",
+     "title": "F-test: Example (I)"
     }
    ],
-   "slides": [],
+   "slides": [
+    10,
+    13,
+    15
+   ],
    "slide_groups": [],
    "est_minutes": 10,
    "created_at": "2026-09-24T18:00:00Z",
@@ -696,23 +730,28 @@
    "decks": {
     "L1B": {
      "title": "1b Introduction to Content (methodology, returns, risk)",
-     "file": "Slides/1b_Introduction_to_Content.pdf"
+     "file": "Slides/1b_Introduction_to_Content.pdf",
+     "slide_count": 24
     },
     "L1C": {
      "title": "1c Linear Algebra and Inference",
-     "file": "Slides/1c_LinearAlgebra_and_Inference_v2.pdf"
+     "file": "Slides/1c_LinearAlgebra_and_Inference_v2.pdf",
+     "slide_count": 16
     },
     "L2": {
      "title": "2 Simple Linear Regression",
-     "file": "Slides/2_Simple_LinRegr.pdf"
+     "file": "Slides/2_Simple_LinRegr.pdf",
+     "slide_count": 28
     },
     "L2B": {
      "title": "2b Simple Linear Regression: Inference",
-     "file": "Slides/2b_Simple_LinRegr_Inference.pdf"
+     "file": "Slides/2b_Simple_LinRegr_Inference.pdf",
+     "slide_count": 23
     },
     "L2C": {
      "title": "2c Linear Regression: F-test",
-     "file": "Slides/2c_LinearRegr_FTest.pdf"
+     "file": "Slides/2c_LinearRegr_FTest.pdf",
+     "slide_count": 22
     }
    },
    "fingerprint": {

@@ -60,8 +60,11 @@ with a reason). The site shows this as the **Coverage** panel in each deck folde
 
 **Review before creating.** Run `python3 banks/build_banks.py` (every number computed and solved a second way with an assert),
 then `node banks/review.js`. It checks every bank question (validator, key self-check, harder rule for generated questions,
-verbatim for real ones) and then the coverage rule for each course with a coverage block. It exits non-zero on any gap, and
+verbatim for real ones, numbered slides for every question) and then the coverage rule for each course with a coverage block. It exits non-zero on any gap, and
 nothing is written to the Answer Grid database until it passes. Then read every key and option set yourself.
+Citations may name a slide by its title while drafting; `python3 banks/index_slides.py <folder of deck PDFs>` finds each quote in the
+deck PDFs, writes the page numbers to `banks/slide_index.json` (the build turns titles into pages from it) and fails on any quote that is
+not on its stated page.
 
 The site applies the same rule (`reviewHarder` in `js/logic.js`). **Imports block** any generated question that fails it or
 has no `hard_check`. Real and adapted course questions are exempt, because they are the evidence the rule is measured against.

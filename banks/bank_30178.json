@@ -94,21 +94,28 @@
    "citations": [
     {
      "deck": "INTRO",
-     "slide": "Why Are Banks Inherently Fragile? Illustrative balance sheets",
-     "quote": "What happens if depositors demand repayment before the bank’s loans are repaid—or if the value of those loans falls by 8%?"
+     "slide": 23,
+     "quote": "What happens if depositors demand repayment before the bank’s loans are repaid—or if the value of those loans falls by 8%?",
+     "title": "Why Are Banks Inherently Fragile? Illustrative balance sheets"
     },
     {
      "deck": "INTRO",
-     "slide": "Why Are Banks “inherently” Fragile?",
-     "quote": "A relatively small loss on the bank’s assets can substantially reduce its equity."
+     "slide": 24,
+     "quote": "A relatively small loss on the bank’s assets can substantially reduce its equity.",
+     "title": "Why Are Banks “inherently” Fragile?"
     },
     {
      "deck": "INTRO",
-     "slide": "The concepts of maturity, liquidity and risk transformation",
-     "quote": "Also create fragility, which requires regulation, adequate capital buffers, and proper risk management tools"
+     "slide": 25,
+     "quote": "Also create fragility, which requires regulation, adequate capital buffers, and proper risk management tools",
+     "title": "The concepts of maturity, liquidity and risk transformation"
     }
    ],
-   "slides": [],
+   "slides": [
+    23,
+    24,
+    25
+   ],
    "slide_groups": [
     "I3",
     "I2"
@@ -238,21 +245,28 @@
    "citations": [
     {
      "deck": "INTRO",
-     "slide": "Simplified (European Bank – Example Format) Income Statement",
-     "quote": "Note: Cost-to-income ratio (operating cost to total operating income) is a common metric of a banks’ operational efficiency"
+     "slide": 18,
+     "quote": "Note: Cost-to-income ratio (operating cost to total operating income) is a common metric of a banks’ operational efficiency",
+     "title": "Simplified (European Bank – Example Format) Income Statement"
     },
     {
      "deck": "INTRO",
-     "slide": "How Banking Activities Generate Revenues",
-     "quote": "Interest income − Interest expense = Net interest income"
+     "slide": 15,
+     "quote": "Interest income − Interest expense = Net interest income",
+     "title": "How Banking Activities Generate Revenues"
     },
     {
      "deck": "INTRO",
-     "slide": "How Banking Activities Generate Revenues and Expenses",
-     "quote": "Loan Loss Provisions: amounts recognised to cover expected losses when borrowers may not fully repay their loans"
+     "slide": 17,
+     "quote": "Loan Loss Provisions: amounts recognised to cover expected losses when borrowers may not fully repay their loans",
+     "title": "How Banking Activities Generate Revenues and Expenses"
     }
    ],
-   "slides": [],
+   "slides": [
+    15,
+    17,
+    18
+   ],
    "slide_groups": [
     "I2"
    ],
@@ -380,26 +394,35 @@
    "citations": [
     {
      "deck": "SVB",
-     "slide": "Asset side – the HTM portfolio",
-     "quote": "At the end of 2022, the market value of the HTM portfolio would have been $76bn vs. $91 ($15 bn of unrealized losses)"
+     "slide": 20,
+     "quote": "At the end of 2022, the market value of the HTM portfolio would have been $76bn vs. $91 ($15 bn of unrealized losses)",
+     "title": "Asset side – the HTM portfolio"
     },
     {
      "deck": "SVB",
-     "slide": "Asset side – the AFS portfolio",
-     "quote": "Over $26 bn of AFS assets: these are carried at the fair value, i.e., marked to market"
+     "slide": 22,
+     "quote": "Over $26 bn of AFS assets: these are carried at the fair value, i.e., marked to market",
+     "title": "Asset side – the AFS portfolio"
     },
     {
      "deck": "SVB",
-     "slide": "Liability side: The Achilles’ heel",
-     "quote": "≈ 90% of Dep were uninsured"
+     "slide": 25,
+     "quote": "≈ 90% of Dep were uninsured",
+     "title": "Liability side: The Achilles’ heel"
     },
     {
      "deck": "SVB",
-     "slide": "Phase 2: Deposits drawdown",
-     "quote": "What banks could do to face «liability withdrawals»?"
+     "slide": 32,
+     "quote": "What banks could do to face «liability withdrawals»?",
+     "title": "Phase 2: Deposits drawdown"
     }
    ],
-   "slides": [],
+   "slides": [
+    20,
+    22,
+    25,
+    32
+   ],
    "slide_groups": [
     "V1",
     "V3",
@@ -530,13 +553,15 @@
    "citations": [
     {
      "deck": "SVB",
-     "slide": "Points to address",
-     "quote": "Putting it together: what does this imply for SVB's Duration GAP and ΔEVE?"
+     "slide": 2,
+     "quote": "Putting it together: what does this imply for SVB's Duration GAP and ΔEVE?",
+     "title": "Points to address"
     },
     {
      "deck": "SVB",
-     "slide": "Asset side – the HTM portfolio",
-     "quote": "The average duration of the HTM portfolio: 6.2 yrs"
+     "slide": 20,
+     "quote": "The average duration of the HTM portfolio: 6.2 yrs",
+     "title": "Asset side – the HTM portfolio"
     },
     {
      "deck": "IRR",
@@ -549,7 +574,10 @@
      "quote": "If DGAP is positive, an increase in rates will lower EVE, while a decrease in rates will increase EVE"
     }
    ],
-   "slides": [],
+   "slides": [
+    2,
+    20
+   ],
    "slide_groups": [
     "V3",
     "V5"
@@ -653,11 +681,14 @@
    "citations": [
     {
      "deck": "INTRO",
-     "slide": "What Do Banks Do? Investment banks",
-     "quote": "The investment bank structures, prices and markets the securities—and may purchase them before reselling them to investors."
+     "slide": 10,
+     "quote": "The investment bank structures, prices and markets the securities—and may purchase them before reselling them to investors.",
+     "title": "What Do Banks Do? Investment banks"
     }
    ],
-   "slides": [],
+   "slides": [
+    10
+   ],
    "slide_groups": [
     "I1"
    ],
@@ -733,11 +764,14 @@
    "citations": [
     {
      "deck": "INTRO",
-     "slide": "What Do Banks Do? Investment banks",
-     "quote": "Help companies and governments raise funds by issuing shares or bonds."
+     "slide": 10,
+     "quote": "Help companies and governments raise funds by issuing shares or bonds.",
+     "title": "What Do Banks Do? Investment banks"
     }
    ],
-   "slides": [],
+   "slides": [
+    10
+   ],
    "slide_groups": [
     "I1"
    ],
@@ -825,16 +859,21 @@
    "citations": [
     {
      "deck": "INTRO",
-     "slide": "How Banking Activities Generate Revenues",
-     "quote": "Interest income − Interest expense = Net interest income"
+     "slide": 15,
+     "quote": "Interest income − Interest expense = Net interest income",
+     "title": "How Banking Activities Generate Revenues"
     },
     {
      "deck": "INTRO",
-     "slide": "How Banking Activities Generate Revenues and Expenses",
-     "quote": "Loan Loss Provisions: amounts recognised to cover expected losses when borrowers may not fully repay their loans"
+     "slide": 17,
+     "quote": "Loan Loss Provisions: amounts recognised to cover expected losses when borrowers may not fully repay their loans",
+     "title": "How Banking Activities Generate Revenues and Expenses"
     }
    ],
-   "slides": [],
+   "slides": [
+    15,
+    17
+   ],
    "slide_groups": [
     "I2"
    ],
@@ -893,11 +932,14 @@
    "citations": [
     {
      "deck": "INTRO",
-     "slide": "What Do Banks Do? Investment banks",
-     "quote": "The investment bank structures, prices and markets the securities—and may purchase them before reselling them to investors."
+     "slide": 10,
+     "quote": "The investment bank structures, prices and markets the securities—and may purchase them before reselling them to investors.",
+     "title": "What Do Banks Do? Investment banks"
     }
    ],
-   "slides": [],
+   "slides": [
+    10
+   ],
    "slide_groups": [
     "I1"
    ],
@@ -959,11 +1001,14 @@
    "citations": [
     {
      "deck": "INTRO",
-     "slide": "Commercial banks: Simplified Balance sheet (b/s)",
-     "quote": "Government and corporate bonds, etc."
+     "slide": 14,
+     "quote": "Government and corporate bonds, etc.",
+     "title": "Commercial banks: Simplified Balance sheet (b/s)"
     }
    ],
-   "slides": [],
+   "slides": [
+    14
+   ],
    "slide_groups": [
     "I2"
    ],
@@ -1025,16 +1070,21 @@
    "citations": [
     {
      "deck": "INTRO",
-     "slide": "Not All Banks Do the Same Things",
-     "quote": "Commercial banking: accepts deposits and transforms funding into loans and securities"
+     "slide": 6,
+     "quote": "Commercial banking: accepts deposits and transforms funding into loans and securities",
+     "title": "Not All Banks Do the Same Things"
     },
     {
      "deck": "INTRO",
-     "slide": "What Do Banks Do? Universal banks",
-     "quote": "trade securities for a speculative profit, offer brokerage services (Inv. Bank)"
+     "slide": 12,
+     "quote": "trade securities for a speculative profit, offer brokerage services (Inv. Bank)",
+     "title": "What Do Banks Do? Universal banks"
     }
    ],
-   "slides": [],
+   "slides": [
+    6,
+    12
+   ],
    "slide_groups": [
     "I1"
    ],
@@ -1097,11 +1147,14 @@
    "citations": [
     {
      "deck": "INTRO",
-     "slide": "Banking Activities Generate Risks",
-     "quote": "Market risk: security prices may move adversely"
+     "slide": 21,
+     "quote": "Market risk: security prices may move adversely",
+     "title": "Banking Activities Generate Risks"
     }
    ],
-   "slides": [],
+   "slides": [
+    21
+   ],
    "slide_groups": [
     "I3"
    ],
@@ -1164,11 +1217,14 @@
    "citations": [
     {
      "deck": "INTRO",
-     "slide": "How Banking Activities Generate Revenues and Expenses",
-     "quote": "Loan Loss Provisions: amounts recognised to cover expected losses when borrowers may not fully repay their loans"
+     "slide": 17,
+     "quote": "Loan Loss Provisions: amounts recognised to cover expected losses when borrowers may not fully repay their loans",
+     "title": "How Banking Activities Generate Revenues and Expenses"
     }
    ],
-   "slides": [],
+   "slides": [
+    17
+   ],
    "slide_groups": [
     "I2"
    ],
@@ -1429,16 +1485,21 @@
    "citations": [
     {
      "deck": "SVB",
-     "slide": "Effects: Massive growth in bank balance in SVB sheets",
-     "quote": "Balance sheet size has tripled since 2019"
+     "slide": 11,
+     "quote": "Balance sheet size has tripled since 2019",
+     "title": "Effects: Massive growth in bank balance in SVB sheets"
     },
     {
      "deck": "SVB",
-     "slide": "Effects: Massive growth in bank balance sheets during the ZLB and QE years",
-     "quote": "Bank balance sheets expand, financed with deposits (typically wholesale or uninsured)"
+     "slide": 12,
+     "quote": "Bank balance sheets expand, financed with deposits (typically wholesale or uninsured)",
+     "title": "Effects: Massive growth in bank balance sheets during the ZLB and QE years"
     }
    ],
-   "slides": [],
+   "slides": [
+    11,
+    12
+   ],
    "slide_groups": [
     "V2"
    ],
@@ -1513,16 +1574,20 @@
    "citations": [
     {
      "deck": "SVB",
-     "slide": "Liability side: The Achilles’ heel",
-     "quote": "Large corporate depositors: the largest 10 depositors accounted for 8% of SVB deposits, for an average of $ 1.3 bill each"
+     "slide": 25,
+     "quote": "Large corporate depositors: the largest 10 depositors accounted for 8% of SVB deposits, for an average of $ 1.3 bill each",
+     "title": "Liability side: The Achilles’ heel"
     },
     {
      "deck": "SVB",
-     "slide": "Liability side: The Achilles’ heel",
-     "quote": "≈ 90% of Dep were uninsured"
+     "slide": 25,
+     "quote": "≈ 90% of Dep were uninsured",
+     "title": "Liability side: The Achilles’ heel"
     }
    ],
-   "slides": [],
+   "slides": [
+    25
+   ],
    "slide_groups": [
     "V4"
    ],
@@ -2643,21 +2708,26 @@
    "citations": [
     {
      "deck": "INTRO",
-     "slide": "Main Takeaways – Business Models",
-     "quote": "Revenues dominated by net interest income (NII > 55–75%)"
+     "slide": 20,
+     "quote": "Revenues dominated by net interest income (NII > 55–75%)",
+     "title": "Main Takeaways – Business Models"
     },
     {
      "deck": "INTRO",
-     "slide": "Main Takeaways – Business Models",
-     "quote": "High cost-to-income (62-76%), weaker efficiency vs peers"
+     "slide": 20,
+     "quote": "High cost-to-income (62-76%), weaker efficiency vs peers",
+     "title": "Main Takeaways – Business Models"
     },
     {
      "deck": "INTRO",
-     "slide": "Main Takeaways – Business Models",
-     "quote": "More balanced model between NII and non-interest (≈50/50 split)"
+     "slide": 20,
+     "quote": "More balanced model between NII and non-interest (≈50/50 split)",
+     "title": "Main Takeaways – Business Models"
     }
    ],
-   "slides": [],
+   "slides": [
+    20
+   ],
    "slide_groups": [
     "I1",
     "I2"
@@ -2762,26 +2832,35 @@
    "citations": [
     {
      "deck": "INTRO",
-     "slide": "What Do Banks Do? Commercial banks",
-     "quote": "Smaller banks collect deposits (retail customers) while large banks use (relatively more) wholesale sources of funding"
+     "slide": 8,
+     "quote": "Smaller banks collect deposits (retail customers) while large banks use (relatively more) wholesale sources of funding",
+     "title": "What Do Banks Do? Commercial banks"
     },
     {
      "deck": "INTRO",
-     "slide": "Banking Activities Generate Risks",
-     "quote": "Hold sufficient capital to absorb unexpected losses"
+     "slide": 21,
+     "quote": "Hold sufficient capital to absorb unexpected losses",
+     "title": "Banking Activities Generate Risks"
     },
     {
      "deck": "INTRO",
-     "slide": "The concepts of maturity, liquidity and risk transformation",
-     "quote": "Provide the rationale for an interest spread (loan interest rates being higher than deposit interest rates)"
+     "slide": 25,
+     "quote": "Provide the rationale for an interest spread (loan interest rates being higher than deposit interest rates)",
+     "title": "The concepts of maturity, liquidity and risk transformation"
     },
     {
      "deck": "INTRO",
-     "slide": "Why regulation and supervision are needed",
-     "quote": "Bank failure can therefore affect depositors, disrupt lending and payments, and spread instability through the financial system."
+     "slide": 22,
+     "quote": "Bank failure can therefore affect depositors, disrupt lending and payments, and spread instability through the financial system.",
+     "title": "Why regulation and supervision are needed"
     }
    ],
-   "slides": [],
+   "slides": [
+    8,
+    21,
+    22,
+    25
+   ],
    "slide_groups": [
     "I3",
     "I1"
@@ -2880,26 +2959,34 @@
    "citations": [
     {
      "deck": "SVB",
-     "slide": "Why deposit insurance is important in this context?",
-     "quote": "Deposit insurance is one of several tools—alongside central bank lender-of-last-resort facilities and bank resolution mechanisms—that form the “financial safety net.”"
+     "slide": 15,
+     "quote": "Deposit insurance is one of several tools—alongside central bank lender-of-last-resort facilities and bank resolution mechanisms—that form the “financial safety net.”",
+     "title": "Why deposit insurance is important in this context?"
     },
     {
      "deck": "SVB",
-     "slide": "Why deposit insurance is important in this context?",
-     "quote": "More stable. Because insured depositors have confidence that their money will be repaid even if the bank fails"
+     "slide": 15,
+     "quote": "More stable. Because insured depositors have confidence that their money will be repaid even if the bank fails",
+     "title": "Why deposit insurance is important in this context?"
     },
     {
      "deck": "SVB",
-     "slide": "Period of Fed tightening",
-     "quote": "Banks flush with uninsured deposits read the Fed's \"low for long\" forward guidance as a commitment, not a forecast"
+     "slide": 29,
+     "quote": "Banks flush with uninsured deposits read the Fed's \"low for long\" forward guidance as a commitment, not a forecast",
+     "title": "Period of Fed tightening"
     },
     {
      "deck": "SVB",
-     "slide": "Effects: Massive growth in bank balance sheets during the ZLB and QE years",
-     "quote": "Not just SVB. Balance sheet growth fulled by over $3.5 trillion increase in US uninsured deposits"
+     "slide": 12,
+     "quote": "Not just SVB. Balance sheet growth fulled by over $3.5 trillion increase in US uninsured deposits",
+     "title": "Effects: Massive growth in bank balance sheets during the ZLB and QE years"
     }
    ],
-   "slides": [],
+   "slides": [
+    12,
+    15,
+    29
+   ],
    "slide_groups": [
     "V2"
    ],
@@ -3026,26 +3113,34 @@
    "citations": [
     {
      "deck": "SVB",
-     "slide": "Liability side: The Achilles’ heel",
-     "quote": "Large corporate depositors: the largest 10 depositors accounted for 8% of SVB deposits, for an average of $ 1.3 bill each"
+     "slide": 25,
+     "quote": "Large corporate depositors: the largest 10 depositors accounted for 8% of SVB deposits, for an average of $ 1.3 bill each",
+     "title": "Liability side: The Achilles’ heel"
     },
     {
      "deck": "SVB",
-     "slide": "Liability side: The Achilles’ heel",
-     "quote": "≈ 90% of Dep were uninsured"
+     "slide": 25,
+     "quote": "≈ 90% of Dep were uninsured",
+     "title": "Liability side: The Achilles’ heel"
     },
     {
      "deck": "SVB",
-     "slide": "Asset side – the HTM portfolio",
-     "quote": "At the end of 2022, the market value of the HTM portfolio would have been $76bn vs. $91 ($15 bn of unrealized losses)"
+     "slide": 20,
+     "quote": "At the end of 2022, the market value of the HTM portfolio would have been $76bn vs. $91 ($15 bn of unrealized losses)",
+     "title": "Asset side – the HTM portfolio"
     },
     {
      "deck": "SVB",
-     "slide": "Asset side – the AFS portfolio",
-     "quote": "Over $26 bn of AFS assets: these are carried at the fair value, i.e., marked to market"
+     "slide": 22,
+     "quote": "Over $26 bn of AFS assets: these are carried at the fair value, i.e., marked to market",
+     "title": "Asset side – the AFS portfolio"
     }
    ],
-   "slides": [],
+   "slides": [
+    20,
+    22,
+    25
+   ],
    "slide_groups": [
     "V4",
     "V3"
@@ -3149,26 +3244,35 @@
    "citations": [
     {
      "deck": "SVB",
-     "slide": "What happened in March 2023",
-     "quote": "served the tech and life science industry for 40 years. It collapsed in two days."
+     "slide": 5,
+     "quote": "served the tech and life science industry for 40 years. It collapsed in two days.",
+     "title": "What happened in March 2023"
     },
     {
      "deck": "SVB",
-     "slide": "Asset side – the AFS portfolio",
-     "quote": "to compensate for lower profits, SVB has unwound the largest part of IRS (interest rate swaps) by July 2022"
+     "slide": 22,
+     "quote": "to compensate for lower profits, SVB has unwound the largest part of IRS (interest rate swaps) by July 2022",
+     "title": "Asset side – the AFS portfolio"
     },
     {
      "deck": "SVB",
-     "slide": "Deposit drawdown: what was different this time?",
-     "quote": "SVB depositors received advice from their venture capital backers to withdraw funds and communicated with each other during the run"
+     "slide": 35,
+     "quote": "SVB depositors received advice from their venture capital backers to withdraw funds and communicated with each other during the run",
+     "title": "Deposit drawdown: what was different this time?"
     },
     {
      "deck": "SVB",
-     "slide": "What was wrong, in the end? Ipse dixit",
-     "quote": "This is the first major one I recall where the primary issue was a duration mismatch between high quality assets and deposit liabilities."
+     "slide": 37,
+     "quote": "This is the first major one I recall where the primary issue was a duration mismatch between high quality assets and deposit liabilities.",
+     "title": "What was wrong, in the end? Ipse dixit"
     }
    ],
-   "slides": [],
+   "slides": [
+    5,
+    22,
+    35,
+    37
+   ],
    "slide_groups": [
     "V5",
     "V1",
@@ -3289,9 +3393,16 @@
      "deck": "READING",
      "slide": 10,
      "quote": "SVB (0.9%)"
+    },
+    {
+     "deck": "SVB",
+     "slide": 3,
+     "quote": "Readings to prepare the discussion (all available in B-Board)"
     }
    ],
-   "slides": [],
+   "slides": [
+    3
+   ],
    "slide_groups": [
     "R"
    ],
@@ -3409,9 +3520,16 @@
      "deck": "READING",
      "slide": 10,
      "quote": "SVB’s insolvency resulted entirely from losses on its securities portfolio. By contrast, First Republic’s fragility arose from losses on mortgage loans."
+    },
+    {
+     "deck": "SVB",
+     "slide": 3,
+     "quote": "Readings to prepare the discussion (all available in B-Board)"
     }
    ],
-   "slides": [],
+   "slides": [
+    3
+   ],
    "slide_groups": [
     "R"
    ],
