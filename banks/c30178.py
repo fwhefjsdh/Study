@@ -952,3 +952,111 @@ LEDGER = [
     D(F_STERN, "Required reading, chapter 1", "units", [], "6 units, all examinable ('required for the exam')."),
     D("Slides/Course Introduction_30178_2026-27.pdf", "Deck", "not_examinable", [], "Syllabus, exam rules and dates only. Used for the exam date (28 Oct 2026) and scope (midterm 1 = Part I)."),
 ]
+
+
+# ================================================================================================
+# Seed questions (the original Answer Grid bank, data/seed.js) brought under the harder rule on 2026-09-24.
+# Nine generated IRR questions pre-dated the rule: six were labelled exam+1 and none recorded a hard_check.
+# Seven meet the 30178 thresholds on an honest step count and get their review recorded; IRR-24 (a two-step
+# mix/size shortcut) and IRR-26 (two one-step true/false items) did not, so they are rewritten harder, same ids.
+# ================================================================================================
+SEED_HARD_CHECKS = {
+    "30178-IRR-02": ("exercise part", [{"n": "1.1", "steps": 4, "concepts": 2}, {"n": "1.2", "steps": 5, "concepts": 2}], ["extra_classification", "cross_section", "chain"]),
+    "30178-IRR-03": ("exercise part", [{"n": "2.1", "steps": 4, "concepts": 2}, {"n": "2.2", "steps": 4, "concepts": 2}], ["working_backwards", "extraneous_data", "what_if_followon"]),
+    "30178-IRR-27": ("concept MCQ", [{"n": "1.1", "steps": 5, "concepts": 2}, {"n": "1.2", "steps": 4, "concepts": 2}], ["extra_step", "cross_section"]),
+    "30178-IRR-28": ("concept MCQ", [{"n": "1", "steps": 3, "concepts": 2}], ["near_true_statements", "cross_section"]),
+    "30178-IRR-30": ("exercise part", [{"n": "2.1", "steps": 6, "concepts": 3}, {"n": "2.2", "steps": 4, "concepts": 2}], ["working_backwards", "what_if_followon", "extra_step"]),
+    "30178-IRR-31": ("concept MCQ", [{"n": "1", "steps": 5, "concepts": 4}], ["near_true_statements", "cross_section"]),
+    "30178-IRR-32": ("exercise part", [{"n": "3.1", "steps": 7, "concepts": 2}, {"n": "3.2", "steps": 4, "concepts": 2}], ["chain", "working_backwards", "extra_classification"]),
+}
+SEED_REVIEW_NOTE = ("Step counts recorded on 2026-09-24 when the seed bank was checked against the harder rule: "
+                    "{}.")
+SEED_STEP_NOTES = {
+    "30178-IRR-02": "1.1 classify earning/bearing items, Σ amount×beta for assets, for liabilities, subtract; 1.2 static RSA, RSL, GAP, both ΔNII, difference",
+    "30178-IRR-03": "2.1 DA, DL, L/A, DGAP; 2.2 immunisation ⇔ DGAP = 0, hold L/A and DL, DA* = (L/A)·DL, evaluate",
+    "30178-IRR-27": "1.1 income change, two funding lines at their betas, total expense, ΔNII; 1.2 GAP = 0, level effect 0, spread effect = ΔNII, reason",
+    "30178-IRR-28": "zero GAP protects NII over the period; positive DGAP lowers EVE when rates rise; reject the distractors that merge the two perspectives",
+    "30178-IRR-30": "2.1 DA, DL, ΔMVA and ΔMVL each with its own modified duration and Δi, ΔEVE; 2.2 set ΔMVL = ΔMVA, solve for Δi_L",
+    "30178-IRR-31": "four statements, each tested against its model assumption, then the combination",
+    "30178-IRR-32": "3.1 static RSA, RSL, three option adjustments, GAP, ÷ net worth; 3.2 limit in €, GAP as a function of p, solve",
+}
+
+# ---- IRR-24 rewritten: a mix change at a lower marginal loan rate plus a size change funded at a higher marginal rate ----
+L0, LQ0, D0, E0, FA = 120.0, 40.0, 150.0, 20.0, 10.0
+rl, rq, rd, rl_new, rd_new = 0.045, 0.012, 0.016, 0.039, 0.020
+nii0 = L0 * rl + LQ0 * rq - D0 * rd
+nii1 = L0 * rl + 25 * rl_new + (LQ0 - 15) * rq - D0 * rd - 10 * rd_new
+d_nii = nii1 - nii0
+near(nii0, 3.48); near(nii1, 4.075); near(d_nii, 0.595)
+near(d_nii, 15 * (rl_new - rq) + 10 * (rl_new - rd_new))            # route 2: mix effect + size effect
+assert abs((L0 + 25 + LQ0 - 15 + FA) - (D0 + 10 + E0)) < 1e-9          # the balance sheet still balances (180)
+ea1 = L0 + 25 + LQ0 - 15
+nim1 = nii1 / ea1
+nii2 = nii1 * 1.08
+near(ea1, 170); near(nii2 / (ea1 * 1.08), nim1)                      # route 2: NIM unchanged by a pure size change
+o11 = [(f"{f(d_nii, 3)}", None), (f"{f(15 * (rl - rq), 3)}", "old_loan_rate_and_new_deposits_ignored"),
+       (f"{f(25 * rl - 15 * rq - 10 * rd_new, 3)}", "new_loans_at_the_old_rate"), (f"{f(25 * rl_new - 15 * rq, 3)}", "new_deposit_cost_ignored")]
+assert all(len(o[0].split(".")[1]) == 3 for o in o11)            # exact to 3 decimals: no rounding ambiguity (0.595, 0.495, 0.745, 0.795)
+p11 = mcq("1.1", "What is the change in Bank Kappa's annual net interest income, in € million?", o11, o11[0][0], 0.8)
+o12 = [(f"NIM {f(nim1 * 100, 2)}%; after growth NII {f(nii2, 2)} and NIM {f(nim1 * 100, 2)}%", None),
+       (f"NIM {f(nii1 / 180 * 100, 2)}%; after growth NII {f(nii2, 2)} and NIM {f(nii1 / 180 * 100, 2)}%", "nim_over_total_assets"),
+       (f"NIM {f(nim1 * 100, 2)}%; after growth NII {f(nii2, 2)} and NIM {f(nim1 * 108, 2)}%", "size_effect_read_as_margin_effect"),
+       (f"NIM {f(nim1 * 100, 2)}%; after growth NII {f(nii0 * 1.08, 2)} and NIM {f(nim1 * 100, 2)}%", "growth_applied_before_the_changes")]
+p12 = mcq("1.2", "After the changes in 1.1, what is Bank Kappa's net interest margin (NII / total earning assets)? If every item on its balance sheet then grows by 8%, "
+                 "with rates and composition unchanged, what are its NII (€ million) and NIM?", o12, o12[0][0], 0.8)
+IRR24 = question(
+    id="30178-IRR-24", course="30178", deck="IRR", topic="Mix and size effects at marginal rates, and the net interest margin",
+    objective="Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
+    shape="numerical exercise with 2 MCQ sub-questions", shape_class="exercise part",
+    stem="Bank Kappa's balance sheet is shown below (€ million, annual rates). During the year it moves €15 million from liquid assets into new loans, and it also grants "
+         "€10 million of further new loans funded by €10 million of new deposits. New loans can only be placed at 3.9% and new deposits cost 2.0%; existing loans, "
+         "liquid assets and deposits keep their rates. Rates then stay unchanged.",
+    data="| **Assets** | € million | Rate |\n|---|---|---|\n| Loans | 120 | 4.5% |\n| Liquid assets | 40 | 1.2% |\n| Fixed assets | 10 | — |\n"
+         "| **Liabilities and equity** |  |  |\n| Deposits | 150 | 1.6% |\n| Equity | 20 | — |",
+    parts=[p11, p12],
+    scheme=[f"[1.1] Steps: (1) NII before = 120×4.5% + 40×1.2% − 150×1.6% = {f(nii0, 3)}; (2) new loans 25 × 3.9% = 0.975 while liquid income falls to 25 × 1.2% = 0.30; "
+            f"(3) extra deposit cost 10 × 2.0% = 0.20; (4) NII after = {f(nii1, 3)}; ΔNII = +{f(d_nii, 3)}.",
+            f"Second route for 1.1: mix effect 15 × (3.9% − 1.2%) = 0.405 plus size effect 10 × (3.9% − 2.0%) = 0.19 → +{f(d_nii, 3)} (asserted).",
+            f"[1.2] Steps: (1) earning assets = loans 145 + liquid 25 = 170 (fixed assets earn nothing); (2) NIM = {f(nii1, 3)}/170 = {f(nim1 * 100, 2)}%; "
+            f"(3) a pure size change scales NII: {f(nii1, 3)} × 1.08 = {f(nii2, 3)}; (4) earning assets also grow 8%, so NIM is unchanged; (5) the slides' size example: NII rises, the margin does not.",
+            "Where marks are lost: pricing the new loans at the old 4.5%, forgetting the cost of the new deposits, dividing NII by total assets (180) instead of earning assets, "
+            "treating the size effect as a wider margin, growing the NII from before the changes.",
+            "Harder than the slides' examples: the slide moves €10 at the existing loan rate; here the marginal rates differ from the average ones and a size change is mixed in."],
+    cites=[cite("IRR", 9, "the bank shifts €10 from liquid assets to loans"),
+           cite("IRR", 11, "loans and deposits both increase by 10%, while rates and composition remain unchanged"),
+           cite("IRR", 23, "Net Interest Margin (NII / Total Earning Assets)")],
+    groups=["S1", "S6"], location="slides 8-11, 23 (rewritten 2026-09-24 to meet the harder rule)", file="Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    minutes=6, notches=["extra_step", "chain", "extra_classification"],
+    hc_parts=[{"n": "1.1", "steps": 4, "concepts": 2}, {"n": "1.2", "steps": 5, "concepts": 2}])
+IRR24["created_at"] = "2026-09-24T13:00:00Z"
+IRR24["units"] = ["IRR-U3", "IRR-U8"]
+
+# ---- IRR-26 rewritten: static GAP assumptions matched to the model that relaxes each ------------------------------
+st26 = [("Borrowers who prepay fixed-rate mortgages when rates fall change the bank's repricing within the year; option-adjusted analysis addresses this.", True),
+        ("The maturity bucket approach addresses rate-sensitive assets and liabilities repricing by different amounts.", False),
+        ("Static GAP captures refinancing and reinvestment risk but not the change in the market values of assets and liabilities; the duration GAP (EVE) addresses the latter.", True),
+        ("If rates change twice within the one-year gapping period, ΔNII = GAP × Δi still holds exactly for the cumulative change, because the GAP is measured over the whole year.", False),
+        ("Static GAP analysis works well for small changes in interest rates.", True)]
+roman = ["I", "II", "III", "IV", "V"]
+assert [roman[i] for i, (_, t) in enumerate(st26) if t] == ["I", "III", "V"]
+body26 = ("Consider the following statements about the static repricing GAP model.\n\n" + "\n".join(f"{roman[i]}. {s}" for i, (s, _) in enumerate(st26))
+          + "\n\nWhich of the statements are correct?")
+o26 = [("I, III and V only", None), ("I, II, III and V only", "bucket_vs_beta_model_swap"), ("I, III, IV and V only", "multiple_rate_moves_ignored"),
+       ("III and V only", "embedded_options_left_to_static_gap")]
+p26 = mcq("1", body26, o26, "I, III and V only", 0.8)
+IRR26 = question(
+    id="30178-IRR-26", course="30178", deck="IRR", topic="Static GAP: what each weakness is fixed by",
+    objective="Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
+    shape="statement-combination MCQ", shape_class="concept MCQ", stem="Static GAP: statements.", parts=[p26],
+    scheme=["[1] Steps: (1) I true: embedded options (prepayment) → option-adjusted analysis (slide 41); (2) II false: different repricing speeds/amounts → beta (standardised) GAP; "
+            "the maturity bucket approach handles several rate moves; (3) III true: static GAP focuses on profitability; the price effect needs duration GAP (EVE); "
+            "(4) IV false: the model assumes one rate change; several moves inside the period can change NII even with the same cumulative GAP; (5) V true: a listed strength; (6) I, III and V.",
+            "Second route: read each statement against the slide-41 table (assumption → what it ignores → model that addresses it); II and IV each attach a weakness to the wrong fix or deny it.",
+            "Harder than the former true/false pair: five statements, two near-true, and the answer is a combination."],
+    cites=[cite("IRR", 41, "Model that addresses it"), cite("IRR", 41, "Option-adjusted analysis"),
+           cite("IRR", 40, "Only one change in interest rates over the gapping period")],
+    groups=["S4"], location="slides 40-41 (rewritten 2026-09-24 to meet the harder rule)", file="Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    minutes=3, notches=["near_true_statements", "extra_classification"], hc_parts=[{"n": "1", "steps": 6, "concepts": 4}])
+IRR26["created_at"] = "2026-09-24T13:00:00Z"
+IRR26["units"] = ["IRR-U13"]
+SEED_REWRITES = {"30178-IRR-24": IRR24, "30178-IRR-26": IRR26}

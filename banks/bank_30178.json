@@ -25,8 +25,8 @@
      "n": "3.1",
      "prompt": "Bank Delta's loans lose 6% of their book value; nothing else changes. What is its assets-to-equity ratio (× equity) after the loss?",
      "options": [
+      "31.3",
       "47.0",
-      "31.2",
       "29.8",
       "12.5"
      ],
@@ -58,12 +58,12 @@
    ],
    "error_tags": [
     {
-     "tag": "loss_applied_to_total_assets",
-     "trap": "3.1:A loss applied to total assets"
+     "tag": "assets_not_reduced_by_the_loss",
+     "trap": "3.1:A assets not reduced by the loss"
     },
     {
-     "tag": "assets_not_reduced_by_the_loss",
-     "trap": "3.1:B assets not reduced by the loss"
+     "tag": "loss_applied_to_total_assets",
+     "trap": "3.1:B loss applied to total assets"
     },
     {
      "tag": "leverage_before_the_loss",
@@ -88,7 +88,7 @@
     "[3.2] Steps: (1) withdrawal = 50% × 38 = 19.0; (2) liquid resources = cash 6 + bonds 9 = 15; (3) still to pay = 4.0; (4) loans sold at 80% of book: book value sold = 4.0 / 0.8 = 5.00; (5) loss on the sale = 5.00 − 4.0 = 1.0; (6) equity = 3.2 − 1.0 = 2.2.",
     "Second route for 3.2: each € of cash raised from loans costs 1/0.8 − 1 = 0.25 of equity, so the loss is 0.25 × 4.0 = 1.0.",
     "How to write it: lay out the order of funding (cash, then liquid bonds, then loans) before computing; gross up the cash you need by the sale price to get the book value sold.",
-    "Where marks are lost: quoting the pre-loss 12.5×; not shrinking total assets (31.2×); applying the 6% to all assets (47.0×); in 3.2 taking 20% of the cash raised (2.4), forgetting 3.1's loss (7.0) or selling loans for the whole withdrawal (−1.55).",
+    "Where marks are lost: quoting the pre-loss 12.5×; not shrinking total assets (31.3×); applying the 6% to all assets (47.0×); in 3.2 taking 20% of the cash raised (2.4), forgetting 3.1's loss (7.0) or selling loans for the whole withdrawal (−1.55).",
     "Not needed: net interest income and the insured share of deposits (extraneous data)."
    ],
    "citations": [
@@ -385,8 +385,8 @@
    ],
    "marks": 1.6,
    "mark_scheme": [
-    "[1.1] Steps: (1) classify: AFS losses hit equity via OCI, HTM losses do not; (2) AFS loss = 3.5 × 2.5% × 25 = 2.188; (3) HTM unrealised loss = 6.0 × 2.5% × 90 = 13.5 (not recognised); (4) book equity = 16 − 2.188 = 13.812, so 13.8.",
-    "[1.2] Steps: (1) uninsured deposits = 88% × 180 = 158.4; (2) withdrawal = 40% × 158.4 = 63.36; (3) after cash: 48.36; (4) AFS sold at fair value 22.812 (its loss is already in equity); (5) still needed 25.548; (6) HTM sells at 85.0% of cost, so cost sold = 25.548 / 0.850 = 30.056; (7) realised loss = 4.508; (8) equity = 13.812 − 4.508 = 9.304, so 9.3.",
+    "[1.1] Steps: (1) classify: AFS losses hit equity via OCI, HTM losses do not; (2) AFS loss = 3.5 × 2.5% × 25 = 2.188; (3) HTM unrealised loss = 6.0 × 2.5% × 90 = 13.5 (not recognised); (4) book equity = 16 − 2.188 = 13.813, so 13.8.",
+    "[1.2] Steps: (1) uninsured deposits = 88% × 180 = 158.4; (2) withdrawal = 40% × 158.4 = 63.36; (3) after cash: 48.36; (4) AFS sold at fair value 22.813 (its loss is already in equity); (5) still needed 25.548; (6) HTM sells at 85.0% of cost, so cost sold = 25.548 / 0.850 = 30.056; (7) realised loss = 4.508; (8) equity = 13.813 − 4.508 = 9.304, so 9.3.",
     "Second route for 1.2: every $ raised from HTM costs 13.5/76.5 = 0.1765 of equity; 25.548 × that = 4.508.",
     "Economic equity if all HTM were marked: 0.31. That gap between book and economic equity is what depositors feared (slides: 'Here be the dragons').",
     "Where marks are lost: leaving the AFS loss out of equity (16.0 / 11.5); recognising the whole HTM loss (0.3); selling HTM before AFS (5.3)."
@@ -2335,10 +2335,10 @@
      "n": "1.2",
      "prompt": "Euribor then falls by 2.0 percentage points from its new level, so it ends 0.75 points below where it started. Compared with the start, by how much has annual net interest income changed after both moves, in € million?",
      "options": [
-      "+1.12",
       "-2.12",
       "+3.18",
-      "-0.13"
+      "-0.13",
+      "+1.13"
      ],
      "marks": 0.8
     }
@@ -2351,7 +2351,7 @@
     },
     {
      "n": "1.2",
-     "answer": "C",
+     "answer": "B",
      "answer_status": "double-solved"
     }
    ],
@@ -2369,23 +2369,23 @@
      "trap": "1.1:C static gap used"
     },
     {
-     "tag": "static_gap_used",
-     "trap": "1.2:A static gap used"
-    },
-    {
      "tag": "upward_betas_used_for_the_fall",
-     "trap": "1.2:B upward betas used for the fall"
+     "trap": "1.2:A upward betas used for the fall"
     },
     {
      "tag": "downward_betas_used_for_both_moves",
-     "trap": "1.2:D downward betas used for both moves"
+     "trap": "1.2:C downward betas used for both moves"
+    },
+    {
+     "tag": "static_gap_used",
+     "trap": "1.2:D static gap used"
     }
    ],
    "marks": 1.6,
    "mark_scheme": [
-    "[1.1] Steps: (1) static GAP = 600 − 750 = −150 (would predict a loss); (2) beta-weighted RSA = 500×0.95 + 100 = 575; (3) beta-weighted RSL = 600×0.25 + 150×0.95 = 292.5; (4) beta GAP = +282.5; (5) ΔNII = 282.5 × 1.25% = +3.5312.",
-    "[1.2] Steps: (1) choose the falling betas for the second move; (2) falling beta GAP = 500×0.60 + 100 − (600×0.40 + 150×0.95) = 17.5; (3) effect of the fall = 17.5 × (−2%) = -0.350; (4) total = 3.5312 -0.350 = 3.1812; (5) NII ends higher although Euribor ends lower: the spread effect from asymmetric pass-through.",
-    "Second route for 1.2: net rate change per item: loans 0.95×1.25 − 0.60×2 = −0.0125 pts (−0.0625), interbank −0.75 pts (−0.75), deposits 0.25×1.25 − 0.40×2 = −0.4875 pts (expense −2.925), wholesale 0.95×(−0.75) = −0.7125 pts (expense −1.069); ΔNII = −0.0625 − 0.75 + 2.925 + 1.069 = 3.1812.",
+    "[1.1] Steps: (1) static GAP = 600 − 750 = −150 (would predict a loss); (2) beta-weighted RSA = 500×0.95 + 100 = 575; (3) beta-weighted RSL = 600×0.25 + 150×0.95 = 292.5; (4) beta GAP = +282.5; (5) ΔNII = 282.5 × 1.25% = +3.5313.",
+    "[1.2] Steps: (1) choose the falling betas for the second move; (2) falling beta GAP = 500×0.60 + 100 − (600×0.40 + 150×0.95) = 17.5; (3) effect of the fall = 17.5 × (−2%) = -0.350; (4) total = 3.5313 -0.350 = 3.1813; (5) NII ends higher although Euribor ends lower: the spread effect from asymmetric pass-through.",
+    "Second route for 1.2: net rate change per item: loans 0.95×1.25 − 0.60×2 = −0.0125 pts (−0.0625), interbank −0.75 pts (−0.75), deposits 0.25×1.25 − 0.40×2 = −0.4875 pts (expense −2.925), wholesale 0.95×(−0.75) = −0.7125 pts (expense −1.069); ΔNII = −0.0625 − 0.75 + 2.925 + 1.069 = 3.1813.",
     "Where marks are lost: using the static GAP; applying the rising betas to the fall (the model assumes symmetry, the deck says it fails); weighting only the assets.",
     "Not needed: the fixed-rate balances (extraneous)."
    ],
@@ -3563,6 +3563,1261 @@
     "READ-U4",
     "READ-U5",
     "READ-U6"
+   ]
+  },
+  {
+   "answer_key": [
+    {
+     "answer": "B",
+     "answer_status": "double-solved",
+     "n": "1.1"
+    },
+    {
+     "answer": "A",
+     "answer_status": "double-solved",
+     "n": "1.2"
+    }
+   ],
+   "citations": [
+    {
+     "deck": "IRR",
+     "quote": "The Beta GAP is derived from multiplying the amount of RSAs by the associated beta factors and summing across all rate-sensitive assets",
+     "slide": 53
+    },
+    {
+     "deck": "IRR",
+     "quote": "changes in NII are directly proportional to the size of the GAP: ∆NIIEXP = GAP x ∆iEXP",
+     "slide": 26
+    },
+    {
+     "deck": "IRR",
+     "quote": "Repricing: The interest rate applied to the outstanding principal balance changes contractually during the interval",
+     "slide": 29
+    }
+   ],
+   "course": "30178",
+   "created_at": "2026-09-24T12:00:00Z",
+   "data": "| **Assets** | € million | Repricing | Beta (vs Euribor 3m) |\n|---|---|---|---|\n| Cash and central bank reserves | 40 | immediate | 1.00 |\n| Variable-rate business loans | 320 | every 3 months | 0.85 |\n| Fixed-rate mortgages (12 years remaining) | 280 | fixed until maturity | 0.00 |\n| Government bills (6-month) | 90 | mature in 6 months | 0.95 |\n| Fixed assets | 30 | — | — |\n| **Liabilities and equity** |  |  |  |\n| Sight deposits | 350 | administered rate | 0.25 |\n| Interbank borrowing (3-month) | 120 | every 3 months | 1.00 |\n| Term deposits (18-month) | 150 | fixed until maturity | 0.00 |\n| Floating-rate senior bonds | 100 | every 6 months | 0.90 |\n| Equity | 40 | — | — |",
+   "deck": "IRR",
+   "difficulty": "hard",
+   "error_tags": [
+    {
+     "tag": "static_gap_instead_of_beta",
+     "trap": "1.1:A static gap instead of beta"
+    },
+    {
+     "tag": "non_earning_assets_included",
+     "trap": "1.1:C non earning assets included"
+    },
+    {
+     "tag": "sight_deposits_excluded",
+     "trap": "1.1:D sight deposits excluded"
+    },
+    {
+     "tag": "sum_instead_of_difference",
+     "trap": "1.2:B sum instead of difference"
+    },
+    {
+     "tag": "static_gap_includes_fixed_rate_items",
+     "trap": "1.2:C static gap includes fixed rate items"
+    },
+    {
+     "tag": "difference_reversed",
+     "trap": "1.2:D difference reversed"
+    }
+   ],
+   "est_minutes": 5,
+   "id": "30178-IRR-02",
+   "mark_scheme": [
+    "[1.1] Beta-weighted interest-earning assets: 40×1.00 + 320×0.85 + 280×0.00 + 90×0.95 = 397.5.",
+    "[1.1] Beta-weighted interest-bearing liabilities: 350×0.25 + 120×1.00 + 150×0.00 + 100×0.90 = 297.5; beta GAP = 397.5 − 297.5 = +100.0.",
+    "[1.2] Static one-year GAP: RSA = 40 + 320 + 90 = 450 (items that reprice or mature within the year); RSL = 350 + 120 + 100 = 570; GAP = −120.",
+    "[1.2] ΔNII(beta) = 100.0 × 0.0075 = +0.75; ΔNII(static) = −120 × 0.0075 = −0.90; difference = 0.75 − (−0.90) = +1.65. The two models disagree in sign: sight deposits reprice only 25% of the move.",
+    "How to write it: for 1.1 list amount × beta for each interest-earning asset and interest-bearing liability and say that fixed assets and equity are left out; for 1.2 write both GAPs, both ΔNII = GAP × Δi with Δi = 0.0075, then subtract static from beta.",
+    "Where marks are lost: using the static GAP in 1.1 (−120); dropping sight deposits (187.5); counting fixed assets (130.0); in 1.2 adding instead of subtracting (−0.15), putting the 12-year mortgages and 18-month term deposits into the static GAP (0.67), or subtracting the wrong way round (−1.65).",
+    "Follow-through: 1.2 uses the beta GAP from 1.1, so on the grid a wrong 1.1 normally costs 1.2 as well."
+   ],
+   "marks": 1.6,
+   "negative_marking": null,
+   "shape": "numerical exercise with 2 MCQ sub-questions",
+   "slide_groups": [
+    "S6",
+    "S3"
+   ],
+   "slides": [
+    22,
+    26,
+    29,
+    53,
+    54,
+    55
+   ],
+   "source": {
+    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    "label": "INFERENCE",
+    "location": "slides 22, 26, 29, 53-55",
+    "page_snapshot_asset": null,
+    "transcribed_from_image": false,
+    "type": "generated",
+    "verbatim_verified": false
+   },
+   "stem": "Bank Gamma reports the balance sheet below (€ million). It uses a one-year gapping period and 3-month Euribor as its reference rate. Each beta is the estimated change in the item's rate, within the year, for a 1 percentage-point change in 3-month Euribor. Cash and central bank reserves are interest-earning. Sight deposits are interest-bearing and count as rate-sensitive within the year.",
+   "subquestions": [
+    {
+     "marks": 0.8,
+     "n": "1.1",
+     "options": [
+      "-120.0",
+      "100.0",
+      "130.0",
+      "187.5"
+     ],
+     "prompt": "What is Bank Gamma's one-year beta (standardised) GAP, in € million?"
+    },
+    {
+     "marks": 0.8,
+     "n": "1.2",
+     "options": [
+      "1.65",
+      "-0.15",
+      "0.67",
+      "-1.65"
+     ],
+     "prompt": "3-month Euribor rises by 0.75 percentage points at the start of the year and stays there; each item's rate moves by its beta times this change. How much larger is the change in net interest income predicted by the beta GAP than the change predicted by the static one-year repricing GAP, in € million? (A negative answer means the beta GAP predicts the smaller change.)"
+    }
+   ],
+   "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
+   "topic": "Beta (standardised) GAP and NII sensitivity",
+   "units": [
+    "IRR-U16"
+   ],
+   "hard_check": {
+    "shape_class": "exercise part",
+    "parts": [
+     {
+      "n": "1.1",
+      "steps": 4,
+      "concepts": 2
+     },
+     {
+      "n": "1.2",
+      "steps": 5,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "extra_classification",
+     "cross_section",
+     "chain"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (Step counts recorded on 2026-09-24 when the seed bank was checked against the harder rule: 1.1 classify earning/bearing items, Σ amount×beta for assets, for liabilities, subtract; 1.2 static RSA, RSL, GAP, both ΔNII, difference.)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   }
+  },
+  {
+   "answer_key": [
+    {
+     "answer": "C",
+     "answer_status": "double-solved",
+     "n": "2.1"
+    },
+    {
+     "answer": "A",
+     "answer_status": "double-solved",
+     "n": "2.2"
+    }
+   ],
+   "citations": [
+    {
+     "deck": "IRR",
+     "quote": "Let DA and DL equal the (weighted average) Duration of assets and liabilities, respectively",
+     "slide": 78
+    },
+    {
+     "deck": "IRR",
+     "quote": "The duration of bank assets (DA) - The bank leverage (MVL/MVA)",
+     "slide": 79
+    },
+    {
+     "deck": "IRR",
+     "quote": "The closer DGAP is to zero, the smaller is the potential change in EVE for any change in rates",
+     "slide": 81
+    }
+   ],
+   "course": "30178",
+   "created_at": "2026-09-24T12:00:00Z",
+   "data": "| **Assets** | Market value (€ million) | Rate | Duration (years) |\n|---|---|---|---|\n| Cash and reserves | 60 | 3.0% | 0.0 |\n| Consumer loans | 440 | 6.5% | 1.5 |\n| Fixed-rate mortgages | 400 | 4.2% | 6.2 |\n| **Liabilities and equity** |  |  |  |\n| Sight deposits | 420 | 0.5% | 0.2 |\n| 2-year CDs | 260 | 2.8% | 1.8 |\n| 5-year bonds issued | 140 | 3.9% | 4.5 |\n| Equity | 80 | — | — |",
+   "deck": "IRR",
+   "difficulty": "hard",
+   "error_tags": [
+    {
+     "tag": "leverage_adjustment_omitted",
+     "trap": "2.1:A leverage adjustment omitted"
+    },
+    {
+     "tag": "simple_average_of_liability_durations",
+     "trap": "2.1:B simple average of liability durations"
+    },
+    {
+     "tag": "leverage_ratio_inverted",
+     "trap": "2.1:D leverage ratio inverted"
+    },
+    {
+     "tag": "one_plus_i_factor_applied",
+     "trap": "2.2:B one plus i factor applied"
+    },
+    {
+     "tag": "leverage_ignored_da_equals_dl",
+     "trap": "2.2:C leverage ignored da equals dl"
+    },
+    {
+     "tag": "leverage_ratio_inverted",
+     "trap": "2.2:D leverage ratio inverted"
+    }
+   ],
+   "est_minutes": 5,
+   "id": "30178-IRR-03",
+   "mark_scheme": [
+    "[2.1] DA = (60×0 + 440×1.5 + 400×6.2)/900 = 3,140/900 = 3.489.",
+    "[2.1] DL = (420×0.2 + 260×1.8 + 140×4.5)/820 = 1,182/820 = 1.441; L/A = 820/900 = 0.911; DGAP = 3.489 − 0.911×1.441 = 2.18 years.",
+    "[2.2] Immunisation means DGAP = 0, so DA* = (L/A)×DL = 0.911×1.441 = 1.31 years.",
+    "How to write it: compute DA and DL as value-weighted averages (cash counts in assets with duration 0), write L/A, then DGAP = DA − (L/A)×DL; for 2.2 set DGAP to zero and solve for DA.",
+    "Where marks are lost: dropping the leverage term (DA − DL = 2.05); inverting it as A/L (1.91); averaging liability durations without value weights (1.51); in 2.2 setting DA equal to DL (1.44) or carrying the (1+i) factor from the ΔEVE formula into the immunisation condition (1.37). The rates column and the 4% market rate are not needed."
+   ],
+   "marks": 1.6,
+   "negative_marking": null,
+   "shape": "numerical exercise with 2 MCQ sub-questions",
+   "slide_groups": [
+    "S8"
+   ],
+   "slides": [
+    74,
+    78,
+    79,
+    81,
+    83
+   ],
+   "source": {
+    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    "label": "INFERENCE",
+    "location": "slides 74, 78-81",
+    "page_snapshot_asset": null,
+    "transcribed_from_image": false,
+    "type": "generated",
+    "verbatim_verified": false
+   },
+   "stem": "Bank Delta reports the market-value balance sheet below. The current market rate is 4% for all maturities.",
+   "subquestions": [
+    {
+     "marks": 0.8,
+     "n": "2.1",
+     "options": [
+      "2.05 years",
+      "1.51 years",
+      "2.18 years",
+      "1.91 years"
+     ],
+     "prompt": "What is Bank Delta's duration GAP?"
+    },
+    {
+     "marks": 0.8,
+     "n": "2.2",
+     "options": [
+      "1.31 years",
+      "1.37 years",
+      "1.44 years",
+      "1.58 years"
+     ],
+     "prompt": "Bank Delta's ALCO wants to immunise the market value of equity against small parallel rate changes by shortening the duration of its assets only, leaving liabilities, their durations and total assets unchanged. To what value must the weighted average duration of assets fall?"
+    }
+   ],
+   "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
+   "topic": "Duration GAP and immunising EVE",
+   "units": [
+    "IRR-U22",
+    "IRR-U23"
+   ],
+   "hard_check": {
+    "shape_class": "exercise part",
+    "parts": [
+     {
+      "n": "2.1",
+      "steps": 4,
+      "concepts": 2
+     },
+     {
+      "n": "2.2",
+      "steps": 4,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "working_backwards",
+     "extraneous_data",
+     "what_if_followon"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (Step counts recorded on 2026-09-24 when the seed bank was checked against the harder rule: 2.1 DA, DL, L/A, DGAP; 2.2 immunisation ⇔ DGAP = 0, hold L/A and DL, DA* = (L/A)·DL, evaluate.)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   }
+  },
+  {
+   "answer_key": [
+    {
+     "answer": "C",
+     "answer_status": "double-solved",
+     "n": "1.1"
+    },
+    {
+     "answer": "Level effect 0 (GAP = 480 − 480 = 0, so a parallel shift leaves NII unchanged); spread effect +2.28, because deposit and wholesale rates rise by less than the mortgage rate (betas 0.25 and 0.95 vs 1.00), widening the spread.",
+     "answer_status": "double-solved",
+     "n": "1.2"
+    }
+   ],
+   "citations": [
+    {
+     "deck": "IRR",
+     "quote": "Banks are similarly slow to pass higher rates through to depositors",
+     "slide": 50
+    },
+    {
+     "deck": "IRR",
+     "quote": "Level effect: a parallel shift in rates, captured by GAP × Δi",
+     "slide": 57
+    },
+    {
+     "deck": "IRR",
+     "quote": "Bank Italy (β = 0.11) and Bank France (β = 0.35)",
+     "slide": 52
+    }
+   ],
+   "course": "30178",
+   "created_at": "2026-09-24T13:00:00Z",
+   "data": "| **Assets** | € million | Repricing | Pass-through (beta) |\n|---|---|---|---|\n| Variable-rate mortgages | 480 | reprice immediately | 1.00 |\n| **Funding** |  |  |  |\n| Retail sight deposits | 400 | administered rate | 0.25 |\n| Wholesale funding (1-month) | 80 | reprices immediately | 0.95 |",
+   "deck": "IRR",
+   "difficulty": "hard",
+   "error_tags": [
+    {
+     "tag": "wholesale_beta_ignored",
+     "trap": "1.1:A wholesale beta ignored"
+    },
+    {
+     "tag": "rate_change_read_as_basis_point_fraction",
+     "trap": "1.1:B rate change read as basis point fraction"
+    },
+    {
+     "tag": "parallel_shift_assumed",
+     "trap": "1.1:D parallel shift assumed"
+    }
+   ],
+   "est_minutes": 4,
+   "id": "30178-IRR-27",
+   "mark_scheme": [
+    "[1.1] Income: 480 × 1.00 × 0.75% = +3.60. Expense: (400 × 0.25 + 80 × 0.95) × 0.75% = (100 + 76) × 0.75% = +1.32. ΔNII = +2.28.",
+    "[1.2] GAP = 480 − (400 + 80) = 0, so the level effect GAP × Δi is 0; the whole +2.28 is spread effect from partial pass-through on funding.",
+    "How to write it: for 1.2, one sentence naming both numbers and the reason (funding betas below the asset beta).",
+    "Where marks are lost: assuming a parallel shift (0.00); treating wholesale funding as fully passing through (2.25); reading 0.75 percentage points as 0.075% (0.23)."
+   ],
+   "marks": "UNKNOWN",
+   "negative_marking": null,
+   "shape": "numerical MCQ with a short written justification",
+   "slide_groups": [
+    "S6"
+   ],
+   "slides": [
+    50,
+    51,
+    52,
+    57
+   ],
+   "source": {
+    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    "label": "INFERENCE",
+    "location": "slides 50-52, 57",
+    "page_snapshot_asset": null,
+    "transcribed_from_image": false,
+    "type": "generated",
+    "verbatim_verified": false
+   },
+   "stem": "Bank Sigma's balance sheet is shown below (€ million). All items are rate-sensitive within the year: every rate resets at once to the market move times its pass-through (beta), including the administered sight-deposit rate. Market rates rise by 0.75 percentage points at the start of the year and stay there; nothing else changes.",
+   "subquestions": [
+    {
+     "marks": 0.8,
+     "n": "1.1",
+     "options": [
+      "2.25",
+      "0.23",
+      "2.28",
+      "0.00"
+     ],
+     "prompt": "What is the change in Bank Sigma's annual net interest income, in € million?"
+    },
+    {
+     "marks": "UNKNOWN",
+     "n": "1.2",
+     "options": [],
+     "prompt": "Split the change in 1.1 into a level effect (GAP × Δi) and a spread effect, and justify the split in one sentence."
+    }
+   ],
+   "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
+   "topic": "Spread effect and deposit betas",
+   "units": [
+    "IRR-U15",
+    "IRR-U17"
+   ],
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1.1",
+      "steps": 5,
+      "concepts": 2
+     },
+     {
+      "n": "1.2",
+      "steps": 4,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "extra_step",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (Step counts recorded on 2026-09-24 when the seed bank was checked against the harder rule: 1.1 income change, two funding lines at their betas, total expense, ΔNII; 1.2 GAP = 0, level effect 0, spread effect = ΔNII, reason.)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   }
+  },
+  {
+   "answer_key": [
+    {
+     "answer": "D",
+     "answer_status": "double-solved",
+     "n": "1"
+    }
+   ],
+   "citations": [
+    {
+     "deck": "IRR",
+     "quote": "Zero GAP only cares about what reprices within the gapping period",
+     "slide": 83
+    },
+    {
+     "deck": "IRR",
+     "quote": "Zero DGAP cares about the whole balance sheet's price sensitivity",
+     "slide": 83
+    },
+    {
+     "deck": "IRR",
+     "quote": "If DGAP is positive, an increase in rates will lower EVE, while a decrease in rates will increase EVE",
+     "slide": 81
+    }
+   ],
+   "course": "30178",
+   "created_at": "2026-09-24T13:00:00Z",
+   "data": "",
+   "deck": "IRR",
+   "difficulty": "hard",
+   "error_tags": [
+    {
+     "tag": "income_and_value_perspectives_swapped",
+     "trap": "1:A swapped"
+    },
+    {
+     "tag": "zero_gap_read_as_zero_dgap",
+     "trap": "1:B both protected"
+    },
+    {
+     "tag": "invented_rate_direction_asymmetry",
+     "trap": "1:C asymmetric"
+    }
+   ],
+   "est_minutes": 2,
+   "id": "30178-IRR-28",
+   "mark_scheme": [
+    "Key (d). Zero GAP protects NII over the gapping period; a positive DGAP means EVE falls when rates rise (slides 81, 83). A bank can protect either the market value of equity or NII, but not both.",
+    "Where marks are lost: (a) swaps the two perspectives; (b) treats a zero GAP as a zero DGAP; (c) invents an asymmetry the GAP model does not have."
+   ],
+   "marks": 0.8,
+   "negative_marking": null,
+   "shape": "4-option MCQ",
+   "slide_groups": [
+    "S8"
+   ],
+   "slides": [
+    81,
+    83
+   ],
+   "source": {
+    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    "label": "INFERENCE",
+    "location": "slides 81, 83",
+    "page_snapshot_asset": null,
+    "transcribed_from_image": false,
+    "type": "generated",
+    "verbatim_verified": false
+   },
+   "stem": "Through offsetting positions, Bank Omega's one-year repricing GAP is exactly zero. Its balance sheet still includes a large book of 20-year fixed-rate mortgages funded mainly with sight deposits, so its duration GAP is positive. Which statement is correct?",
+   "subquestions": [
+    {
+     "marks": 0.8,
+     "n": "1",
+     "options": [
+      "Its economic value of equity is protected, while its NII over the next year would still move with a parallel rate shift.",
+      "Because its one-year GAP is zero, its duration GAP must also be close to zero, so a rate rise leaves both NII and equity value broadly unchanged.",
+      "Both NII and equity value are exposed, since a zero GAP holds only when rates fall and not when they rise.",
+      "Its NII over the next year is protected from a parallel shift, but a rate rise would lower its economic value of equity."
+     ],
+     "prompt": ""
+    }
+   ],
+   "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
+   "topic": "Zero GAP versus zero duration GAP",
+   "units": [
+    "IRR-U11",
+    "IRR-U23"
+   ],
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 3,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (Step counts recorded on 2026-09-24 when the seed bank was checked against the harder rule: zero GAP protects NII over the period; positive DGAP lowers EVE when rates rise; reject the distractors that merge the two perspectives.)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   }
+  },
+  {
+   "answer_key": [
+    {
+     "answer": "C",
+     "answer_status": "double-solved",
+     "n": "2.1"
+    },
+    {
+     "answer": "A",
+     "answer_status": "double-solved",
+     "n": "2.2"
+    }
+   ],
+   "citations": [
+    {
+     "deck": "IRR",
+     "quote": "ΔEVE = ΔMVA - ΔMVL",
+     "slide": 76
+    },
+    {
+     "deck": "IRR",
+     "quote": "Modified Duration = D/(1+i)",
+     "slide": 74
+    },
+    {
+     "deck": "IRR",
+     "quote": "RSA and RSL rates move by different amounts",
+     "slide": 50
+    },
+    {
+     "deck": "IRR",
+     "quote": "Let DA and DL equal the (weighted average) Duration of assets and liabilities, respectively",
+     "slide": 78
+    }
+   ],
+   "course": "30178",
+   "created_at": "2026-09-24T16:00:00Z",
+   "data": "| **Assets** | Market value (€ million) | Duration (years) |\n|---|---|---|\n| Cash and reserves | 40 | 0.0 |\n| Business loans | 360 | 1.2 |\n| Fixed-rate mortgages | 400 | 5.5 |\n| **Liabilities and equity** |  |  |\n| Sight deposits | 380 | 0.4 |\n| Term deposits | 200 | 1.5 |\n| Bonds issued | 150 | 3.8 |\n| Equity | 70 | — |",
+   "deck": "IRR",
+   "difficulty": "hard",
+   "error_tags": [
+    {
+     "tag": "liabilities_discounted_at_the_asset_rate",
+     "trap": "2.1:A liabilities discounted at the asset rate"
+    },
+    {
+     "tag": "same_parallel_shift_on_both_sides_with_dgap",
+     "trap": "2.1:B same parallel shift on both sides with dgap"
+    },
+    {
+     "tag": "macaulay_duration_not_modified",
+     "trap": "2.1:D macaulay duration not modified"
+    },
+    {
+     "tag": "leverage_ignored",
+     "trap": "2.2:B leverage ignored"
+    },
+    {
+     "tag": "ratio_of_macaulay_durations_only",
+     "trap": "2.2:C ratio of macaulay durations only"
+    },
+    {
+     "tag": "liability_duration_not_modified",
+     "trap": "2.2:D liability duration not modified"
+    }
+   ],
+   "est_minutes": 9,
+   "id": "30178-IRR-30",
+   "mark_scheme": [
+    "[2.1] MVA = 800, MVL = 730. DA = (40×0 + 360×1.2 + 400×5.5)/800 = 3.29 years; DL = (380×0.4 + 200×1.5 + 150×3.8)/730 = 1.40 years.",
+    "[2.1] ΔMVA = −3.29 × 0.010/1.05 × 800 = −25.07; ΔMVL = −1.40 × 0.006/1.03 × 730 = −5.95; ΔEVE = ΔMVA − ΔMVL = −19.11.",
+    "[2.2] Set ΔMVL = ΔMVA: 1.40/1.03 × Δil × 730 = 25.07, so Δil = 25.07 × 1.03/(1.40 × 730) = 2.53 percentage points.",
+    "How to write it: compute DA and DL as value-weighted averages first, then each side's change with its own Δi and its own 1+i, then subtract. The one-line duration GAP formula assumes the same Δi on both sides, so it does not apply here.",
+    "Where marks are lost: using the DGAP shortcut with one parallel shift (−15.33); Macaulay instead of modified duration (−20.19); discounting liabilities at the asset rate (−19.23); in 2.2 ignoring the size of liabilities relative to assets (2.31), taking the ratio of durations only (2.35) or leaving the liability duration unmodified (2.45).",
+    "Equity is not needed except to check that the balance sheet adds up."
+   ],
+   "marks": 1.6,
+   "negative_marking": null,
+   "shape": "numerical exercise with 2 MCQ sub-questions",
+   "slide_groups": [
+    "S8",
+    "S6"
+   ],
+   "slides": [
+    50,
+    74,
+    76,
+    78,
+    79
+   ],
+   "source": {
+    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    "label": "INFERENCE",
+    "location": "slides 50, 74, 76, 78-79",
+    "page_snapshot_asset": null,
+    "transcribed_from_image": false,
+    "type": "generated",
+    "verbatim_verified": false
+   },
+   "stem": "Bank Tau's market-value balance sheet is below. Before any change, the average rate is 5% on its assets and 3% on its liabilities. Rates on the two sides need not move by the same amount. Estimate each side's change in market value with its modified duration, D/(1+i), using that side's own rate before the change as i.",
+   "subquestions": [
+    {
+     "marks": 0.8,
+     "n": "2.1",
+     "options": [
+      "-19.23",
+      "-15.33",
+      "-19.11",
+      "-20.19"
+     ],
+     "prompt": "Asset yields rise by 1.0 percentage point and liability rates by 0.6 percentage points. What is the estimated change in Bank Tau's economic value of equity, in € million?"
+    },
+    {
+     "marks": 0.8,
+     "n": "2.2",
+     "options": [
+      "2.53",
+      "2.31",
+      "2.35",
+      "2.45"
+     ],
+     "prompt": "Asset yields again rise by 1.0 percentage point. By how many percentage points would liability rates have to rise for Bank Tau's economic value of equity to be unchanged?"
+    }
+   ],
+   "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
+   "topic": "EVE when asset and liability rates move by different amounts",
+   "units": [
+    "IRR-U22",
+    "IRR-U21"
+   ],
+   "hard_check": {
+    "shape_class": "exercise part",
+    "parts": [
+     {
+      "n": "2.1",
+      "steps": 6,
+      "concepts": 3
+     },
+     {
+      "n": "2.2",
+      "steps": 4,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "working_backwards",
+     "what_if_followon",
+     "extra_step"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (Step counts recorded on 2026-09-24 when the seed bank was checked against the harder rule: 2.1 DA, DL, ΔMVA and ΔMVL each with its own modified duration and Δi, ΔEVE; 2.2 set ΔMVL = ΔMVA, solve for Δi_L.)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   }
+  },
+  {
+   "answer_key": [
+    {
+     "answer": "C",
+     "answer_status": "double-solved",
+     "n": "1"
+    }
+   ],
+   "citations": [
+    {
+     "deck": "IRR",
+     "quote": "Only one change in interest rates over the gapping period",
+     "slide": 40
+    },
+    {
+     "deck": "IRR",
+     "quote": "Banks are similarly slow to pass higher rates through to depositors",
+     "slide": 50
+    },
+    {
+     "deck": "IRR",
+     "quote": "different speeds and amounts of repricing of specific assets and liabilities",
+     "slide": 53
+    },
+    {
+     "deck": "IRR",
+     "quote": "Borrowers refinance",
+     "slide": 63
+    },
+    {
+     "deck": "IRR",
+     "quote": "the Duration GAP depends on",
+     "slide": 79
+    },
+    {
+     "deck": "IRR",
+     "quote": "The bank leverage (MVL/MVA)",
+     "slide": 79
+    },
+    {
+     "deck": "IRR",
+     "quote": "If DGAP is positive, an increase in rates will lower EVE",
+     "slide": 81
+    }
+   ],
+   "course": "30178",
+   "created_at": "2026-09-24T16:00:00Z",
+   "data": "",
+   "deck": "IRR",
+   "difficulty": "hard",
+   "error_tags": [
+    {
+     "tag": "leverage_ignored_in_dgap",
+     "trap": "1:A leverage ignored in the duration GAP"
+    },
+    {
+     "tag": "zero_cumulative_gap_read_as_immunised",
+     "trap": "1:B zero cumulative GAP read as immunised"
+    },
+    {
+     "tag": "prepayment_trigger_reversed",
+     "trap": "1:D prepayment trigger reversed and leverage ignored"
+    }
+   ],
+   "est_minutes": 3,
+   "id": "30178-IRR-31",
+   "mark_scheme": [
+    "[I] False. A zero cumulative GAP can hide non-zero periodic GAPs inside the year; the static GAP assumes only one rate change, which is why the maturity-bucket approach exists (slides 40-41).",
+    "[II] True. With RSA = RSL, the beta GAP is positive because deposit betas are below 1, so a rate rise raises interest income by more than interest expense (spread effect, slides 50 and 53).",
+    "[III] False. Borrowers prepay when rates fall and they can refinance more cheaply; the bank then reinvests at the lower rate (slide 63).",
+    "[IV] False. DGAP = DA − (MVL/MVA) × DL. With leverage below 1, DL can exceed DA and DGAP can still be positive (e.g. DA 3, DL 3.2, MVL/MVA 0.9 gives +0.12).",
+    "How to write it: test each statement against the model's assumption before choosing a combination; the duration GAP needs the leverage term, not a comparison of DA and DL alone.",
+    "Where marks are lost: treating a zero cumulative GAP as immunisation (B); comparing DA and DL without leverage (A); reversing the prepayment trigger (D)."
+   ],
+   "marks": 0.8,
+   "negative_marking": null,
+   "shape": "statement-combination MCQ",
+   "slide_groups": [
+    "S4",
+    "S6",
+    "S7",
+    "S8"
+   ],
+   "slides": [
+    40,
+    41,
+    50,
+    53,
+    63,
+    79,
+    81
+   ],
+   "source": {
+    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    "label": "INFERENCE",
+    "location": "slides 40-41, 50, 53, 63, 79, 81",
+    "page_snapshot_asset": null,
+    "transcribed_from_image": false,
+    "type": "generated",
+    "verbatim_verified": false
+   },
+   "stem": "Consider the following statements.\n\nI. When a bank's one-year cumulative repricing GAP is zero, several rate changes within the year leave its net interest income unchanged.\n\nII. A bank's rate-sensitive assets reprice fully with market rates, while its rate-sensitive liabilities, all deposits, reprice by less than market rates. Its static one-year repricing GAP is zero. A rise in market rates increases its net interest income.\n\nIII. Prepayment of fixed-rate loans tends to occur when market rates rise, leaving the bank to reinvest the repaid principal at the new rates.\n\nIV. A bank whose liabilities have a longer weighted average duration than its assets has a negative duration GAP.",
+   "subquestions": [
+    {
+     "marks": 0.8,
+     "n": "1",
+     "options": [
+      "II and IV only",
+      "I and II only",
+      "II only",
+      "II, III and IV"
+     ],
+     "prompt": "Which of the statements are correct?"
+    }
+   ],
+   "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
+   "topic": "Where GAP, beta GAP, embedded options and DGAP each break",
+   "units": [
+    "IRR-U13",
+    "IRR-U23"
+   ],
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 5,
+      "concepts": 4
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (Step counts recorded on 2026-09-24 when the seed bank was checked against the harder rule: four statements, each tested against its model assumption, then the combination.)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   }
+  },
+  {
+   "answer_key": [
+    {
+     "answer": "C",
+     "answer_status": "double-solved",
+     "n": "3.1"
+    },
+    {
+     "answer": "D",
+     "answer_status": "double-solved",
+     "n": "3.2"
+    }
+   ],
+   "citations": [
+    {
+     "deck": "IRR",
+     "quote": "Those “interest earning” assets that will mature or reprice in a given time period (t)",
+     "slide": 22
+    },
+    {
+     "deck": "IRR",
+     "quote": "Loans can be prepaid, bonds can be called, deposits can be withdrawn early",
+     "slide": 61
+    },
+    {
+     "deck": "IRR",
+     "quote": "€30m (asset)",
+     "slide": 68
+    },
+    {
+     "deck": "IRR",
+     "quote": "€25m (liability)",
+     "slide": 68
+    },
+    {
+     "deck": "IRR",
+     "quote": "GAP/IEA and GAP/NW — absolute value of GAP relative to earning assets or to equity",
+     "slide": 69
+    },
+    {
+     "deck": "IRR",
+     "quote": "ALCO policies often set a target range",
+     "slide": 69
+    }
+   ],
+   "course": "30178",
+   "created_at": "2026-09-24T16:00:00Z",
+   "data": "| **Assets** | € million | Maturity / repricing | Estimated 1-year exercise of embedded option |\n|---|---|---|---|\n| Interbank loans (1-month) | 80 | matures in 1 month | — |\n| Floating-rate business loans | 300 | rate reset every 6 months | — |\n| Fixed-rate mortgages (10-year) | 300 | fixed until maturity | prepayment: 12% |\n| Fixed-rate bonds held (8-year, all callable) | 100 | fixed until maturity | call by issuer: 10% |\n| Fixed assets | 70 | — | — |\n| **Liabilities and equity** |  |  |  |\n| Wholesale funding (3-month) | 330 | rolls over every 3 months | — |\n| Term deposits (2-year, fixed) | 200 | fixed until maturity | early withdrawal: 15% |\n| Sight deposits | 100 | administered rate; not rate-sensitive within 1 year | — |\n| Bonds issued (6-year, fixed) | 100 | fixed until maturity | — |\n| Equity (net worth) | 120 | — | — |",
+   "deck": "IRR",
+   "difficulty": "hard",
+   "error_tags": [
+    {
+     "tag": "divided_by_rsa_instead_of_net_worth",
+     "trap": "3.1:A divided by rsa instead of net worth"
+    },
+    {
+     "tag": "static_gap_used",
+     "trap": "3.1:B static gap used"
+    },
+    {
+     "tag": "callable_bonds_fully_reclassified",
+     "trap": "3.1:D callable bonds fully reclassified"
+    },
+    {
+     "tag": "callable_bonds_left_out",
+     "trap": "3.2:A callable bonds left out"
+    },
+    {
+     "tag": "bond_call_put_on_the_liability_side",
+     "trap": "3.2:B bond call put on the liability side"
+    },
+    {
+     "tag": "limit_applied_to_gap_over_rsl",
+     "trap": "3.2:C limit applied to gap over rsl"
+    }
+   ],
+   "est_minutes": 8,
+   "id": "30178-IRR-32",
+   "mark_scheme": [
+    "[3.1] Static: RSA = interbank 80 + floating-rate loans 300 = 380; RSL = wholesale funding 330. Sight deposits, fixed-rate items without exercise, fixed assets and equity are out. Static GAP = +50.",
+    "[3.1] Options: prepaid mortgages 12% × 300 = 36 (asset); called bonds 10% × 100 = 10 (asset: the bank gets principal back to reinvest); withdrawn term deposits 15% × 200 = 30 (liability: the bank must refinance). RSA = 426, RSL = 360, GAP = +66; GAP/NW = 66/120 = 55.0%.",
+    "[3.2] Depends on 3.1. Limit +40% × 120 = +48. GAP(p) = 380 + 300p + 10 − 360 = 30 + 300p ≤ 48, so p ≤ 18/300 = 6.0%.",
+    "How to write it: build the static RSA and RSL first, then add each exercised amount to the side where the bank has to reprice (assets for prepayment and calls, liabilities for early withdrawal). In 3.2 write the GAP as a function of the prepayment rate before applying the limit.",
+    "Where marks are lost: using the static GAP (41.7); dividing by RSA instead of net worth (15.5); reclassifying the whole callable book (130.0); in 3.2 leaving the called bonds out (9.3), putting the bond call on the liability side (12.7) or applying the limit to RSL instead of net worth (38.0).",
+    "Chain: a wrong split in 3.1 carries into 3.2; on the answer grid there is no follow-through credit."
+   ],
+   "marks": 1.6,
+   "negative_marking": null,
+   "shape": "numerical exercise with 2 MCQ sub-questions",
+   "slide_groups": [
+    "S7",
+    "S3"
+   ],
+   "slides": [
+    22,
+    29,
+    61,
+    62,
+    63,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70
+   ],
+   "source": {
+    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    "label": "INFERENCE",
+    "location": "slides 22, 29, 61-63, 65-70",
+    "page_snapshot_asset": null,
+    "transcribed_from_image": false,
+    "type": "generated",
+    "verbatim_verified": false
+   },
+   "stem": "Bank Rho uses a one-year gapping period. Rate-sensitive items are the interest-earning assets and interest-bearing liabilities that mature or reprice within the year. Some fixed-rate items carry embedded options: the last column gives the share of each item the bank estimates will be exercised within the year, which it then treats as effectively rate-sensitive, as in the course's option-adjusted GAP.",
+   "subquestions": [
+    {
+     "marks": 0.8,
+     "n": "3.1",
+     "options": [
+      "15.5",
+      "41.7",
+      "55.0",
+      "130.0"
+     ],
+     "prompt": "Adjust Bank Rho's one-year GAP for the embedded options, using the estimated exercise shares. What is its option-adjusted one-year GAP as a percentage of net worth?"
+    },
+    {
+     "marks": 0.8,
+     "n": "3.2",
+     "options": [
+      "9.3",
+      "12.7",
+      "38.0",
+      "6.0"
+     ],
+     "prompt": "Bank Rho's ALCO policy limits the one-year option-adjusted GAP to between −40% and +40% of net worth. Keeping the other two exercise estimates, what is the highest one-year mortgage prepayment rate, in %, at which the bank is still within the limit?"
+    }
+   ],
+   "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
+   "topic": "Option-adjusted GAP against an ALCO limit, solved for the prepayment rate",
+   "units": [
+    "IRR-U19",
+    "IRR-U20"
+   ],
+   "hard_check": {
+    "shape_class": "exercise part",
+    "parts": [
+     {
+      "n": "3.1",
+      "steps": 7,
+      "concepts": 2
+     },
+     {
+      "n": "3.2",
+      "steps": 4,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "chain",
+     "working_backwards",
+     "extra_classification"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (Step counts recorded on 2026-09-24 when the seed bank was checked against the harder rule: 3.1 static RSA, RSL, three option adjustments, GAP, ÷ net worth; 3.2 limit in €, GAP as a function of p, solve.)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   }
+  },
+  {
+   "id": "30178-IRR-24",
+   "course": "30178",
+   "deck": "IRR",
+   "topic": "Mix and size effects at marginal rates, and the net interest margin",
+   "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
+   "shape": "numerical exercise with 2 MCQ sub-questions",
+   "stem": "Bank Kappa's balance sheet is shown below (€ million, annual rates). During the year it moves €15 million from liquid assets into new loans, and it also grants €10 million of further new loans funded by €10 million of new deposits. New loans can only be placed at 3.9% and new deposits cost 2.0%; existing loans, liquid assets and deposits keep their rates. Rates then stay unchanged.",
+   "data": "| **Assets** | € million | Rate |\n|---|---|---|\n| Loans | 120 | 4.5% |\n| Liquid assets | 40 | 1.2% |\n| Fixed assets | 10 | — |\n| **Liabilities and equity** |  |  |\n| Deposits | 150 | 1.6% |\n| Equity | 20 | — |",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    "location": "slides 8-11, 23 (rewritten 2026-09-24 to meet the harder rule)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1.1",
+     "prompt": "What is the change in Bank Kappa's annual net interest income, in € million?",
+     "options": [
+      "0.495",
+      "0.745",
+      "0.595",
+      "0.795"
+     ],
+     "marks": 0.8
+    },
+    {
+     "n": "1.2",
+     "prompt": "After the changes in 1.1, what is Bank Kappa's net interest margin (NII / total earning assets)? If every item on its balance sheet then grows by 8%, with rates and composition unchanged, what are its NII (€ million) and NIM?",
+     "options": [
+      "NIM 2.26%; after growth NII 4.40 and NIM 2.26%",
+      "NIM 2.40%; after growth NII 3.76 and NIM 2.40%",
+      "NIM 2.40%; after growth NII 4.40 and NIM 2.40%",
+      "NIM 2.40%; after growth NII 4.40 and NIM 2.59%"
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1.1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "1.2",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "old_loan_rate_and_new_deposits_ignored",
+     "trap": "1.1:A old loan rate and new deposits ignored"
+    },
+    {
+     "tag": "new_loans_at_the_old_rate",
+     "trap": "1.1:B new loans at the old rate"
+    },
+    {
+     "tag": "new_deposit_cost_ignored",
+     "trap": "1.1:D new deposit cost ignored"
+    },
+    {
+     "tag": "nim_over_total_assets",
+     "trap": "1.2:A nim over total assets"
+    },
+    {
+     "tag": "growth_applied_before_the_changes",
+     "trap": "1.2:B growth applied before the changes"
+    },
+    {
+     "tag": "size_effect_read_as_margin_effect",
+     "trap": "1.2:D size effect read as margin effect"
+    }
+   ],
+   "marks": 1.6,
+   "mark_scheme": [
+    "[1.1] Steps: (1) NII before = 120×4.5% + 40×1.2% − 150×1.6% = 3.480; (2) new loans 25 × 3.9% = 0.975 while liquid income falls to 25 × 1.2% = 0.30; (3) extra deposit cost 10 × 2.0% = 0.20; (4) NII after = 4.075; ΔNII = +0.595.",
+    "Second route for 1.1: mix effect 15 × (3.9% − 1.2%) = 0.405 plus size effect 10 × (3.9% − 2.0%) = 0.19 → +0.595 (asserted).",
+    "[1.2] Steps: (1) earning assets = loans 145 + liquid 25 = 170 (fixed assets earn nothing); (2) NIM = 4.075/170 = 2.40%; (3) a pure size change scales NII: 4.075 × 1.08 = 4.401; (4) earning assets also grow 8%, so NIM is unchanged; (5) the slides' size example: NII rises, the margin does not.",
+    "Where marks are lost: pricing the new loans at the old 4.5%, forgetting the cost of the new deposits, dividing NII by total assets (180) instead of earning assets, treating the size effect as a wider margin, growing the NII from before the changes.",
+    "Harder than the slides' examples: the slide moves €10 at the existing loan rate; here the marginal rates differ from the average ones and a size change is mixed in."
+   ],
+   "citations": [
+    {
+     "deck": "IRR",
+     "slide": 9,
+     "quote": "the bank shifts €10 from liquid assets to loans"
+    },
+    {
+     "deck": "IRR",
+     "slide": 11,
+     "quote": "loans and deposits both increase by 10%, while rates and composition remain unchanged"
+    },
+    {
+     "deck": "IRR",
+     "slide": 23,
+     "quote": "Net Interest Margin (NII / Total Earning Assets)"
+    }
+   ],
+   "slides": [
+    9,
+    11,
+    23
+   ],
+   "slide_groups": [
+    "S1",
+    "S6"
+   ],
+   "est_minutes": 6,
+   "created_at": "2026-09-24T13:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "exercise part",
+    "parts": [
+     {
+      "n": "1.1",
+      "steps": 4,
+      "concepts": 2
+     },
+     {
+      "n": "1.2",
+      "steps": 5,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "extra_step",
+     "chain",
+     "extra_classification"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "IRR-U3",
+    "IRR-U8"
+   ]
+  },
+  {
+   "id": "30178-IRR-26",
+   "course": "30178",
+   "deck": "IRR",
+   "topic": "Static GAP: what each weakness is fixed by",
+   "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
+   "shape": "statement-combination MCQ",
+   "stem": "Static GAP: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    "location": "slides 40-41 (rewritten 2026-09-24 to meet the harder rule)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about the static repricing GAP model.\n\nI. Borrowers who prepay fixed-rate mortgages when rates fall change the bank's repricing within the year; option-adjusted analysis addresses this.\nII. The maturity bucket approach addresses rate-sensitive assets and liabilities repricing by different amounts.\nIII. Static GAP captures refinancing and reinvestment risk but not the change in the market values of assets and liabilities; the duration GAP (EVE) addresses the latter.\nIV. If rates change twice within the one-year gapping period, ΔNII = GAP × Δi still holds exactly for the cumulative change, because the GAP is measured over the whole year.\nV. Static GAP analysis works well for small changes in interest rates.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, III, IV and V only",
+      "I, II, III and V only",
+      "I, III and V only",
+      "III and V only"
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "multiple_rate_moves_ignored",
+     "trap": "1:A multiple rate moves ignored"
+    },
+    {
+     "tag": "bucket_vs_beta_model_swap",
+     "trap": "1:B bucket vs beta model swap"
+    },
+    {
+     "tag": "embedded_options_left_to_static_gap",
+     "trap": "1:D embedded options left to static gap"
+    }
+   ],
+   "marks": 0.8,
+   "mark_scheme": [
+    "[1] Steps: (1) I true: embedded options (prepayment) → option-adjusted analysis (slide 41); (2) II false: different repricing speeds/amounts → beta (standardised) GAP; the maturity bucket approach handles several rate moves; (3) III true: static GAP focuses on profitability; the price effect needs duration GAP (EVE); (4) IV false: the model assumes one rate change; several moves inside the period can change NII even with the same cumulative GAP; (5) V true: a listed strength; (6) I, III and V.",
+    "Second route: read each statement against the slide-41 table (assumption → what it ignores → model that addresses it); II and IV each attach a weakness to the wrong fix or deny it.",
+    "Harder than the former true/false pair: five statements, two near-true, and the answer is a combination."
+   ],
+   "citations": [
+    {
+     "deck": "IRR",
+     "slide": 41,
+     "quote": "Model that addresses it"
+    },
+    {
+     "deck": "IRR",
+     "slide": 41,
+     "quote": "Option-adjusted analysis"
+    },
+    {
+     "deck": "IRR",
+     "slide": 40,
+     "quote": "Only one change in interest rates over the gapping period"
+    }
+   ],
+   "slides": [
+    40,
+    41
+   ],
+   "slide_groups": [
+    "S4"
+   ],
+   "est_minutes": 3,
+   "created_at": "2026-09-24T13:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 4
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "extra_classification"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "IRR-U13"
    ]
   }
  ],

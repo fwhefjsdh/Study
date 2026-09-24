@@ -124,6 +124,7 @@ a.qrow:hover,.qbtn:hover{background:var(--surface-2)}
 .md th,table.md th{background:var(--surface-2);font-weight:600}
 .sub{border-top:1px dashed var(--line);padding:14px 10px 4px;margin-inline:-10px;display:flex;flex-direction:column;gap:10px;border-radius:10px;transition:background .15s}
 .sub.cur{background:color-mix(in oklab,var(--accent-soft) 45%,transparent)}
+.partans{gap:4px}.partans textarea{min-height:0}
 .sub .n{font-family:var(--mono);font-weight:500;color:var(--accent)}
 .opts{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:8px}
 .opt{display:flex;gap:12px;align-items:center;text-align:left;min-height:52px;padding:10px 12px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface)}

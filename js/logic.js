@@ -365,6 +365,19 @@ function tsLabel(ts){const d=new Date(ts);if(isNaN(d))return String(ts||"");
 function verdictOf(a){return (a&&a.override&&a.override.verdict)||(a&&a.verdict)||(a&&a.marking&&a.marking.verdict)||null;}
 function oneLine(s){return String(s==null?"":s).replace(/\s*\n\s*/g," ").trim();}
 function mdCell(s){return oneLine(s).replace(/\|/g,"\\|");}
+/* A sub-question prompt that only repeats the stem (single-part past-paper items) is not shown twice. */
+function promptRepeatsStem(q,sub){
+  const n=x=>String(x||"").toLowerCase().replace(/[^a-z0-9α-ω]+/g," ").trim();
+  const p=n(sub&&sub.prompt),st=n(q&&q.stem);
+  return !p||(!!st&&(st===p||st.endsWith(p)));
+}
+/* One typed answer per sub-question, stored as the attempt's single typed_reasoning (what marking and exports read). */
+function composeTyped(q,byPart){
+  const subs=(q&&q.subquestions)||[];const parts=subs.map(s=>[String(s.n),String((byPart||{})[s.n]||"").trim()]).filter(x=>x[1]);
+  if(!parts.length)return "";
+  if(subs.length===1)return parts[0][1];
+  return parts.map(([n,t])=>"["+n+"] "+t).join("\n\n");
+}
 function keyLetter(sub,k){const i=keyIndex(sub,k);return i>=0?LETTERS[i]:(k?String(k.answer):"?");}
 /* Markdown for one question with its attempts. opts: {attempts:"latest"|"all"|"none", key, sources, sketchPath(a)->string|null} */
 function questionMarkdown(q,atts,opts){
@@ -454,7 +467,7 @@ function zipStore(files){
   return out;
 }
 
-const API={deckCoverage,examPlan,weekday,newOrder,firstSlide,slideRanges,romeToday,addDays,diffDays,tierFor,effectiveDue,applyVerdict,isLeech,buildQueue,keyIndex,mcqResults,mcqVerdict,combineVerdict,tagsFromSelections,marksFor,validateMarker,validateQuestion,mdToHtml,esc,LETTERS,normReview,examCap,isISO,
+const API={promptRepeatsStem,composeTyped,deckCoverage,examPlan,weekday,newOrder,firstSlide,slideRanges,romeToday,addDays,diffDays,tierFor,effectiveDue,applyVerdict,isLeech,buildQueue,keyIndex,mcqResults,mcqVerdict,combineVerdict,tagsFromSelections,marksFor,validateMarker,validateQuestion,mdToHtml,esc,LETTERS,normReview,examCap,isISO,
   HARD_NOTCHES,HARD_DEFAULT,shapeClass,hardApplies,hardThresholds,reviewHarder,answerParts,
   fmtDMY,tsLabel,verdictOf,questionMarkdown,exportMarkdown,exportCsv,summaryRow,safeName,zipStore,crc32};
 if(typeof window!=="undefined")window.EP=API;

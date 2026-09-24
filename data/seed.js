@@ -739,7 +739,7 @@ window.AG_SEED= {
    "created_at": "2026-09-24T12:00:00Z",
    "data": "| **Assets** | € million | Repricing | Beta (vs Euribor 3m) |\n|---|---|---|---|\n| Cash and central bank reserves | 40 | immediate | 1.00 |\n| Variable-rate business loans | 320 | every 3 months | 0.85 |\n| Fixed-rate mortgages (12 years remaining) | 280 | fixed until maturity | 0.00 |\n| Government bills (6-month) | 90 | mature in 6 months | 0.95 |\n| Fixed assets | 30 | — | — |\n| **Liabilities and equity** |  |  |  |\n| Sight deposits | 350 | administered rate | 0.25 |\n| Interbank borrowing (3-month) | 120 | every 3 months | 1.00 |\n| Term deposits (18-month) | 150 | fixed until maturity | 0.00 |\n| Floating-rate senior bonds | 100 | every 6 months | 0.90 |\n| Equity | 40 | — | — |",
    "deck": "IRR",
-   "difficulty": "exam+1",
+   "difficulty": "hard",
    "error_tags": [
     {
      "tag": "static_gap_instead_of_beta",
@@ -830,7 +830,31 @@ window.AG_SEED= {
    "topic": "Beta (standardised) GAP and NII sensitivity",
    "units": [
     "IRR-U16"
-   ]
+   ],
+   "hard_check": {
+    "shape_class": "exercise part",
+    "parts": [
+     {
+      "n": "1.1",
+      "steps": 4,
+      "concepts": 2
+     },
+     {
+      "n": "1.2",
+      "steps": 5,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "extra_classification",
+     "cross_section",
+     "chain"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (Step counts recorded on 2026-09-24 when the seed bank was checked against the harder rule: 1.1 classify earning/bearing items, Σ amount×beta for assets, for liabilities, subtract; 1.2 static RSA, RSL, GAP, both ΔNII, difference.)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   }
   },
   "30178-IRR-03": {
    "answer_key": [
@@ -866,7 +890,7 @@ window.AG_SEED= {
    "created_at": "2026-09-24T12:00:00Z",
    "data": "| **Assets** | Market value (€ million) | Rate | Duration (years) |\n|---|---|---|---|\n| Cash and reserves | 60 | 3.0% | 0.0 |\n| Consumer loans | 440 | 6.5% | 1.5 |\n| Fixed-rate mortgages | 400 | 4.2% | 6.2 |\n| **Liabilities and equity** |  |  |  |\n| Sight deposits | 420 | 0.5% | 0.2 |\n| 2-year CDs | 260 | 2.8% | 1.8 |\n| 5-year bonds issued | 140 | 3.9% | 4.5 |\n| Equity | 80 | — | — |",
    "deck": "IRR",
-   "difficulty": "exam+1",
+   "difficulty": "hard",
    "error_tags": [
     {
      "tag": "leverage_adjustment_omitted",
@@ -954,7 +978,31 @@ window.AG_SEED= {
    "units": [
     "IRR-U22",
     "IRR-U23"
-   ]
+   ],
+   "hard_check": {
+    "shape_class": "exercise part",
+    "parts": [
+     {
+      "n": "2.1",
+      "steps": 4,
+      "concepts": 2
+     },
+     {
+      "n": "2.2",
+      "steps": 4,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "working_backwards",
+     "extraneous_data",
+     "what_if_followon"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (Step counts recorded on 2026-09-24 when the seed bank was checked against the harder rule: 2.1 DA, DL, L/A, DGAP; 2.2 immunisation ⇔ DGAP = 0, hold L/A and DL, DA* = (L/A)·DL, evaluate.)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   }
   },
   "30178-IRR-04": {
    "answer_key": [
@@ -2722,224 +2770,255 @@ window.AG_SEED= {
    ]
   },
   "30178-IRR-24": {
-   "answer_key": [
+   "id": "30178-IRR-24",
+   "course": "30178",
+   "deck": "IRR",
+   "topic": "Mix and size effects at marginal rates, and the net interest margin",
+   "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
+   "shape": "numerical exercise with 2 MCQ sub-questions",
+   "stem": "Bank Kappa's balance sheet is shown below (€ million, annual rates). During the year it moves €15 million from liquid assets into new loans, and it also grants €10 million of further new loans funded by €10 million of new deposits. New loans can only be placed at 3.9% and new deposits cost 2.0%; existing loans, liquid assets and deposits keep their rates. Rates then stay unchanged.",
+   "data": "| **Assets** | € million | Rate |\n|---|---|---|\n| Loans | 120 | 4.5% |\n| Liquid assets | 40 | 1.2% |\n| Fixed assets | 10 | — |\n| **Liabilities and equity** |  |  |\n| Deposits | 150 | 1.6% |\n| Equity | 20 | — |",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    "location": "slides 8-11, 23 (rewritten 2026-09-24 to meet the harder rule)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
     {
-     "answer": "A",
-     "answer_status": "double-solved",
-     "n": "1.1"
+     "n": "1.1",
+     "prompt": "What is the change in Bank Kappa's annual net interest income, in € million?",
+     "options": [
+      "0.495",
+      "0.745",
+      "0.595",
+      "0.795"
+     ],
+     "marks": 0.8
     },
     {
-     "answer": "A",
-     "answer_status": "double-solved",
-     "n": "1.2"
+     "n": "1.2",
+     "prompt": "After the changes in 1.1, what is Bank Kappa's net interest margin (NII / total earning assets)? If every item on its balance sheet then grows by 8%, with rates and composition unchanged, what are its NII (€ million) and NIM?",
+     "options": [
+      "NIM 2.26%; after growth NII 4.40 and NIM 2.26%",
+      "NIM 2.40%; after growth NII 3.76 and NIM 2.40%",
+      "NIM 2.40%; after growth NII 4.40 and NIM 2.40%",
+      "NIM 2.40%; after growth NII 4.40 and NIM 2.59%"
+     ],
+     "marks": 0.8
     }
+   ],
+   "answer_key": [
+    {
+     "n": "1.1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "1.2",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "old_loan_rate_and_new_deposits_ignored",
+     "trap": "1.1:A old loan rate and new deposits ignored"
+    },
+    {
+     "tag": "new_loans_at_the_old_rate",
+     "trap": "1.1:B new loans at the old rate"
+    },
+    {
+     "tag": "new_deposit_cost_ignored",
+     "trap": "1.1:D new deposit cost ignored"
+    },
+    {
+     "tag": "nim_over_total_assets",
+     "trap": "1.2:A nim over total assets"
+    },
+    {
+     "tag": "growth_applied_before_the_changes",
+     "trap": "1.2:B growth applied before the changes"
+    },
+    {
+     "tag": "size_effect_read_as_margin_effect",
+     "trap": "1.2:D size effect read as margin effect"
+    }
+   ],
+   "marks": 1.6,
+   "mark_scheme": [
+    "[1.1] Steps: (1) NII before = 120×4.5% + 40×1.2% − 150×1.6% = 3.480; (2) new loans 25 × 3.9% = 0.975 while liquid income falls to 25 × 1.2% = 0.30; (3) extra deposit cost 10 × 2.0% = 0.20; (4) NII after = 4.075; ΔNII = +0.595.",
+    "Second route for 1.1: mix effect 15 × (3.9% − 1.2%) = 0.405 plus size effect 10 × (3.9% − 2.0%) = 0.19 → +0.595 (asserted).",
+    "[1.2] Steps: (1) earning assets = loans 145 + liquid 25 = 170 (fixed assets earn nothing); (2) NIM = 4.075/170 = 2.40%; (3) a pure size change scales NII: 4.075 × 1.08 = 4.401; (4) earning assets also grow 8%, so NIM is unchanged; (5) the slides' size example: NII rises, the margin does not.",
+    "Where marks are lost: pricing the new loans at the old 4.5%, forgetting the cost of the new deposits, dividing NII by total assets (180) instead of earning assets, treating the size effect as a wider margin, growing the NII from before the changes.",
+    "Harder than the slides' examples: the slide moves €10 at the existing loan rate; here the marginal rates differ from the average ones and a size change is mixed in."
    ],
    "citations": [
     {
      "deck": "IRR",
-     "quote": "the bank shifts €10 from liquid assets to loans",
-     "slide": 9
+     "slide": 9,
+     "quote": "the bank shifts €10 from liquid assets to loans"
     },
     {
      "deck": "IRR",
-     "quote": "loans and deposits both increase by 10%, while rates and composition remain unchanged",
-     "slide": 11
+     "slide": 11,
+     "quote": "loans and deposits both increase by 10%, while rates and composition remain unchanged"
     },
     {
      "deck": "IRR",
-     "quote": "Changes in Asset and/or Liabilities Composition (Mix)",
-     "slide": 8
+     "slide": 23,
+     "quote": "Net Interest Margin (NII / Total Earning Assets)"
     }
    ],
-   "course": "30178",
-   "created_at": "2026-09-24T13:00:00Z",
-   "data": "| **Assets** | € million | Rate |\n|---|---|---|\n| Loans | 120 | 4.5% |\n| Liquid assets | 40 | 1.2% |\n| Fixed assets | 10 | — |\n| **Liabilities and equity** |  |  |\n| Deposits | 150 | 1.6% |\n| Equity | 20 | — |",
-   "deck": "IRR",
-   "difficulty": "exam+1",
-   "error_tags": [
-    {
-     "tag": "lost_liquid_income_added_instead_of_subtracted",
-     "trap": "1.1:B lost liquid income added instead of subtracted"
-    },
-    {
-     "tag": "sign_reversed",
-     "trap": "1.1:C sign reversed"
-    },
-    {
-     "tag": "loan_yield_only_ignoring_lost_liquid_income",
-     "trap": "1.1:D loan yield only ignoring lost liquid income"
-    },
-    {
-     "tag": "only_assets_grow",
-     "trap": "1.2:B only assets grow"
-    },
-    {
-     "tag": "growth_applied_before_the_mix_shift",
-     "trap": "1.2:C growth applied before the mix shift"
-    },
-    {
-     "tag": "growth_added_as_points",
-     "trap": "1.2:D growth added as points"
-    }
+   "slides": [
+    9,
+    11,
+    23
    ],
-   "est_minutes": 5,
-   "id": "30178-IRR-24",
-   "mark_scheme": [
-    "[1.1] NII before = 120×4.5% + 40×1.2% − 150×1.6% = 5.40 + 0.48 − 2.40 = 3.48.",
-    "[1.1] After the move: 135×4.5% + 25×1.2% − 2.40 = 6.075 + 0.30 − 2.40 = 3.975; ΔNII = +0.495 ≈ +0.50 (mix effect: 15 × (4.5% − 1.2%)).",
-    "[1.2] Size effect: every interest-bearing line grows 8% at unchanged rates, so NII = 3.975 × 1.08 = 4.29.",
-    "How to write it: name the driver before computing — 1.1 is a mix change (same size, different composition), 1.2 a size change (same composition, bigger balance sheet).",
-    "Where marks are lost: counting the new loan income but not the liquid-asset income given up (0.67); adding the lost liquid-asset income instead of subtracting it (0.85); growing only the assets in 1.2 (4.49); applying growth to the NII before the move (3.76).",
-    "Fixed assets and equity are not needed."
-   ],
-   "marks": 1.6,
-   "negative_marking": null,
-   "shape": "numerical exercise with 2 MCQ sub-questions",
    "slide_groups": [
     "S1",
     "S6"
    ],
-   "slides": [
-    8,
-    9,
-    10,
-    11,
-    57
-   ],
-   "source": {
-    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
-    "label": "INFERENCE",
-    "location": "slides 8-11, 57",
-    "page_snapshot_asset": null,
-    "transcribed_from_image": false,
-    "type": "generated",
-    "verbatim_verified": false
+   "est_minutes": 6,
+   "created_at": "2026-09-24T13:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "exercise part",
+    "parts": [
+     {
+      "n": "1.1",
+      "steps": 4,
+      "concepts": 2
+     },
+     {
+      "n": "1.2",
+      "steps": 5,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "extra_step",
+     "chain",
+     "extra_classification"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
    },
-   "stem": "Bank Kappa's balance sheet is shown below (€ million, annual rates). Liquid assets earn 1.2%; all rates stay unchanged throughout.",
-   "subquestions": [
-    {
-     "marks": 0.8,
-     "n": "1.1",
-     "options": [
-      "0.50",
-      "0.85",
-      "-0.50",
-      "0.67"
-     ],
-     "prompt": "Bank Kappa moves €15 million from liquid assets into new loans at the same loan rate, keeping deposits unchanged. By how much does its annual net interest income change, in € million?"
-    },
-    {
-     "marks": 0.8,
-     "n": "1.2",
-     "options": [
-      "4.29",
-      "4.49",
-      "3.76",
-      "4.05"
-     ],
-     "prompt": "After the move in 1.1, every item on Bank Kappa's balance sheet grows by 8%, with rates and composition unchanged. What is Bank Kappa's annual net interest income, in € million?"
-    }
-   ],
-   "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "NII drivers: asset mix and balance-sheet size",
    "units": [
-    "IRR-U3"
+    "IRR-U3",
+    "IRR-U8"
    ]
   },
   "30178-IRR-26": {
+   "id": "30178-IRR-26",
+   "course": "30178",
+   "deck": "IRR",
+   "topic": "Static GAP: what each weakness is fixed by",
+   "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
+   "shape": "statement-combination MCQ",
+   "stem": "Static GAP: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    "location": "slides 40-41 (rewritten 2026-09-24 to meet the harder rule)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about the static repricing GAP model.\n\nI. Borrowers who prepay fixed-rate mortgages when rates fall change the bank's repricing within the year; option-adjusted analysis addresses this.\nII. The maturity bucket approach addresses rate-sensitive assets and liabilities repricing by different amounts.\nIII. Static GAP captures refinancing and reinvestment risk but not the change in the market values of assets and liabilities; the duration GAP (EVE) addresses the latter.\nIV. If rates change twice within the one-year gapping period, ΔNII = GAP × Δi still holds exactly for the cumulative change, because the GAP is measured over the whole year.\nV. Static GAP analysis works well for small changes in interest rates.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, III, IV and V only",
+      "I, II, III and V only",
+      "I, III and V only",
+      "III and V only"
+     ],
+     "marks": 0.8
+    }
+   ],
    "answer_key": [
     {
-     "answer": "B",
-     "answer_status": "double-solved",
-     "n": "1"
+     "n": "1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "multiple_rate_moves_ignored",
+     "trap": "1:A multiple rate moves ignored"
     },
     {
-     "answer": "B",
-     "answer_status": "double-solved",
-     "n": "2"
+     "tag": "bucket_vs_beta_model_swap",
+     "trap": "1:B bucket vs beta model swap"
+    },
+    {
+     "tag": "embedded_options_left_to_static_gap",
+     "trap": "1:D embedded options left to static gap"
     }
+   ],
+   "marks": 0.8,
+   "mark_scheme": [
+    "[1] Steps: (1) I true: embedded options (prepayment) → option-adjusted analysis (slide 41); (2) II false: different repricing speeds/amounts → beta (standardised) GAP; the maturity bucket approach handles several rate moves; (3) III true: static GAP focuses on profitability; the price effect needs duration GAP (EVE); (4) IV false: the model assumes one rate change; several moves inside the period can change NII even with the same cumulative GAP; (5) V true: a listed strength; (6) I, III and V.",
+    "Second route: read each statement against the slide-41 table (assumption → what it ignores → model that addresses it); II and IV each attach a weakness to the wrong fix or deny it.",
+    "Harder than the former true/false pair: five statements, two near-true, and the answer is a combination."
    ],
    "citations": [
     {
      "deck": "IRR",
-     "quote": "Model that addresses it",
-     "slide": 41
+     "slide": 41,
+     "quote": "Model that addresses it"
     },
     {
      "deck": "IRR",
-     "quote": "Option-adjusted analysis",
-     "slide": 41
+     "slide": 41,
+     "quote": "Option-adjusted analysis"
     },
     {
      "deck": "IRR",
-     "quote": "Focus on profitability (income-statement effect)",
-     "slide": 40
+     "slide": 40,
+     "quote": "Only one change in interest rates over the gapping period"
     }
-   ],
-   "course": "30178",
-   "created_at": "2026-09-24T13:00:00Z",
-   "data": "",
-   "deck": "IRR",
-   "difficulty": "exam+1",
-   "error_tags": [
-    {
-     "tag": "bucket_vs_beta_model_swap",
-     "trap": "1:A true"
-    },
-    {
-     "tag": "income_vs_value_perspective_swap",
-     "trap": "2:A true"
-    }
-   ],
-   "est_minutes": 1.5,
-   "id": "30178-IRR-26",
-   "mark_scheme": [
-    "1 False: different repricing speeds/amounts are what the beta (standardised) GAP addresses; the maturity bucket approach addresses multiple rate moves within the period (slide 41).",
-    "2 False: static GAP focuses on profitability only; the price effect on asset and liability values needs duration GAP (slides 40-41).",
-    "How to write it: for each statement, name the assumption and the model slide 41 pairs with it; ignore how hedged the wording sounds."
-   ],
-   "marks": 1.6,
-   "negative_marking": null,
-   "shape": "true/false",
-   "slide_groups": [
-    "S4"
    ],
    "slides": [
     40,
     41
    ],
-   "source": {
-    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
-    "label": "INFERENCE",
-    "location": "slides 40-41",
-    "page_snapshot_asset": null,
-    "transcribed_from_image": false,
-    "type": "generated",
-    "verbatim_verified": false
-   },
-   "stem": "True/False questions on the static repricing GAP model.",
-   "subquestions": [
-    {
-     "marks": 0.8,
-     "n": "1",
-     "options": [
-      "True",
-      "False"
-     ],
-     "prompt": "The maturity bucket approach can partly capture RSAs and RSLs repricing by different amounts."
-    },
-    {
-     "marks": 0.8,
-     "n": "2",
-     "options": [
-      "True",
-      "False"
-     ],
-     "prompt": "Static GAP analysis can, in principle, capture some of the change in the market values of assets and liabilities when rates move."
-    }
+   "slide_groups": [
+    "S4"
    ],
-   "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Static GAP: what each weakness is fixed by",
+   "est_minutes": 3,
+   "created_at": "2026-09-24T13:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 4
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "extra_classification"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
    "units": [
     "IRR-U13"
    ]
@@ -2978,7 +3057,7 @@ window.AG_SEED= {
    "created_at": "2026-09-24T13:00:00Z",
    "data": "| **Assets** | € million | Repricing | Pass-through (beta) |\n|---|---|---|---|\n| Variable-rate mortgages | 480 | reprice immediately | 1.00 |\n| **Funding** |  |  |  |\n| Retail sight deposits | 400 | administered rate | 0.25 |\n| Wholesale funding (1-month) | 80 | reprices immediately | 0.95 |",
    "deck": "IRR",
-   "difficulty": "exam+1",
+   "difficulty": "hard",
    "error_tags": [
     {
      "tag": "wholesale_beta_ignored",
@@ -3047,7 +3126,30 @@ window.AG_SEED= {
    "units": [
     "IRR-U15",
     "IRR-U17"
-   ]
+   ],
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1.1",
+      "steps": 5,
+      "concepts": 2
+     },
+     {
+      "n": "1.2",
+      "steps": 4,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "extra_step",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (Step counts recorded on 2026-09-24 when the seed bank was checked against the harder rule: 1.1 income change, two funding lines at their betas, total expense, ΔNII; 1.2 GAP = 0, level effect 0, spread effect = ΔNII, reason.)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   }
   },
   "30178-IRR-28": {
    "answer_key": [
@@ -3078,7 +3180,7 @@ window.AG_SEED= {
    "created_at": "2026-09-24T13:00:00Z",
    "data": "",
    "deck": "IRR",
-   "difficulty": "exam+1",
+   "difficulty": "hard",
    "error_tags": [
     {
      "tag": "income_and_value_perspectives_swapped",
@@ -3137,7 +3239,25 @@ window.AG_SEED= {
    "units": [
     "IRR-U11",
     "IRR-U23"
-   ]
+   ],
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 3,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (Step counts recorded on 2026-09-24 when the seed bank was checked against the harder rule: zero GAP protects NII over the period; positive DGAP lowers EVE when rates rise; reject the distractors that merge the two perspectives.)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   }
   },
   "30178-IRR-30": {
    "answer_key": [
@@ -3268,7 +3388,31 @@ window.AG_SEED= {
    "units": [
     "IRR-U22",
     "IRR-U21"
-   ]
+   ],
+   "hard_check": {
+    "shape_class": "exercise part",
+    "parts": [
+     {
+      "n": "2.1",
+      "steps": 6,
+      "concepts": 3
+     },
+     {
+      "n": "2.2",
+      "steps": 4,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "working_backwards",
+     "what_if_followon",
+     "extra_step"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (Step counts recorded on 2026-09-24 when the seed bank was checked against the harder rule: 2.1 DA, DL, ΔMVA and ΔMVL each with its own modified duration and Δi, ΔEVE; 2.2 set ΔMVL = ΔMVA, solve for Δi_L.)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   }
   },
   "30178-IRR-31": {
    "answer_key": [
@@ -3390,7 +3534,25 @@ window.AG_SEED= {
    "units": [
     "IRR-U13",
     "IRR-U23"
-   ]
+   ],
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 5,
+      "concepts": 4
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (Step counts recorded on 2026-09-24 when the seed bank was checked against the harder rule: four statements, each tested against its model assumption, then the combination.)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   }
   },
   "30178-IRR-32": {
    "answer_key": [
@@ -3537,7 +3699,31 @@ window.AG_SEED= {
    "units": [
     "IRR-U19",
     "IRR-U20"
-   ]
+   ],
+   "hard_check": {
+    "shape_class": "exercise part",
+    "parts": [
+     {
+      "n": "3.1",
+      "steps": 7,
+      "concepts": 2
+     },
+     {
+      "n": "3.2",
+      "steps": 4,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "chain",
+     "working_backwards",
+     "extra_classification"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (Step counts recorded on 2026-09-24 when the seed bank was checked against the harder rule: 3.1 static RSA, RSL, three option adjustments, GAP, ÷ net worth; 3.2 limit in €, GAP as a function of p, solve.)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   }
   }
  },
  "reviews": {

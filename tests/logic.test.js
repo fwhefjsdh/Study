@@ -22,8 +22,11 @@ test("harder rule thresholds come from the course fingerprint",()=>{
 });
 test("real questions are exempt; generated questions without a review are unreviewed",()=>{
   assert.equal(E.reviewHarder(SEED.questions["30178-IRR-01"],course).status,"exempt");
-  assert.equal(E.reviewHarder(SEED.questions["30178-IRR-32"],course).status,"unreviewed");
-  assert.equal(E.reviewHarder(SEED.questions["30178-IRR-24"],course).status,"unreviewed");
+  const noReview=JSON.parse(JSON.stringify(SEED.questions["30178-IRR-32"]));delete noReview.hard_check;
+  assert.equal(E.reviewHarder(noReview,course).status,"unreviewed");
+});
+test("bundled bank: every generated question passes the harder rule",()=>{
+  for(const q of Object.values(SEED.questions))if(q.source.type==="generated")assert.equal(E.reviewHarder(q,course).status,"pass",q.id);
 });
 test("a reviewed hard question that clears every bar passes",()=>{
   const r=E.reviewHarder(hardQ(),course);assert.equal(r.status,"pass",JSON.stringify(r.checks.filter(c=>!c.ok)));

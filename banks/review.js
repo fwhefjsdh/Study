@@ -32,7 +32,9 @@ for(const f of fs.readdirSync(__dirname).filter(f=>/^bank_.*\.json$/.test(f)).so
     console.log((errs.length?"FAIL ":"pass ")+q.id.padEnd(16)+(T&&type==="generated"?` [${T.sc}: steps > ${T.stepsFloor} & ≥ ${T.stepsMin}, concepts ≥ ${T.conceptsMin}, ≤ ${T.minutesCap} min/answer]`:tag)+(errs.length?"\n     "+errs.join("\n     "):""));
     if(errs.length)bad++;}
 }
-console.log(`\n${n-bad}/${n} bank questions pass validation, key self-check and the harder rule.`);
+for(const q of Object.values(SEED.questions)){if(fromBank.has(q.id)||(q.source||{}).type!=="generated")continue;n++;
+  const g=E.reviewHarder(q,known[q.course]);if(g.status!=="pass"){bad++;console.log("FAIL "+q.id.padEnd(16)+" [seed]\n     harder rule: "+g.checks.filter(c=>!c.ok).map(c=>c.label+" ("+c.detail+")").join("; "));}}
+console.log(`\n${n-bad}/${n} bank and generated seed questions pass validation, key self-check and the harder rule.`);
 
 let covBad=0;
 for(const cv of coverage){

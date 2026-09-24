@@ -14,7 +14,9 @@ L = "ABCD"
 
 
 def r(x, d=1):
-    return round(x + 0.0, d)
+    """round half away from zero, as a student does by hand (Python's round() sends exact halves to the even digit: 4.135 -> 4.13)"""
+    y = abs(x) * 10 ** d
+    return math.copysign(math.floor(y + 0.5 + 1e-9) / 10 ** d, x) + 0.0
 
 
 def f(x, d=1):
@@ -973,10 +975,10 @@ COURSES = {
                     {"n": 4, "steps": {"median": 3, "range": [2, 5]}},
                     {"steps_min": 6, "concepts_min": 2}, 5,
                     ["Practice #2 (APT market prices of risk: 3 steps; correlogram: 1; AR(1) R-squared: 3)", "Slide examples: fund XXX OLS (5), F-test example (4), t-tests (2), return examples (2)"],
-                    [{"item": "Negative marking and number of questions in the final", "settle_with": "the exam direction sheet on Bboard"}]),
+                    [{"item": "Negative marking in the final (the exam first page gives 15 MCQs in 35 minutes and asks for the best single answer, but says nothing on penalties)", "settle_with": "the exam direction sheet on Bboard"}]),
     "30024": course("30024", "Financial Statement Analysis", "UNKNOWN",
                     [{"item": "Final written exam (attending, Part A)", "value": "MCQs plus an open quantitative essay (2023 mock: 15 MCQ + 10-point ratio essay, 1 hour); 50% of the grade", "label": "SUPPORTING (2023 mock via Studocu; syllabus 2026-27)", "settle_with": "the exam direction sheet (late November)"},
-                     {"item": "In-class test / role playing", "value": "25% / 25%", "label": "COURSE-AUTHORITATIVE (syllabus 2026-27)", "settle_with": "-"}],
+                     {"item": "In-class test / role playing", "value": "25% / 25%; the in-class test (session 14, 12-13 Nov) lasts 60 minutes and covers material up to Class 11 included (forecasting); attending status needs 10 of the 12 marked lectures and every graded activity", "label": "COURSE-AUTHORITATIVE (syllabus 2026-27)", "settle_with": "-"}],
                     {"S1": {"title": "Session 1: Introduction and cases", "file": F_S1}, "S2": {"title": "Session 2: Accounting basics and financial statements", "file": F_S2},
                      "S34": {"title": "Sessions 3-4: Financial statement reclassification", "file": F_S34}},
                     "quantitative essay part",
@@ -1092,13 +1094,38 @@ def worked():
     return "\n".join(out)
 
 
+def load_seed():
+    """data/seed.js as a dict (the original Answer Grid bank and progress)."""
+    t = (OUT.parent / "data" / "seed.js").read_text()
+    return json.loads(t[t.index("{"):t.rstrip().rstrip(";").rindex("}") + 1])
+
+
+def seed_revisions(c):
+    """Seed questions brought under the harder rule (c30178.SEED_HARD_CHECKS, SEED_REWRITES): shipped in the bank so review.js
+    checks them and an import updates them in place."""
+    seed = load_seed()["questions"]
+    out = []
+    for qid, (sc, parts, notches) in c.SEED_HARD_CHECKS.items():
+        q = json.loads(json.dumps(seed[qid]))
+        q.pop("version", None)
+        q["difficulty"] = "hard"
+        q["hard_check"] = {"shape_class": sc, "parts": parts, "notches": notches, "no_ambiguity": True, "in_syllabus": True,
+                           "reviewed_by": "Claude (" + c.SEED_REVIEW_NOTE.format(c.SEED_STEP_NOTES[qid]) + ")", "reviewed_at": CREATED}
+        out.append(q)
+    for qid, q in c.SEED_REWRITES.items():
+        old = seed[qid]
+        assert q["units"] and q["slide_groups"][0] == old["slide_groups"][0], qid
+        out.append(q)
+    return out
+
+
 def add_30178():
     """Real questions, gap-filling Hard questions, deck units and the source ledger for 30178 (see c30178.py)."""
     import c30178 as c
     for q in BANKS["30178"]["questions"]:
         q["units"] = c.EXISTING_UNITS[q["id"]]
         q["slide_groups"] = c.EXISTING_GROUPS.get(q["id"], q["slide_groups"])
-    BANKS["30178"]["questions"] += c.REAL + c.HARD
+    BANKS["30178"]["questions"] += c.REAL + c.HARD + seed_revisions(c)
     BANKS["30178"]["coverage"] = {"course": "30178", "sections": c.SECTIONS, "units": c.UNITS,
                                   "existing_units": c.EXISTING_UNITS, "ledger": c.LEDGER}
 

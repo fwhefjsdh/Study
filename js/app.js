@@ -457,12 +457,14 @@ async function writeImport(){
 /* ---------- answering ---------- */
 function draftKey(id){return "ag-draft:"+id;}
 function loadDraft(id){try{return JSON.parse(localStorage.getItem(draftKey(id))||"null");}catch(e){return null;}}
-function saveDraft(){const A=S.A;if(!A||A.submitted||A.dry)return;try{if(!Object.keys(A.selected).length&&!(A.typed||"").trim())localStorage.removeItem(draftKey(A.qid));else localStorage.setItem(draftKey(A.qid),JSON.stringify({sel:A.selected,typed:A.typed||"",ts:Date.now()}));}catch(e){}}
+function saveDraft(){const A=S.A;if(!A||A.submitted||A.dry)return;try{if(!Object.keys(A.selected).length&&!(A.typed||"").trim())localStorage.removeItem(draftKey(A.qid));else localStorage.setItem(draftKey(A.qid),JSON.stringify({sel:A.selected,typed:A.typed||"",typedBy:A.typedBy||{},ts:Date.now()}));}catch(e){}}
 function clearDraft(id){try{localStorage.removeItem(draftKey(id));}catch(e){}}
 function openQuestion(id){
   const q=S.questions[id];if(!q){S.A={qid:id,missing:true,strokes:[]};return;}
   const dr=loadDraft(id);const firstMcq=(q.subquestions||[]).find(s=>Array.isArray(s.options)&&s.options.length);
-  S.A={dry:!!(S.session&&!S.session.record&&S.session.ids.includes(id)),qid:id,selected:dr?dr.sel||{}:{},typed:dr?dr.typed||"":"",restored:!!dr,started:Date.now(),timerOn:false,submitted:false,strokes:[],penSeen:false,tool:"pen",full:false,markStatus:"idle",sketch:null,sketchNote:"",note:"",cur:firstMcq?String(firstMcq.n):null};
+  const subs=q.subquestions||[];
+  const typedBy=dr&&dr.typedBy?dr.typedBy:(dr&&dr.typed&&subs.length?{[subs[0].n]:dr.typed}:{});
+  S.A={dry:!!(S.session&&!S.session.record&&S.session.ids.includes(id)),qid:id,selected:dr?dr.sel||{}:{},typedBy,typed:E.composeTyped(q,typedBy),restored:!!dr,started:Date.now(),timerOn:false,submitted:false,strokes:[],penSeen:false,tool:"pen",full:false,markStatus:"idle",sketch:null,sketchNote:"",note:"",cur:firstMcq?String(firstMcq.n):null};
 }
 function goQuestion(id){if(S.A&&S.A.qid===id&&!S.A.submitted){nav("#/q/"+encodeURIComponent(id));return;}openQuestion(id);nav("#/q/"+encodeURIComponent(id));}
 function renderAnswer(){
@@ -477,14 +479,14 @@ function renderAnswer(){
   o+='<div class="md">'+E.mdToHtml(q.stem)+"</div>";
   if(q.data)o+='<div class="md">'+E.mdToHtml(q.data)+"</div>";
   o+=(q.subquestions||[]).map(s=>{const isM=Array.isArray(s.options)&&s.options.length;
-    return '<div class="sub'+(isM&&String(s.n)===A.cur&&!A.submitted?" cur":"")+'" data-sub="'+h(s.n)+'"><div class="row between"><div class="md"><span class="n">'+h(s.n)+"</span> "+E.mdToHtml(s.prompt).replace(/^<p>/,"<span>").replace(/<\/p>$/,"</span>")+'</div><span class="small muted mono">'+h(numOrUnknown(s.marks))+" mk</span></div>"+
-      (isM?'<div class="opts" role="group" aria-label="Options for '+h(s.n)+'">'+s.options.map((op,i)=>'<button class="opt" data-act="pick" data-n="'+h(s.n)+'" data-i="'+i+'" aria-pressed="'+(A.selected[s.n]===i)+'"'+(A.submitted?" disabled":"")+'><span class="L">'+E.LETTERS[i]+'</span><span class="md">'+E.mdToHtml(op).replace(/^<p>/,"").replace(/<\/p>$/,"")+"</span></button>").join("")+"</div>":'<p class="small muted">Written part: answer in the reasoning box below.</p>')+"</div>";}).join("");
-  o+='<div class="stack"><label for="reasoning" class="label">Your reasoning</label><textarea id="reasoning" placeholder="Why you chose each answer: steps, classifications, assumptions.'+(canMark()?" Claude marks this.":"")+'"'+(A.submitted?" readonly":"")+"></textarea></div>";
+    return '<div class="sub'+(isM&&String(s.n)===A.cur&&!A.submitted?" cur":"")+'" data-sub="'+h(s.n)+'"><div class="row between"><div class="md"><span class="n">'+h(s.n)+"</span> "+(E.promptRepeatsStem(q,s)?"":E.mdToHtml(s.prompt).replace(/^<p>/,"<span>").replace(/<\/p>$/,"</span>"))+'</div><span class="small muted mono">'+h(numOrUnknown(s.marks))+" mk</span></div>"+
+      (isM?'<div class="opts" role="group" aria-label="Options for '+h(s.n)+'">'+s.options.map((op,i)=>'<button class="opt" data-act="pick" data-n="'+h(s.n)+'" data-i="'+i+'" aria-pressed="'+(A.selected[s.n]===i)+'"'+(A.submitted?" disabled":"")+'><span class="L">'+E.LETTERS[i]+'</span><span class="md">'+E.mdToHtml(op).replace(/^<p>/,"").replace(/<\/p>$/,"")+"</span></button>").join("")+"</div>":"")+
+      '<div class="stack partans"><label class="label" for="typed-'+h(s.n)+'">'+(isM?"Your reasoning for "+h(s.n):"Your answer to "+h(s.n))+'</label><textarea class="parttyped" id="typed-'+h(s.n)+'" data-part="'+h(s.n)+'" rows="'+(isM?3:5)+'" placeholder="'+(isM?"Why this option: steps, classifications, assumptions.":"Write your answer and show the working.")+(canMark()?" Claude marks this.":"")+'"'+(A.submitted?" readonly":"")+"></textarea></div></div>";}).join("");
   o+='<details class="stack sketchwrap"'+(A.strokes.length||A.padOpen?" open":"")+'><summary><span class="label">Working (sketch pad)</span></summary><div class="sketch" id="sketch"><div class="tools"><button data-act="tool" data-tool="pen" aria-pressed="'+(A.tool==="pen")+'">Pen</button><button data-act="tool" data-tool="eraser" aria-pressed="'+(A.tool==="eraser")+'">Eraser</button><button data-act="undo">Undo</button><button data-act="clearPad">Clear</button><span class="grow"></span><button data-act="fullPad">'+(A.full?"Done":"Expand")+'</button></div><canvas id="pad" aria-label="Sketch pad for your working"></canvas></div><p class="small muted">Saved with the attempt so you can look back at it and include it in exports. It is not sent for marking.</p></details>';
   o+='<section id="reveal" class="reveal" hidden></section></article>';
   o+='<div class="actionbar" id="actionbar"></div>';
   MAIN.innerHTML=o;
-  $("#reasoning").value=A.typed||"";
+  $$(".parttyped").forEach(t=>{t.value=(A.typedBy||{})[t.dataset.part]||"";});
   const sw=$(".sketchwrap");sw.addEventListener("toggle",()=>{A.padOpen=sw.open;if(sw.open)sizePad();});
   setupPad();renderActionBar();
   if(A.submitted){markKeyOnOptions(q,A);renderReveal();}
@@ -579,11 +581,11 @@ async function runMarker(q,A){
 }
 async function submitAnswer(){
   const A=S.A,q=S.questions[A.qid];if(!A||A.submitted||!q)return;
-  A.typed=$("#reasoning").value;const blank=!Object.keys(A.selected).length&&!A.typed.trim()&&!A.strokes.length;
+  A.typedBy=A.typedBy||{};$$(".parttyped").forEach(t=>{A.typedBy[t.dataset.part]=t.value;});A.typed=E.composeTyped(q,A.typedBy);const blank=!Object.keys(A.selected).length&&!A.typed.trim()&&!A.strokes.length;
   if(blank&&!A.blankArmed){A.blankArmed=true;toast("Nothing chosen or written. Submit again to record a blank attempt (it counts as Wrong).",4500);return;}
   if(A.full){A.full=false;$("#sketch").classList.remove("full");}
   A.submitted=true;A.stopped=Date.now();clearDraft(q.id);
-  $("#reasoning").readOnly=true;$$(".opt").forEach(b=>b.disabled=true);$$(".sub.cur").forEach(s=>s.classList.remove("cur"));
+  $$(".parttyped").forEach(t=>{t.readOnly=true;});$$(".opt").forEach(b=>b.disabled=true);$$(".sub.cur").forEach(s=>s.classList.remove("cur"));
   A.mcq=E.mcqResults(q,A.selected);A.tags=E.tagsFromSelections(q,A.mcq);
   A.reviewBefore=E.normReview(S.reviews[q.id]||{status:"new",due:S.today});
   A.provisional=(q.answer_key||[]).some(k=>k.answer_status==="unverified");
@@ -827,7 +829,7 @@ document.addEventListener("change",e=>{
 });
 let searchT=0;
 document.addEventListener("input",e=>{const t=e.target;
-  if(t.id==="reasoning"&&S.A&&!S.A.submitted){S.A.typed=t.value;clearTimeout(saveDraft._t);saveDraft._t=setTimeout(saveDraft,400);}
+  if(t.classList&&t.classList.contains("parttyped")&&S.A&&!S.A.submitted){const q=S.questions[S.A.qid];S.A.typedBy=S.A.typedBy||{};S.A.typedBy[t.dataset.part]=t.value;S.A.typed=E.composeTyped(q,S.A.typedBy);clearTimeout(saveDraft._t);saveDraft._t=setTimeout(saveDraft,400);}
   if(t.dataset&&t.dataset.filter==="q"){S.browse.q=t.value;clearTimeout(searchT);searchT=setTimeout(()=>{const pos=t.selectionStart;render();const n=$('input[data-filter="q"]');if(n){n.focus();try{n.setSelectionRange(pos,pos);}catch(_){}}},200);}
   if(t.id&&t.id.startsWith("closeCode-")){const c=t.id.slice(10);if(S.closing[c])S.closing[c].typed=t.value;}
 });
