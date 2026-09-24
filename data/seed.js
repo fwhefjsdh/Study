@@ -1,5 +1,5 @@
 /* Bundled starting data: your 30178 bank and progress from the Answer Grid artifact. Loaded once, on first run. */
-window.AG_SEED={
+window.AG_SEED= {
  "source": "Answer Grid artifact, exported 2026-09-24",
  "courses": {
   "30178": {
@@ -700,7 +700,10 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Duration GAP and change in EVE"
+   "topic": "Duration GAP and change in EVE",
+   "units": [
+    "IRR-U22"
+   ]
   },
   "30178-IRR-02": {
    "answer_key": [
@@ -824,7 +827,10 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Beta (standardised) GAP and NII sensitivity"
+   "topic": "Beta (standardised) GAP and NII sensitivity",
+   "units": [
+    "IRR-U16"
+   ]
   },
   "30178-IRR-03": {
    "answer_key": [
@@ -944,7 +950,11 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Duration GAP and immunising EVE"
+   "topic": "Duration GAP and immunising EVE",
+   "units": [
+    "IRR-U22",
+    "IRR-U23"
+   ]
   },
   "30178-IRR-04": {
    "answer_key": [
@@ -1016,7 +1026,11 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Periodic GAP definition"
+   "topic": "Periodic GAP definition",
+   "units": [
+    "IRR-U8",
+    "IRR-U14"
+   ]
   },
   "30178-IRR-05": {
    "answer_key": [
@@ -1086,7 +1100,10 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Positive GAP and rising rates"
+   "topic": "Positive GAP and rising rates",
+   "units": [
+    "IRR-U9"
+   ]
   },
   "30178-IRR-06": {
    "answer_key": [
@@ -1154,7 +1171,11 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "What makes an item rate-sensitive"
+   "topic": "What makes an item rate-sensitive",
+   "units": [
+    "IRR-U8",
+    "IRR-U2"
+   ]
   },
   "30178-IRR-07": {
    "answer_key": [
@@ -1221,7 +1242,10 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Reducing asset sensitivity"
+   "topic": "Reducing asset sensitivity",
+   "units": [
+    "IRR-U12"
+   ]
   },
   "30178-IRR-08": {
    "answer_key": [
@@ -1293,7 +1317,11 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Duration GAP: what it measures"
+   "topic": "Duration GAP: what it measures",
+   "units": [
+    "IRR-U22",
+    "IRR-U6"
+   ]
   },
   "30178-IRR-09": {
    "answer_key": [
@@ -1359,7 +1387,10 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "EVE analysis"
+   "topic": "EVE analysis",
+   "units": [
+    "IRR-U6"
+   ]
   },
   "30178-IRR-10": {
    "answer_key": [
@@ -1479,7 +1510,12 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "GAP and duration GAP: true or false"
+   "topic": "GAP and duration GAP: true or false",
+   "units": [
+    "IRR-U23",
+    "IRR-U9",
+    "IRR-U20"
+   ]
   },
   "30178-IRR-11": {
    "answer_key": [
@@ -1590,7 +1626,10 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Repricing vs standardised (beta) GAP"
+   "topic": "Repricing vs standardised (beta) GAP",
+   "units": [
+    "IRR-U16"
+   ]
   },
   "30178-IRR-12": {
    "answer_key": [
@@ -1651,11 +1690,11 @@ window.AG_SEED={
    "source": {
     "file": "P1 1st part.pdf",
     "label": "SUPPORTING",
-    "location": "Reference Material/Clean/P1 1st part.pdf, p. 9, section C, Exercise B (official solution p. 9-10) - instructor sample set, B. Bruno, a.y. 2025-26, third-party copy via Studocu; table transcribed from the page image",
+    "location": "Reference Material/Clean/P1 1st part.pdf, p. 9, section C, Exercise B (official solution p. 9-10) - instructor sample set, B. Bruno, a.y. 2025-26, third-party copy via Studocu; table transcribed from the page image, then checked word for word against the PDF text layer on 2026-09-24 (stem, table and questions match)",
     "page_snapshot_asset": "5aed58c861475f26c571d7ffe7fea2cf",
     "transcribed_from_image": true,
     "type": "real",
-    "verbatim_verified": false
+    "verbatim_verified": true
    },
    "stem": "Consider the simplified balance sheet of a bank (in millions of euros) as of 1 January 2024. Rate-sensitive assets and liabilities refer to interest-earning assets and interest-paying liabilities that are exposed to changes in interest rates over a 6-month gapping period",
    "subquestions": [
@@ -1679,7 +1718,10 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "NII, 6-month GAP and change of gapping period"
+   "topic": "NII, 6-month GAP and change of gapping period",
+   "units": [
+    "IRR-U9"
+   ]
   },
   "30178-IRR-13": {
    "answer_key": [
@@ -1757,7 +1799,11 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Static repricing GAP and expected ΔNII"
+   "topic": "Static repricing GAP and expected ΔNII",
+   "units": [
+    "IRR-U11",
+    "IRR-U10"
+   ]
   },
   "30178-IRR-14": {
    "answer_key": [
@@ -1850,7 +1896,10 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Maturity buckets, cumulative GAP and infra-annual rate moves"
+   "topic": "Maturity buckets, cumulative GAP and infra-annual rate moves",
+   "units": [
+    "IRR-U14"
+   ]
   },
   "30178-IRR-15": {
    "answer_key": [
@@ -1928,7 +1977,10 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Bank Alpha: maturity buckets over 6 months"
+   "topic": "Bank Alpha: maturity buckets over 6 months",
+   "units": [
+    "IRR-U14"
+   ]
   },
   "30178-IRR-16": {
    "answer_key": [
@@ -2015,7 +2067,10 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Bank Alpha: static vs beta GAP, ΔNII and ΔNIM"
+   "topic": "Bank Alpha: static vs beta GAP, ΔNII and ΔNIM",
+   "units": [
+    "IRR-U16"
+   ]
   },
   "30178-IRR-17": {
    "answer_key": [
@@ -2107,7 +2162,11 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Embedded options and the option-adjusted GAP"
+   "topic": "Embedded options and the option-adjusted GAP",
+   "units": [
+    "IRR-U18",
+    "IRR-U19"
+   ]
   },
   "30178-IRR-18": {
    "answer_key": [
@@ -2189,7 +2248,10 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "GAP ratio, GAP/IEA and GAP/NW"
+   "topic": "GAP ratio, GAP/IEA and GAP/NW",
+   "units": [
+    "IRR-U20"
+   ]
   },
   "30178-IRR-19": {
    "answer_key": [
@@ -2281,7 +2343,10 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Bank Alpha: duration GAP and ΔEVE"
+   "topic": "Bank Alpha: duration GAP and ΔEVE",
+   "units": [
+    "IRR-U22"
+   ]
   },
   "30178-IRR-20": {
    "answer_key": [
@@ -2374,7 +2439,10 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Refinancing risk and profit spread"
+   "topic": "Refinancing risk and profit spread",
+   "units": [
+    "IRR-U5"
+   ]
   },
   "30178-IRR-21": {
    "answer_key": [
@@ -2467,7 +2535,10 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Reinvestment risk and profit spread"
+   "topic": "Reinvestment risk and profit spread",
+   "units": [
+    "IRR-U5"
+   ]
   },
   "30178-IRR-22": {
    "answer_key": [
@@ -2582,7 +2653,12 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "NII and market value of equity after a rate rise"
+   "topic": "NII and market value of equity after a rate rise",
+   "units": [
+    "IRR-U5",
+    "IRR-U6",
+    "IRR-U21"
+   ]
   },
   "30178-IRR-23": {
    "answer_key": [
@@ -2640,7 +2716,10 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Refinancing risk: impact on NII"
+   "topic": "Refinancing risk: impact on NII",
+   "units": [
+    "IRR-U5"
+   ]
   },
   "30178-IRR-24": {
    "answer_key": [
@@ -2762,7 +2841,10 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "NII drivers: asset mix and balance-sheet size"
+   "topic": "NII drivers: asset mix and balance-sheet size",
+   "units": [
+    "IRR-U3"
+   ]
   },
   "30178-IRR-26": {
    "answer_key": [
@@ -2857,7 +2939,10 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Static GAP: what each weakness is fixed by"
+   "topic": "Static GAP: what each weakness is fixed by",
+   "units": [
+    "IRR-U13"
+   ]
   },
   "30178-IRR-27": {
    "answer_key": [
@@ -2958,7 +3043,11 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Spread effect and deposit betas"
+   "topic": "Spread effect and deposit betas",
+   "units": [
+    "IRR-U15",
+    "IRR-U17"
+   ]
   },
   "30178-IRR-28": {
    "answer_key": [
@@ -3044,7 +3133,11 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Zero GAP versus zero duration GAP"
+   "topic": "Zero GAP versus zero duration GAP",
+   "units": [
+    "IRR-U11",
+    "IRR-U23"
+   ]
   },
   "30178-IRR-30": {
    "answer_key": [
@@ -3171,7 +3264,11 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "EVE when asset and liability rates move by different amounts"
+   "topic": "EVE when asset and liability rates move by different amounts",
+   "units": [
+    "IRR-U22",
+    "IRR-U21"
+   ]
   },
   "30178-IRR-31": {
    "answer_key": [
@@ -3289,7 +3386,11 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Where GAP, beta GAP, embedded options and DGAP each break"
+   "topic": "Where GAP, beta GAP, embedded options and DGAP each break",
+   "units": [
+    "IRR-U13",
+    "IRR-U23"
+   ]
   },
   "30178-IRR-32": {
    "answer_key": [
@@ -3432,7 +3533,11 @@ window.AG_SEED={
     }
    ],
    "syllabus_objective": "Interest-rate risk: measurement and management using maturity-gap and duration-gap models",
-   "topic": "Option-adjusted GAP against an ALCO limit, solved for the prepayment rate"
+   "topic": "Option-adjusted GAP against an ALCO limit, solved for the prepayment rate",
+   "units": [
+    "IRR-U19",
+    "IRR-U20"
+   ]
   }
  },
  "reviews": {

@@ -44,11 +44,21 @@ If any point fails, fix the question or drop it. Do not relabel it or lower the 
    }
    ```
 
-**Review before creating.** Build banks with `banks/build_banks.py` (every number computed and solved a second way with an assert;
-scenario sanity asserts such as "the run is not covered by liquid assets"), then run `node banks/review.js`. It applies the site's
-validator and harder-rule check with each course's fingerprint and must print "20/20 pass" (or all N) before anything is written to
-the Answer Grid database. Then read every key and option set yourself: check the key is not always the same letter, that distractors
-come from named mistakes, and that the scheme text uses the computed numbers.
+**Source rule (agreed 2026-09-24).** Every real past-paper, problem-set or instructor-sample question that fits the current
+syllabus goes in, copied word for word from the PDF text layer (`source.type: "real"`, `verbatim_verified: true`). Keys are
+official where the source prints one; otherwise solve twice and mark `double-solved`, and say in the mark scheme that the source
+has no key. If the text layer is garbled and the item has to be rebuilt, it is `adapted`, not verified, and carries a
+`source.check` note for Will. Claude-written mocks and RemNote decks are never evidence. Generated questions only fill gaps.
+
+**Coverage rule.** Each deck is split into sections and units (`banks/c30178.py`: `SECTIONS`, `UNITS`). Every examinable unit
+needs at least one question (`q.units`); non-examinable units state why. Every section needs a Hard question whose first
+`slide_group` is that section. Every source file and item has a ledger decision (`LEDGER`: included, held, duplicate, excluded…,
+with a reason). The site shows this as the **Coverage** panel in each deck folder.
+
+**Review before creating.** Run `python3 banks/build_banks.py` (every number computed and solved a second way with an assert),
+then `node banks/review.js`. It checks every bank question (validator, key self-check, harder rule for generated questions,
+verbatim for real ones) and then the coverage rule for each course with a coverage block. It exits non-zero on any gap, and
+nothing is written to the Answer Grid database until it passes. Then read every key and option set yourself.
 
 The site applies the same rule (`reviewHarder` in `js/logic.js`). **Imports block** any generated question that fails it or
 has no `hard_check`. Real and adapted course questions are exempt, because they are the evidence the rule is measured against.

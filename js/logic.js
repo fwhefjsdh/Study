@@ -308,6 +308,18 @@ function hardThresholds(course,sc){
     stepsFloor:isFinite(floor)?floor:null,minNotches:num(t.min_notches)??2,minutesCap:num(t.minutes_per_answer_cap),
     notches:Array.isArray(t.notches)&&t.notches.length?t.notches:HARD_DEFAULT.notches};
 }
+/* Deck coverage: which examinable units have a question, and which sections have a Hard question as their primary
+   section (first slide_group). deck = course.decks[deck] with .units [{id,section,title,examinable,reason}] and .sections. */
+function deckCoverage(deck,qs){
+  const units=(deck&&Array.isArray(deck.units))?deck.units:[];const secs=(deck&&Array.isArray(deck.sections))?deck.sections:[];
+  const by={};(qs||[]).forEach(q=>(Array.isArray(q.units)?q.units:[]).forEach(u=>(by[u]=by[u]||[]).push(q.id)));
+  const U=units.map(u=>Object.assign({},u,{qids:by[u.id]||[]}));
+  const S=secs.map(s=>{const hard=(qs||[]).filter(q=>q.difficulty==="hard"&&Array.isArray(q.slide_groups)&&q.slide_groups[0]===s.id).map(q=>q.id);
+    return Object.assign({},s,{hard,units:U.filter(u=>u.section===s.id)});});
+  const ex=U.filter(u=>u.examinable!==false);
+  return {units:U,sections:S,examinable:ex.length,covered:ex.filter(u=>u.qids.length).length,gaps:ex.filter(u=>!u.qids.length),
+    noHard:S.filter(s=>!s.hard.length),unmapped:(qs||[]).filter(q=>!Array.isArray(q.units)||!q.units.length).map(q=>q.id),hasUnits:units.length>0};
+}
 function answerParts(q){return (q&&Array.isArray(q.subquestions)?q.subquestions:[]).map(s=>String(s.n));}
 /* Review one question against the harder rule. status: exempt | pass | fail | unreviewed */
 function reviewHarder(q,course){
@@ -442,7 +454,7 @@ function zipStore(files){
   return out;
 }
 
-const API={examPlan,weekday,newOrder,firstSlide,slideRanges,romeToday,addDays,diffDays,tierFor,effectiveDue,applyVerdict,isLeech,buildQueue,keyIndex,mcqResults,mcqVerdict,combineVerdict,tagsFromSelections,marksFor,validateMarker,validateQuestion,mdToHtml,esc,LETTERS,normReview,examCap,isISO,
+const API={deckCoverage,examPlan,weekday,newOrder,firstSlide,slideRanges,romeToday,addDays,diffDays,tierFor,effectiveDue,applyVerdict,isLeech,buildQueue,keyIndex,mcqResults,mcqVerdict,combineVerdict,tagsFromSelections,marksFor,validateMarker,validateQuestion,mdToHtml,esc,LETTERS,normReview,examCap,isISO,
   HARD_NOTCHES,HARD_DEFAULT,shapeClass,hardApplies,hardThresholds,reviewHarder,answerParts,
   fmtDMY,tsLabel,verdictOf,questionMarkdown,exportMarkdown,exportCsv,summaryRow,safeName,zipStore,crc32};
 if(typeof window!=="undefined")window.EP=API;

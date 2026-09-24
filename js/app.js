@@ -243,8 +243,29 @@ function viewSubject(code,list){
   return o+'<div class="stack">'+decks.map(deck=>{const l=by[deck];const st=deckStats(l);const info=deckInfo(code,deck);const cov=new Set(l.flatMap(q=>(q.slides||[]).map(Number)));const cf=deckCfg(code,deck);
     const href="#/browse/"+encodeURIComponent(code)+"/"+encodeURIComponent(deck);
     return '<article class="panel stack"><div class="row between"><a class="cardlink" href="'+href+'"><div class="label mono">Deck folder · '+h(deck)+"</div><h3>"+h(deckTitle(code,deck))+'</h3><p class="small muted">'+(cf.exam?"Exam "+fmtDate(cf.exam)+(cf.examFrom==="deck"?" (deck date)":""):"No exam date")+(cf.prio!=="none"?" · "+h(cf.prio):"")+"</p></a></div>"+
-      '<div class="counts"><span>Questions <b>'+st.total+"</b></span><span>Attempted <b>"+st.attempted+"</b></span><span>New <b>"+st.new+"</b></span><span>Archived <b>"+st.archived+"</b></span><span>Slides covered <b>"+cov.size+(info&&info.slide_count?" / "+info.slide_count:"")+"</b></span></div>"+
+      '<div class="counts"><span>Questions <b>'+st.total+"</b></span><span>Attempted <b>"+st.attempted+"</b></span><span>New <b>"+st.new+"</b></span><span>Archived <b>"+st.archived+"</b></span><span>Slides covered <b>"+cov.size+(info&&info.slide_count?" / "+info.slide_count:"")+"</b></span>"+(()=>{const c=E.deckCoverage(info,l);return c.hasUnits?"<span>Units covered <b>"+c.covered+" / "+c.examinable+"</b></span>"+(c.sections.length?"<span>Sections with Hard <b>"+(c.sections.length-c.noHard.length)+" / "+c.sections.length+"</b></span>":""):"";})()+"</div>"+
       '<div class="row"><a class="btn sm primary" href="'+href+'">Open folder</a><button class="btn sm" data-act="practiseDeck" data-course="'+h(code)+'" data-deck="'+h(deck)+'"'+(st.due?"":" disabled")+">Practise ("+st.due+' due)</button><button class="btn sm" data-act="exportDeck" data-course="'+h(code)+'" data-deck="'+h(deck)+'"'+(st.attempted?"":" disabled")+">Export attempted ("+st.attempted+")</button></div></article>";}).join("")+"</div>";
+}
+/* Coverage guardrail in the folder: every examinable deck unit needs a question; every section needs a Hard one. */
+function coveragePanel(course,deck,list){
+  const c=E.deckCoverage(deckInfo(course,deck),list);if(!c.hasUnits)return "";
+  const ok=!c.gaps.length&&!c.noHard.length;const qid=id=>'<a class="mono" href="#/q/'+encodeURIComponent(id)+'">'+h(id.replace(course+"-",""))+"</a>";
+  const sec=c.sections.length?c.sections:[{id:"",title:"Units",hard:[],units:c.units}];
+  return '<details class="panel"'+(ok?"":" open")+'><summary><h3>Coverage</h3> <span class="pill '+(ok?"ok":"bad")+'" style="white-space:normal">'+c.covered+" / "+c.examinable+" units"+(c.sections.length?" · "+(c.sections.length-c.noHard.length)+" / "+c.sections.length+" sections with a Hard question":"")+"</span></summary>"+
+    '<p class="small muted" style="margin-top:8px">Every examinable topic in the deck needs at least one question, and every section needs a Hard one. Non-examinable items say why.</p>'+
+    '<div class="tablewrap"><table class="md small"><thead><tr><th>Unit</th><th>Questions</th></tr></thead><tbody>'+sec.map(s=>
+      (s.id?'<tr><th colspan="2">'+h(s.id)+" · "+h(s.title||"")+" "+(s.hard.length?'<span class="pill ok" style="white-space:normal">Hard: '+s.hard.map(qid).join(", ")+"</span>":'<span class="pill bad">No Hard question</span>')+"</th></tr>":"")+
+      s.units.map(u=>"<tr><td>"+h(u.title)+(u.where?' <span class="muted">('+h(u.where)+")</span>":"")+"</td><td>"+(u.examinable===false?'<span class="muted">Not examinable: '+h(u.reason||"")+"</span>":u.qids.length?u.qids.map(qid).join(", "):'<span class="pill bad">Gap</span>')+"</td></tr>").join("")).join("")+
+    "</tbody></table></div>"+(c.unmapped.length?'<p class="small muted">Not yet mapped to a unit: '+c.unmapped.map(qid).join(", ")+".</p>":"")+"</details>";
+}
+/* Re-importing a course: your settings (exam dates, priority, final review, status) stay; the bank's structure
+   (fingerprint, ledger, deck titles, sections and units) is refreshed. */
+const COURSE_BANK_FIELDS=["fingerprint","source_ledger","format_profile","unknowns","inventory","name","folder_path"],DECK_BANK_FIELDS=["file","title","slide_count","sections","units","reading"];
+function mergeCourse(cur,inc){
+  const out=Object.assign({},inc,cur);COURSE_BANK_FIELDS.forEach(k=>{if(inc[k]!==undefined)out[k]=inc[k];});
+  const decks=Object.assign({},inc.decks||{},cur.decks||{});
+  Object.entries(inc.decks||{}).forEach(([d,v])=>{decks[d]=Object.assign({},v,(cur.decks||{})[d]||{});DECK_BANK_FIELDS.forEach(k=>{if(v&&v[k]!==undefined)decks[d][k]=v[k];});});
+  out.decks=decks;return out;
 }
 function viewFolder(course,deck,qs){
   const list=qs.filter(q=>q.course===course&&q.deck===deck).sort(E.newOrder);const info=deckInfo(course,deck)||{};const st=deckStats(list);
@@ -259,6 +280,7 @@ function viewFolder(course,deck,qs){
     '<article class="panel stack"><p class="small muted">'+list.length+" questions in slide order · "+perSlide.length+" of "+(n||"?")+" slides have a question · "+st.attempted+" attempted</p>"+
     '<div class="row"><button class="btn sm primary" data-act="practiseDeck" data-course="'+h(course)+'" data-deck="'+sid+'"'+(st.due?"":" disabled")+">Practise due ("+st.due+')</button><button class="btn sm" data-act="sessionAll" data-course="'+h(course)+'" data-deck="'+sid+'">All in slide order</button><button class="btn sm" data-act="sessionDry" data-course="'+h(course)+'" data-deck="'+sid+'">Dry run</button><span class="grow"></span><button class="btn sm" data-act="exportDeck" data-course="'+h(course)+'" data-deck="'+sid+'"'+(st.attempted?"":" disabled")+">Export folder…</button></div>"+planHtml(course,deck)+"</article>";
   o+='<details class="panel"><summary><h3>Deck settings</h3></summary><div class="settings" style="margin-top:10px"><label class="small muted">Exam date for this deck<br><input type="date" id="dexam-'+sid+'" value="'+h(E.isISO(info.exam_date)?info.exam_date:"")+'"></label><label class="small muted">Priority<br>'+prioSel+'</label><label class="small muted">Final review starts<br>'+frSel+'</label><button class="btn sm primary" data-act="saveDeck" data-course="'+h(course)+'" data-deck="'+sid+'">Save</button></div><p class="small muted" style="margin-top:8px">'+(cfg.examFrom==="subject"?"Blank date uses the subject's exam date ("+fmtDate(cfg.exam)+").":cfg.examFrom==="deck"?"This deck has its own exam date.":"No exam date on the deck or the subject.")+' Paused decks stay out of the main queue but keep their schedule.</p><div class="row" style="margin-top:8px"><button class="btn sm" data-act="sweepDeck" data-course="'+h(course)+'" data-deck="'+sid+'">Start final review now</button></div></details>';
+  o+=coveragePanel(course,deck,list);
   o+='<div class="row small"><span class="muted">Select:</span><button class="btn sm ghost" data-act="selSet" data-ids="'+h(triedIds.join(","))+'">Attempted ('+triedIds.length+')</button><button class="btn sm ghost" data-act="selSet" data-ids="'+h(allIds.join(","))+'">All</button>'+(S.sel.size?'<button class="btn sm ghost" data-act="selClear">None</button>':"")+"</div>";
   o+='<div class="qlist">'+list.map(q=>qRow(q,(Array.isArray(q.slides)&&q.slides.length?"slides "+h(E.slideRanges(q.slides)):"slides not mapped")+" · "+h((q.source||{}).type||""))).join("")+"</div>";
   if(perSlide.length)o+='<details class="panel"><summary><h3>Slide by slide</h3></summary><div class="tablewrap" style="margin-top:10px"><table class="md small"><thead><tr><th>Slide</th><th>Questions</th></tr></thead><tbody>'+perSlide.map(([i,hs])=>'<tr><td class="mono">'+i+"</td><td>"+hs.map(q=>'<span class="mono">'+h(q.id.replace(q.course+"-",""))+"</span> "+h(q.topic||"")).join("<br>")+"</td></tr>").join("")+"</tbody></table></div>"+(empty.length?'<p class="small muted">No question yet on slides '+h(E.slideRanges(empty))+".</p>":"")+"</details>";
@@ -421,7 +443,7 @@ async function writeImport(){
   const pv=S.importPreview;if(!pv||pv.writing)return;pv.writing=true;render();
   try{
     const w=[];
-    pv.courses.forEach(c=>{const cur=S.courses[c.code];w.push({coll:"courses",id:c.code,doc:cur?Object.assign({},c,cur,{decks:Object.assign({},c.decks||{},cur.decks||{})}):{status:"active",...c}});});
+    pv.courses.forEach(c=>{const cur=S.courses[c.code];w.push({coll:"courses",id:c.code,doc:cur?mergeCourse(cur,c):{status:"active",...c}});});
     pv.ok.forEach(q=>{if(!S.courses[q.course]&&!pv.courses.some(c=>c.code===q.course))w.push({coll:"courses",id:q.course,doc:{code:q.course,name:q.course,status:"active"}});
       w.push({coll:"questions",id:q.id,doc:q});
       if(!pv.prog.reviews[q.id]&&!S.reviews[q.id])w.push({coll:"reviews",id:q.id,doc:{status:"new",streak:0,interval_days:0,due:S.today,lapses:0,last_counted_date:null,history:[]}});});

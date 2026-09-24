@@ -12,12 +12,9 @@ function hardQ(over){
   return Object.assign(q,over||{});
 }
 
-test("bundled bank: every question passes schema validation (IRR-12 is a known data gap)",()=>{
-  for(const q of Object.values(SEED.questions)){
-    const e=E.validateQuestion(q);
-    /* IRR-12 is labelled "real" but its source says verbatim_verified:false. Left as found; the import would block it. */
-    if(q.id==="30178-IRR-12")assert.deepEqual(e,["real question not verbatim-verified"]);else assert.deepEqual(e,[],q.id);
-  }
+test("bundled bank: every question passes schema validation",()=>{
+  /* IRR-12 was transcribed from a page image; it was checked against the PDF text layer on 2026-09-24. */
+  for(const q of Object.values(SEED.questions))assert.deepEqual(E.validateQuestion(q),[],q.id);
 });
 test("harder rule thresholds come from the course fingerprint",()=>{
   const ex=E.hardThresholds(course,"exercise part");assert.equal(ex.slideMax,3);assert.equal(ex.examMedian,3);assert.equal(ex.stepsMin,4);assert.equal(ex.conceptsMin,2);assert.equal(ex.minNotches,2);assert.equal(ex.minutesCap,4.5);
@@ -78,4 +75,12 @@ test("zip writer produces a valid archive",()=>{
   const z=E.zipStore([{name:"a/b.md",data:"hello"},{name:"a/c.txt",data:new Uint8Array([1,2,3])}]);
   const dv=new DataView(z.buffer);assert.equal(dv.getUint32(0,true),0x04034b50);assert.equal(dv.getUint32(z.length-22,true),0x06054b50);assert.equal(dv.getUint16(z.length-12,true),2);
   assert.equal(E.crc32(new TextEncoder().encode("hello")),0x3610a686);
+});
+test("deck coverage: gaps, Hard per section and unmapped questions",()=>{
+  const deck={sections:[{id:"S1",title:"a"},{id:"S2",title:"b"}],units:[{id:"U1",section:"S1",examinable:true},{id:"U2",section:"S2",examinable:true},{id:"U0",section:"S1",examinable:false,reason:"nav"}]};
+  const qs=[{id:"q1",units:["U1"],slide_groups:["S1"],difficulty:"hard"},{id:"q2",units:["U1"],slide_groups:["S2"],difficulty:"exam"},{id:"q3",slide_groups:["S2"],difficulty:"hard"}];
+  const c=E.deckCoverage(deck,qs);
+  assert.equal(c.examinable,2);assert.equal(c.covered,1);assert.deepEqual(c.gaps.map(u=>u.id),["U2"]);
+  assert.deepEqual(c.noHard.map(s=>s.id),[]);assert.deepEqual(c.unmapped,["q3"]);
+  assert.deepEqual(E.deckCoverage(deck,qs.slice(0,2)).noHard.map(s=>s.id),["S2"]);
 });

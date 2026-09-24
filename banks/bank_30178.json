@@ -109,7 +109,10 @@
     }
    ],
    "slides": [],
-   "slide_groups": [],
+   "slide_groups": [
+    "I3",
+    "I2"
+   ],
    "est_minutes": 9,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -137,7 +140,11 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
-   }
+   },
+   "units": [
+    "INTRO-U10",
+    "INTRO-U5"
+   ]
   },
   {
    "id": "30178-INTRO-02",
@@ -246,7 +253,9 @@
     }
    ],
    "slides": [],
-   "slide_groups": [],
+   "slide_groups": [
+    "I2"
+   ],
    "est_minutes": 8,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -274,7 +283,11 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
-   }
+   },
+   "units": [
+    "INTRO-U6",
+    "INTRO-U7"
+   ]
   },
   {
    "id": "30178-SVB-01",
@@ -387,7 +400,11 @@
     }
    ],
    "slides": [],
-   "slide_groups": [],
+   "slide_groups": [
+    "V1",
+    "V3",
+    "V4"
+   ],
    "est_minutes": 9,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -415,7 +432,12 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
-   }
+   },
+   "units": [
+    "SVB-U2",
+    "SVB-U6",
+    "SVB-U10"
+   ]
   },
   {
    "id": "30178-SVB-02",
@@ -528,7 +550,10 @@
     }
    ],
    "slides": [],
-   "slide_groups": [],
+   "slide_groups": [
+    "V3",
+    "V5"
+   ],
    "est_minutes": 9,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -556,7 +581,3912 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "SVB-U6",
+    "IRR-U22",
+    "SVB-U12"
+   ]
+  },
+  {
+   "id": "30178-INTRO-03",
+   "course": "30178",
+   "deck": "INTRO",
+   "topic": "Underwriting on a firm commitment basis",
+   "syllabus_objective": "What banks do: investment banking services (underwriting)",
+   "shape": "numerical exercise (written)",
+   "stem": "An investment bank pays $23.50 per share for 4 million shares of ABC Company (underwriting on a firm commitment basis). It then sells those shares to the public for $25 per share.",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "location": "Problem Set 1 – TEXT (a.y. 2025-26 problem set, International Banking 30178), Exercise 2; official solution in Reference Material/Clean/Part1_.pdf (Problem set 1 with solutions), third-party copy via Studocu; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "How much money does ABC receive?",
+     "options": [],
+     "marks": "UNKNOWN"
+    },
+    {
+     "n": "2",
+     "prompt": "What is the profit to the investment bank?",
+     "options": [],
+     "marks": "UNKNOWN"
+    },
+    {
+     "n": "3",
+     "prompt": "What is the stock price of ABC?",
+     "options": [],
+     "marks": "UNKNOWN"
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "ABC receives $23.50 x 4,000,000 shares = $94,000,000.",
+     "answer_status": "official"
+    },
+    {
+     "n": "2",
+     "answer": "The profit to the investment bank is ($25.00 - $23.50) x 4,000,000 shares = $6,000,000.",
+     "answer_status": "official"
+    },
+    {
+     "n": "3",
+     "answer": "The stock price of ABC is $25.00 since that is what the public must pay.",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": "UNKNOWN",
+   "mark_scheme": [
+    "Official solution: ABC receives $94,000,000; the investment bank earns $6,000,000; the stock price is $25.00.",
+    "From the perspective of ABC, the $6,000,000 represents the commission that it must pay to issue the stock (official solution).",
+    "Deck link: investment banks help issuers raise funds and 'may purchase them before reselling them to investors' — that purchase-and-resale is the firm commitment."
+   ],
+   "citations": [
+    {
+     "deck": "INTRO",
+     "slide": "What Do Banks Do? Investment banks",
+     "quote": "The investment bank structures, prices and markets the securities—and may purchase them before reselling them to investors."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "I1"
+   ],
+   "units": [
+    "INTRO-U3"
+   ],
+   "est_minutes": 3,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30178-INTRO-04",
+   "course": "30178",
+   "deck": "INTRO",
+   "topic": "Underwriting on a best-efforts basis",
+   "syllabus_objective": "What banks do: investment banking services (underwriting)",
+   "shape": "numerical exercise (written)",
+   "stem": "XYZ, Inc. has issued 10 million new shares of stock. An investment bank agrees to underwrite these shares on a best-efforts basis. The investment bank is able to sell 8.4 million shares for $27 per share, and it charges XYZ $0.675 per share sold.",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "location": "Problem Set 1 – TEXT (a.y. 2025-26 problem set, International Banking 30178), Exercise 3; official solution in Reference Material/Clean/Part1_.pdf (Problem set 1 with solutions), third-party copy via Studocu; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "How much money does XYZ receive?",
+     "options": [],
+     "marks": "UNKNOWN"
+    },
+    {
+     "n": "2",
+     "prompt": "What is the profit to the investment bank?",
+     "options": [],
+     "marks": "UNKNOWN"
+    },
+    {
+     "n": "3",
+     "prompt": "What is the stock price of XYZ?",
+     "options": [],
+     "marks": "UNKNOWN"
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "XYZ receives ($27.00 - $0.675) x 8,400,000 shares = $221,130,000.",
+     "answer_status": "official"
+    },
+    {
+     "n": "2",
+     "answer": "The investment bank’s profit is $0.675 x 8,400,000 shares = $5,670,000.",
+     "answer_status": "official"
+    },
+    {
+     "n": "3",
+     "answer": "The stock price is $27 per share since that is what the public pays.",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": "UNKNOWN",
+   "mark_scheme": [
+    "Official solution: XYZ receives $221,130,000; the investment bank earns $5,670,000; the stock price is $27.",
+    "Check: 26.325 × 8.4m = 221.13m; 0.675 × 8.4m = 5.67m. Only the 8.4 million shares sold count: under best efforts the unsold 1.6 million stay with XYZ.",
+    "Where marks are lost: using 10 million shares; subtracting the fee from the bank's profit instead of from XYZ's proceeds."
+   ],
+   "citations": [
+    {
+     "deck": "INTRO",
+     "slide": "What Do Banks Do? Investment banks",
+     "quote": "Help companies and governments raise funds by issuing shares or bonds."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "I1"
+   ],
+   "units": [
+    "INTRO-U3"
+   ],
+   "est_minutes": 3,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30178-INTRO-05",
+   "course": "30178",
+   "deck": "INTRO",
+   "topic": "Net income from interest, loan losses and funding costs",
+   "syllabus_objective": "What banks do: sources of income and cost (interest income, interest expense, loan loss provisions)",
+   "shape": "numerical exercise (written)",
+   "stem": "A FI has assets of $10 million consisting of $1 million in cash and $9 million in loans with an interest rate of 6%. On the loans the FI expect loan losses for 0.5% (N.B. assume no reserves for loan losses are recorded on b/s). The FI has core deposits of $6 million, on which the FI pays on average 1% of interest rates and subordinated debt of $2 million on which it pays an interest rate of 4% and equity of $2 million.",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "location": "Problem Set 1 – TEXT (a.y. 2025-26 problem set, International Banking 30178), Exercise 4; official solution in Reference Material/Clean/Part1_.pdf (Problem set 1 with solutions), third-party copy via Studocu; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null,
+    "check": "The source solution prints '- $90.000' for (b); the key writes $90,000 (a thousands separator, not a decimal)."
+   },
+   "subquestions": [
+    {
+     "n": "a",
+     "prompt": "Compute the NI (net income)",
+     "options": [],
+     "marks": "UNKNOWN"
+    },
+    {
+     "n": "b",
+     "prompt": "Suppose that the interest rates on loans fall to 5%: compute the change in NI",
+     "options": [],
+     "marks": "UNKNOWN"
+    },
+    {
+     "n": "c",
+     "prompt": "How does the NI changes if following a recession the loan losses increase to 1.75%?",
+     "options": [],
+     "marks": "UNKNOWN"
+    },
+    {
+     "n": "d",
+     "prompt": "Calculate the change in NI if depositors were expected to withdraw $1 million of deposits and the FI had to raise the same amount in subordinated debt.",
+     "options": [],
+     "marks": "UNKNOWN"
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "a",
+     "answer": "NI=0.06(9m.) - 0.005(9m.)-0.01(6m.)-0.04(2m.) = 495,000-60,000-80,000 = $355,000",
+     "answer_status": "official"
+    },
+    {
+     "n": "b",
+     "answer": "Change in NI= - 0.01(9m.) = - $90,000",
+     "answer_status": "official"
+    },
+    {
+     "n": "c",
+     "answer": "Change in NI= - (0.0175-0.005)(9m.) = -(0.0125)(9m.) = - $112,500",
+     "answer_status": "official"
+    },
+    {
+     "n": "d",
+     "answer": "Change in NI= - (0.04-0.01)(1m.)= - $30,000",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": "UNKNOWN",
+   "mark_scheme": [
+    "Official answers: (a) $355,000; (b) −$90,000; (c) −$112,500; (d) −$30,000.",
+    "(a) interest on loans 540,000 − expected loan losses 45,000 − deposit interest 60,000 − sub-debt interest 80,000 = 355,000. Cash earns nothing; there are no taxes or operating costs in the data.",
+    "Where marks are lost: charging the loss rate on total assets; forgetting the cash earns nothing; in (d) using the full 4% instead of the 3-point cost difference."
+   ],
+   "citations": [
+    {
+     "deck": "INTRO",
+     "slide": "How Banking Activities Generate Revenues",
+     "quote": "Interest income − Interest expense = Net interest income"
+    },
+    {
+     "deck": "INTRO",
+     "slide": "How Banking Activities Generate Revenues and Expenses",
+     "quote": "Loan Loss Provisions: amounts recognised to cover expected losses when borrowers may not fully repay their loans"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "I2"
+   ],
+   "units": [
+    "INTRO-U6",
+    "INTRO-U7"
+   ],
+   "est_minutes": 5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30178-INTRO-06",
+   "course": "30178",
+   "deck": "INTRO",
+   "topic": "Firm commitment versus best-efforts underwriting",
+   "syllabus_objective": "What banks do: investment banking services (underwriting)",
+   "shape": "concept MCQ",
+   "stem": "Which of the following statement is true?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "location": "Problem Set 1 – TEXT (a.y. 2025-26 problem set, International Banking 30178), Multiple choice question 2; official solution in Reference Material/Clean/Part1_.pdf (Problem set 1 with solutions), third-party copy via Studocu; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Which of the following statement is true?",
+     "options": [
+      "In a firm commitment underwriting, the investment bank acts as an agent of the company issuing the security and receives a fee based on the number of securities sold.",
+      "In a best effort underwriting, the investment bank purchases the securities from the company at a negotiated price and sells them to the investing public at what it hopes will be a higher price.",
+      "The investment bank bears more risk with the firm commitment underwriting.",
+      "The investment bank bears more risk with the best-effort underwriting."
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 0.8,
+   "mark_scheme": [
+    "Answer C. Route 1: A and B swap the two definitions (A describes best efforts, B describes firm commitment). Route 2: under firm commitment the bank buys the issue first, so it carries any shortfall in the resale price; under best efforts it only sells as an agent. So the firm commitment is riskier (C), not D.",
+    "The problem set's solution file repeats these MCQs without marking an answer, so this key is Claude's, checked two ways against the deck; it is not official."
+   ],
+   "citations": [
+    {
+     "deck": "INTRO",
+     "slide": "What Do Banks Do? Investment banks",
+     "quote": "The investment bank structures, prices and markets the securities—and may purchase them before reselling them to investors."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "I1"
+   ],
+   "units": [
+    "INTRO-U3"
+   ],
+   "est_minutes": 1.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
    }
+  },
+  {
+   "id": "30178-INTRO-07",
+   "course": "30178",
+   "deck": "INTRO",
+   "topic": "Asset side of a commercial bank's balance sheet",
+   "syllabus_objective": "What banks do: reading a simplified bank balance sheet",
+   "shape": "concept MCQ",
+   "stem": "Which of the following appears on the asset side of a balance sheet for a commercial bank?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "location": "Problem Set 1 – TEXT (a.y. 2025-26 problem set, International Banking 30178), Multiple choice question 3; official solution in Reference Material/Clean/Part1_.pdf (Problem set 1 with solutions), third-party copy via Studocu; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Which of the following appears on the asset side of a balance sheet for a commercial bank?",
+     "options": [
+      "Interbank market borrowing.",
+      "Loans.",
+      "Sovereign bonds.",
+      "B and C."
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 0.8,
+   "mark_scheme": [
+    "Answer D. Route 1: loans and government bonds are both listed among the assets on the deck's simplified balance sheet. Route 2: interbank borrowing is money the bank owes, so it is funding (a liability), which rules out A and leaves B and C together.",
+    "The problem set's solution file repeats these MCQs without marking an answer, so this key is Claude's, checked two ways against the deck; it is not official."
+   ],
+   "citations": [
+    {
+     "deck": "INTRO",
+     "slide": "Commercial banks: Simplified Balance sheet (b/s)",
+     "quote": "Government and corporate bonds, etc."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "I2"
+   ],
+   "units": [
+    "INTRO-U5"
+   ],
+   "est_minutes": 1,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30178-INTRO-08",
+   "course": "30178",
+   "deck": "INTRO",
+   "topic": "What a commercial bank does not typically do",
+   "syllabus_objective": "What banks do: commercial versus investment banking",
+   "shape": "concept MCQ",
+   "stem": "What is not a typical function of a commercial bank?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "location": "Problem Set 1 – TEXT (a.y. 2025-26 problem set, International Banking 30178), Multiple choice question 4; official solution in Reference Material/Clean/Part1_.pdf (Problem set 1 with solutions), third-party copy via Studocu; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "What is not a typical function of a commercial bank?",
+     "options": [
+      "Granting corporate loans.",
+      "Buying government bonds.",
+      "Trading securities.",
+      "Granting mortgages."
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 0.8,
+   "mark_scheme": [
+    "Answer C. Route 1: the deck's commercial bank 'accepts deposits and transforms funding into loans and securities' and lends to households (mortgages) and firms, which covers A, B and D. Route 2: the deck lists trading securities for a speculative profit among the investment-bank activities of a universal bank.",
+    "The problem set's solution file repeats these MCQs without marking an answer, so this key is Claude's, checked two ways against the deck; it is not official."
+   ],
+   "citations": [
+    {
+     "deck": "INTRO",
+     "slide": "Not All Banks Do the Same Things",
+     "quote": "Commercial banking: accepts deposits and transforms funding into loans and securities"
+    },
+    {
+     "deck": "INTRO",
+     "slide": "What Do Banks Do? Universal banks",
+     "quote": "trade securities for a speculative profit, offer brokerage services (Inv. Bank)"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "I1"
+   ],
+   "units": [
+    "INTRO-U1",
+    "INTRO-U2"
+   ],
+   "est_minutes": 1,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30178-INTRO-09",
+   "course": "30178",
+   "deck": "INTRO",
+   "topic": "Definition of market risk",
+   "syllabus_objective": "What banks do: the main risks banking activities generate",
+   "shape": "concept MCQ",
+   "stem": "What is the definition of market risk?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "location": "Problem Set 1 – TEXT (a.y. 2025-26 problem set, International Banking 30178), Multiple choice question 5; official solution in Reference Material/Clean/Part1_.pdf (Problem set 1 with solutions), third-party copy via Studocu; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "What is the definition of market risk?",
+     "options": [
+      "It is the risk of not having funds to start new investments.",
+      "It is a risk that borrowers will default on their debt.",
+      "It is the risk connected with the uncertainty of a bank’s earnings on its trading book due to changes in market conditions.",
+      "It is the risk of not having enough equity to offset a decline in the asset value."
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 0.8,
+   "mark_scheme": [
+    "Answer C. Route 1: the deck defines market risk as 'security prices may move adversely', which is earnings uncertainty on the trading book from market moves. Route 2: B is credit risk and A is close to liquidity risk, so both are other risks on the deck's list; D is about capital (solvency), not a risk type.",
+    "The problem set's solution file repeats these MCQs without marking an answer, so this key is Claude's, checked two ways against the deck; it is not official."
+   ],
+   "citations": [
+    {
+     "deck": "INTRO",
+     "slide": "Banking Activities Generate Risks",
+     "quote": "Market risk: security prices may move adversely"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "I3"
+   ],
+   "units": [
+    "INTRO-U9"
+   ],
+   "est_minutes": 1,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30178-INTRO-12",
+   "course": "30178",
+   "deck": "INTRO",
+   "topic": "Where loan loss provisions are reported",
+   "syllabus_objective": "What banks do: reading a simplified bank income statement (loan loss provisions)",
+   "shape": "concept MCQ",
+   "stem": "In relation to banks’ asset quality and to “loan loss provisions”, which of the following statements is correct?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference Material/Clean/MCQ/Partial1.pdf",
+    "location": "Sample Questions and Exercise, Financial Statements Overview and Asset Quality (R. Pambianco), question [1]; official solution printed below the question; third-party copy via Studocu; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "In relation to banks’ asset quality and to “loan loss provisions”, which of the following statements is correct?",
+     "options": [
+      "Evidence of the loan loss provisions booked by a bank in a certain year can be found in the bank’s P&L for that particular year.",
+      "Loan loss provisions are usually reported on the liability side of a bank’s balance sheet.",
+      "Loan loss provisions are generally a positive line item reported in the P&L of a bank below the net income line.",
+      "None of the above."
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "A",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 0.8,
+   "mark_scheme": [
+    "Official solution: a).",
+    "Deck link: the example income statement books loan loss provisions as an expense line (D. Loan Loss Provisions −5,000) above profit before tax, so they are in that year's P&L, negative, and above net income.",
+    "Source note: this sample set belongs to Part II (R. Pambianco); only this question is kept for midterm 1 because the INTRO deck covers the same point. Its other items wait for the Part II decks."
+   ],
+   "citations": [
+    {
+     "deck": "INTRO",
+     "slide": "How Banking Activities Generate Revenues and Expenses",
+     "quote": "Loan Loss Provisions: amounts recognised to cover expected losses when borrowers may not fully repay their loans"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "I2"
+   ],
+   "units": [
+    "INTRO-U7"
+   ],
+   "est_minutes": 1,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30178-IRR-33",
+   "course": "30178",
+   "deck": "IRR",
+   "topic": "Refinancing risk over three years, solved backwards",
+   "syllabus_objective": "Interest-rate risk: refinancing risk and the income (NII) perspective",
+   "shape": "numerical exercise with 3 MCQ sub-questions",
+   "stem": "A financial institution has the following market value balance sheet structure:\n\nA bond has a 3-year maturity, a fixed-rate coupon of 10 percent paid at the end of each year, and a par value of $10,000. The certificate of deposit has a 1-year maturity and a 6 percent fixed rate of interest. The FI expects no additional asset growth.",
+   "data": "| Assets | | Liabilities and Equity | |\n|---|---|---|---|\n| Cash | $ 1,000 | Certificate of deposit | $ 10,000 |\n| Bond | 10,000 | Equity | 1,000 |\n| Total assets | $ 11,000 | Total liabilities and equity | $ 11,000 |",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "location": "Problem Set 1 – TEXT (a.y. 2025-26 problem set, International Banking 30178), Exercise 6; official solution in Reference Material/Clean/Part1_.pdf (Problem set 1 with solutions), third-party copy via Studocu; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "What will be the net interest income at the end of the first year?",
+     "options": [
+      "$400",
+      "$440",
+      "$340",
+      "$1000"
+     ],
+     "marks": 0.8
+    },
+    {
+     "n": "2",
+     "prompt": "If at the beginning of the second year market interest rates have increased 100 basis points (1 percent), what will be the net interest income for the second year?",
+     "options": [
+      "$400",
+      "$440",
+      "$300",
+      "$1100"
+     ],
+     "marks": 0.8
+    },
+    {
+     "n": "3",
+     "prompt": "In the third year, the interest rates have increased so much that the FI makes zero total net interest income over the three years. How much should the interest rate increase in the third year (compared to the second one) for this to be true, if the interest rate on the bond has remained at 10 percent?",
+     "options": [
+      "Such situation is not possible",
+      "1000 bps increase",
+      "1100 bps increase",
+      "1400 bps increase"
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "A",
+     "answer_status": "official"
+    },
+    {
+     "n": "2",
+     "answer": "C",
+     "answer_status": "official"
+    },
+    {
+     "n": "3",
+     "answer": "B",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 2.4,
+   "mark_scheme": [
+    "Official: (1) $400=10,000*(10%-6%); (2) $300=10,000*(10%-7%); (3) $400 + $300 - $X=0, -$700=10,000 * (10%-Y%), Y=17%, change=10% (1000 bps).",
+    "Why: the CD reprices every year and the bond does not, so rising rates widen the funding cost only: refinancing risk.",
+    "Where marks are lost in (3): quoting the year-3 CD rate (17%) as the change; measuring the change from the original 6% (1100 bps); counting the cash as earning interest."
+   ],
+   "citations": [
+    {
+     "deck": "IRR",
+     "slide": 14,
+     "quote": "Refinancing risk: maturing liabilities may need to be replaced at higher rates"
+    },
+    {
+     "deck": "IRR",
+     "slide": 15,
+     "quote": "It occurs when the bank is holding assets with maturities greater than the maturities of its liabilities"
+    }
+   ],
+   "slides": [
+    14,
+    15,
+    16
+   ],
+   "slide_groups": [
+    "S2"
+   ],
+   "units": [
+    "IRR-U5"
+   ],
+   "est_minutes": 6,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30178-IRR-34",
+   "course": "30178",
+   "deck": "IRR",
+   "topic": "Refinancing risk and cross-country differences in IRR exposure",
+   "syllabus_objective": "Interest-rate risk: refinancing risk; why repricing (and deposit betas) differ across banks",
+   "shape": "true/false",
+   "stem": "True/false questions",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "location": "Problem Set 1 – TEXT (a.y. 2025-26 problem set, International Banking 30178), True/false questions 1 and 3; official solution in Reference Material/Clean/Part1_.pdf (Problem set 1 with solutions), third-party copy via Studocu; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "A bank is subject to refinancing risk when its liabilities have shorter maturity than its assets.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "marks": 0.8
+    },
+    {
+     "n": "3",
+     "prompt": "In the Euro area economy, banks are equally exposed to interest rate risk across countries.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "A",
+     "answer_status": "official"
+    },
+    {
+     "n": "3",
+     "answer": "B",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1.6,
+   "mark_scheme": [
+    "Official answers: 1) T; 3) F.",
+    "3 is false: the deck's deposit betas differ across countries (Bank Italy β = 0.11 versus Bank France β = 0.35), and asset and funding mixes are bank-specific, so the same rate move hits banks differently.",
+    "Numbering follows the source; items 2 and 4–7 are held back (off-balance-sheet, FX and operational risk have no deck yet)."
+   ],
+   "citations": [
+    {
+     "deck": "IRR",
+     "slide": 15,
+     "quote": "It occurs when the bank is holding assets with maturities greater than the maturities of its liabilities"
+    },
+    {
+     "deck": "IRR",
+     "slide": 52,
+     "quote": "Imagine two banks, each holding €300m of retail deposits at 2%, and each experiencing the same +1% rise in market rates"
+    }
+   ],
+   "slides": [
+    15,
+    51,
+    52
+   ],
+   "slide_groups": [
+    "S2",
+    "S6"
+   ],
+   "units": [
+    "IRR-U5",
+    "IRR-U15"
+   ],
+   "est_minutes": 1.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30178-SVB-03",
+   "course": "30178",
+   "deck": "SVB",
+   "topic": "SVB's response to the post-COVID stimulus",
+   "syllabus_objective": "Interest-rate risk in practice: the SVB case (balance-sheet growth and funding)",
+   "shape": "concept MCQ",
+   "stem": "How did Silicon Valley Bank (SVB) respond to the macroeconomic stimulus initiated by the US monetary policy authorities since the COVID pandemic? Consider the following options and select the correct one:",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference Material/Clean/P1 1st part.pdf",
+    "location": "Samples of Questions and Exercises on IRR & Securitisation with solutions (B. Bruno, a.y. 2025-26), section D, multiple choice question; third-party copy via Studocu; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Select the correct option.",
+     "options": [
+      "By shrinking its balance sheet.",
+      "By expanding assets, mainly through mortgages financed by new bond issuances.",
+      "By more than doubling the size of its balance sheet, primarily thanks to the issuance of new customer deposits.",
+      "By changing its funding structure, shifting from short-term to long-term customer deposits."
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 0.8,
+   "mark_scheme": [
+    "Official answer: C.",
+    "Deck: SVB's balance sheet 'has tripled since 2019', financed with deposits (typically wholesale or uninsured). SVB's assets grew mainly in securities, not mortgages funded by bonds, and time deposits stayed tiny, so there was no shift to long-term deposits."
+   ],
+   "citations": [
+    {
+     "deck": "SVB",
+     "slide": "Effects: Massive growth in bank balance in SVB sheets",
+     "quote": "Balance sheet size has tripled since 2019"
+    },
+    {
+     "deck": "SVB",
+     "slide": "Effects: Massive growth in bank balance sheets during the ZLB and QE years",
+     "quote": "Bank balance sheets expand, financed with deposits (typically wholesale or uninsured)"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "V2"
+   ],
+   "units": [
+    "SVB-U3",
+    "SVB-U4"
+   ],
+   "est_minutes": 1,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30178-SVB-04",
+   "course": "30178",
+   "deck": "SVB",
+   "topic": "SVB's deposit concentration and funding structure",
+   "syllabus_objective": "Interest-rate risk in practice: the SVB case (liability side)",
+   "shape": "true/false",
+   "stem": "True/False question",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Reference Material/Clean/P1 1st part.pdf",
+    "location": "Samples of Questions and Exercises on IRR & Securitisation with solutions (B. Bruno, a.y. 2025-26), section D, true/false questions; third-party copy via Studocu; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Silicon Valley Bank's funding structure was highly concentrated: the 10 largest depositors held nearly 8% of the bank's total deposits",
+     "options": [
+      "True",
+      "False"
+     ],
+     "marks": 0.8
+    },
+    {
+     "n": "2",
+     "prompt": "To fund its assets, SVB relied almost exclusively on long-term deposits, which constituted (approx.) 90% of its total deposits.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "A",
+     "answer_status": "official"
+    },
+    {
+     "n": "2",
+     "answer": "B",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1.6,
+   "mark_scheme": [
+    "Official answers: 1 TRUE; 2 FALSE.",
+    "2 is false because the ≈90% figure is the uninsured share of deposits; SVB's time deposits were tiny (below 1% of deposits until 2021, 4% in 2022 on the slide)."
+   ],
+   "citations": [
+    {
+     "deck": "SVB",
+     "slide": "Liability side: The Achilles’ heel",
+     "quote": "Large corporate depositors: the largest 10 depositors accounted for 8% of SVB deposits, for an average of $ 1.3 bill each"
+    },
+    {
+     "deck": "SVB",
+     "slide": "Liability side: The Achilles’ heel",
+     "quote": "≈ 90% of Dep were uninsured"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "V4"
+   ],
+   "units": [
+    "SVB-U8"
+   ],
+   "est_minutes": 1.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   }
+  },
+  {
+   "id": "30178-IRR-35",
+   "course": "30178",
+   "deck": "IRR",
+   "topic": "Maturity GAP versus standardized (beta) GAP",
+   "syllabus_objective": "Interest-rate risk: repricing GAP versus standardised (beta) GAP",
+   "shape": "numerical exercise (written)",
+   "stem": "Standardized (Beta) GAP. Using the balance sheet below (Eur m, with the beta of each item), calculate the Maturity GAP and the Standardized GAP, the weighted average beta of assets and of liabilities, and say what they show about the bank's exposure.",
+   "data": "| Assets | Eur m | Beta | Liabilities | Eur m | Beta |\n|---|---|---|---|---|---|\n| On-demand credit lines | 460 | 0.95 | Customer deposits | 380 | 0.8 |\n| Interbank 1 m deposits | 80 | 1.1 | 1m interbank deposits | 140 | 1.1 |\n| 3 m-gov't. securities | 60 | 1.05 | Variable-rate CDs (next repricing in 3 m) | 120 | 0.95 |\n| 5yr variable-rate cons. credit (repricing in 6 m.) | 120 | 0.9 | 10 yr variable-rate bonds (euribor+50 bp, repricing in 6 m) | 160 | 1 |\n| 10yr variable-rate mortgages (Euribor+100 bp, repricing in 1 yr) | 280 | 1 | 1 yr fx-rate CDs | 80 | 0.9 |\n| | | | Equity | 120 | |\n| Total | 1000 | | Total | 1000 | |",
+   "difficulty": "exam",
+   "source": {
+    "type": "adapted",
+    "file": "Reference Material/Clean/P1 1st part.pdf",
+    "location": "Samples of Questions and Exercises on IRR & Securitisation with solutions (B. Bruno, a.y. 2025-26), section A 'Solutions to exercises presented in class', Standardized (Beta) GAP; official solution table and NOTE on the same page; third-party copy via Studocu",
+    "label": "SUPPORTING",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null,
+    "check": "Adapted, not verbatim: the source prints only the solution tables (no question wording), and its text layer runs the asset and liability columns together. The table was rebuilt so that it reproduces the printed totals exactly (assets 1000, RSL 880, beta-weighted 976 and 804), which puts the 10-yr variable-rate bonds on the liability side. Please check the table against page 2 of the PDF."
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Maturity GAP: RSA, RSL and GAP.",
+     "options": [],
+     "marks": "UNKNOWN"
+    },
+    {
+     "n": "2",
+     "prompt": "Standardized GAP: beta-weighted RSA, RSL and GAP.",
+     "options": [],
+     "marks": "UNKNOWN"
+    },
+    {
+     "n": "3",
+     "prompt": "Weighted average beta of assets and of liabilities.",
+     "options": [],
+     "marks": "UNKNOWN"
+    },
+    {
+     "n": "4",
+     "prompt": "What do the two GAPs show about the bank's exposure?",
+     "options": [],
+     "marks": "UNKNOWN"
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "RSA 1000, RSL 880, Maturity GAP 120",
+     "answer_status": "official"
+    },
+    {
+     "n": "2",
+     "answer": "RSA 976, RSL 804, Standardized GAP 172",
+     "answer_status": "official"
+    },
+    {
+     "n": "3",
+     "answer": "0.98 (assets) and 0.91 (liabilities)",
+     "answer_status": "official"
+    },
+    {
+     "n": "4",
+     "answer": "The bank is asset sensitive. The exposure is larger if calculated with the standardized (or Beta) GAP model. Comparing the average (weighted beta) conveys the same information as for the sign of the exposure, although it is uninformative in terms of magnitude of the exposure.",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": "UNKNOWN",
+   "mark_scheme": [
+    "Official solution table: Maturity GAP 1000 − 880 = 120; Standardized GAP 976 − 804 = 172; weighted betas 0.98 and 0.91.",
+    "Check: assets 460×0.95 + 80×1.1 + 60×1.05 + 120×0.9 + 280×1 = 976; liabilities 380×0.8 + 140×1.1 + 120×0.95 + 160×1 + 80×0.9 = 804.",
+    "Where marks are lost: counting equity as a rate-sensitive liability; treating the 10-year variable-rate bonds as an asset (they are issued bonds, a liability)."
+   ],
+   "citations": [
+    {
+     "deck": "IRR",
+     "slide": 53,
+     "quote": "The Beta GAP is derived from multiplying the amount of RSAs by the associated beta factors and summing across all rate-sensitive assets"
+    }
+   ],
+   "slides": [
+    53,
+    54,
+    55
+   ],
+   "slide_groups": [
+    "S6"
+   ],
+   "units": [
+    "IRR-U16"
+   ],
+   "est_minutes": 6,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30178-IRR-36",
+   "course": "30178",
+   "deck": "IRR",
+   "topic": "Repricing maturity, transmission lags and the mix effect",
+   "syllabus_objective": "Interest-rate risk: why IRR matters; contractual versus repricing maturity; drivers of NII (mix, size, rates)",
+   "shape": "numerical exercise with 2 MCQ sub-questions",
+   "stem": "Bank Lambda's balance sheet is below (€ million). Liquid assets reset immediately and one for one with the policy rate. The variable-rate mortgages reset one for one at their next reset date, in 6 months. The 3-month interbank funding resets one for one in 3 months. Current-account rates are administered: the bank passes on 20% of any policy-rate change, immediately. Fixed-rate items do not reprice within the year. Ignore compounding.",
+   "data": "| Assets | € m | Rate | Liabilities and equity | € m | Rate |\n|---|---|---|---|---|---|\n| Liquid assets | 100 | 1.0% | Current-account deposits | 500 | 0.5% |\n| Variable-rate mortgages (20-yr, reset every 6 months, next in 6 months) | 400 | 4.0% | Term deposits (fixed, 3 years left) | 200 | 2.0% |\n| Fixed-rate mortgages (15-yr) | 300 | 3.5% | Interbank funding (3-month, next reset in 3 months) | 100 | 3.0% |\n| Branches and other non-earning assets | 50 | — | Equity | 50 | — |\n| **Total** | **850** | | **Total** | **850** | |",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    "location": "IRR deck slides 3–13 (why IRR matters; contractual vs repricing maturity; NII drivers; monetary transmission)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1.1",
+     "prompt": "The policy rate rises by 1.5 percentage points today and stays there. Compared with no change, by how much does Bank Lambda's net interest income over the next 12 months change, in € million?",
+     "options": [
+      "+4.500",
+      "-4.125",
+      "-1.125",
+      "+1.875"
+     ],
+     "marks": 0.8
+    },
+    {
+     "n": "1.2",
+     "prompt": "At the same moment Bank Lambda moves €50 million from liquid assets into new fixed-rate mortgages at 4.5%. Compared with no rate change and no move, by how much does its net interest income over the next 12 months change, in € million?",
+     "options": [
+      "+3.625",
+      "+1.875",
+      "+4.125",
+      "+2.875"
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1.1",
+     "answer": "D",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "1.2",
+     "answer": "D",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "repricing_dates_ignored",
+     "trap": "1.1:A repricing dates ignored"
+    },
+    {
+     "tag": "full_pass_through_on_current_accounts",
+     "trap": "1.1:B full pass through on current accounts"
+    },
+    {
+     "tag": "contractual_maturity_used_for_variable_mortgages",
+     "trap": "1.1:C contractual maturity used for variable mortgages"
+    },
+    {
+     "tag": "mix_effect_valued_at_the_pre_shock_liquid_yield",
+     "trap": "1.2:A mix effect valued at the pre shock liquid yield"
+    },
+    {
+     "tag": "mix_change_ignored",
+     "trap": "1.2:B mix change ignored"
+    },
+    {
+     "tag": "liquid_assets_not_reduced_by_the_move",
+     "trap": "1.2:C liquid assets not reduced by the move"
+    }
+   ],
+   "marks": 1.6,
+   "mark_scheme": [
+    "[1.1] Steps: (1) classify by repricing, not contractual, maturity: liquid assets (now), variable mortgages (in 6 months), interbank (in 3 months), current accounts (now, 20%); fixed items never; (2) months at the new rate: 12, 6, 9, 12; (3) ΔII = 100 × 1.5% + 400 × 1.5% × 6/12 = 4.500; (4) ΔIE = 500 × 20% × 1.5% + 100 × 1.5% × 9/12 = 2.625; (5) ΔNII = 4.500 − 2.625 = +1.875.",
+    "[1.2] Steps: (1) the moved €50m would otherwise have earned the post-shock liquid rate 1% + 1.5% = 2.5%; (2) it now earns 4.5%, a mix gain of 50 × 2.0% = 1.000; (3) the rate effect from 1.1 is unchanged on the other items; (4) total = 1.875 + 1.000 = +2.875.",
+    "Second route for 1.2: interest income without the rise and move = 27.500; with both = 33.000; ΔII = 5.500; minus ΔIE 2.625 gives 2.875.",
+    "Where marks are lost: treating the 20-year variable mortgages as non-sensitive (-1.125); ignoring reset dates (+4.500); passing the whole rise to current accounts (-4.125); valuing the mix gain at the old 1% liquid yield (+3.625).",
+    "Not needed: the branches, equity and the term deposits' rate (extraneous)."
+   ],
+   "citations": [
+    {
+     "deck": "IRR",
+     "slide": 7,
+     "quote": "Contractual maturity: when an instrument expires or must be repaid. Repricing maturity: when its interest rate can change."
+    },
+    {
+     "deck": "IRR",
+     "slide": 12,
+     "quote": "Transmission occurs with delays and varies according to loan maturity, fixed versus variable rates, credit risk, competition and banks’ funding structures."
+    },
+    {
+     "deck": "IRR",
+     "slide": 9,
+     "quote": "Effect: NII increases by €0.4 because the bank holds more higher- yielding loans."
+    }
+   ],
+   "slides": [
+    3,
+    7,
+    8,
+    9,
+    10,
+    12
+   ],
+   "slide_groups": [
+    "S1",
+    "S6"
+   ],
+   "est_minutes": 9,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "exercise part",
+    "parts": [
+     {
+      "n": "1.1",
+      "steps": 5,
+      "concepts": 3
+     },
+     {
+      "n": "1.2",
+      "steps": 4,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "extra_classification",
+     "chain",
+     "cross_section",
+     "extraneous_data"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "IRR-U2",
+    "IRR-U3",
+    "IRR-U4"
+   ]
+  },
+  {
+   "id": "30178-IRR-37",
+   "course": "30178",
+   "deck": "IRR",
+   "topic": "Refinancing versus reinvestment risk, NII versus EVE, and the ALCO",
+   "syllabus_objective": "Interest-rate risk: definition, refinancing and reinvestment risk, income vs economic-value perspective, ALM",
+   "shape": "concept MCQ (statements)",
+   "stem": "Interest-rate risk: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    "location": "IRR deck slides 3–21 (why IRR matters; definition; refinancing and reinvestment risk; two perspectives; ALM and ALCO)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about interest-rate risk.\n\nI. A bank that funds a 5-year fixed-rate car loan with 1-year CDs is exposed to refinancing risk: if rates rise, its spread may drop when the CDs roll over.\nII. A bank that funds a 3-year fixed-rate commercial loan with a 5-year fixed-rate time deposit is exposed to refinancing risk, because its liability must be replaced before its asset matures.\nIII. Under the economic-value perspective, a rate rise lowers the market value of both fixed-rate assets and fixed-rate liabilities, so the economic value of equity is unchanged whenever both fall.\nIV. The ALCO oversees the bank's ALM framework: it sets limits and coordinates balance-sheet, funding and hedging decisions, looking at the effect of rates on both current earnings and EVE.\nV. Interest-earning assets and interest-bearing liabilities dominate bank balance sheets and banks are highly levered, which is why net interest income is a major component of bank profitability.\n\nWhich of the statements are correct?",
+     "options": [
+      "IV and V only",
+      "I, II, IV and V only",
+      "I, IV and V only",
+      "I, III, IV and V only"
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "car_loan_example_misread",
+     "trap": "1:A car loan example misread"
+    },
+    {
+     "tag": "refinancing_and_reinvestment_swapped",
+     "trap": "1:B refinancing and reinvestment swapped"
+    },
+    {
+     "tag": "eve_change_is_the_difference_not_the_sign",
+     "trap": "1:D eve change is the difference not the sign"
+    }
+   ],
+   "marks": 0.8,
+   "mark_scheme": [
+    "[1] Steps: (1) I is true: assets longer than liabilities means refinancing risk (slides 15–16); (2) II is false: the liability (5 years) outlives the asset (3 years), which is reinvestment risk (slides 17–18); (3) III is false: ΔEVE = ΔMVA − ΔMVL, so both falling says nothing about EVE unless the falls are equal (slides 14, 20, 76); (4) IV is true (slide 21); (5) V is true (slides 4–6); (6) so I, IV and V.",
+    "Second route: II and III both contain a correct first half and a wrong conclusion (near-true statements); striking the conclusion leaves only I, IV and V standing.",
+    "Where marks are lost: swapping refinancing and reinvestment risk; reading 'both fall' as 'no change'."
+   ],
+   "citations": [
+    {
+     "deck": "IRR",
+     "slide": 15,
+     "quote": "It occurs when the bank is holding assets with maturities greater than the maturities of its liabilities"
+    },
+    {
+     "deck": "IRR",
+     "slide": 17,
+     "quote": "This risk occurs when the bank is holding assets with maturities lower than the maturities of its liabilities"
+    },
+    {
+     "deck": "IRR",
+     "slide": 21,
+     "quote": "Sets limits and coordinates balance-sheet, funding and hedging decisions."
+    },
+    {
+     "deck": "IRR",
+     "slide": 3,
+     "quote": "Interest-earning assets and interest-bearing liabilities dominate bank balance sheets."
+    }
+   ],
+   "slides": [
+    3,
+    4,
+    5,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20,
+    21
+   ],
+   "slide_groups": [
+    "S2",
+    "S1"
+   ],
+   "est_minutes": 3.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "IRR-U1",
+    "IRR-U5",
+    "IRR-U6",
+    "IRR-U7"
+   ]
+  },
+  {
+   "id": "30178-IRR-38",
+   "course": "30178",
+   "deck": "IRR",
+   "topic": "Classify, measure the GAP, then meet an ALCO limit by lengthening funding",
+   "syllabus_objective": "Interest-rate risk: repricing (static) GAP, rate sensitivity by maturity or repricing, managing the GAP",
+   "shape": "numerical exercise with 2 MCQ sub-questions",
+   "stem": "Bank Mu's balance sheet is below (€ million). Treat an item as rate-sensitive within the gapping period if it matures or reprices in that period.",
+   "data": "| Assets | € m | Liabilities and equity | € m |\n|---|---|---|---|\n| Overnight interbank loans | 60 | Non-interest-bearing demand deposits | 120 |\n| 6-month Treasury bills | 90 | Savings accounts (rate adjusted at the bank's discretion; treat as rate-sensitive) | 180 |\n| Fixed-rate business loans maturing in 9 months | 110 | 3-month CDs | 150 |\n| 10-year variable-rate mortgages, next reset in 18 months | 150 | 2-year fixed-rate term deposits | 170 |\n| 3-year fixed-rate consumer loans | 200 | Variable-rate bonds issued, reset every 6 months | 80 |\n| 5-year fixed-rate government bonds | 140 | 7-year fixed-rate subordinated bonds | 40 |\n| Cash in vault, branches and other non-earning assets | 50 | Equity | 60 |\n| **Total** | **800** | **Total** | **800** |",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    "location": "IRR deck slides 22–39 (repricing GAP, rate sensitivity, managing the GAP) and slide 69 (GAP/NW limit)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1.1",
+     "prompt": "Using a one-year gapping period, what change in net interest income does the repricing GAP model predict if all rates rise by 0.8 percentage points, in € million?",
+     "options": [
+      "-1.20",
+      "-2.08",
+      "-2.16",
+      "0.00"
+     ],
+     "marks": 0.8
+    },
+    {
+     "n": "1.2",
+     "prompt": "The ALCO limits the one-year GAP to between −15% and +15% of equity (net worth). The bank will replace some 3-month CDs with 2-year fixed-rate term deposits. What is the smallest amount of CDs, in € million, it must switch?",
+     "options": [
+      "30",
+      "37.5",
+      "141",
+      "150"
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1.1",
+     "answer": "A",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "1.2",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "maturing_fixed_rate_loan_left_out",
+     "trap": "1.1:B maturing fixed rate loan left out"
+    },
+    {
+     "tag": "non_interest_bearing_deposits_counted_as_rsl",
+     "trap": "1.1:C non interest bearing deposits counted as rsl"
+    },
+    {
+     "tag": "variable_mortgages_counted_by_reset_frequency_not_next_reset",
+     "trap": "1.1:D variable mortgages counted by reset frequency not next reset"
+    },
+    {
+     "tag": "limit_applied_to_total_assets",
+     "trap": "1.2:A limit applied to total assets"
+    },
+    {
+     "tag": "limit_applied_to_earning_assets",
+     "trap": "1.2:B limit applied to earning assets"
+    },
+    {
+     "tag": "gap_closed_to_zero",
+     "trap": "1.2:D gap closed to zero"
+    }
+   ],
+   "marks": 1.6,
+   "mark_scheme": [
+    "[1.1] Steps: (1) classify: RSA = overnight loans 60 + T-bills 90 + business loans maturing in 9 months 110 (matures) = 260; the mortgages' next reset is in 18 months, so not sensitive; (2) RSL = savings 180 + 3-month CDs 150 + variable-rate bonds 80 = 410; non-interest-bearing deposits are not RSL; (3) GAP = 260 − 410 = -150; (4) ΔNII = GAP × Δi = -150 × 0.8% = -1.20; (5) liability-sensitive, so the rise hurts.",
+    "[1.2] Steps: (1) band = ±15% × equity 60 = ±9; (2) the GAP must rise from -150 to at least −9; (3) switching CDs to 2-year deposits removes them from RSL one for one, so RSL must fall to 260 + 9 = 269; (4) switch = 410 − 269 = 141 (≤ the 150 of CDs available).",
+    "Second route for 1.2: new GAP = 260 − (410 − 141) = -9 = −15% × 60.",
+    "Where marks are lost: counting the variable mortgages as sensitive; treating demand deposits that pay no interest as RSL; leaving out the fixed-rate loan that matures within the year; applying the ±15% to total or earning assets instead of equity."
+   ],
+   "citations": [
+    {
+     "deck": "IRR",
+     "slide": 29,
+     "quote": "Maturity: If any asset or liability matures within a given time interval"
+    },
+    {
+     "deck": "IRR",
+     "slide": 26,
+     "quote": "∆NIIEXP = GAP x ∆iEXP"
+    },
+    {
+     "deck": "IRR",
+     "slide": 38,
+     "quote": "Match fund re-priceable assets with similar re-priceable liabilities so that periodic GAPs approach zero"
+    },
+    {
+     "deck": "IRR",
+     "slide": 69,
+     "quote": "ALCO policies often set a target range, e.g. one-year cumulative GAP between –15% and +15% of net worth."
+    }
+   ],
+   "slides": [
+    22,
+    25,
+    26,
+    28,
+    29,
+    30,
+    38,
+    69
+   ],
+   "slide_groups": [
+    "S3",
+    "S4",
+    "S7"
+   ],
+   "est_minutes": 9,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "exercise part",
+    "parts": [
+     {
+      "n": "1.1",
+      "steps": 5,
+      "concepts": 2
+     },
+     {
+      "n": "1.2",
+      "steps": 4,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "extra_classification",
+     "working_backwards",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "IRR-U8",
+    "IRR-U9",
+    "IRR-U10",
+    "IRR-U12",
+    "IRR-U20"
+   ]
+  },
+  {
+   "id": "30178-IRR-39",
+   "course": "30178",
+   "deck": "IRR",
+   "topic": "Maturity buckets with behavioural deposits, then the timing of the NII effect",
+   "syllabus_objective": "Interest-rate risk: maturity-bucket approach, periodic and cumulative GAP, timing of income effects",
+   "shape": "numerical exercise with 2 MCQ sub-questions",
+   "stem": "Bank Nu's balance sheet is below (€ million). Use the buckets 0–3 months, >3–6 months, >6–12 months and >1 year. The bank estimates that 25% of its demand deposits are behaviourally rate-sensitive and reprice immediately; the rest are core funding that does not reprice within the year.",
+   "data": "| Assets | € m | Reprices | Liabilities and equity | € m | Reprices |\n|---|---|---|---|---|---|\n| Cash and reserves | 40 | now | Demand deposits | 400 | 25% now; 75% not within the year |\n| 3-month interbank loans | 100 | in 3 months | Wholesale funding (reprices quarterly, next in 2 months) | 120 | in 2 months |\n| Variable-rate corporate loans (reset every 6 months, next in 4 months) | 220 | in 4 months | 9-month CDs | 80 | in 9 months |\n| Fixed-rate loans maturing in 10 months | 130 | in 10 months | 3-year fixed-rate bonds issued | 150 | not within the year |\n| 20-year fixed-rate mortgages | 310 | not within the year | Equity | 100 | — |\n| Non-earning assets | 50 | — | | | |\n| **Total** | **850** | | **Total** | **850** | |",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    "location": "IRR deck slides 42–49 (Bank Alpha; maturity-bucket approach; periodic and cumulative GAP)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1.1",
+     "prompt": "Build the 0–3 month and >3–6 month buckets. What is Bank Nu's cumulative GAP at 6 months, in € million?",
+     "options": [
+      "+220",
+      "-160",
+      "+260",
+      "+140"
+     ],
+     "marks": 0.8
+    },
+    {
+     "n": "1.2",
+     "prompt": "Rates rise by 1 percentage point today, once. Each rate-sensitive item reprices on its own date (given in the table) and keeps the new rate to the year end. By how much does net interest income over the next 12 months change, in € million?",
+     "options": [
+      "+0.63",
+      "+1.90",
+      "-2.37",
+      "+0.23"
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1.1",
+     "answer": "D",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "1.2",
+     "answer": "A",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "periodic_gap_quoted_as_cumulative",
+     "trap": "1.1:A periodic gap quoted as cumulative"
+    },
+    {
+     "tag": "all_demand_deposits_treated_as_rate_sensitive",
+     "trap": "1.1:B all demand deposits treated as rate sensitive"
+    },
+    {
+     "tag": "wholesale_funding_left_out",
+     "trap": "1.1:C wholesale funding left out"
+    },
+    {
+     "tag": "static_one_year_gap_ignores_timing",
+     "trap": "1.2:B static one year gap ignores timing"
+    },
+    {
+     "tag": "all_demand_deposits_treated_as_rate_sensitive",
+     "trap": "1.2:C all demand deposits treated as rate sensitive"
+    },
+    {
+     "tag": "cash_and_reserves_left_out",
+     "trap": "1.2:D cash and reserves left out"
+    }
+   ],
+   "marks": 1.6,
+   "mark_scheme": [
+    "[1.1] Steps: (1) sensitive demand deposits = 25% × 400 = 100; (2) 0–3m: RSA 40 + 100 = 140, RSL 100 + 120 = 220, periodic -80; (3) >3–6m: RSA 220 (next reset in 4 months), RSL 0, periodic +220; (4) cumulative at 6 months = -80 + 220 = +140; (5) the 0–3m bucket is liability-sensitive even though the 6-month total is asset-sensitive. (>6–12m would add +50, cumulative +190.)",
+    "[1.2] Steps: (1) months at the new rate: cash 12, interbank 9, corporate loans 8, maturing fixed loans 2; deposits 12, wholesale 10, CDs 3; (2) ΔII = 1% × (40 + 100×9/12 + 220×8/12 + 130×2/12) = 2.8333; (3) ΔIE = 1% × (100 + 120×10/12 + 80×3/12) = 2.2000; (4) ΔNII = +0.6333, so +0.63; (5) compare the static one-year GAP estimate: (490 − 300) × 1% = +1.90: timing cuts the gain by two-thirds because the liabilities reprice first.",
+    "Second route for 1.2: bucket by bucket with each item's months: 0–3m items give 1% × (40×12 + 100×9 − 100×12 − 120×10)/12 = -0.8500; later items give 1% × (220×8 + 130×2 − 80×3)/12 = 1.4833; sum 0.6333.",
+    "Where marks are lost: making all 400 of demand deposits sensitive; quoting a periodic GAP as cumulative; using the static one-year GAP (+1.90), which ignores when items reprice; leaving out the cash."
+   ],
+   "citations": [
+    {
+     "deck": "IRR",
+     "slide": 45,
+     "quote": "The Gap for each time bucket and measures the timing of potential income effects from interest rate changes"
+    },
+    {
+     "deck": "IRR",
+     "slide": 45,
+     "quote": "The sum of periodic GAP's and measures aggregate interest rate risk over the entire period"
+    },
+    {
+     "deck": "IRR",
+     "slide": 42,
+     "quote": "Demand deposits 300 30% “behaviorally” rate-sensitive"
+    }
+   ],
+   "slides": [
+    42,
+    44,
+    45,
+    46,
+    47
+   ],
+   "slide_groups": [
+    "S5",
+    "S3"
+   ],
+   "est_minutes": 9,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "exercise part",
+    "parts": [
+     {
+      "n": "1.1",
+      "steps": 5,
+      "concepts": 2
+     },
+     {
+      "n": "1.2",
+      "steps": 5,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "extra_classification",
+     "extra_step",
+     "what_if_followon",
+     "chain"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "IRR-U14",
+    "IRR-U9"
+   ]
+  },
+  {
+   "id": "30178-IRR-40",
+   "course": "30178",
+   "deck": "IRR",
+   "topic": "Asymmetric pass-through: beta GAP when rates rise, then fall",
+   "syllabus_objective": "Interest-rate risk: spread effect, deposit betas and the standardised (beta) GAP",
+   "shape": "numerical exercise with 2 MCQ sub-questions",
+   "stem": "Bank Xi's rate-sensitive items over a one-year gapping period are below (€ million), with the estimated betas to Euribor 3m. Following the deck, loan rates follow rises faster than falls and higher rates reach depositors only slowly, so each item has one estimated beta for rises and one for falls (given below). The bank also holds €900 million of fixed-rate assets and €850 million of fixed-rate liabilities and equity that do not reprice within the year.",
+   "data": "| Item | Side | € m | Beta when Euribor rises | Beta when Euribor falls |\n|---|---|---|---|---|\n| Variable-rate loans | asset | 500 | 0.95 | 0.60 |\n| Interbank deposits | asset | 100 | 1.00 | 1.00 |\n| Retail sight deposits (rate administered) | liability | 600 | 0.25 | 0.40 |\n| Wholesale funding | liability | 150 | 0.95 | 0.95 |",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    "location": "IRR deck slides 50–60 (spread effect, deposit betas, beta GAP, level vs spread effect)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1.1",
+     "prompt": "Euribor 3m rises by 1.25 percentage points. Using the beta GAP, by how much does Bank Xi's annual net interest income change, in € million?",
+     "options": [
+      "+0.22",
+      "-2.19",
+      "-1.88",
+      "+3.53"
+     ],
+     "marks": 0.8
+    },
+    {
+     "n": "1.2",
+     "prompt": "Euribor then falls by 2.0 percentage points from its new level, so it ends 0.75 points below where it started. Compared with the start, by how much has annual net interest income changed after both moves, in € million?",
+     "options": [
+      "+1.12",
+      "-2.12",
+      "+3.18",
+      "-0.13"
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1.1",
+     "answer": "D",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "1.2",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "downward_betas_used_for_a_rise",
+     "trap": "1.1:A downward betas used for a rise"
+    },
+    {
+     "tag": "betas_applied_to_assets_only",
+     "trap": "1.1:B betas applied to assets only"
+    },
+    {
+     "tag": "static_gap_used",
+     "trap": "1.1:C static gap used"
+    },
+    {
+     "tag": "static_gap_used",
+     "trap": "1.2:A static gap used"
+    },
+    {
+     "tag": "upward_betas_used_for_the_fall",
+     "trap": "1.2:B upward betas used for the fall"
+    },
+    {
+     "tag": "downward_betas_used_for_both_moves",
+     "trap": "1.2:D downward betas used for both moves"
+    }
+   ],
+   "marks": 1.6,
+   "mark_scheme": [
+    "[1.1] Steps: (1) static GAP = 600 − 750 = −150 (would predict a loss); (2) beta-weighted RSA = 500×0.95 + 100 = 575; (3) beta-weighted RSL = 600×0.25 + 150×0.95 = 292.5; (4) beta GAP = +282.5; (5) ΔNII = 282.5 × 1.25% = +3.5312.",
+    "[1.2] Steps: (1) choose the falling betas for the second move; (2) falling beta GAP = 500×0.60 + 100 − (600×0.40 + 150×0.95) = 17.5; (3) effect of the fall = 17.5 × (−2%) = -0.350; (4) total = 3.5312 -0.350 = 3.1812; (5) NII ends higher although Euribor ends lower: the spread effect from asymmetric pass-through.",
+    "Second route for 1.2: net rate change per item: loans 0.95×1.25 − 0.60×2 = −0.0125 pts (−0.0625), interbank −0.75 pts (−0.75), deposits 0.25×1.25 − 0.40×2 = −0.4875 pts (expense −2.925), wholesale 0.95×(−0.75) = −0.7125 pts (expense −1.069); ΔNII = −0.0625 − 0.75 + 2.925 + 1.069 = 3.1812.",
+    "Where marks are lost: using the static GAP; applying the rising betas to the fall (the model assumes symmetry, the deck says it fails); weighting only the assets.",
+    "Not needed: the fixed-rate balances (extraneous)."
+   ],
+   "citations": [
+    {
+     "deck": "IRR",
+     "slide": 50,
+     "quote": "Banks tend to raise loan rates quickly when rates rise, but lower them slowly when rates fall"
+    },
+    {
+     "deck": "IRR",
+     "slide": 50,
+     "quote": "Banks are similarly slow to pass higher rates through to depositors"
+    },
+    {
+     "deck": "IRR",
+     "slide": 53,
+     "quote": "The Beta GAP is derived from multiplying the amount of RSAs by the associated beta factors and summing across all rate-sensitive assets"
+    },
+    {
+     "deck": "IRR",
+     "slide": 57,
+     "quote": "Spread effect: RSA and RSL don't move by equal amounts even when the general rate level changes"
+    }
+   ],
+   "slides": [
+    50,
+    51,
+    52,
+    53,
+    54,
+    57
+   ],
+   "slide_groups": [
+    "S6"
+   ],
+   "est_minutes": 9,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "exercise part",
+    "parts": [
+     {
+      "n": "1.1",
+      "steps": 5,
+      "concepts": 2
+     },
+     {
+      "n": "1.2",
+      "steps": 5,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "what_if_followon",
+     "chain",
+     "extra_classification",
+     "extraneous_data"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "IRR-U15",
+    "IRR-U16",
+    "IRR-U17"
+   ]
+  },
+  {
+   "id": "30178-IRR-41",
+   "course": "30178",
+   "deck": "IRR",
+   "topic": "Caps and floors: when embedded limits bind",
+   "syllabus_objective": "Interest-rate risk: embedded options (caps and floors) and their effect on NII",
+   "shape": "numerical exercise with 2 MCQ sub-questions",
+   "stem": "Bank Omicron (€ million). Euribor is 3.0% today. Variable-rate mortgages of 400 pay Euribor + 2.0% with a cap of 6.0% (today 5.0%). Wholesale funding of 200 costs Euribor + 0.5% with a cap of 4.5% (today 3.5%). Retail deposits of 300 pay Euribor − 1.5% with a floor of 0.5% (today 1.5%). Term deposits of 250 pay a fixed 2.0% until maturity in 3 years. All variable items reset immediately.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    "location": "IRR deck slides 61–64 (embedded options; caps and floors)",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1.1",
+     "prompt": "Euribor rises by 2.5 percentage points, to 5.5%, for the whole year. What is the change in Bank Omicron's annual net interest income, in € million?",
+     "options": [
+      "-8.5",
+      "-5.5",
+      "0.5",
+      "-2.5"
+     ],
+     "marks": 0.8
+    },
+    {
+     "n": "1.2",
+     "prompt": "Now suppose instead that Euribor falls by 2.5 percentage points, to 0.5%, for the whole year. What floor on the mortgage rate would keep annual net interest income from falling at all?",
+     "options": [
+      "4.25%",
+      "3.00%",
+      "5.00%",
+      "2.50%"
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1.1",
+     "answer": "B",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "1.2",
+     "answer": "B",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "wholesale_cap_ignored",
+     "trap": "1.1:A wholesale cap ignored"
+    },
+    {
+     "tag": "mortgage_cap_ignored",
+     "trap": "1.1:C mortgage cap ignored"
+    },
+    {
+     "tag": "caps_ignored",
+     "trap": "1.1:D caps ignored"
+    },
+    {
+     "tag": "wholesale_funding_saving_ignored",
+     "trap": "1.2:A wholesale funding saving ignored"
+    },
+    {
+     "tag": "floor_set_at_todays_rate",
+     "trap": "1.2:C floor set at todays rate"
+    },
+    {
+     "tag": "deposit_floor_ignored_so_no_floor_seems_needed",
+     "trap": "1.2:D deposit floor ignored so no floor seems needed"
+    }
+   ],
+   "marks": 1.6,
+   "mark_scheme": [
+    "[1.1] Steps: (1) mortgages: 5.5% + 2.0% = 7.5% > cap, so 6.0% (+1.0 pt); (2) wholesale: 6.0% > cap, so 4.5% (+1.0 pt); (3) deposits: 4.0%, above the floor (+2.5 pts); (4) ΔII = 400 × 1.0% = 4.0; (5) ΔIE = 200 × 1.0% + 300 × 2.5% = 9.5; (6) ΔNII = -5.5. The asset cap hurts the bank, the liability cap helps it.",
+    "[1.2] Steps: (1) without a mortgage floor: mortgages 2.5% (−2.5 pts, −10.0); wholesale 1.0% (−2.5 pts, saves 5.0); deposits −1.0% hits the 0.5% floor, so only −1.0 pt (saves 3.0); ΔNII = -2.0; (2) savings available = 5.0 + 3.0 = 8.0, so the mortgage rate may fall at most 8.0 / 400 = 2.0 pts; (3) floor = 5.0% − 2.0% = 3.00%; (4) check: with the floor ΔNII = −8.0 + 5.0 + 3.0 = 0.",
+    "Second route for 1.2: set 400 × (5.0% − F) = 200 × 2.5% + 300 × 1.0% and solve F = 3.0%.",
+    "Where marks are lost: ignoring the caps (-2.5); letting deposits fall below their floor, which makes the fall look harmless; forgetting the wholesale saving (4.25%).",
+    "Not needed: the fixed-rate term deposits (extraneous)."
+   ],
+   "citations": [
+    {
+     "deck": "IRR",
+     "slide": 64,
+     "quote": "6% cap on €250m variable mortgages: Euribor pushes the mortgage rate to 7%, bank stuck earning 6%."
+    },
+    {
+     "deck": "IRR",
+     "slide": 64,
+     "quote": "5% cap on €150m wholesale funding: market rates hit 7%, bank still only pays 5%."
+    },
+    {
+     "deck": "IRR",
+     "slide": 64,
+     "quote": "2% floor on term deposits: rates fall to 0%, bank must still pay 2%."
+    },
+    {
+     "deck": "IRR",
+     "slide": 62,
+     "quote": "Caps on loan or deposit rates"
+    }
+   ],
+   "slides": [
+    61,
+    62,
+    63,
+    64
+   ],
+   "slide_groups": [
+    "S7"
+   ],
+   "est_minutes": 9,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "exercise part",
+    "parts": [
+     {
+      "n": "1.1",
+      "steps": 6,
+      "concepts": 2
+     },
+     {
+      "n": "1.2",
+      "steps": 4,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "extra_classification",
+     "working_backwards",
+     "what_if_followon",
+     "extraneous_data"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "IRR-U18",
+    "IRR-U18b"
+   ]
+  },
+  {
+   "id": "30178-INTRO-10",
+   "course": "30178",
+   "deck": "INTRO",
+   "topic": "Classifying banks by business model, then re-engineering one",
+   "syllabus_objective": "What banks do: business models (commercial, investment, universal) and their income and cost structure",
+   "shape": "numerical exercise with 2 MCQ sub-questions",
+   "stem": "Three banks report (€ million). The deck's benchmarks: commercial/retail banks have NII above 55–75% of revenues and cost-to-income of about 38–43%; investment-banking-heavy banks earn 57–60% from non-interest income with cost-to-income of 62–76%; universal banks split about 50/50 with cost-to-income around 52%. Bank R also reports total assets of €610 billion and 1,900 branches.",
+   "data": "| € m | Bank P | Bank Q | Bank R |\n|---|---|---|---|\n| Net interest income | 6,000 | 4,100 | 3,200 |\n| Net fee and commission income | 1,800 | 2,300 | 2,900 |\n| Net trading and investment income | 600 | 1,700 | 1,700 |\n| Other operating income | 100 | 100 | 200 |\n| Operating expenses | 3,400 | 4,264 | 5,600 |",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Introductory concepts to banking_30178_2026-27.pdf",
+    "location": "INTRO deck: business models, universal banks and 'Main Takeaways – Business Models'",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1.1",
+     "prompt": "Using the deck's benchmarks for the three business models, how would you classify the three banks?",
+     "options": [
+      "P commercial/retail; Q commercial/retail; R universal",
+      "P commercial/retail; Q universal; R investment-banking-heavy",
+      "P universal; Q investment-banking-heavy; R investment-banking-heavy",
+      "P commercial/retail; Q investment-banking-heavy; R universal"
+     ],
+     "marks": 0.8
+    },
+    {
+     "n": "1.2",
+     "prompt": "Bank P wants to look like a universal bank, with NII exactly 50% of total operating income. NII and other income stay the same; the extra fee and trading income comes with extra operating expenses equal to 70% of it. What would P's cost-to-income ratio be?",
+     "options": [
+      "46.6%",
+      "48.8%",
+      "28.3%",
+      "70.0%"
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1.1",
+     "answer": "B",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "1.2",
+     "answer": "B",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "trading_income_left_out_of_operating_income",
+     "trap": "1.1:A trading income left out of operating income"
+    },
+    {
+     "tag": "classified_by_cost_to_income_over_nii_not_total_income",
+     "trap": "1.1:C classified by cost to income over nii not total income"
+    },
+    {
+     "tag": "nii_share_and_cost_to_income_read_the_wrong_way",
+     "trap": "1.1:D nii share and cost to income read the wrong way"
+    },
+    {
+     "tag": "fifty_five_percent_target_used",
+     "trap": "1.2:A fifty five percent target used"
+    },
+    {
+     "tag": "extra_costs_ignored",
+     "trap": "1.2:C extra costs ignored"
+    },
+    {
+     "tag": "marginal_cost_ratio_quoted",
+     "trap": "1.2:D marginal cost ratio quoted"
+    }
+   ],
+   "marks": 1.6,
+   "mark_scheme": [
+    "[1.1] Steps: (1) total operating income: P 8,500, Q 8,200, R 8,000; (2) NII share: P 70.6%, Q 50.0%, R 40.0% (non-interest 60%); (3) cost-to-income: P 40.0%, Q 52.0%, R 70.0%; (4) match both benchmarks: P commercial, Q universal, R investment-banking-heavy.",
+    "[1.2] Steps: (1) NII 6,000 must be 50%, so total income = 12,000; (2) extra fee/trading income = 12,000 − 8,500 = 3,500; (3) extra costs = 70% × 3,500 = 2,450; (4) new opex = 3,400 + 2,450 = 5,850; (5) cost-to-income = 5,850 / 12,000 = 48.75%, so 48.8%.",
+    "Second route for 1.2: the new ratio is a revenue-weighted average: (8,500 × 40% + 3,500 × 70%) / 12,000 = 48.75%.",
+    "Where marks are lost: leaving trading income out of revenue; dividing costs by NII; forgetting the costs that come with the new revenue (28.3%).",
+    "Not needed: Bank R's total assets and branch count (extraneous)."
+   ],
+   "citations": [
+    {
+     "deck": "INTRO",
+     "slide": "Main Takeaways – Business Models",
+     "quote": "Revenues dominated by net interest income (NII > 55–75%)"
+    },
+    {
+     "deck": "INTRO",
+     "slide": "Main Takeaways – Business Models",
+     "quote": "High cost-to-income (62-76%), weaker efficiency vs peers"
+    },
+    {
+     "deck": "INTRO",
+     "slide": "Main Takeaways – Business Models",
+     "quote": "More balanced model between NII and non-interest (≈50/50 split)"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "I1",
+    "I2"
+   ],
+   "est_minutes": 9,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "exercise part",
+    "parts": [
+     {
+      "n": "1.1",
+      "steps": 4,
+      "concepts": 2
+     },
+     {
+      "n": "1.2",
+      "steps": 5,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "extra_classification",
+     "working_backwards",
+     "chain",
+     "extraneous_data"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "INTRO-U1",
+    "INTRO-U4",
+    "INTRO-U8",
+    "INTRO-U6"
+   ]
+  },
+  {
+   "id": "30178-INTRO-11",
+   "course": "30178",
+   "deck": "INTRO",
+   "topic": "Size, provisions versus capital, transformation and why banks are regulated",
+   "syllabus_objective": "What banks do: business models, risks and risk management, transformation and fragility, why regulation is needed",
+   "shape": "concept MCQ (statements)",
+   "stem": "What banks do: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/Introductory concepts to banking_30178_2026-27.pdf",
+    "location": "INTRO deck: commercial banks by size, universal banks, risks and risk management, fragility, transformation and regulation",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about what banks do.\n\nI. Smaller commercial banks collect relatively more retail deposits, while larger banks use relatively more wholesale funding and tend to be listed.\nII. Banks recognise provisions for expected losses and hold capital to absorb unexpected losses.\nIII. Because maturity, liquidity and risk transformation create fragility, they cannot justify loan rates above deposit rates.\nIV. Regulation and supervision are needed because banks combine high leverage, liquid liabilities, less-liquid risky assets and strong interconnections, so one failure can spread instability.\nV. A universal bank earns mostly fee income, so its main risks are operational rather than credit or interest-rate risk.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II and IV only",
+      "I, II, IV and V only",
+      "II and IV only",
+      "I, II, III and IV only"
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "A",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "universal_bank_risks_misread",
+     "trap": "1:B universal bank risks misread"
+    },
+    {
+     "tag": "size_classes_reversed",
+     "trap": "1:C size classes reversed"
+    },
+    {
+     "tag": "transformation_seen_only_as_a_cost",
+     "trap": "1:D transformation seen only as a cost"
+    }
+   ],
+   "marks": 0.8,
+   "mark_scheme": [
+    "[1] Steps: (1) I true (commercial banks by size); (2) II true (risk management: provisions for expected, capital for unexpected losses); (3) III false: the deck says the transformations 'provide the rationale for an interest spread' and also create fragility; (4) IV true (why regulation and supervision are needed); (5) V false: universal banks earn a mix (≈50/50) and face credit, liquidity, interest-rate, market and operational risk; (6) I, II and IV.",
+    "Second route: III and V each take a true premise (fragility; fee income matters) and draw a conclusion the deck contradicts.",
+    "Where marks are lost: reading transformation only as a source of fragility; reversing which banks rely on wholesale funding."
+   ],
+   "citations": [
+    {
+     "deck": "INTRO",
+     "slide": "What Do Banks Do? Commercial banks",
+     "quote": "Smaller banks collect deposits (retail customers) while large banks use (relatively more) wholesale sources of funding"
+    },
+    {
+     "deck": "INTRO",
+     "slide": "Banking Activities Generate Risks",
+     "quote": "Hold sufficient capital to absorb unexpected losses"
+    },
+    {
+     "deck": "INTRO",
+     "slide": "The concepts of maturity, liquidity and risk transformation",
+     "quote": "Provide the rationale for an interest spread (loan interest rates being higher than deposit interest rates)"
+    },
+    {
+     "deck": "INTRO",
+     "slide": "Why regulation and supervision are needed",
+     "quote": "Bank failure can therefore affect depositors, disrupt lending and payments, and spread instability through the financial system."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "I3",
+    "I1"
+   ],
+   "est_minutes": 3.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "INTRO-U2",
+    "INTRO-U4",
+    "INTRO-U9",
+    "INTRO-U11",
+    "INTRO-U12"
+   ]
+  },
+  {
+   "id": "30178-SVB-05",
+   "course": "30178",
+   "deck": "SVB",
+   "topic": "Deposit insurance, forward guidance and the growth of uninsured deposits",
+   "syllabus_objective": "Interest-rate risk in practice: the SVB case (macro scenario, deposit insurance, uninsured deposits)",
+   "shape": "concept MCQ (statements)",
+   "stem": "The SVB case: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/The SVB case_in class discussion.pdf",
+    "location": "SVB slides on the macro scenario, balance-sheet growth, deposit insurance and 'Phase 1: balance sheet growth and the carry trade'",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about the macro background to the SVB case.\n\nI. Deposit insurance is part of the financial safety net, alongside central bank lender-of-last-resort facilities and bank resolution mechanisms.\nII. Insured deposits are less stable than uninsured deposits, because insured depositors have no reason to monitor their bank.\nIII. Deposit insurance typically covers retail deposits up to a limit ($250,000 in the US, €100,000 in the EU), while large corporate and interbank deposits are often excluded to keep market discipline.\nIV. Banks flush with uninsured deposits read the Fed's 'low for long' forward guidance as a commitment, which encouraged them to take interest-rate risk and to avoid paying for hedges.\nV. US bank balance sheets grew in the zero-lower-bound and QE years mainly through insured retail deposits.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II, III and IV only",
+      "I, III and IV only",
+      "III and IV only",
+      "I, III, IV and V only"
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "B",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "insured_deposits_thought_less_stable",
+     "trap": "1:A insured deposits thought less stable"
+    },
+    {
+     "tag": "safety_net_components_misread",
+     "trap": "1:C safety net components misread"
+    },
+    {
+     "tag": "growth_attributed_to_insured_deposits",
+     "trap": "1:D growth attributed to insured deposits"
+    }
+   ],
+   "marks": 0.8,
+   "mark_scheme": [
+    "[1] Steps: (1) I true (deposit insurance as part of the safety net); (2) II false: insured deposits are more stable, because insured depositors know they will be repaid; (3) III true (coverage and rationale); (4) IV true ('low for long' read as a commitment; hedging would eat into carry); (5) V false: growth was fuelled by over $3.5 trillion of uninsured deposits; (6) I, III and IV.",
+    "Second route: II and V each reverse the deck's point about insured versus uninsured deposits; with those struck, I, III and IV remain.",
+    "Where marks are lost: thinking insurance makes deposits less stable (it removes the reason to run); attributing the deposit boom to insured deposits."
+   ],
+   "citations": [
+    {
+     "deck": "SVB",
+     "slide": "Why deposit insurance is important in this context?",
+     "quote": "Deposit insurance is one of several tools—alongside central bank lender-of-last-resort facilities and bank resolution mechanisms—that form the “financial safety net.”"
+    },
+    {
+     "deck": "SVB",
+     "slide": "Why deposit insurance is important in this context?",
+     "quote": "More stable. Because insured depositors have confidence that their money will be repaid even if the bank fails"
+    },
+    {
+     "deck": "SVB",
+     "slide": "Period of Fed tightening",
+     "quote": "Banks flush with uninsured deposits read the Fed's \"low for long\" forward guidance as a commitment, not a forecast"
+    },
+    {
+     "deck": "SVB",
+     "slide": "Effects: Massive growth in bank balance sheets during the ZLB and QE years",
+     "quote": "Not just SVB. Balance sheet growth fulled by over $3.5 trillion increase in US uninsured deposits"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "V2"
+   ],
+   "est_minutes": 3.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "SVB-U3",
+    "SVB-U4",
+    "SVB-U5",
+    "SVB-U9"
+   ]
+  },
+  {
+   "id": "30178-SVB-06",
+   "course": "30178",
+   "deck": "SVB",
+   "topic": "Deposit concentration and the run arithmetic",
+   "syllabus_objective": "Interest-rate risk in practice: the SVB case (liability side, uninsured and concentrated deposits, forced sales)",
+   "shape": "numerical exercise with 2 MCQ sub-questions",
+   "stem": "The SVB slides report that the largest 10 depositors accounted for 8% of SVB's deposits, for an average of $1.3 billion each, and that about 90% of deposits were uninsured. The average duration of the HTM portfolio was 6.2 years (not needed here).",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/The SVB case_in class discussion.pdf",
+    "location": "SVB slides on the liability side, the HTM and AFS portfolios and the deposit drawdown",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "2.1",
+     "prompt": "Using only the slide figures, and assuming the ten largest depositors are fully uninsured, how much uninsured deposit money sits outside the top ten, in $ billion?",
+     "options": [
+      "142.70",
+      "133.25",
+      "146.25",
+      "144.95"
+     ],
+     "marks": 0.8
+    },
+    {
+     "n": "2.2",
+     "prompt": "Suppose the top ten withdraw everything and the other uninsured depositors withdraw 25%. The bank pays with $14bn of cash (an assumed figure), then sells all its AFS securities at their $26bn fair value, then sells HTM securities at the slides' end-2022 ratio of market to book value ($76bn to $91bn). What loss does it realise on the HTM sales, in $ billion?",
+     "options": [
+      "0.00",
+      "15.00",
+      "1.25",
+      "1.04"
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "2.1",
+     "answer": "B",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "2.2",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "reading_total_used_instead_of_the_slide_implied_total",
+     "trap": "2.1:A reading total used instead of the slide implied total"
+    },
+    {
+     "tag": "top_ten_not_removed",
+     "trap": "2.1:C top ten not removed"
+    },
+    {
+     "tag": "one_depositor_removed_instead_of_ten",
+     "trap": "2.1:D one depositor removed instead of ten"
+    },
+    {
+     "tag": "top_ten_treated_like_other_depositors",
+     "trap": "2.2:A top ten treated like other depositors"
+    },
+    {
+     "tag": "whole_unrealised_htm_loss_recognised",
+     "trap": "2.2:B whole unrealised htm loss recognised"
+    },
+    {
+     "tag": "loss_not_grossed_up_to_book_value_sold",
+     "trap": "2.2:D loss not grossed up to book value sold"
+    }
+   ],
+   "marks": 1.6,
+   "mark_scheme": [
+    "[2.1] Steps: (1) top-ten deposits = 10 × 1.3 = 13.0; (2) implied total = 13.0 / 8% = 162.5; (3) uninsured = 90% × 162.5 = 146.25; (4) outside the top ten = 146.25 − 13.0 = 133.25. (The reading gives $173bn total and $13bn for the top ten at end-2022, i.e. 7.5%: close to the slide's 'about 8%'.)",
+    "[2.2] Steps: (1) withdrawals = 13 + 25% × 133.25 = 46.3125; (2) after cash and AFS: 46.3125 − 14 − 26 = 6.3125; (3) HTM sells at 76/91 = 0.8352 of book; (4) book value sold = 7.5584; (5) realised loss = 7.5584 − 6.3125 = 1.2459, so 1.25.",
+    "Second route for 2.2: each $ raised from HTM costs 15/76 of equity; 6.3125 × 15/76 = 1.2459.",
+    "Where marks are lost: using the reading's $173bn in 2.1 when the question says slide figures only; recognising the whole $15bn HTM loss; taking the loss per $ of book (15/91) instead of per $ raised (15/76).",
+    "Not needed: the HTM duration (extraneous)."
+   ],
+   "citations": [
+    {
+     "deck": "SVB",
+     "slide": "Liability side: The Achilles’ heel",
+     "quote": "Large corporate depositors: the largest 10 depositors accounted for 8% of SVB deposits, for an average of $ 1.3 bill each"
+    },
+    {
+     "deck": "SVB",
+     "slide": "Liability side: The Achilles’ heel",
+     "quote": "≈ 90% of Dep were uninsured"
+    },
+    {
+     "deck": "SVB",
+     "slide": "Asset side – the HTM portfolio",
+     "quote": "At the end of 2022, the market value of the HTM portfolio would have been $76bn vs. $91 ($15 bn of unrealized losses)"
+    },
+    {
+     "deck": "SVB",
+     "slide": "Asset side – the AFS portfolio",
+     "quote": "Over $26 bn of AFS assets: these are carried at the fair value, i.e., marked to market"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "V4",
+    "V3"
+   ],
+   "est_minutes": 9,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "exercise part",
+    "parts": [
+     {
+      "n": "2.1",
+      "steps": 4,
+      "concepts": 2
+     },
+     {
+      "n": "2.2",
+      "steps": 5,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "working_backwards",
+     "chain",
+     "cross_section",
+     "extraneous_data"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "SVB-U8",
+    "SVB-U10",
+    "SVB-U6"
+   ]
+  },
+  {
+   "id": "30178-SVB-07",
+   "course": "30178",
+   "deck": "SVB",
+   "topic": "What went wrong: hedges, credit versus duration, connected depositors",
+   "syllabus_objective": "Interest-rate risk in practice: the SVB case (causes, the role of technology and social media, lessons)",
+   "shape": "concept MCQ (statements)",
+   "stem": "The SVB case: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/The SVB case_in class discussion.pdf",
+    "location": "SVB slides 'What happened', the AFS hedging strategy, 'What was different this time?' and 'What was wrong, in the end?'",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about why SVB failed.\n\nI. To compensate for lower profits, SVB unwound most of its interest rate swaps by July 2022, leaving its AFS portfolio with no shock absorber.\nII. Like most historical bank failures, SVB failed mainly because of credit losses on its loans.\nIII. SVB's depositors were connected: their venture capital backers advised them to withdraw, and they communicated with each other during the run.\nIV. The case shows the law of large numbers and the benefits of diversification being neglected on the funding side.\nV. SVB, a regional lender with $210 billion in assets, collapsed over roughly two weeks of steady outflows.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II, III and IV only",
+      "I, III and IV only",
+      "I, III, IV and V only",
+      "III and IV only"
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "B",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "failure_attributed_to_credit_risk",
+     "trap": "1:A failure attributed to credit risk"
+    },
+    {
+     "tag": "speed_of_the_run_misread",
+     "trap": "1:C speed of the run misread"
+    },
+    {
+     "tag": "hedging_story_misread",
+     "trap": "1:D hedging story misread"
+    }
+   ],
+   "marks": 0.8,
+   "mark_scheme": [
+    "[1] Steps: (1) I true ('Here be dragons': swaps unwound by July 2022); (2) II false: the slide's quote says SVB is the first major failure where the primary issue was a duration mismatch, not credit risk; (3) III true (connected depositors, VC advice); (4) IV true ('Law of large numbers and benefits of diversification neglected!'); (5) V false: it collapsed in two days; (6) I, III and IV.",
+    "Second route: II and V contradict two of the deck's headline facts (duration, not credit; two days, not two weeks).",
+    "Where marks are lost: treating SVB as a credit-risk failure; missing that the run took two days."
+   ],
+   "citations": [
+    {
+     "deck": "SVB",
+     "slide": "What happened in March 2023",
+     "quote": "served the tech and life science industry for 40 years. It collapsed in two days."
+    },
+    {
+     "deck": "SVB",
+     "slide": "Asset side – the AFS portfolio",
+     "quote": "to compensate for lower profits, SVB has unwound the largest part of IRS (interest rate swaps) by July 2022"
+    },
+    {
+     "deck": "SVB",
+     "slide": "Deposit drawdown: what was different this time?",
+     "quote": "SVB depositors received advice from their venture capital backers to withdraw funds and communicated with each other during the run"
+    },
+    {
+     "deck": "SVB",
+     "slide": "What was wrong, in the end? Ipse dixit",
+     "quote": "This is the first major one I recall where the primary issue was a duration mismatch between high quality assets and deposit liabilities."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "V5",
+    "V1",
+    "V4"
+   ],
+   "est_minutes": 3.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "SVB-U1",
+    "SVB-U7",
+    "SVB-U11",
+    "SVB-U12"
+   ]
+  },
+  {
+   "id": "30178-SVB-08",
+   "course": "30178",
+   "deck": "SVB",
+   "topic": "Reading: SVB's accounting choices, duration and adjusted capital",
+   "syllabus_objective": "Interest-rate risk in practice: the SVB case (required reading: frailties, accounting, adjusted capital)",
+   "shape": "concept MCQ (statements)",
+   "stem": "SVB and Beyond, chapter 1: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/SVB and Beyond_Stern Position Paper_2023.pdf",
+    "location": "Acharya, Cecchetti and Schoenholtz (2023), 'Overview of recent banking stress', SVB and Beyond, NYU Stern, pp. 2–10",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements from the required reading (Acharya, Cecchetti and Schoenholtz, 'Overview of recent banking stress').\n\nI. SVB held 43% of its total assets in the held-to-maturity bucket, which is not marked to market unless a security from that bucket is sold.\nII. Under the 2019 revision of the AOCI filter, SVB opted out of reflecting unrealised losses on available-for-sale securities in regulatory capital.\nIII. From 2011 to 2022 time deposits made up about 10% of SVB's deposits, which made its funding relatively sticky.\nIV. As the Fed hiked in 2022, SVB let the duration of its fixed-income securities rise by nearly two years, to 5.6 years, while unwinding its hedges.\nV. Adjusted for unrealised losses, SVB's CET1 ratio at end-2022 was about 0.9% of risk-weighted assets.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II, IV and V only",
+      "I, II and IV only",
+      "II, IV and V only",
+      "I, II, III, IV and V"
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "A",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "adjusted_capital_ratio_misread",
+     "trap": "1:B adjusted capital ratio misread"
+    },
+    {
+     "tag": "htm_share_misread",
+     "trap": "1:C htm share misread"
+    },
+    {
+     "tag": "time_deposit_share_misread",
+     "trap": "1:D time deposit share misread"
+    }
+   ],
+   "marks": 0.8,
+   "mark_scheme": [
+    "[1] Steps: (1) I true (43% of total assets in HTM); (2) II true (AOCI opt-out); (3) III false: time deposits were less than 1% of deposits from 2011 through 2022; (4) IV true (duration up nearly two years to 5.6, hedges unwound); (5) V true (SVB 0.9% adjusted); (6) I, II, IV and V.",
+    "Second route: the reading's own list of banks with adjusted ratios below 5% includes SVB at 0.9%, which confirms V; III contradicts the reading's point that SVB 'did little to extend the duration of their deposits'.",
+    "Watch the numbers: the slides say the HTM portfolio's duration was 6.2 years and HTM was 76% of the securities portfolio; the reading says 5.6 years for all fixed-income securities and 43% of total assets. Both are right; they measure different things."
+   ],
+   "citations": [
+    {
+     "deck": "READING",
+     "slide": 4,
+     "quote": "the bank opted to hold 43% of its total assets in the held-to-maturity (HTM) bucket that is not required to be marked to market"
+    },
+    {
+     "deck": "READING",
+     "slide": 4,
+     "quote": "SVB chose to “opt out” of the GAAP obligation to reflect unrealized losses in regulatory capital"
+    },
+    {
+     "deck": "READING",
+     "slide": 4,
+     "quote": "time deposits (which tend to be less run-prone than demand and savings deposits) remained less than 1% of SVB’s total deposits"
+    },
+    {
+     "deck": "READING",
+     "slide": 4,
+     "quote": "by nearly two full years to 5.6 years"
+    },
+    {
+     "deck": "READING",
+     "slide": 10,
+     "quote": "SVB (0.9%)"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "R"
+   ],
+   "est_minutes": 3.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "READ-U1",
+    "READ-U2",
+    "READ-U5"
+   ]
+  },
+  {
+   "id": "30178-SVB-09",
+   "course": "30178",
+   "deck": "SVB",
+   "topic": "Reading: the trigger, system-wide fragility and the moral hazard trade-off",
+   "syllabus_objective": "Interest-rate risk in practice: the SVB case (required reading: system-wide vulnerability, trigger, resolution, moral hazard)",
+   "shape": "concept MCQ (statements)",
+   "stem": "SVB and Beyond, chapter 1: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/SVB and Beyond_Stern Position Paper_2023.pdf",
+    "location": "Acharya, Cecchetti and Schoenholtz (2023), 'Overview of recent banking stress', SVB and Beyond, NYU Stern, pp. 5–13",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements from the required reading (Acharya, Cecchetti and Schoenholtz, 'Overview of recent banking stress').\n\nI. Total US uninsured deposits rose from about $5.5 trillion at the end of 2019 to over $8 trillion by the first quarter of 2022.\nII. Unrealised losses on banks' securities approached $700 billion by the third quarter of 2022, about eight times their peak in the 2017–19 tightening.\nIII. The run was triggered by SVB's March 8 announcement of securities sold at a loss and a capital raise that soon failed; SVB was closed on March 10.\nIV. By invoking the systemic risk exception to protect all depositors at SVB and Signature, policymakers removed moral hazard, since banks now know uninsured deposits are safe.\nV. First Republic's fragility came from losses on mortgage loans, whereas SVB's insolvency came entirely from losses on its securities portfolio.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II, III, IV and V",
+      "I, III and V only",
+      "II, III and V only",
+      "I, II, III and V only"
+     ],
+     "marks": 0.8
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "moral_hazard_direction_reversed",
+     "trap": "1:A moral hazard direction reversed"
+    },
+    {
+     "tag": "size_of_unrealised_losses_misread",
+     "trap": "1:B size of unrealised losses misread"
+    },
+    {
+     "tag": "uninsured_deposit_growth_misread",
+     "trap": "1:C uninsured deposit growth misread"
+    }
+   ],
+   "marks": 0.8,
+   "mark_scheme": [
+    "[1] Steps: (1) I true; (2) II true (less than $85bn peak in 2017–19, about eight times larger by 2022Q3); (3) III true (March 8 announcement; closed Friday March 10); (4) IV false: the reading says these emergency measures 'seem sure to encourage further risky behavior' — they create moral hazard, not remove it; (5) V true; (6) I, II, III and V.",
+    "Second route: IV is the only statement whose conclusion runs against the reading's conclusion (the trade-off between crisis mitigation and crisis prevention).",
+    "Where marks are lost: reading the blanket protection as solving moral hazard; confusing First Republic's (mortgages) and SVB's (securities) losses."
+   ],
+   "citations": [
+    {
+     "deck": "READING",
+     "slide": 7,
+     "quote": "total uninsured deposits had surged from about $5.5 trillion at the end of 2019 to over $8 trillion by the first quarter of 2022"
+    },
+    {
+     "deck": "READING",
+     "slide": 8,
+     "quote": "By the third quarter of 2022, these losses were about eight times larger, approaching $700 billion."
+    },
+    {
+     "deck": "READING",
+     "slide": 5,
+     "quote": "The trigger for the run on SVB was the March 8 announcement in which the bank’s management reported the sale of securities at a loss"
+    },
+    {
+     "deck": "READING",
+     "slide": 13,
+     "quote": "these emergency measures seem sure to encourage further risky behavior by banks in the future"
+    },
+    {
+     "deck": "READING",
+     "slide": 10,
+     "quote": "SVB’s insolvency resulted entirely from losses on its securities portfolio. By contrast, First Republic’s fragility arose from losses on mortgage loans."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "R"
+   ],
+   "est_minutes": 3.5,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": {
+    "correct": 0.8,
+    "wrong": -0.1,
+    "blank": 0
+   },
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "cross_section"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "READ-U3",
+    "READ-U4",
+    "READ-U5",
+    "READ-U6"
+   ]
   }
- ]
+ ],
+ "coverage": {
+  "course": "30178",
+  "sections": {
+   "INTRO": [
+    {
+     "id": "I1",
+     "title": "Bank business models: commercial, investment, universal"
+    },
+    {
+     "id": "I2",
+     "title": "Balance sheet, revenues, costs and the income statement"
+    },
+    {
+     "id": "I3",
+     "title": "Risks, fragility, transformation and why banks are regulated"
+    }
+   ],
+   "SVB": [
+    {
+     "id": "V1",
+     "title": "What happened; AFS and HTM accounting"
+    },
+    {
+     "id": "V2",
+     "title": "Macro scenario, balance-sheet growth, deposit insurance, the carry trade"
+    },
+    {
+     "id": "V3",
+     "title": "Asset side: HTM and AFS portfolios, duration, hedging"
+    },
+    {
+     "id": "V4",
+     "title": "Liability side, the deposit drawdown and the role of tech and social media"
+    },
+    {
+     "id": "V5",
+     "title": "What was wrong, in the end"
+    },
+    {
+     "id": "R",
+     "title": "Required reading: Acharya et al. (2023), 'Overview of recent banking stress' (NYU Stern)"
+    }
+   ]
+  },
+  "units": {
+   "INTRO": [
+    {
+     "id": "INTRO-U0",
+     "section": "I1",
+     "title": "Learning goals, agenda and glossary slides",
+     "where": "opening slides",
+     "examinable": false,
+     "reason": "Course navigation only: no content beyond the units below."
+    },
+    {
+     "id": "INTRO-U1",
+     "section": "I1",
+     "title": "How we define a bank: commercial vs investment, wholesale vs retail, private and universal banking",
+     "where": "'How Do We Define a Bank?', 'Not All Banks Do the Same Things'",
+     "examinable": true
+    },
+    {
+     "id": "INTRO-U2",
+     "section": "I1",
+     "title": "The traditional core of commercial banking; commercial banks by size (retail vs wholesale funding, listing)",
+     "where": "'The Traditional Core of Banking', 'What Do Banks Do? Commercial banks'",
+     "examinable": true
+    },
+    {
+     "id": "INTRO-U3",
+     "section": "I1",
+     "title": "Investment banks: underwriting, advisory, asset management, risk-management products; large vs advisory-focused platforms",
+     "where": "'What Do Banks Do? Investment banks' (2 slides)",
+     "examinable": true
+    },
+    {
+     "id": "INTRO-U4",
+     "section": "I1",
+     "title": "Universal banks: activities, revenue sources and risks",
+     "where": "'What Do Banks Do? Universal banks'",
+     "examinable": true
+    },
+    {
+     "id": "INTRO-U5",
+     "section": "I2",
+     "title": "The simplified commercial-bank balance sheet",
+     "where": "'Commercial banks: Simplified Balance sheet (b/s)' (2 slides)",
+     "examinable": true
+    },
+    {
+     "id": "INTRO-U6",
+     "section": "I2",
+     "title": "Revenues: net interest income and (net) non-interest income",
+     "where": "'How Banking Activities Generate Revenues' (2 slides)",
+     "examinable": true
+    },
+    {
+     "id": "INTRO-U7",
+     "section": "I2",
+     "title": "Costs and the income statement: operating expenses, loan loss provisions, cost-to-income, profit",
+     "where": "'How Banking Activities Generate Revenues and Expenses'; example income statement",
+     "examinable": true
+    },
+    {
+     "id": "INTRO-U8",
+     "section": "I1",
+     "title": "Comparing banks by business model: NII share and cost-to-income benchmarks",
+     "where": "'Compare the following banks…', 'Main Takeaways – Business Models'",
+     "examinable": true
+    },
+    {
+     "id": "INTRO-U9",
+     "section": "I3",
+     "title": "Main risks (credit, liquidity, interest-rate, market, operational) and how banks manage them",
+     "where": "'Banking Activities Generate Risks'",
+     "examinable": true
+    },
+    {
+     "id": "INTRO-U10",
+     "section": "I3",
+     "title": "Why banks are inherently fragile: leverage and maturity/liquidity mismatch",
+     "where": "'Why Are Banks Inherently Fragile?' (2 slides)",
+     "examinable": true
+    },
+    {
+     "id": "INTRO-U11",
+     "section": "I3",
+     "title": "Maturity, liquidity and risk transformation: the rationale for the spread and the source of fragility",
+     "where": "'The concepts of maturity, liquidity and risk transformation'",
+     "examinable": true
+    },
+    {
+     "id": "INTRO-U12",
+     "section": "I3",
+     "title": "Why banking is regulated and supervised",
+     "where": "'Why regulation and supervision are needed', 'Why banking is highly regulated'",
+     "examinable": true
+    },
+    {
+     "id": "INTRO-U13",
+     "section": "I3",
+     "title": "Who sets the rules and who supervises banks",
+     "where": "'Who sets the rules—and who supervises banks?'",
+     "examinable": false,
+     "reason": "The slide's content is an image with no text layer; nothing can be quoted without guessing. Covered in Part II C (Troiano) — check the PDF if you want a question on it now."
+    }
+   ],
+   "IRR": [
+    {
+     "id": "IRR-U0",
+     "section": "S1",
+     "title": "Agenda and learning goals",
+     "where": "slides 1–3",
+     "examinable": false,
+     "reason": "Navigation only."
+    },
+    {
+     "id": "IRR-U1",
+     "section": "S1",
+     "title": "Why interest-rate risk matters: earning assets and paying liabilities dominate; NII is a major profit component; leverage",
+     "where": "slides 3–5",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U2",
+     "section": "S1",
+     "title": "Contractual versus repricing maturity; fixed versus variable rates by balance-sheet item",
+     "where": "slides 6–7",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U3",
+     "section": "S1",
+     "title": "Drivers of NII: asset/liability mix and balance-sheet size",
+     "where": "slides 8–11",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U4",
+     "section": "S1",
+     "title": "Monetary-policy transmission through bank rates (delays, pass-through)",
+     "where": "slides 12–13",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U5",
+     "section": "S2",
+     "title": "IRR definition; refinancing and reinvestment risk",
+     "where": "slides 14–19",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U6",
+     "section": "S2",
+     "title": "Two perspectives: NII (income) and EVE (economic value); models for each",
+     "where": "slides 19–20",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U7",
+     "section": "S2",
+     "title": "Asset–liability management and the ALCO",
+     "where": "slide 21",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U8",
+     "section": "S3",
+     "title": "The GAP: RSA and RSL; what makes an item rate-sensitive (maturity, repricing)",
+     "where": "slides 22–24, 29",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U9",
+     "section": "S3",
+     "title": "Sign and size of the GAP; ΔNII = GAP × Δi; asset- vs liability-sensitive",
+     "where": "slides 25–28, 31–34",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U10",
+     "section": "S3",
+     "title": "Steps of static GAP analysis",
+     "where": "slide 30",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U11",
+     "section": "S3",
+     "title": "In-class static GAP exercise: a zero GAP immunises NII",
+     "where": "slides 35–36",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U12",
+     "section": "S4",
+     "title": "Managing the GAP: immunisation versus active management; hedging",
+     "where": "slides 37–39",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U13",
+     "section": "S4",
+     "title": "Assumptions, strengths and weaknesses of static GAP; which model fixes each",
+     "where": "slides 40–41",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U14",
+     "section": "S5",
+     "title": "Maturity-bucket approach: periodic and cumulative GAP; infra-annual rate paths (Bank Alpha)",
+     "where": "slides 42–49",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U15",
+     "section": "S6",
+     "title": "Spread effect and deposit betas (Italy vs France)",
+     "where": "slides 50–52",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U16",
+     "section": "S6",
+     "title": "Beta (standardised) GAP: steps and Bank Alpha",
+     "where": "slides 53–56",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U17",
+     "section": "S6",
+     "title": "Level versus spread effect; NIM evidence for European banks",
+     "where": "slides 57–60",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U18",
+     "section": "S7",
+     "title": "Embedded options: prepayment, calls, early withdrawal; when they are exercised",
+     "where": "slides 61–63",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U18b",
+     "section": "S7",
+     "title": "Caps and floors on loan and deposit rates",
+     "where": "slide 64",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U19",
+     "section": "S7",
+     "title": "Option-adjusted GAP (Bank Alpha)",
+     "where": "slides 65–68",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U20",
+     "section": "S7",
+     "title": "Alternative GAP measures: GAP ratio, GAP/IEA, GAP/NW and ALCO limits",
+     "where": "slides 69–70",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U21",
+     "section": "S8",
+     "title": "Bond prices and rates; Macaulay and modified duration",
+     "where": "slides 71–75",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U22",
+     "section": "S8",
+     "title": "ΔEVE, the duration GAP formula and its steps",
+     "where": "slides 76–79",
+     "examinable": true
+    },
+    {
+     "id": "IRR-U23",
+     "section": "S8",
+     "title": "Reading the duration GAP: sign, immunisation, link to SVB",
+     "where": "slides 80–83",
+     "examinable": true
+    }
+   ],
+   "SVB": [
+    {
+     "id": "SVB-U0",
+     "section": "V1",
+     "title": "Points to address and list of readings",
+     "where": "opening slides",
+     "examinable": false,
+     "reason": "Navigation only; the required reading has its own units (READ-U1…U6)."
+    },
+    {
+     "id": "SVB-U1",
+     "section": "V1",
+     "title": "What happened in March 2023 (size, clients, two-day collapse)",
+     "where": "'What happened in March 2023'",
+     "examinable": true
+    },
+    {
+     "id": "SVB-U2",
+     "section": "V1",
+     "title": "AFS versus HTM securities; OCI",
+     "where": "'What are AFS and HTM securities?', timeline",
+     "examinable": true
+    },
+    {
+     "id": "SVB-U3",
+     "section": "V2",
+     "title": "Macro scenario: ZLB, forward guidance and QE, then Fed tightening",
+     "where": "'Macro scenario' slides",
+     "examinable": true
+    },
+    {
+     "id": "SVB-U4",
+     "section": "V2",
+     "title": "Balance-sheet growth financed by (uninsured) deposits; SVB tripled",
+     "where": "'Effects: Massive growth…' slides",
+     "examinable": true
+    },
+    {
+     "id": "SVB-U5",
+     "section": "V2",
+     "title": "Deposit insurance: role, safety net, which deposits, stability",
+     "where": "'Why deposit insurance is important' (3 slides)",
+     "examinable": true
+    },
+    {
+     "id": "SVB-U6",
+     "section": "V3",
+     "title": "HTM portfolio: share, duration, MBS, unrealised losses",
+     "where": "'Asset side – the HTM portfolio'",
+     "examinable": true
+    },
+    {
+     "id": "SVB-U7",
+     "section": "V3",
+     "title": "AFS portfolio and the hedging strategy (swaps unwound)",
+     "where": "'Asset side – the AFS portfolio', 'The AFS portfolio hedging strategy'",
+     "examinable": true
+    },
+    {
+     "id": "SVB-U8",
+     "section": "V4",
+     "title": "Liability side: uninsured share, concentration, deposit mix changes",
+     "where": "'Liability side: The Achilles’ heel'",
+     "examinable": true
+    },
+    {
+     "id": "SVB-U9",
+     "section": "V2",
+     "title": "Macro causes: carry trade, uninsured deposit growth, reluctance to hedge",
+     "where": "'INVESTIGATING THE CAUSES', 'Phase 1'",
+     "examinable": true
+    },
+    {
+     "id": "SVB-U10",
+     "section": "V4",
+     "title": "Phase 2: deposit drawdown; unrealised losses and capital; forced sales",
+     "where": "'Phase 2: Deposits drawdown', 'How unrealized losses affect bank capital'",
+     "examinable": true
+    },
+    {
+     "id": "SVB-U11",
+     "section": "V4",
+     "title": "What was different: speed, social media, connected depositors",
+     "where": "'What was different this time?' slides",
+     "examinable": true
+    },
+    {
+     "id": "SVB-U12",
+     "section": "V5",
+     "title": "What was wrong in the end: asset risk plus volatile funding; ALM failure; 'Ipse dixit'",
+     "where": "'What was wrong, in the end?' (2 slides)",
+     "examinable": true
+    },
+    {
+     "id": "READ-U1",
+     "section": "R",
+     "title": "SVB's liability frailties: uninsured share, concentration, time deposits, deposit surge",
+     "where": "reading pp. 2–3",
+     "examinable": true
+    },
+    {
+     "id": "READ-U2",
+     "section": "R",
+     "title": "SVB's asset side and accounting: securities share, duration, hedges, HTM 43%, AOCI opt-out",
+     "where": "reading pp. 3–5",
+     "examinable": true
+    },
+    {
+     "id": "READ-U3",
+     "section": "R",
+     "title": "The trigger (March 8), closure, the systemic risk exception and First Republic",
+     "where": "reading pp. 5–7",
+     "examinable": true
+    },
+    {
+     "id": "READ-U4",
+     "section": "R",
+     "title": "System-wide fragility: uninsured deposit surge and unrealised losses",
+     "where": "reading pp. 7–9",
+     "examinable": true
+    },
+    {
+     "id": "READ-U5",
+     "section": "R",
+     "title": "Spotting the weak banks: adjusted capital ratios and SRISK",
+     "where": "reading pp. 9–12",
+     "examinable": true
+    },
+    {
+     "id": "READ-U6",
+     "section": "R",
+     "title": "Conclusion: why supervisors missed it; moral hazard versus crisis mitigation",
+     "where": "reading pp. 12–13",
+     "examinable": true
+    }
+   ]
+  },
+  "existing_units": {
+   "30178-IRR-01": [
+    "IRR-U22"
+   ],
+   "30178-IRR-02": [
+    "IRR-U16"
+   ],
+   "30178-IRR-03": [
+    "IRR-U22",
+    "IRR-U23"
+   ],
+   "30178-IRR-04": [
+    "IRR-U8",
+    "IRR-U14"
+   ],
+   "30178-IRR-05": [
+    "IRR-U9"
+   ],
+   "30178-IRR-06": [
+    "IRR-U8",
+    "IRR-U2"
+   ],
+   "30178-IRR-07": [
+    "IRR-U12"
+   ],
+   "30178-IRR-08": [
+    "IRR-U22",
+    "IRR-U6"
+   ],
+   "30178-IRR-09": [
+    "IRR-U6"
+   ],
+   "30178-IRR-10": [
+    "IRR-U23",
+    "IRR-U9",
+    "IRR-U20"
+   ],
+   "30178-IRR-11": [
+    "IRR-U16"
+   ],
+   "30178-IRR-12": [
+    "IRR-U9"
+   ],
+   "30178-IRR-13": [
+    "IRR-U11",
+    "IRR-U10"
+   ],
+   "30178-IRR-14": [
+    "IRR-U14"
+   ],
+   "30178-IRR-15": [
+    "IRR-U14"
+   ],
+   "30178-IRR-16": [
+    "IRR-U16"
+   ],
+   "30178-IRR-17": [
+    "IRR-U18",
+    "IRR-U19"
+   ],
+   "30178-IRR-18": [
+    "IRR-U20"
+   ],
+   "30178-IRR-19": [
+    "IRR-U22"
+   ],
+   "30178-IRR-20": [
+    "IRR-U5"
+   ],
+   "30178-IRR-21": [
+    "IRR-U5"
+   ],
+   "30178-IRR-22": [
+    "IRR-U5",
+    "IRR-U6",
+    "IRR-U21"
+   ],
+   "30178-IRR-23": [
+    "IRR-U5"
+   ],
+   "30178-IRR-24": [
+    "IRR-U3"
+   ],
+   "30178-IRR-26": [
+    "IRR-U13"
+   ],
+   "30178-IRR-27": [
+    "IRR-U15",
+    "IRR-U17"
+   ],
+   "30178-IRR-28": [
+    "IRR-U11",
+    "IRR-U23"
+   ],
+   "30178-IRR-30": [
+    "IRR-U22",
+    "IRR-U21"
+   ],
+   "30178-IRR-31": [
+    "IRR-U13",
+    "IRR-U23"
+   ],
+   "30178-IRR-32": [
+    "IRR-U19",
+    "IRR-U20"
+   ],
+   "30178-INTRO-01": [
+    "INTRO-U10",
+    "INTRO-U5"
+   ],
+   "30178-INTRO-02": [
+    "INTRO-U6",
+    "INTRO-U7"
+   ],
+   "30178-SVB-01": [
+    "SVB-U2",
+    "SVB-U6",
+    "SVB-U10"
+   ],
+   "30178-SVB-02": [
+    "SVB-U6",
+    "IRR-U22",
+    "SVB-U12"
+   ]
+  },
+  "ledger": [
+   {
+    "file": "Reference Material/Clean/P1 1st part.pdf",
+    "item": "A. Maturity-bucket solution (Jan 2023 data)",
+    "decision": "key_source",
+    "ids": [
+     "30178-IRR-14"
+    ],
+    "reason": "Official solution to the slide exercise; used as the official method for IRR-14 part 2. Its data differ slightly from the 2026-27 slide, so IRR-14 keeps the slide's data."
+   },
+   {
+    "file": "Reference Material/Clean/P1 1st part.pdf",
+    "item": "A. Standardized (Beta) GAP solution",
+    "decision": "included_adapted",
+    "ids": [
+     "30178-IRR-35"
+    ],
+    "reason": "Only the solution is printed (no question wording) and the text layer merges the columns; table rebuilt to match the printed totals. Flagged for a check."
+   },
+   {
+    "file": "Reference Material/Clean/P1 1st part.pdf",
+    "item": "B. MCQ 1–6",
+    "decision": "included",
+    "ids": [
+     "30178-IRR-04",
+     "30178-IRR-05",
+     "30178-IRR-06",
+     "30178-IRR-07",
+     "30178-IRR-08",
+     "30178-IRR-09"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference Material/Clean/P1 1st part.pdf",
+    "item": "B. True/False (4 items)",
+    "decision": "included",
+    "ids": [
+     "30178-IRR-10"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference Material/Clean/P1 1st part.pdf",
+    "item": "C. Exercise A (Alpha Bank 2005)",
+    "decision": "included",
+    "ids": [
+     "30178-IRR-11"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference Material/Clean/P1 1st part.pdf",
+    "item": "C. Exercise B (6-month GAP, NII)",
+    "decision": "included",
+    "ids": [
+     "30178-IRR-12"
+    ],
+    "reason": "Now checked word for word against the PDF text layer (it was previously transcribed from the page image)."
+   },
+   {
+    "file": "Reference Material/Clean/P1 1st part.pdf",
+    "item": "C. Exercise C (duration GAP, ΔEVE)",
+    "decision": "included",
+    "ids": [
+     "30178-IRR-01"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference Material/Clean/P1 1st part.pdf",
+    "item": "D. SVB MCQ",
+    "decision": "included",
+    "ids": [
+     "30178-SVB-03"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference Material/Clean/P1 1st part.pdf",
+    "item": "D. SVB True/False (2 items)",
+    "decision": "included",
+    "ids": [
+     "30178-SVB-04"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference Material/Clean/P1 1st part.pdf",
+    "item": "E. Securitisation MCQ and 2 True/False",
+    "decision": "held",
+    "ids": [],
+    "reason": "Securitisation is on the Part I syllabus but its deck is not in the folder yet. Held until the deck arrives."
+   },
+   {
+    "file": "Reference Material/Clean/exam structure guide.pdf",
+    "item": "Sample MCQ 1–3 and Exercise A",
+    "decision": "duplicate",
+    "ids": [
+     "30178-IRR-04",
+     "30178-IRR-05",
+     "30178-IRR-06",
+     "30178-IRR-01"
+    ],
+    "reason": "Word for word the same as P1 1st part B.1–3 and C. Exercise C; kept once."
+   },
+   {
+    "file": "Reference Material/Clean/exam structure guide.pdf",
+    "item": "Exam rules and scoring",
+    "decision": "used",
+    "ids": [],
+    "reason": "Sets the format (16 MCQs + 2 exercises × 2 MCQ parts, +0.8/−0.1) already in the course fingerprint."
+   },
+   {
+    "file": "Reference Material/Clean/Additional Q.pdf",
+    "item": "Extra exercises 1–4 (IRR)",
+    "decision": "included",
+    "ids": [
+     "30178-IRR-20",
+     "30178-IRR-21",
+     "30178-IRR-22",
+     "30178-IRR-23"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference Material/Clean/Additional Q.pdf",
+    "item": "Extra exercise 5 (FX risk, London assets)",
+    "decision": "held",
+    "ids": [],
+    "reason": "FX, country, off-balance-sheet and operational risk have no deck in the folder; the INTRO deck only lists the main risks. Held until a deck covers them."
+   },
+   {
+    "file": "Reference Material/Clean/Additional Q.pdf",
+    "item": "Extra exercises 6–7 (stored/purchased liquidity, deposit drain)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Liquidity risk management is Part II (Pambianco); not in the midterm-1 decks. Held for Part II."
+   },
+   {
+    "file": "Reference Material/Clean/Additional Q.pdf",
+    "item": "Extra exercise 8 (bank run equilibrium)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Bank runs / Diamond–Dybvig are not in the midterm-1 decks (the SVB case discusses runs only qualitatively). Held for the liquidity deck."
+   },
+   {
+    "file": "Reference Material/Clean/Additional Q.pdf",
+    "item": "Extra exercises on capital regulation 1–4",
+    "decision": "held",
+    "ids": [],
+    "reason": "Bank capital / Basel III: 'The role of bank capital and capital management' is on the Part I syllabus but its deck is not in the folder yet. Held until the deck arrives."
+   },
+   {
+    "file": "Reference Material/P111.pdf",
+    "item": "Whole file",
+    "decision": "duplicate",
+    "ids": [],
+    "reason": "Same document as Additional Q.pdf."
+   },
+   {
+    "file": "Reference Material/international-banking-additional-exercises-and-solutions.pdf",
+    "item": "Whole file",
+    "decision": "duplicate",
+    "ids": [],
+    "reason": "Same document as Additional Q.pdf."
+   },
+   {
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "item": "Exercise 1 (Megalopolis: ROE, ROA, NIM, loan loss reserves, liquidity ratios)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Performance ratios (ROE, ROA, NIM, reserve and liquidity ratios) are Part II 'Measuring bank performance'; the INTRO deck only covers cost-to-income. Held for Part II."
+   },
+   {
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "item": "Exercise 2 (firm commitment)",
+    "decision": "included",
+    "ids": [
+     "30178-INTRO-03"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "item": "Exercise 3 (best efforts)",
+    "decision": "included",
+    "ids": [
+     "30178-INTRO-04"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "item": "Exercise 4 (net income)",
+    "decision": "included",
+    "ids": [
+     "30178-INTRO-05"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "item": "Exercise 5 (deposit drain: shrink loans or borrow)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Liquidity risk management is Part II (Pambianco); not in the midterm-1 decks. Held for Part II. Same exercise as Additional Q extra exercise 7."
+   },
+   {
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "item": "Exercise 6 (3-year bond, CD, NII)",
+    "decision": "included",
+    "ids": [
+     "30178-IRR-33"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "item": "MCQ 1 (off-balance-sheet activities)",
+    "decision": "held",
+    "ids": [],
+    "reason": "FX, country, off-balance-sheet and operational risk have no deck in the folder; the INTRO deck only lists the main risks. Held until a deck covers them."
+   },
+   {
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "item": "MCQ 2 (underwriting)",
+    "decision": "included",
+    "ids": [
+     "30178-INTRO-06"
+    ],
+    "reason": "No key in the source; solved twice."
+   },
+   {
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "item": "MCQ 3 (asset side)",
+    "decision": "included",
+    "ids": [
+     "30178-INTRO-07"
+    ],
+    "reason": "No key in the source; solved twice."
+   },
+   {
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "item": "MCQ 4 (commercial bank functions)",
+    "decision": "included",
+    "ids": [
+     "30178-INTRO-08"
+    ],
+    "reason": "No key in the source; solved twice."
+   },
+   {
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "item": "MCQ 5 (market risk)",
+    "decision": "included",
+    "ids": [
+     "30178-INTRO-09"
+    ],
+    "reason": "No key in the source; solved twice."
+   },
+   {
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "item": "MCQ 6 (characterise risk exposures)",
+    "decision": "held",
+    "ids": [],
+    "reason": "FX, country, off-balance-sheet and operational risk have no deck in the folder; the INTRO deck only lists the main risks. Held until a deck covers them."
+   },
+   {
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "item": "True/false 1 and 3",
+    "decision": "included",
+    "ids": [
+     "30178-IRR-34"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "item": "True/false 2 (loan commitment fee)",
+    "decision": "held",
+    "ids": [],
+    "reason": "FX, country, off-balance-sheet and operational risk have no deck in the folder; the INTRO deck only lists the main risks. Held until a deck covers them."
+   },
+   {
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "item": "True/false 4–5 (FX positions)",
+    "decision": "held",
+    "ids": [],
+    "reason": "FX, country, off-balance-sheet and operational risk have no deck in the folder; the INTRO deck only lists the main risks. Held until a deck covers them."
+   },
+   {
+    "file": "Reference Material/Clean/Problem Set 1.pdf",
+    "item": "True/false 6–7 (operational risk)",
+    "decision": "held",
+    "ids": [],
+    "reason": "FX, country, off-balance-sheet and operational risk have no deck in the folder; the INTRO deck only lists the main risks. Held until a deck covers them."
+   },
+   {
+    "file": "Reference Material/Clean/Part1_.pdf",
+    "item": "Whole file",
+    "decision": "key_source",
+    "ids": [
+     "30178-INTRO-03",
+     "30178-INTRO-04",
+     "30178-INTRO-05",
+     "30178-IRR-33",
+     "30178-IRR-34"
+    ],
+    "reason": "Problem Set 1 with solutions: the official keys."
+   },
+   {
+    "file": "Reference Material/PS1 financial analysis.pdf",
+    "item": "Whole file",
+    "decision": "duplicate",
+    "ids": [],
+    "reason": "Same text as Problem Set 1.pdf (no solutions)."
+   },
+   {
+    "file": "Reference Material/Clean/PS2.pdf",
+    "item": "Exercises 1–4 and MCQ 1–4 (liquidity, bank runs, contagion)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Liquidity risk management is Part II (Pambianco); not in the midterm-1 decks. Held for Part II."
+   },
+   {
+    "file": "Reference Material/Clean/More P1_.pdf",
+    "item": "Whole file",
+    "decision": "duplicate",
+    "ids": [],
+    "reason": "Problem set 2 with solutions (same as PS2); held with it."
+   },
+   {
+    "file": "Reference Material/problem-set-2-…-solutions.pdf",
+    "item": "Whole file",
+    "decision": "duplicate",
+    "ids": [],
+    "reason": "Same as PS2."
+   },
+   {
+    "file": "Reference Material/Clean/PS3.pdf",
+    "item": "Exercises 1–4 and MCQ 1–6 (Basel III)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Bank capital / Basel III: 'The role of bank capital and capital management' is on the Part I syllabus but its deck is not in the folder yet. Held until the deck arrives."
+   },
+   {
+    "file": "Reference Material/Clean/PS4.pdf",
+    "item": "Extended solutions to the Basel III set",
+    "decision": "held",
+    "ids": [],
+    "reason": "Bank capital / Basel III: 'The role of bank capital and capital management' is on the Part I syllabus but its deck is not in the folder yet. Held until the deck arrives."
+   },
+   {
+    "file": "Reference Material/…problem-set-4-solutions-and-ratios.pdf",
+    "item": "Whole file",
+    "decision": "duplicate",
+    "ids": [],
+    "reason": "Same as PS4."
+   },
+   {
+    "file": "Reference Material/Clean/final exam review notes.pdf",
+    "item": "MCQ 1–5, T/F 1–5, Exercises 1–2 (Basel, resolution, deposit insurance, lender of last resort)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Final review from an earlier syllabus (E. Carletti): capital regulation and resolution. Bank capital / Basel III: 'The role of bank capital and capital management' is on the Part I syllabus but its deck is not in the folder yet. Held until the deck arrives."
+   },
+   {
+    "file": "Reference Material/Clean/MCQ/Partial1.pdf",
+    "item": "[1] Loan loss provisions",
+    "decision": "included",
+    "ids": [
+     "30178-INTRO-12"
+    ],
+    "reason": "Part II sample, but the INTRO deck covers the point."
+   },
+   {
+    "file": "Reference Material/Clean/MCQ/Partial1.pdf",
+    "item": "[2] Total assets as scale variable; [A.1]–[A.2] NPE ratio and coverage",
+    "decision": "held",
+    "ids": [],
+    "reason": "Part II (Pambianco): financial-statement analysis and asset quality. Held for Part II."
+   },
+   {
+    "file": "Reference Material/Clean/Partial 2 Qs but not like exam.pdf",
+    "item": "Liquidity and bank valuation questions 1–11",
+    "decision": "excluded",
+    "ids": [],
+    "reason": "Your note says 'not like exam'; open definitional Q&A on Part II topics. Not exam-shaped; excluded."
+   },
+   {
+    "file": "Reference Material/Clean/final exam review notes.pdf",
+    "item": "Answer grid template",
+    "decision": "not_a_question",
+    "ids": [],
+    "reason": ""
+   },
+   {
+    "file": "Mock Exams/Mock Partial 1 - Interest Rate Risk (PAPER, MARK SCHEME)",
+    "item": "Whole file",
+    "decision": "excluded",
+    "ids": [],
+    "reason": "Written by Claude in an earlier chat: not evidence of what is examined."
+   },
+   {
+    "file": "Mock Exams/Mock Partial - SVB case (PAPER, MARK SCHEME, question bank)",
+    "item": "Whole file",
+    "decision": "excluded",
+    "ids": [],
+    "reason": "Written by Claude in an earlier chat: not evidence of what is examined."
+   },
+   {
+    "file": "Mock Exams/International Banking L2 Mock.pdf",
+    "item": "Whole file",
+    "decision": "excluded",
+    "ids": [],
+    "reason": "Written by Claude in an earlier chat: not evidence of what is examined."
+   },
+   {
+    "file": "Slides/Introductory concepts to banking_30178_2026-27.pdf",
+    "item": "Deck",
+    "decision": "units",
+    "ids": [],
+    "reason": "14 units; 12 examinable."
+   },
+   {
+    "file": "Slides/Managing Interest Rate Risk_2026-27_PART I and 2_classroom.pdf",
+    "item": "Deck (in-class exercises included as IRR-13…19)",
+    "decision": "units",
+    "ids": [],
+    "reason": "25 units; 24 examinable."
+   },
+   {
+    "file": "Slides/The SVB case_in class discussion.pdf",
+    "item": "Deck",
+    "decision": "units",
+    "ids": [],
+    "reason": "13 units; 12 examinable (plus the reading's 6)."
+   },
+   {
+    "file": "Slides/SVB and Beyond_Stern Position Paper_2023.pdf",
+    "item": "Required reading, chapter 1",
+    "decision": "units",
+    "ids": [],
+    "reason": "6 units, all examinable ('required for the exam')."
+   },
+   {
+    "file": "Slides/Course Introduction_30178_2026-27.pdf",
+    "item": "Deck",
+    "decision": "not_examinable",
+    "ids": [],
+    "reason": "Syllabus, exam rules and dates only. Used for the exam date (28 Oct 2026) and scope (midterm 1 = Part I)."
+   }
+  ]
+ }
 }
