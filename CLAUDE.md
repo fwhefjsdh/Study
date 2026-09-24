@@ -25,8 +25,11 @@ If any point fails, fix the question or drop it. Do not relabel it or lower the 
    | Course | Shape class | Slide max | Exam median | Each answer needs | Minutes per answer |
    |---|---|---|---|---|---|
    | 30257 Corporate Valuation | short problem (written) | 6 | 5.5 | steps ≥ 7, concepts ≥ 2 | ≤ 10 |
+   | 30257 Corporate Valuation | concept MCQ | — | 1.5 | steps ≥ 3, concepts ≥ 2 | ≤ 10 |
    | 30285 Empirical Methods | calc MCQ | 5 | 3 | steps ≥ 6, concepts ≥ 2 | ≤ 5 |
    | 30024 Financial Statement Analysis | quantitative essay part | 2 | 2 | steps ≥ 4, concepts ≥ 2 | ≤ 8 |
+   | 30024 Financial Statement Analysis | concept MCQ | — | 3 | steps ≥ 4, concepts ≥ 2 | ≤ 8 |
+   | 30024 Financial Statement Analysis | qualitative essay part | 3 | 3 | steps ≥ 5, concepts ≥ 2 | ≤ 8 |
    Always read the course's own `fingerprint` in the Answer Grid database first: it wins over this table.
 3. **Notches.** Use at least **2 distinct** ones from this list: `extra_step`, `extra_classification`, `working_backwards`,
    `cross_section`, `what_if_followon`, `extraneous_data`, `chain`, `near_true_statements`.

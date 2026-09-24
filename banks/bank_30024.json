@@ -102,7 +102,9 @@
     }
    ],
    "slides": [],
-   "slide_groups": [],
+   "slide_groups": [
+    "S34A"
+   ],
    "est_minutes": 16,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -130,7 +132,14 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
-   }
+   },
+   "units": [
+    "S34-U2",
+    "S34-U3",
+    "S34-U4",
+    "S34-U5",
+    "S34-U6"
+   ]
   },
   {
    "id": "30024-S34-02",
@@ -219,7 +228,10 @@
     }
    ],
    "slides": [],
-   "slide_groups": [],
+   "slide_groups": [
+    "S34B",
+    "S34C"
+   ],
    "est_minutes": 16,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -247,7 +259,12 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
-   }
+   },
+   "units": [
+    "S34-U7",
+    "S34-U8",
+    "S34-U11"
+   ]
   },
   {
    "id": "30024-S2-01",
@@ -341,7 +358,9 @@
     }
    ],
    "slides": [],
-   "slide_groups": [],
+   "slide_groups": [
+    "S2C"
+   ],
    "est_minutes": 14,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -369,7 +388,12 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
-   }
+   },
+   "units": [
+    "S2-U16",
+    "S2-U17",
+    "S2-U18"
+   ]
   },
   {
    "id": "30024-S2-02",
@@ -457,7 +481,10 @@
     }
    ],
    "slides": [],
-   "slide_groups": [],
+   "slide_groups": [
+    "S2D",
+    "S2C"
+   ],
    "est_minutes": 12,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -484,7 +511,12 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
-   }
+   },
+   "units": [
+    "S2-U24",
+    "S2-U23",
+    "S2-U13"
+   ]
   },
   {
    "id": "30024-S1-01",
@@ -578,7 +610,9 @@
     }
    ],
    "slides": [],
-   "slide_groups": [],
+   "slide_groups": [
+    "S1B"
+   ],
    "est_minutes": 14,
    "created_at": "2026-09-24T18:00:00Z",
    "negative_marking": null,
@@ -606,7 +640,2202 @@
     "in_syllabus": true,
     "reviewed_by": "Claude (step counts listed in the mark scheme)",
     "reviewed_at": "2026-09-24T18:00:00Z"
-   }
+   },
+   "units": [
+    "S1-U3",
+    "S1-U7"
+   ]
+  },
+  {
+   "id": "30024-S1-10",
+   "course": "30024",
+   "deck": "S1",
+   "topic": "Share issue for cash and a building",
+   "syllabus_objective": "Accounting refresh: recording a share issue (par value, paid-in capital, contribution in kind)",
+   "shape": "short answer (select all that apply)",
+   "stem": "On January 01st, 2021, Outstanding Inc – an online fashion company – owned by 3 friends, starts its tenth year of operations. During the year, they complete the following business-related activities that need to be recorded.\n\n1. On January 1st they issue new shares to let one more friend (Marc) join the company. Existing shares are as follows: 3,000 shares with a par value of $50 each (each shareholder owns 1,000 shares). They have agreed on the following: the new shareholder will have 25% of the voting rights, and the total consideration agreed for the new share issue is $85,000. Marc will give 45,000 in cash and a small building portion (a warehouse) that will be used by the firm to store products whose value has been estimated to be $40,000. Which of the following recordings is wrong? (There may be more than one correct answer)\n\na. Debit Cash for 45.000 and Debit Building for 40.000\nb. Credit Common Stock for 35.000\nc. Credit Paid in Capital for 50.000\nd. Credit Paid in Capital for 35.000",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Session 1 - Accounting Refresh - TEXT.pdf",
+    "location": "Session 1 accounting-refresh handout (instructor exercise for the in-class check), question 1; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Write the letter(s) of every wrong recording.",
+     "options": [],
+     "marks": "UNKNOWN"
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "b and c",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": "UNKNOWN",
+   "mark_scheme": [
+    "Answer: b and c (no key in the handout; solved twice).",
+    "Route 1: 25% of the votes after the issue → new shares = 3,000 × 25/75 = 1,000; Common Stock = 1,000 × $50 = $50,000; Paid-in Capital = 85,000 − 50,000 = $35,000. So a and d are right and b and c are wrong.",
+    "Route 2: debits 45,000 + 40,000 = 85,000 must equal the credits 50,000 + 35,000: the only split that balances with 1,000 shares at par is CS 50,000 / PIC 35,000.",
+    "Trap: 25% of the existing 3,000 shares (750 shares) — 25% of the votes means 25% of the shares after the issue."
+   ],
+   "citations": [
+    {
+     "deck": "S2",
+     "slide": "Statement of shareholders’ equity",
+     "quote": "Ending equity = Beginning equity + Profit or loss + Other comprehensive income + Owner contributions − Distributions to owners"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S1C"
+   ],
+   "units": [
+    "S1-U10"
+   ],
+   "est_minutes": 3,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30024-S1-11",
+   "course": "30024",
+   "deck": "S1",
+   "topic": "Bond issue and accrued interest",
+   "syllabus_objective": "Accounting refresh: accrued expenses (interest incurred, paid next period)",
+   "shape": "short answer (select all that apply)",
+   "stem": "On January 01st, 2021, Outstanding Inc – an online fashion company – owned by 3 friends, starts its tenth year of operations. During the year, they complete the following business-related activities that need to be recorded.\n\n2. On January 1st 2022, Outstanding Inc issues a 5-year bond at par value for a total of $150,000. The interest rate is 5% annual and payments are made once a year each January 1st starting from the next period (January 1st, 2023). Select the correct recording (There may be more than one correct answer).\n\na. Register cash outflow on the 1st of January 2022\nb. Register Interest Payable on the 31st of December 2022\nc. Register Interest Payable on the 1st of January 2022\nd. Register Interest Expense on the 31st of December 2022",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Session 1 - Accounting Refresh - TEXT.pdf",
+    "location": "Session 1 accounting-refresh handout (instructor exercise for the in-class check), question 2; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Write the letter(s) of every correct recording.",
+     "options": [],
+     "marks": "UNKNOWN"
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "b and d",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": "UNKNOWN",
+   "mark_scheme": [
+    "Answer: b and d (no key in the handout; solved twice).",
+    "Route 1: issuing a bond brings cash in (a is wrong: it is an inflow). By 31 Dec 2022 one year of interest ($150,000 × 5% = $7,500) has been incurred but is paid on 1 Jan 2023: Dr Interest Expense 7,500 / Cr Interest Payable 7,500 (b and d).",
+    "Route 2: on 1 Jan 2022 no interest has accrued yet, so c is wrong. The accrued-expense slide: expense incurred now, cash paid next period → expense and a payable."
+   ],
+   "citations": [
+    {
+     "deck": "S2",
+     "slide": "Accounting distortions: accrued and deferred revenues and expenses",
+     "quote": "The company has incurred an expense but the cash will be paid in the next period."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S1C"
+   ],
+   "units": [
+    "S1-U11"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30024-S1-12",
+   "course": "30024",
+   "deck": "S1",
+   "topic": "Rent paid in advance",
+   "syllabus_objective": "Accounting refresh: pre-paid expenses",
+   "shape": "short answer (select all that apply)",
+   "stem": "On January 01st, 2021, Outstanding Inc – an online fashion company – owned by 3 friends, starts its tenth year of operations. During the year, they complete the following business-related activities that need to be recorded.\n\n3. On January 1st they paid rent for their main office for a total amount of 20.000 for the entire\n\nyear 2021. Select the correct recording (There may be more than one correct answer).\n\na. Debit Rent Expense for 20.000 and Credit Bank for 20.000\nb. Debit Pre-Paid Rent for 20.000 and Credit Rent Payable for 20.000\nc. Debit Rent Expense for 20.000 and Credit Rent Payable for 20.000\nd. Debit Pre-Paid Rent for 20.000 and Credit Bank for 20.000",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Session 1 - Accounting Refresh - TEXT.pdf",
+    "location": "Session 1 accounting-refresh handout (instructor exercise for the in-class check), question 3; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null,
+    "check": "Key a and d: d is the textbook pre-paid entry; a is accepted because the rent covers exactly the 2021 financial year. If the in-class answer was d only, change it."
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Write the letter(s) of every correct recording.",
+     "options": [],
+     "marks": "UNKNOWN"
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "a and d",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": "UNKNOWN",
+   "mark_scheme": [
+    "Answer: a and d (no key in the handout; solved twice).",
+    "Route 1 (pre-paid expense, the slide's treatment): cash is paid before the expense is incurred → Dr Pre-Paid Rent 20,000 / Cr Bank 20,000 (d); the asset is then expensed month by month during 2021.",
+    "Route 2: the whole prepayment is used up within the same financial year (2021), so booking it straight to Rent Expense against Bank (a) gives the same 2021 statements. b and c credit a payable, but the rent was paid in cash.",
+    "The handout says more than one answer may be correct; a and d are the two that credit Bank."
+   ],
+   "citations": [
+    {
+     "deck": "S2",
+     "slide": "Accounting distortions: accrued and deferred revenues and expenses",
+     "quote": "The payment is initially recorded as an asset, which is reduced as the related goods or services are consumed"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S1C"
+   ],
+   "units": [
+    "S1-U12"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30024-S1-13",
+   "course": "30024",
+   "deck": "S1",
+   "topic": "Sale of a shop below book value",
+   "syllabus_objective": "Accounting refresh: disposal of a non-current asset (gain or loss)",
+   "shape": "concept MCQ",
+   "stem": "On January 01st, 2021, Outstanding Inc – an online fashion company – owned by 3 friends, starts its tenth year of operations. During the year, they complete the following business-related activities that need to be recorded.\n\n4. On January 1st the company sells a shop in south Philly it owned. The shop’s selling price (accounted as Building) is $200,000 and is collected in cash on the same day. The gross value and the cumulated depreciation of the shop on January 1st were $400,000 and 175,000 respectively. Which of the following items has to be recorded in the Income Statement?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Session 1 - Accounting Refresh - TEXT.pdf",
+    "location": "Session 1 accounting-refresh handout (instructor exercise for the in-class check), question 4; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Which of the following items has to be recorded in the Income Statement?",
+     "options": [
+      "Increase in Revenues for 200.000",
+      "Gain on Sale for 25.000",
+      "Increase in Cash for 200.000",
+      "Loss on Sale for 25.000"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Answer: D (no key in the handout; solved twice).",
+    "Route 1: net book value = 400,000 − 175,000 = 225,000; price 200,000 → loss of 25,000 in the income statement.",
+    "Route 2: Dr Cash 200,000, Dr Accumulated depreciation 175,000, Dr Loss 25,000 / Cr Building 400,000. A treats a disposal as revenue; C is a balance-sheet item; B reverses the sign."
+   ],
+   "citations": [
+    {
+     "deck": "S2",
+     "slide": "The Balance Sheet: Non - Current Assets (optional)",
+     "quote": "tangible assets are carried at cost less accumulated depreciation and accumulated impairment losses"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S1C"
+   ],
+   "units": [
+    "S1-U13"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30024-S1-14",
+   "course": "30024",
+   "deck": "S1",
+   "topic": "Inventory bought partly on a note",
+   "syllabus_objective": "Accounting refresh: purchase of inventory (asset, not expense)",
+   "shape": "concept MCQ",
+   "stem": "On January 01st, 2021, Outstanding Inc – an online fashion company – owned by 3 friends, starts its tenth year of operations. During the year, they complete the following business-related activities that need to be recorded.\n\n5. On March 1st Outstanding Inc purchases inventory for a total amount of $150.000 (they buy 5.000 shirts at a standard price of $30 each). They pay 40% on the same day through cash and issue a 12-month note payable for the remaining 60%. Select the correct recording.",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Session 1 - Accounting Refresh - TEXT.pdf",
+    "location": "Session 1 accounting-refresh handout (instructor exercise for the in-class check), question 5; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Select the correct recording.",
+     "options": [
+      "Debit Inventory for 150.000. Credit Bank for 60.000 and Note Payables for 90.000",
+      "Debit Cost of Goods Sold for 150.000. Credit Bank for 60.000 and Note Payables for 90.000",
+      "Debit Bank for 60.000 and Note Payables for 90.000. Credit Inventory for 150.000",
+      "Debit Bank for 60.000 and Note Payables for 90.000. Credit Sales Revenue for 150.000"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "A",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Answer: A (no key in the handout; solved twice).",
+    "Route 1: buying goods creates an asset (inventory), expensed as COGS only when sold; cash 40% = 60,000, note 60% = 90,000.",
+    "Route 2: debits must be the asset received; C and D reverse the entry; B expenses unsold goods."
+   ],
+   "citations": [
+    {
+     "deck": "S2",
+     "slide": "The Balance Sheet: Current Assets (optional)",
+     "quote": "Under IAS 2, inventories are measured at the lower of cost and net realisable value."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S1C"
+   ],
+   "units": [
+    "S1-U14"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30024-S1-15",
+   "course": "30024",
+   "deck": "S1",
+   "topic": "Cash collected before delivery",
+   "syllabus_objective": "Accounting refresh: unearned revenue (contract liability)",
+   "shape": "concept MCQ",
+   "stem": "On January 01st, 2021, Outstanding Inc – an online fashion company – owned by 3 friends, starts its tenth year of operations. During the year, they complete the following business-related activities that need to be recorded.\n\n6. On October 1st, Outstanding Inc signs a contract to supply 200 shirts during the period February to April 2022. The total amount for the 200 shirts is $25,000 and is all collected in advance on Oct 1st, 2021. Which of the following items must be credited in this transaction?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Session 1 - Accounting Refresh - TEXT.pdf",
+    "location": "Session 1 accounting-refresh handout (instructor exercise for the in-class check), question 6; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Which of the following items must be credited in this transaction?",
+     "options": [
+      "Credit Cash for 25.000",
+      "Credit Unearned Revenue for 25.000",
+      "Credit Sales Revenue for 25.000",
+      "Credit Other Revenue for 25.000"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "B",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Answer: B (no key in the handout; solved twice).",
+    "Route 1: cash received before the performance obligation is satisfied → Dr Cash / Cr Unearned Revenue (a liability).",
+    "Route 2: revenue is recognised when control of the goods passes (February–April 2022), so C and D are premature; cash is debited, not credited (A)."
+   ],
+   "citations": [
+    {
+     "deck": "S2",
+     "slide": "Accounting distortions: accrued and deferred revenues and expenses",
+     "quote": "Cash is received before the related revenue is earned; therefore, a liability is initially recognised."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S1C"
+   ],
+   "units": [
+    "S1-U15"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30024-S1-16",
+   "course": "30024",
+   "deck": "S1",
+   "topic": "Receivables from credit sales",
+   "syllabus_objective": "Accounting refresh: revenue on credit and accounts receivable",
+   "shape": "concept MCQ",
+   "stem": "On January 01st, 2021, Outstanding Inc – an online fashion company – owned by 3 friends, starts its tenth year of operations. During the year, they complete the following business-related activities that need to be recorded.\n\n7. Total sales – for the entire year – for Outstanding Inc are $300,000 and they sold 3,000 shirts at an average price of $100 (80% of the sale price is collected in cash at the sale date, and the remaining 20% will be collected in 2022). On the 31st of December, which would be the total amount of Accounts Receivable?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Session 1 - Accounting Refresh - TEXT.pdf",
+    "location": "Session 1 accounting-refresh handout (instructor exercise for the in-class check), question 7; text checked word for word against the PDF text layer on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "On the 31st of December, which would be the total amount of Accounts Receivable?",
+     "options": [
+      "30.000",
+      "300.000",
+      "60.000",
+      "90.000"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Answer: C (no key in the handout; solved twice).",
+    "Route 1: 20% × 300,000 = 60,000 still to be collected.",
+    "Route 2: 300,000 − cash collected 240,000 = 60,000."
+   ],
+   "citations": [
+    {
+     "deck": "S2",
+     "slide": "Accounting distortions: accrued and deferred revenues and expenses",
+     "quote": "The company has earned revenue but the cash will be received in the next period."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S1C"
+   ],
+   "units": [
+    "S1-U16"
+   ],
+   "est_minutes": 1,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30024-S2-10",
+   "course": "30024",
+   "deck": "S2",
+   "topic": "US GAAP and IFRS",
+   "syllabus_objective": "Accounting standards: purpose, convergence, IFRS vs US GAAP",
+   "shape": "concept MCQ",
+   "stem": "MC4. Which of the following statements about the differences between US GAAP and IFRS is true?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "location": "30024 mock exam 2023 (Studocu copy), Part A, MC4; text checked word for word against the PDF text layer on 2026-09-24; the uploader's page notes in the Studocu copy (e.g. 'PAG 7', 'FEBRUARY 2') are left out",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "MC4. Which of the following statements about the differences between US GAAP and IFRS is true?",
+     "options": [
+      "US GAAP are principle based, while IFRS are rule based",
+      "US GAAP prohibit LIFO, while IFRS do not",
+      "US GAAP are used only in North America, while IFRS in more than 166 countries (as of 2020)",
+      "IFRS require a higher level of professional judgement than US GAAP"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Answer: D (no key in the source; solved twice).",
+    "Route 1: A is reversed (IFRS are principles-based, US GAAP rules-based); B is reversed (IFRS prohibit LIFO, per the Session 2 slide; US GAAP allow it); C is false (US GAAP is not used 'only' in North America as a matter of rule and is the standard for SEC filers worldwide).",
+    "Route 2: principles-based standards leave more to the preparer, so IFRS need more professional judgement — D."
+   ],
+   "citations": [
+    {
+     "deck": "S2",
+     "slide": "Reasons for accounting standards’ alignment",
+     "quote": "The two most commonly used accounting standards all over the world are US GAAP and IFRS."
+    },
+    {
+     "deck": "S2",
+     "slide": "The Balance Sheet: Current Assets (optional)",
+     "quote": "FIFO and weighted-average cost are permitted; LIFO is prohibited under IFRS Accounting Standards."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S2A"
+   ],
+   "units": [
+    "S2-U5",
+    "S2-U12"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30024-S2-11",
+   "course": "30024",
+   "deck": "S2",
+   "topic": "What must be disclosed",
+   "syllabus_objective": "The role of financial information: cost constraint, materiality, relevance",
+   "shape": "concept MCQ",
+   "stem": "MC6. Which of the following statements about disclosure is false?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "location": "30024 mock exam 2023 (Studocu copy), Part A, MC6; text checked word for word against the PDF text layer on 2026-09-24; the uploader's page notes in the Studocu copy (e.g. 'PAG 7', 'FEBRUARY 2') are left out",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "MC6. Which of the following statements about disclosure is false?",
+     "options": [
+      "A firm must disclose all information that is material, even if the costs of providing such information are higher than the benefits",
+      "One benefit of voluntary disclosure is the possible decrease of cost of capital",
+      "The Management, Discussion & Analysis is a “narrative form” of financial statements",
+      "If the information is old, its relevance is lost"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "A",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Answer: A (no key in the source; solved twice).",
+    "Route 1: the Session 2 slide calls cost 'a pervasive constraint': benefits should justify the costs, so 'even if the costs are higher than the benefits' is false.",
+    "Route 2: B matches the slide on comparability/transparency lowering the cost of capital; C and D describe the MD&A and timeliness, both standard."
+   ],
+   "citations": [
+    {
+     "deck": "S2",
+     "slide": "The role of financial information",
+     "quote": "The benefits of providing financial reporting information should justify the costs of providing and using that information."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S2A"
+   ],
+   "units": [
+    "S2-U4",
+    "S2-U5"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30024-S2-12",
+   "course": "30024",
+   "deck": "S2",
+   "topic": "Financial vs managerial accounting",
+   "syllabus_objective": "Financial vs managerial accounting",
+   "shape": "concept MCQ",
+   "stem": "MC9. Which of the following statements about the differences between financial accounting and managerial accounting is false?\n\nI. Evaluating the company and its management are primary objectives of financial accounting; running the company is a primary objective of managerial accounting\nII. Financial accounting relates to period disclosure about financial information; management accounting relates to performance reports",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "location": "30024 mock exam 2023 (Studocu copy), Part A, MC9; text checked word for word against the PDF text layer on 2026-09-24; the uploader's page notes in the Studocu copy (e.g. 'PAG 7', 'FEBRUARY 2') are left out",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "MC9. Which of the following statements about the differences between financial accounting and managerial accounting is false?\n\nI. Evaluating the company and its management are primary objectives of financial accounting; running the company is a primary objective of managerial accounting\nII. Financial accounting relates to period disclosure about financial information; management accounting relates to performance reports",
+     "options": [
+      "I",
+      "I and II",
+      "II",
+      "None of the statements is false (i.e., I, II, and III are true)"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Answer: D (no key in the source; solved twice). The option text says 'I, II, and III' although there are only two statements; kept as printed.",
+    "Route 1: the Session 2 table gives financial accounting the objective 'evaluating the company / its management' and managerial accounting 'running the company' — I is true.",
+    "Route 2: the same table: financial accounting = periodic financial statements and disclosures; managerial = budgets, cost analyses, performance reports — II is true. Nothing is false."
+   ],
+   "citations": [
+    {
+     "deck": "S2",
+     "slide": "Financial vs Managerial Accounting: a different perspective",
+     "quote": "Objectives Evaluating the company - Running the company"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S2A"
+   ],
+   "units": [
+    "S2-U3"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30024-S2-13",
+   "course": "30024",
+   "deck": "S2",
+   "topic": "Investor styles",
+   "syllabus_objective": "Users of financial information: investment styles",
+   "shape": "concept MCQ",
+   "stem": "MC13. Which of the following statements about investors’ investment principles is false?",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "location": "30024 mock exam 2023 (Studocu copy), Part A, MC13; text checked word for word against the PDF text layer on 2026-09-24; the uploader's page notes in the Studocu copy (e.g. 'PAG 7', 'FEBRUARY 2') are left out",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "MC13. Which of the following statements about investors’ investment principles is false?",
+     "options": [
+      "The intuitive investor bases his/her investment decision on his/her own intuition.",
+      "The intuitive investor bases his/her investment decision on his/her own gut feeling.",
+      "The passive investor typically holds a diversified portfolio.",
+      "Intuitive investors are largely long term oriented"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "D",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 1,
+   "mark_scheme": [
+    "Answer: D (no key in the source; solved twice).",
+    "Route 1: the slide's table: intuitive investor = own intuition, gut feeling (A, B true); passive investor holds a diversified portfolio (C true).",
+    "Route 2: nothing on the slide ties intuitive investors to a long-term horizon; the long-term, value-driven style is the fundamental investor's. D is the false one."
+   ],
+   "citations": [
+    {
+     "deck": "S2",
+     "slide": "Users of financial information: investment style",
+     "quote": "Investment decision based on gut feeling. Simple approach."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S2B"
+   ],
+   "units": [
+    "S2-U7"
+   ],
+   "est_minutes": 2,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30024-S2-14",
+   "course": "30024",
+   "deck": "S2",
+   "topic": "Covid-19 and the profitability of three listed companies",
+   "syllabus_objective": "Why financial statement analysis matters: the pandemic's effect on Italian listed companies (ROE, ROA, industries)",
+   "shape": "quantitative open essay (written parts)",
+   "stem": "Below you find selected financial information for the 2019 and 2020 Financial Statements for three Italian public companies.\n\nYour objective is to evaluate the impact of Covid-19 on their profitability, answering to the following questions Please round your values at the second decimal (e.g., 8,45% or 1,23)",
+   "data": "| FS 2019 (EUR thousand) | A | B | C |\n|---|---|---|---|\n| Revenues | 5.599 | 1.025 | 72 |\n| EBITDA | 826 | 255 | 54 |\n| EBIT | 203 | 101 | 30 |\n| Net income | 226 | 45 | 21 |\n| Total Equity | 936 | 1.081 | 161 |\n| Total Assets | 5.291 | 2.005 | 881 |\n\n| FS 2020 (EUR thousand) | A | B | C |\n|---|---|---|---|\n| Revenues | 2.348 | 847 | 109 |\n| EBITDA | 159 | 80 | 81 |\n| EBIT | -512 | 36 | 39 |\n| Net income | -504 | -73 | 32 |\n| Total Equity | 731 | 1.007 | 207 |\n| Total Assets | 4.108 | 2.065 | 944 |",
+   "difficulty": "exam",
+   "source": {
+    "type": "adapted",
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "location": "30024 mock exam 2023 (Studocu copy), Part A, Open Essay (Quantitative), 10 points; text checked word for word against the PDF text layer on 2026-09-24; the four company descriptions are split across the text layer and were put back in one list",
+    "label": "SUPPORTING",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null,
+    "check": "(1) The four descriptions are split across the Studocu text layer; the order was restored as a single list. (2) The mock does not define ROA; the key uses net income / total assets. If your class uses EBIT / total assets, the ROA figures change."
+   },
+   "subquestions": [
+    {
+     "n": "A",
+     "prompt": "(4p.) Calculate ROE and ROA for the three companies and complete the tables below: (2019 and 2020: ROE, ROA for A, B, C)",
+     "options": [],
+     "marks": 4
+    },
+    {
+     "n": "B",
+     "prompt": "(2p.) Calculate the percentage change in ROA from 2019 to 2020.",
+     "options": [],
+     "marks": 2
+    },
+    {
+     "n": "C",
+     "prompt": "(2p.) Are below you find a brief description of 4 companies, 3 of which are related to the companies above.\n\n- A company specialized in electricity production from renewable sources, particularly in the wind power and solar sector, recently founded\n- An Italian retailer operating in the luxury fashion industry\n- The Italian leading provider of food & beverage services for travelers\n- The Italian market leader in the automatic data capture\n\nBased on the above information (we know it is an incomplete information set) and your inference on the expected impact of Covid-19, assign each company to one of the following industries. Complete the table below as follows:\n- 1 for “Fashion and Luxury” - 2 for “Transportations” - 3 for “Technology” - 4 for “Renewable Energy”.",
+     "options": [],
+     "marks": 2
+    },
+    {
+     "n": "D",
+     "prompt": "(2p.) Justify your answer",
+     "options": [],
+     "marks": 2
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "A",
+     "answer": "2019 — ROE: A 24.15%, B 4.16%, C 13.04%; ROA: A 4.27%, B 2.24%, C 2.38%. 2020 — ROE: A -68.95%, B -7.25%, C 15.46%; ROA: A -12.27%, B -3.54%, C 3.39%.",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "B",
+     "answer": "%ΔROA: A -387.23%, B -257.51%, C 42.21% (computed on unrounded ROAs).",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "C",
+     "answer": "A = 2 (Transportations: food & beverage for travelers), B = 1 (Fashion and Luxury), C = 4 (Renewable Energy); code 3 (Technology) is the description not used.",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "D",
+     "answer": "A: revenues fell 58.1% and EBIT turned deeply negative — travel stopped in 2020, the hardest-hit industry on the Session 2 slide. B: revenues fell 17.4% and net income turned negative, a sharp but smaller hit — luxury retail closed stores. C: revenues grew 51.4% with a 75% EBITDA margin in 2019 — a young, capital-heavy renewable producer (large assets relative to revenues), unaffected by lockdowns. Technology would also be resilient, but a market leader in data capture would not have revenues of 72 against assets of 881 and a 75% EBITDA margin.",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 10,
+   "mark_scheme": [
+    "No key in the source; solved twice. ROE = net income / total equity; ROA = net income / total assets (end-of-year figures, the only ones given).",
+    "Second route for A: ROA = ROE × equity/assets (asserted for all six pairs in build_banks).",
+    "%ΔROA = (ROA2020 − ROA2019) / ROA2019; with rounded ROAs the second decimal can differ slightly.",
+    "ROA definition: this key uses net income over total assets, consistent with the DuPont chain (ROE = ROA × assets/equity) in the same exam's Part B. Some courses use EBIT over total assets; say which one you use.",
+    "Industry: the Session 2 slide shows transport and fashion with the sharpest falls in revenues and EBITDA, and technology/medical as resilient."
+   ],
+   "citations": [
+    {
+     "deck": "S2",
+     "slide": "Is Accounting interesting?",
+     "quote": "what has been the impact of Covid-19 on Italian listed companies?"
+    },
+    {
+     "deck": "S2",
+     "slide": "Pandemic’s Effect by Industry",
+     "quote": "technology and medical companies proved more resilient, while transportation and fashion suffered sharp declines."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S2A"
+   ],
+   "units": [
+    "S2-U1"
+   ],
+   "est_minutes": 20,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30024-S34-10",
+   "course": "30024",
+   "deck": "S34",
+   "topic": "Operating vs financial liabilities and why leverage must be split",
+   "syllabus_objective": "Reclassification: operating vs financial items; the Net Financial Position",
+   "shape": "qualitative open essay (written)",
+   "stem": "Open Essay 2 (11 points) Explain the difference between financial and operating liabilities, providing examples for both types. Then, discuss the importance of disentangling the overall leverage in operating and financial with reference to the Nissim and Penman (2003) paper. (max 250 words)",
+   "difficulty": "exam",
+   "source": {
+    "type": "real",
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "location": "30024 mock exam 2023 (Studocu copy), Part B (non-attending students), Open Essay 2, 11 points; text checked word for word against the PDF text layer on 2026-09-24; the uploader's page notes in the Studocu copy (e.g. 'PAG 7', 'FEBRUARY 2') are left out",
+    "label": "SUPPORTING",
+    "verbatim_verified": true,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null,
+    "check": "The Nissim and Penman (2003) part relies on the paper (Blackboard reading), which is not in the folder; the summary in the key is from the paper's well-known findings. This is a Part B (non-attending) essay."
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Answer in at most 250 words.",
+     "options": [],
+     "marks": 11
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "Financial liabilities are interest-bearing obligations that finance the firm: short-term and long-term bank debt, bonds, the current portion of long-term debt, lease liabilities; they enter the Net Financial Position. Operating liabilities arise from day-to-day operations and carry no explicit interest: trade payables, accrued operating expenses, customer prepayments (contract liabilities); they reduce Operating NWC and so Net Invested Capital. Borderline items are classified by substance (a security deposit received is financing; a customer deposit in current liabilities is operating; income tax payable and pensions stay outside both). Nissim and Penman (2003): total leverage mixes two things with different effects. Financing leverage raises ROE when the return on net operating assets exceeds the net borrowing cost; operating-liability leverage (credit from suppliers, customers, employees) is typically cheaper because its cost is implicit in prices, so it levers operating profitability more favourably and is priced differently (price-to-book). Lumping them together misstates both profitability and risk, so the analyst must split them before computing returns.",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 11,
+   "mark_scheme": [
+    "Model answer (no key in the source; built from the Sessions 3-4 slides and the paper).",
+    "Points: (1) definition of each type with examples; (2) where each goes in the reclassified balance sheet (NFP vs ONWC/NIC); (3) borderline items by substance; (4) Nissim-Penman: ROE decomposes into operating profitability plus a financing-leverage effect; operating-liability leverage has its own effect; (5) the two have different costs and valuation implications, so aggregate leverage misleads."
+   ],
+   "citations": [
+    {
+     "deck": "S34",
+     "slide": "Focus on the ONWC",
+     "quote": "trade payables, contract liabilities and accrued operating expenses on the liability side."
+    },
+    {
+     "deck": "S34",
+     "slide": "Focus on the NFP",
+     "quote": "NFP = (short-term debt + current portion long-term debt + long-term debt + lease liabilities)"
+    },
+    {
+     "deck": "S34",
+     "slide": "Focus on the ONWC: borderline cases",
+     "quote": "if it is a financing deposit (security deposit) consider excluding."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S34A"
+   ],
+   "units": [
+    "S34-U4",
+    "S34-U6"
+   ],
+   "est_minutes": 20,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30024-S2-15",
+   "course": "30024",
+   "deck": "S2",
+   "topic": "From EBITDA to the change in net debt and in cash",
+   "syllabus_objective": "Cash flow statement: operating, investing and financing flows; reconciliation of cash and of the Net Financial Position",
+   "shape": "quantitative open essay (written parts)",
+   "stem": "Based on the information below, compute the period's cash-flow dynamics, showing the change in liquidity.",
+   "data": "| Balance sheet | Year t-1 | Year t |\n|---|---|---|\n| Current assets | 3.700 | 2.500 |\n| Non-current operating assets (ACI) | 32.000 | 24.200 |\n| Operating assets (current + ACI) | 35.700 | 26.700 |\n| Non-operating (accessory) assets | 4.500 | 4.000 |\n| Total assets | 40.200 | 30.700 |\n| Current liabilities | 1.200 | 1.470 |\n| Net financial position (NFP) | 23.800 | 7.620 |\n|   of which liquidity (cash, shown negative) | -1.200 | -2.980 |\n|   of which bonds | 25.000 | 10.600 |\n| Book value of equity | 15.200 | 21.610 |\n| Total liabilities and equity | 40.200 | 30.700 |\n\n| Income statement | Year t |\n|---|---|\n| EBITDA | 10.100 |\n| Depreciation | -5.100 |\n| Gain on disposal of non-current operating assets | 230 |\n| Net financial charges | -2.410 |\n| EBT | 2.820 |\n| Taxes for the year (t = 30%) | -846 |\n| Net income | 1.974 |",
+   "difficulty": "exam",
+   "source": {
+    "type": "adapted",
+    "file": "Exam Material/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+    "location": "30024 'Prova generale' of 30 May 2017 with official solutions (Studocu copy), Esercizio 4 (2 points); translated from Italian by Claude on 2026-09-24",
+    "label": "SUPPORTING",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null,
+    "check": "Translated from Italian (the 2017 paper is in Italian; the 2026-27 exam is in English). Labels: CCN = working capital, ACI = non-current operating assets, SA = accessory (non-operating) assets, PFN = NFP. Numbers and the official answer unchanged."
+   },
+   "subquestions": [
+    {
+     "n": "a",
+     "prompt": "Compute the free cash flow (FCF) from operations.",
+     "options": [],
+     "marks": 1
+    },
+    {
+     "n": "b",
+     "prompt": "Compute the total cash flow and the change in the Net Financial Position.",
+     "options": [],
+     "marks": 0.5
+    },
+    {
+     "n": "c",
+     "prompt": "Compute the change in liquidity.",
+     "options": [],
+     "marks": 0.5
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "a",
+     "answer": "FCF = 13654: EBITDA 10.100 + release of working capital 1.470 − taxes 846 = 10.724; + net disposals 2.930 (book value sold 2.700 + gain 230).",
+     "answer_status": "official"
+    },
+    {
+     "n": "b",
+     "answer": "Cash flow 16180 = FCF 13.654 + accessory assets 500 − net financial charges 2.410 − dividends 0 + capital increase 4.436; ΔNFP = −16.180.",
+     "answer_status": "official"
+    },
+    {
+     "n": "c",
+     "answer": "Δ liquidity = +1780: 16.180 − bond repayment 14.400.",
+     "answer_status": "official"
+    }
+   ],
+   "error_tags": [],
+   "marks": 2.0,
+   "mark_scheme": [
+    "Official solution (printed in the source). Working capital: (3.700 − 1.200) − (2.500 − 1.470) = 1.470 released. Taxes: the year's tax charge (no tax payable shown). Non-current assets: 32.000 − 5.100 depreciation − 24.200 = 2.700 of book value sold, plus the gain of 230 = 2.930 of proceeds. Capital increase: 21.610 − 15.200 − 1.974 = 4.436.",
+    "Second route: ΔNFP = 7.620 − 23.800 = −16.180 and Δ liquidity = 2.980 − 1.200 = +1.780, both from the balance sheets (asserted in build_banks).",
+    "Where marks are lost: treating the gain as cash from operations and again in disposals, forgetting the accessory assets' 500, missing the capital increase."
+   ],
+   "citations": [
+    {
+     "deck": "S2",
+     "slide": "The Cash Flow Statement: Reconciliation of Cash",
+     "quote": "If the CFI (typically negative) exceeds the CFO, the deficit can be covered by either borrowing (through CFF) or using existing cash at hand"
+    },
+    {
+     "deck": "S2",
+     "slide": "Statement of shareholders’ equity",
+     "quote": "Ending equity = Beginning equity + Profit or loss + Other comprehensive income + Owner contributions − Distributions to owners"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S2C"
+   ],
+   "units": [
+    "S2-U17",
+    "S2-U18",
+    "S2-U16"
+   ],
+   "est_minutes": 10,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null
+  },
+  {
+   "id": "30024-S1-02",
+   "course": "30024",
+   "deck": "S1",
+   "topic": "Why accounting matters: the three tools, price vs value, incentives",
+   "syllabus_objective": "Role of accounting in decisions; FSA, accounting quality and valuation; price vs value",
+   "shape": "concept MCQ (statements)",
+   "stem": "Session 1: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/30024 - AM - Session 1 - Intro.pdf",
+    "location": "Session 1 slides: mission, the three tools, Armani, Prada–Versace, conclusion",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about the Session 1 framework and cases.\n\nI. The course frames three complementary tools: financial statement analysis (what the numbers reveal), measurement of accounting quality (can they be trusted) and valuation (expected future performance).\nII. Applying the sector's average EV/EBITDA of 11.1x to Armani's 2024 EBITDA of €398m gives about €4.4bn, inside the €3.7–6.2bn range the slide obtains from sector multiples.\nIII. Prada paid an enterprise value of €1.25bn for Versace, so Versace's investment value to Prada is €1.25bn.\nIV. The lecture concludes that financial statements speak for themselves once accounting standards are applied correctly.\nV. Accounting may create incentives for opportunistic reporting, which is why it requires effective controls, governance and professional judgement.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II, III and V only",
+      "I, II and V only",
+      "I and V only",
+      "I, II, IV and V only"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "B",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "price_taken_as_value",
+     "trap": "1:A price taken as value"
+    },
+    {
+     "tag": "multiple_applied_to_ebit",
+     "trap": "1:C multiple applied to ebit"
+    },
+    {
+     "tag": "statements_speak_for_themselves",
+     "trap": "1:D statements speak for themselves"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) I true (slide 'From financial information to investment decisions'); (2) II: 398 × 11.1 = 4,417.8 ≈ €4.4bn; median 9.7x gives 3,860.6 — both inside €3.7–6.2bn, true; (3) III false: 'The transaction price tells us what Prada paid, not whether Prada made a good investment' (price is a fact, value an expectation); (4) IV false: 'Financial statements do not speak for themselves'; (5) V true ('May create incentives for opportunistic reporting'); (6) I, II and V.",
+    "Second route: III and IV each quote a slide fact and draw the conclusion the slide rejects."
+   ],
+   "citations": [
+    {
+     "deck": "S1",
+     "slide": "From financial information to investment decisions",
+     "quote": "Measurement of accounting quality: can the information be trusted?"
+    },
+    {
+     "deck": "S1",
+     "slide": "Versace: price does not necessarily equal value",
+     "quote": "The transaction price tells us what Prada paid, not whether Prada made a good investment."
+    },
+    {
+     "deck": "S1",
+     "slide": "A CONCLUSION",
+     "quote": "Financial statements do not speak for themselves."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S1A"
+   ],
+   "est_minutes": 3,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "extra_step"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "S1-U1",
+    "S1-U2",
+    "S1-U7",
+    "S1-U8"
+   ]
+  },
+  {
+   "id": "30024-S1-03",
+   "course": "30024",
+   "deck": "S1",
+   "topic": "Controls, impairment and the CFO: what the cases teach",
+   "syllabus_objective": "Material misstatement vs material weakness; adverse ICFR opinion; delayed impairment; role of the CFO",
+   "shape": "concept MCQ (statements)",
+   "stem": "Session 1 cases: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/30024 - AM - Session 1 - Intro.pdf",
+    "location": "Session 1 slides: Apple, GE, Carillion, Credit Suisse, Macy's",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about the Session 1 cases.\n\nI. Credit Suisse: PwC found that the financial statements were presented fairly in all material respects, yet issued an adverse opinion on internal control over financial reporting.\nII. A material weakness in internal control means that a material misstatement has already occurred in the financial statements.\nIII. Macy's: the falsified accruals understated about $151m of delivery expenses, immaterial in every period, but the control failure itself was material.\nIV. Apple: the lecture uses Luca Maestri's transition to show that the CFO's role reaches strategy, resource allocation and the link with shareholders, beyond preparing the statements.\nV. Carillion impaired Eaga's goodwill steadily during Eaga's five consecutive loss-making years, so the 2017 collapse was not an accounting surprise.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II, III and IV only",
+      "III and IV only",
+      "I, III and IV only",
+      "I, III, IV and V only"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "weakness_read_as_misstatement",
+     "trap": "1:A weakness read as misstatement"
+    },
+    {
+     "tag": "adverse_opinion_on_statements",
+     "trap": "1:B adverse opinion on statements"
+    },
+    {
+     "tag": "carillion_impaired",
+     "trap": "1:D carillion impaired"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) I true: two different conclusions — fair statements, adverse ICFR opinion; (2) II false: 'A material weakness does not necessarily mean that a material misstatement has already occurred'; (3) III true (Macy's: immaterial errors, material control failure); (4) IV true (Apple: CFO as a strategic business partner); (5) V false: Carillion recognised no goodwill impairment in the five years before 2017; (6) I, III and IV.",
+    "Second route: separate what the auditor opines on (statements vs controls) from what happened (misstatement vs weakness); the trap options each merge the two."
+   ],
+   "citations": [
+    {
+     "deck": "S1",
+     "slide": "The Credit Suisse Case: an adverse opinion on internal controls",
+     "quote": "Internal control over financial reporting: PwC issued an adverse opinion, because the controls were not effective."
+    },
+    {
+     "deck": "S1",
+     "slide": "The SEC review on the effectiveness of Credit Suisse’s reporting controls (2/2)",
+     "quote": "A material weakness does not necessarily mean that a material misstatement has already occurred."
+    },
+    {
+     "deck": "S1",
+     "slide": "Another accounting scandal: when Carillion’s aggressive accounting concealed a failing business",
+     "quote": "Carillion recognized no goodwill impairment in the five years before 2017"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S1B"
+   ],
+   "est_minutes": 3,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "extra_classification"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "S1-U4",
+    "S1-U5",
+    "S1-U6"
+   ]
+  },
+  {
+   "id": "30024-S1-04",
+   "course": "30024",
+   "deck": "S1",
+   "topic": "Share issue in kind, a disposal and three period-end accruals",
+   "syllabus_objective": "Accounting refresh: share issue, disposals, pre-paid expenses, unearned revenue, accrued interest",
+   "shape": "quantitative open essay (written parts)",
+   "stem": "Northwind Ltd has 4,000 shares of €10 par, €60,000 of paid-in capital and €30,000 of retained earnings at 1 January 2021. Its financial year is the calendar year.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Session 1 - Accounting Refresh - TEXT.pdf",
+    "location": "Session 1 accounting-refresh handout (questions 1-7), harder version; rules from the Session 2 slides",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "a",
+     "prompt": "Northwind issues new shares so that the new investor holds 20% of the voting rights after the issue, for a total consideration of €70,000: €25,000 in cash and a warehouse valued at €45,000. Compute the number of new shares, the credits to Common Stock and to Paid-in Capital, the debits, and total equity after the issue.",
+     "options": [],
+     "marks": 2.5
+    },
+    {
+     "n": "b",
+     "prompt": "During 2021 Northwind also: (1) sells a shop on 1 January for €150,000 cash (gross value €300,000, accumulated depreciation €140,000); (2) pays €24,000 on 1 October for 12 months of office rent; (3) collects €18,000 on 1 November for goods to be delivered in February 2022; (4) issues a €100,000 bond at par on 1 July at 6%, interest paid each 1 July. Compute the effect of these four items on 2021 profit before tax, and the 31 December balances of pre-paid rent, unearned revenue and interest payable.",
+     "options": [],
+     "marks": 2.5
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "a",
+     "answer": "1000 new shares; Common Stock +10000; Paid-in Capital +60000; Dr Cash 25,000 and Dr Building 45,000; equity 200000.",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "b",
+     "answer": "Loss on sale -10000; rent expense -6000; interest expense -3000; effect on profit -19000. Pre-paid rent 18000; unearned revenue 18000; interest payable 3000.",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "twenty_percent_of_old_shares",
+     "trap": "a: 800 new shares (20% of the old 4,000)"
+    },
+    {
+     "tag": "whole_consideration_to_common_stock",
+     "trap": "a: €70,000 credited to Common Stock"
+    },
+    {
+     "tag": "warehouse_as_revenue",
+     "trap": "a: the warehouse recorded as income"
+    },
+    {
+     "tag": "disposal_as_revenue",
+     "trap": "b: €150,000 recorded as revenue"
+    },
+    {
+     "tag": "rent_fully_expensed",
+     "trap": "b: all €24,000 expensed in 2021"
+    },
+    {
+     "tag": "advance_as_revenue",
+     "trap": "b: €18,000 recognised as 2021 revenue"
+    },
+    {
+     "tag": "full_year_interest",
+     "trap": "b: a full year of interest (6,000) accrued"
+    }
+   ],
+   "marks": 5.0,
+   "mark_scheme": [
+    "[a] Steps: (1) the investor's 20% is of the shares after the issue: n/(4,000 + n) = 0.20 → n = 1,000; (2) Common Stock = 1,000 × €10 = 10,000; (3) Paid-in Capital = 70,000 − 10,000 = 60,000; (4) debits: Cash 25,000 and Building 45,000 (the warehouse is an asset contributed by an owner, not income); (5) equity = 40,000 + 60,000 + 30,000 + 70,000 = 200,000.",
+    "[b] Steps: (1) net book value 300,000 − 140,000 = 160,000 → loss 10,000; (2) rent: 3 of 12 months used in 2021 → expense 6,000; (3) pre-paid rent 18,000; (4) advance for February goods: no revenue, unearned revenue 18,000; (5) interest: 100,000 × 6% × 6/12 = 3,000 expense and payable; (6) profit effect = −10,000 − 6,000 − 3,000 = −19,000.",
+    "Where marks are lost: taking 20% of the old shares, crediting the whole consideration to Common Stock, expensing all the rent, booking the advance as revenue, accruing a full year of interest.",
+    "Harder than the handout: the share count has to be worked back from the post-issue percentage, and part b chains four period-end judgements into one profit figure."
+   ],
+   "citations": [
+    {
+     "deck": "S2",
+     "slide": "Accounting distortions: accrued and deferred revenues and expenses",
+     "quote": "Cash is paid before the related expense is recognised. The payment is initially recorded as an asset"
+    },
+    {
+     "deck": "S2",
+     "slide": "Accounting distortions: accrued and deferred revenues and expenses",
+     "quote": "Cash is received before the related revenue is earned; therefore, a liability is initially recognised."
+    },
+    {
+     "deck": "S2",
+     "slide": "Statement of shareholders’ equity",
+     "quote": "Ending equity = Beginning equity + Profit or loss + Other comprehensive income + Owner contributions − Distributions to owners"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S1C"
+   ],
+   "est_minutes": 16,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "quantitative essay part",
+    "parts": [
+     {
+      "n": "a",
+      "steps": 5,
+      "concepts": 2
+     },
+     {
+      "n": "b",
+      "steps": 6,
+      "concepts": 4
+     }
+    ],
+    "notches": [
+     "working_backwards",
+     "chain",
+     "extra_classification"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "S1-U10",
+    "S1-U11",
+    "S1-U12",
+    "S1-U13",
+    "S1-U15"
+   ]
+  },
+  {
+   "id": "30024-S2-03",
+   "course": "30024",
+   "deck": "S2",
+   "topic": "Accounting information, standards and the pandemic example",
+   "syllabus_objective": "Financial vs managerial accounting; cost constraint and materiality; purpose and convergence of standards; the Covid example",
+   "shape": "concept MCQ (statements)",
+   "stem": "Session 2: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/30024 - AM - Session 2.pdf",
+    "location": "Session 2 slides: pandemic example, accounting information, financial vs managerial, role of financial information, standards",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about accounting information and standards.\n\nI. Financial accounting is highly regulated and serves external decision makers; managerial accounting is governed primarily by internal policies and decision needs.\nII. Materiality is a second general constraint on financial reporting, alongside cost.\nIII. On the Session 2 slide, the sample's median ROA fell from 4.80% in 2019 to 2.84% in 2020, a relative fall of about 41%.\nIV. Higher comparability from accounting standards can lower firms' cost of equity by reducing the corporate governance risk premium.\nV. One aim of the convergence between accounting standards is to decrease the costs of preparing financial statements, information risk and the cost of capital.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II, III, IV and V",
+      "III, IV and V only",
+      "I, III, IV and V only",
+      "I, IV and V only"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "materiality_as_constraint",
+     "trap": "1:A materiality as constraint"
+    },
+    {
+     "tag": "managerial_is_regulated",
+     "trap": "1:B managerial is regulated"
+    },
+    {
+     "tag": "roa_change_in_points",
+     "trap": "1:D roa change in points"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) I true (regulation and users row of the table); (2) II false: 'Materiality is not a second general constraint. It is an entity-specific aspect of relevance'; (3) III: (2.84 − 4.80)/4.80 = −40.8% ≈ −41% — true (a fall of 1.96 points is the absolute change); (4) IV true; (5) V true; (6) I, III, IV and V.",
+    "Second route: only II contradicts a slide sentence word for word; III checks by 4.80 × 0.59 = 2.83."
+   ],
+   "citations": [
+    {
+     "deck": "S2",
+     "slide": "The role of financial information",
+     "quote": "Materiality is not a second general constraint. It is an entity-specific aspect of relevance."
+    },
+    {
+     "deck": "S2",
+     "slide": "Accounting standards’ purpose",
+     "quote": "might also reduce firms’ cost of equity capital (transparency implied by comparability decreases the Corporate Governance Risk Premium)."
+    },
+    {
+     "deck": "S2",
+     "slide": "Reasons for accounting standards’ alignment",
+     "quote": "Decrease costs of preparing financial statements, information risk, and cost of capital."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S2A"
+   ],
+   "est_minutes": 3,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "extra_step"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "S2-U1",
+    "S2-U2",
+    "S2-U3",
+    "S2-U4",
+    "S2-U5"
+   ]
+  },
+  {
+   "id": "30024-S2-04",
+   "course": "30024",
+   "deck": "S2",
+   "topic": "Price, value, investor styles and market efficiency",
+   "syllabus_objective": "Fundamental analysis; investor styles; price vs value (market, investment, intrinsic); semi-strong efficiency",
+   "shape": "concept MCQ (statements)",
+   "stem": "Session 2: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/30024 - AM - Session 2.pdf",
+    "location": "Session 2 slides: FSA and fundamental analysis, investment styles, price vs value, market efficiency",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about investors, value and market efficiency.\n\nI. A fundamental investor estimates intrinsic value at €42 per share while the price is €35: the value estimate is 20% above the price, so the share is an attractive investment under the fundamental rule.\nII. Under the semi-strong form of market efficiency, prices reflect all public and private information, so no investor holds an informational advantage.\nIII. The passive investor relies on the information reflected in market prices under the efficient-market hypothesis and holds a diversified portfolio to reduce risk.\nIV. Investment value is the value of an asset to a particular owner given their objectives, whereas market value is the amount at which willing, knowledgeable participants should exchange it.\nV. Because intrinsic value is estimated with precision by fundamental analysis, a price 20% below it proves the market is inefficient.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II, III and IV only",
+      "III and IV only",
+      "I, III and IV only",
+      "I, III, IV and V only"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "C",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "semi_strong_includes_private",
+     "trap": "1:A semi strong includes private"
+    },
+    {
+     "tag": "mispricing_direction",
+     "trap": "1:B mispricing direction"
+    },
+    {
+     "tag": "estimate_taken_as_precise",
+     "trap": "1:D estimate taken as precise"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) I: 42/35 − 1 = 20%, price below value → attractive, true; (2) II false: semi-strong = publicly available information; private information may still give an advantage; (3) III true; (4) IV true (definitions on the price-vs-value slide); (5) V false: 'this does not imply precision', and markets are 'not perfectly efficient'; (6) I, III and IV.",
+    "Second route: II and V both overstate — one what prices contain, the other what an intrinsic value estimate can prove."
+   ],
+   "citations": [
+    {
+     "deck": "S2",
+     "slide": "Fundamental Investor Approach",
+     "quote": "A company is an attractive investment if the price is lower than the intrinsic value."
+    },
+    {
+     "deck": "S2",
+     "slide": "Semi-strong form of efficient markets",
+     "quote": "Market prices reflect publicly available information; investors possessing private information may nevertheless have an informational advantage."
+    },
+    {
+     "deck": "S2",
+     "slide": "Users of financial information: investment style",
+     "quote": "Relies on a fundamental analysis which strives at identifying the intrinsic value. However, this does not imply precision."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S2B"
+   ],
+   "est_minutes": 3,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "near_true_statements",
+     "extra_step"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "S2-U6",
+    "S2-U7",
+    "S2-U8",
+    "S2-U9"
+   ]
+  },
+  {
+   "id": "30024-S2-05",
+   "course": "30024",
+   "deck": "S2",
+   "topic": "Measurement rules, consolidation and the functional income statement",
+   "syllabus_objective": "Balance sheet measurement (IAS 2, impairment), consolidated statements, income statement format, accrual principle",
+   "shape": "concept MCQ (statements)",
+   "stem": "Session 2: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/30024 - AM - Session 2.pdf",
+    "location": "Session 2 slides: which statements, balance sheet formats and items, income statement format and principles",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about measurement and the statements' formats.\n\nI. Inventory that cost €120k with a net realisable value of €105k is carried at €105k under IAS 2.\nII. A machine with a carrying amount of €500k, value in use of €430k and fair value less costs of disposal of €460k is impaired by €40k.\nIII. In consolidated statements, the profit on goods a parent sold to its subsidiary that are still in the subsidiary's inventory is eliminated in full.\nIV. In the functional income statement, EBIT equals gross profit minus SG&A expenses minus depreciation and amortisation.\nV. Under accrual accounting, revenue on a sale on credit is recognised when the customer pays.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II, III and IV only",
+      "I, III and IV only",
+      "I, II and IV only",
+      "II, III and IV only"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "A",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "recoverable_amount_from_value_in_use",
+     "trap": "1:B recoverable amount from value in use"
+    },
+    {
+     "tag": "intragroup_profit_kept",
+     "trap": "1:C intragroup profit kept"
+    },
+    {
+     "tag": "inventory_at_cost",
+     "trap": "1:D inventory at cost"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) I: lower of cost and NRV = min(120, 105) = 105, true; (2) II: recoverable amount = higher of 430 and 460 = 460; impairment = 500 − 460 = 40, true (using value in use gives 70); (3) III true: intragroup transactions and income are eliminated in full; (4) IV true: gross profit − SG&A = EBITDA, − D − A = EBIT; (5) V false: revenue follows the transfer of control, not the cash; (6) I, II, III and IV.",
+    "Second route: II is the only numerical trap — the recoverable amount is the higher of the two measures."
+   ],
+   "citations": [
+    {
+     "deck": "S2",
+     "slide": "The Balance Sheet: Non - Current Assets (optional)",
+     "quote": "defined as the higher of value in use and fair value less costs of disposal."
+    },
+    {
+     "deck": "S2",
+     "slide": "Which Financial Statements?",
+     "quote": "intragroup balances, transactions, income, expenses and cash flows are eliminated in full."
+    },
+    {
+     "deck": "S2",
+     "slide": "The Income Statement: accounting principles",
+     "quote": "rather than only when cash is received or paid."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S2C"
+   ],
+   "est_minutes": 4,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 7,
+      "concepts": 4
+     }
+    ],
+    "notches": [
+     "extra_step",
+     "near_true_statements",
+     "extra_classification"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "S2-U10",
+    "S2-U11",
+    "S2-U12",
+    "S2-U14",
+    "S2-U15"
+   ]
+  },
+  {
+   "id": "30024-S2-06",
+   "course": "30024",
+   "deck": "S2",
+   "topic": "Reading accounting distortions: judgement or earnings management?",
+   "syllabus_objective": "Accounting distortions in assets, liabilities and revenue; accrual accounting vs earnings management",
+   "shape": "qualitative open essay (written parts)",
+   "stem": "Answer each part in about 120 words.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/30024 - AM - Session 2.pdf",
+    "location": "Session 2 slides: reverse accounting distortions; distortions in assets, liabilities and income",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "a",
+     "prompt": "An analyst reviewing Sigma SpA notes four things: (1) capitalised development costs have tripled while revenue is flat; (2) the allowance for doubtful receivables fell from 6% to 3% of receivables although sales to weaker customers grew; (3) a downsizing plan was approved and announced in November but no provision was booked; (4) three-year equipment leases are treated as short-term leases and kept off the balance sheet. For each, name the statement item distorted, the direction of the effect on earnings, and whether it proves earnings management.",
+     "options": [],
+     "marks": 2.5
+    },
+    {
+     "n": "b",
+     "prompt": "Sigma also sold €500k of gift cards in December (none redeemed by 31 December; ignore breakage) and on 1 July received €240k for a two-year maintenance contract starting that day. Explain how each is recognised in the year's income statement and balance sheet, and what the analyst should do if Sigma booked both as revenue on receipt.",
+     "options": [],
+     "marks": 2.5
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "a",
+     "answer": "(1) Assets (intangibles): capitalising more development spend defers expense → earnings overstated if the IAS 38 criteria are not met. (2) Assets (receivables allowance): a lower estimate understates the expense → earnings overstated. (3) Liabilities (provisions, IAS 37): an announced plan creates an obligation → expense and liability understated, earnings overstated. (4) Assets and liabilities (IFRS 16): the short-term exemption does not cover three-year leases → right-of-use asset and lease liability missing (debt understated). None of the four proves earnings management by itself: estimates and judgement are required by accrual accounting; it is earnings management only if discretion is used opportunistically — the analyst reverses the distortion and asks why.",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "b",
+     "answer": "Gift cards: a contract liability of 500; revenue 0 until redemption. Maintenance: revenue 60 (6 of 24 months) and unearned revenue 180. If both were booked as revenue on receipt, revenue is overstated by 680: the analyst moves it back to liabilities (contract liabilities are operating liabilities, not financial debt).",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 5.0,
+   "mark_scheme": [
+    "[a] Steps: (1) development costs → asset recognition (IAS 38), earnings up; (2) allowance → asset measurement, earnings up; (3) announced downsizing → existence of an obligation (IAS 37), earnings up; (4) three-year leases → IFRS 16 recognition, liability understated; (5) judgement ≠ earnings management: only opportunistic discretion is; (6) the analyst's response: reverse the distortion.",
+    "[b] Steps: (1) gift cards → contract liability until redemption; (2) maintenance → recognised over time: 240 × 6/24 = 60; (3) unearned revenue 180; (4) booking both on receipt overstates revenue by 500 + 180 = 680; (5) correction: back to contract liabilities, which are operating (ONWC), not NFP.",
+    "Where marks are lost: calling every estimate earnings management, treating the lease exemption as available, recognising the whole maintenance fee, treating contract liabilities as debt."
+   ],
+   "citations": [
+    {
+     "deck": "S2",
+     "slide": "Reverse accounting distortions",
+     "quote": "managerial discretion should not automatically be interpreted as earnings management."
+    },
+    {
+     "deck": "S2",
+     "slide": "Accounting distortions: Liabilities and equity",
+     "quote": "planned downsizing, long-term service provision with upfront payment"
+    },
+    {
+     "deck": "S2",
+     "slide": "Accounting distortions: Income Statement",
+     "quote": "When a gift card is sold, the consideration received is generally recognised as a contract liability."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S2D"
+   ],
+   "est_minutes": 16,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "qualitative essay part",
+    "parts": [
+     {
+      "n": "a",
+      "steps": 6,
+      "concepts": 4
+     },
+     {
+      "n": "b",
+      "steps": 5,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "extra_classification",
+     "chain",
+     "near_true_statements"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "S2-U20",
+    "S2-U21",
+    "S2-U22",
+    "S2-U23"
+   ]
+  },
+  {
+   "id": "30024-S34-03",
+   "course": "30024",
+   "deck": "S34",
+   "topic": "Classify by substance: borderline items and a mixed-purpose building",
+   "syllabus_objective": "Management account method: operating vs financial vs non-operating items, borderline cases, consistency with ROIC",
+   "shape": "qualitative open essay (written parts)",
+   "stem": "Answer each part in about 120 words.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/30024 - AM - Session 3 - 4 Reclassification.pdf",
+    "location": "Lectures 3-4 slides: management account method, when it becomes difficult, NFP and ONWC items, borderline cases",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "a",
+     "prompt": "Classify each item of Lambda SpA as part of Operating NWC, the Net Financial Position, non-current operating assets, or outside NIC and NFP, and justify each in one line: (1) a €2m deposit received from a tenant renting part of a warehouse; (2) €3m of customer prepayments for orders to ship next month; (3) a €1.5m loan to a sister company; (4) a €0.8m warranty provision for products sold this year, expected to be used within twelve months; (5) €1.2m of income tax payable; (6) €6m of lease liabilities on stores.",
+     "options": [],
+     "marks": 2.5
+    },
+    {
+     "n": "b",
+     "prompt": "Half of Lambda's head-office building is used by its own staff and half is leased to a third party. Explain how the analyst treats it in NIC, what information that needs, why the rent earned must not stay in the EBIT used for ROIC, and why reclassification does not change reported profit.",
+     "options": [],
+     "marks": 2.5
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "a",
+     "answer": "(1) NFP (financing deposit, a security deposit — excluded from ONWC). (2) ONWC (operating: a customer deposit in current liabilities from the operating cycle). (3) NFP as a financial asset (short-term financial receivable from a related party — excluded from ONWC). (4) ONWC (short-term and directly related to sales). (5) Outside both (income taxes are modelled separately; not trade-related). (6) NFP (lease liabilities are financial debt).",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "b",
+     "answer": "Split by substance: the half used in operations is a non-current operating asset in NIC; the leased half is a non-operating asset excluded from NIC (it is held for investment return). The split needs the notes (floor area, carrying amounts) and analytical judgement — there is no prescribed IFRS/US GAAP format. Consistency: NIC is compared only with operating earnings (EBIT or NOPAT), so the rent from the excluded half comes out of EBIT; otherwise the ratio mixes a non-operating return into an operating base. Reclassification reorganises items into analytical categories; it does not modify the underlying accounting information, so reported profit and total equity do not change.",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [],
+   "marks": 5.0,
+   "mark_scheme": [
+    "[a] Steps: six classifications, each tied to a slide rule: (1) security deposit → financing; (2) customer deposit → operating; (3) related-party loan → financial; (4) short-term, sales-related warranty → ONWC; (5) income tax payable → outside NWC; (6) lease liabilities → NFP.",
+    "[b] Steps: (1) split the building by use; (2) operating half in NIC, leased half non-operating and excluded; (3) needs notes and judgement, no standard format; (4) remove the rent from EBIT so NOPAT and NIC match; (5) reclassification does not change reported figures.",
+    "Where marks are lost: following the balance-sheet caption instead of substance (deposits, loans), putting tax payable in ONWC, leaving leases out of NFP, keeping non-operating rent in EBIT."
+   ],
+   "citations": [
+    {
+     "deck": "S34",
+     "slide": "Focus on the ONWC: borderline cases",
+     "quote": "if it is a financing deposit (security deposit) consider excluding."
+    },
+    {
+     "deck": "S34",
+     "slide": "Some items require attention",
+     "quote": "In practice, many balance sheets contain mixed-purpose assets. An accurate reclassification requires: analytical judgment; access to notes disclosures."
+    },
+    {
+     "deck": "S34",
+     "slide": "Reclassification of the Balance Sheet: an Introduction",
+     "quote": "Reclassification does not modify the underlying accounting information"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S34A"
+   ],
+   "est_minutes": 16,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "qualitative essay part",
+    "parts": [
+     {
+      "n": "a",
+      "steps": 6,
+      "concepts": 3
+     },
+     {
+      "n": "b",
+      "steps": 5,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "extra_classification",
+     "near_true_statements"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "S34-U1",
+    "S34-U4",
+    "S34-U5",
+    "S34-U6"
+   ]
+  },
+  {
+   "id": "30024-S34-04",
+   "course": "30024",
+   "deck": "S34",
+   "topic": "Financial NWC, treasury margin and Operating NWC from one balance sheet",
+   "syllabus_objective": "Liquidity-based balance sheet: Financial NWC, treasury margin; contrast with Operating NWC",
+   "shape": "concept MCQ (statements)",
+   "stem": "Omega SpA: liquidity view.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/30024 - AM - Session 3 - 4 Reclassification.pdf",
+    "location": "Lectures 3-4 slides: liquidity-based balance sheet and its interpretation; ONWC items",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Omega SpA (€k). Short-term assets: cash 25, marketable securities 15, trade receivables 210, inventories 190, operating prepayments 10. Short-term liabilities: trade payables 220, short-term bank debt 80, accrued operating expenses 40, current portion of long-term debt 60, income tax payable 20. Consider the following statements.\n\nI. Financial NWC is €30k.\nII. The treasury margin is −€160k: cash, securities, receivables and prepayments do not cover short-term liabilities, so the company relies on future sales or bank credit.\nIII. Operating NWC is also €30k, because both measures take every current asset and liability.\nIV. A negative treasury margin is a milder signal than a negative Net Working Capital, because it ignores inventories.\nV. For a retailer paid at the till and paying suppliers on credit, a negative Net Working Capital can be a strategic advantage rather than distress.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II and V only",
+      "I, II, III and V only",
+      "I, II, IV and V only",
+      "II and V only"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "A",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "onwc_equals_financial_nwc",
+     "trap": "1:B onwc equals financial nwc"
+    },
+    {
+     "tag": "treasury_margin_milder",
+     "trap": "1:C treasury margin milder"
+    },
+    {
+     "tag": "financial_nwc_sign",
+     "trap": "1:D financial nwc sign"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) short-term assets = 450, short-term liabilities = 420, Financial NWC = 30; (2) treasury margin = 450 − 190 − 420 = -160; (3) ONWC = 210 + 190 + 10 − 220 − 40 = 150 (cash, securities, bank debt, current LTD and tax payable excluded) — III false; (4) IV false: a negative treasury margin is more severe; (5) V true; (6) I, II and V.",
+    "Second route: ONWC − Financial NWC = (bank 80 + current LTD 60 + tax 20) − (cash 25 + securities 15) = 120 = 150 − 30."
+   ],
+   "citations": [
+    {
+     "deck": "S34",
+     "slide": "Liquidity-based Balance Sheet",
+     "quote": "Treasury margin = short-term assets – inventories – short-term liabilities"
+    },
+    {
+     "deck": "S34",
+     "slide": "Liquidity-based Balance Sheet: how do we interpret the values?",
+     "quote": "This situation looks more severe than a negative Net Working Capital (NWC)"
+    },
+    {
+     "deck": "S34",
+     "slide": "Liquidity-based Balance Sheet",
+     "quote": "Operating NWC (used in the Management Account Method) is a narrower operational measure that excludes financial items."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S34B"
+   ],
+   "est_minutes": 4,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 6,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "extra_step",
+     "cross_section",
+     "near_true_statements"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "S34-U7",
+    "S34-U8",
+    "S34-U2"
+   ]
+  },
+  {
+   "id": "30024-S34-05",
+   "course": "30024",
+   "deck": "S34",
+   "topic": "One income statement, three reclassifications and an outsourcing decision",
+   "syllabus_objective": "Income statement reclassification: value added (by nature), cost of sales (by destination); VA ratio and outsourcing",
+   "shape": "quantitative open essay (written parts)",
+   "stem": "Kappa SpA, 2026 (€k): revenues 5,000; increase in finished goods and WIP inventory 150; internal work capitalised 50; raw-material purchases 2,100 (raw-material inventory fell by 100); services 600; rents 150; other operating expenses 50; personnel 1,100; depreciation 300. The cost accounts assign to the industrial function 60% of personnel, 70% of depreciation, 50% of services and 40% of rents; raw materials are all industrial; other operating expenses are administrative.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/30024 - AM - Session 3 - 4 Reclassification.pdf",
+    "location": "Lectures 3-4 slides: three methods, cost of sales, value added, VA ratio and outsourcing posture",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "a",
+     "prompt": "Reclassify by nature: compute the Value of Production, Value Added, the Value Added ratio, EBITDA and EBIT.",
+     "options": [],
+     "marks": 2.5
+    },
+    {
+     "n": "b",
+     "prompt": "Reclassify by destination: compute COGS, the gross margin and gross margin %, and SG&A, and show that EBIT is the same as in (a).",
+     "options": [],
+     "marks": 2.5
+    },
+    {
+     "n": "c",
+     "prompt": "Kappa outsources maintenance now done by in-house staff costing €200k, for a fee of €230k a year. Recompute Value Added, the VA ratio, EBITDA and EBIT, and say what the VA ratio change means.",
+     "options": [],
+     "marks": 2.5
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "a",
+     "answer": "VoP 5200; external costs 3000; VA 2200; VA ratio 42.31%; EBITDA 1100; EBIT 800.",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "b",
+     "answer": "COGS 3230; gross margin 1770 (35.40%); SG&A 970; EBIT 800, as in (a).",
+     "answer_status": "double-solved"
+    },
+    {
+     "n": "c",
+     "answer": "VA 1970; VA ratio 37.88%; EBITDA 1070; EBIT 770. The lower VA ratio shows less vertical integration (a shift in outsourcing posture), and EBIT falls by 30 because the fee exceeds the staff cost.",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "purchases_not_consumption",
+     "trap": "a: purchases (2,100) used instead of consumption (2,200)"
+    },
+    {
+     "tag": "revenues_as_vop",
+     "trap": "a: VA ratio over revenues"
+    },
+    {
+     "tag": "personnel_external",
+     "trap": "a: personnel deducted before VA"
+    },
+    {
+     "tag": "inventory_change_not_deducted",
+     "trap": "b: increase in finished goods not deducted from COGS"
+    },
+    {
+     "tag": "all_costs_industrial",
+     "trap": "b: all personnel and D&A put in COGS"
+    },
+    {
+     "tag": "va_unchanged",
+     "trap": "c: VA unchanged (fee treated as personnel)"
+    },
+    {
+     "tag": "ratio_read_as_efficiency",
+     "trap": "c: a lower VA ratio read as lower efficiency by itself"
+    }
+   ],
+   "marks": 7.5,
+   "mark_scheme": [
+    "[a] Steps: (1) consumption = 2,100 + 100 = 2,200; (2) VoP = 5,000 + 150 + 50 = 5,200; (3) external costs = 2,200 + 600 + 150 + 50 = 3,000; (4) VA = 2,200; (5) VA ratio = 2,200/5,200 = 42.31%; (6) EBITDA = 2,200 − 1,100 = 1,100; (7) EBIT = 800.",
+    "[b] Steps: (1) industrial costs = 2,200 + 660 + 210 + 300 + 60 = 3,430; (2) less the increase in finished goods/WIP 150 and capitalised work 50 → COGS 3,230; (3) gross margin = 1,770; (4) gross margin % = 35.40%; (5) SG&A = 440 + 90 + 300 + 90 + 50 = 970; (6) EBIT = 800, identical to (a) — reclassification does not change EBIT.",
+    "[c] Steps: (1) the fee is an external cost: VA = 2,200 − 230 = 1,970; (2) VA ratio 37.88%; (3) personnel falls to 900: EBITDA = 1,970 − 900 = 1,070; (4) EBIT = 770; (5) interpretation: less vertical integration; the decision costs 30 a year of EBIT unless it buys flexibility or quality.",
+    "Where marks are lost: using purchases instead of consumption, dividing VA by revenues, deducting personnel before VA, forgetting to take the inventory increase out of COGS."
+   ],
+   "citations": [
+    {
+     "deck": "S34",
+     "slide": "Value Added Income Statement: Definitions",
+     "quote": "Value of Production represents the total value generated by the company’s operating activity during the period"
+    },
+    {
+     "deck": "S34",
+     "slide": "A Metric of Vertical Integration",
+     "quote": "Value Added Ratio = Value Added / Value of Production"
+    },
+    {
+     "deck": "S34",
+     "slide": "The Cost of Sales Method: Gross Margin",
+     "quote": "Gross Margin % = (Net Sales Revenues − COGS) / Net Sales Revenues × 100"
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S34C"
+   ],
+   "est_minutes": 24,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "quantitative essay part",
+    "parts": [
+     {
+      "n": "a",
+      "steps": 7,
+      "concepts": 2
+     },
+     {
+      "n": "b",
+      "steps": 6,
+      "concepts": 3
+     },
+     {
+      "n": "c",
+      "steps": 5,
+      "concepts": 2
+     }
+    ],
+    "notches": [
+     "cross_section",
+     "what_if_followon",
+     "extra_classification",
+     "chain"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "S34-U9",
+    "S34-U10",
+    "S34-U11"
+   ]
+  },
+  {
+   "id": "30024-S34-06",
+   "course": "30024",
+   "deck": "S34",
+   "topic": "Contribution margin, break-even sales and what each method shows",
+   "syllabus_objective": "Contribution margin income statement; comparing cost of sales, value added and contribution margin formats",
+   "shape": "concept MCQ (statements)",
+   "stem": "Income statement reclassification: statements.",
+   "difficulty": "hard",
+   "source": {
+    "type": "generated",
+    "file": "Slides/30024 - AM - Session 3 - 4 Reclassification.pdf",
+    "location": "Lectures 3-4 slides: the three methods, cost of sales, value added, contribution margin",
+    "label": "INFERENCE",
+    "verbatim_verified": false,
+    "transcribed_from_image": false,
+    "page_snapshot_asset": null
+   },
+   "subquestions": [
+    {
+     "n": "1",
+     "prompt": "Consider the following statements about the three income-statement reclassifications.\n\nI. With sales of €2,000k, variable costs of €1,200k and fixed costs of €600k, the contribution margin of €800k covers fixed costs and leaves an EBIT of €200k.\nII. For the same company, sales of €1,500k are needed to cover fixed operating costs.\nIII. The cost of sales format reports EBITDA explicitly, because depreciation is shown on its own line.\nIV. The value added income statement classifies costs by nature and is usually prepared by external analysts, who lack the data to classify costs by destination.\nV. Because they classify costs differently, the three reclassification methods lead to different EBIT figures for the same year.\n\nWhich of the statements are correct?",
+     "options": [
+      "I, II and IV only",
+      "I, II, IV and V only",
+      "I and IV only",
+      "I, II, III and IV only"
+     ],
+     "marks": 1
+    }
+   ],
+   "answer_key": [
+    {
+     "n": "1",
+     "answer": "A",
+     "answer_status": "double-solved"
+    }
+   ],
+   "error_tags": [
+    {
+     "tag": "methods_change_ebit",
+     "trap": "1:B methods change ebit"
+    },
+    {
+     "tag": "break_even_from_sales_ratio",
+     "trap": "1:C break even from sales ratio"
+    },
+    {
+     "tag": "ebitda_in_cost_of_sales",
+     "trap": "1:D ebitda in cost of sales"
+    }
+   ],
+   "marks": 1,
+   "mark_scheme": [
+    "[1] Steps: (1) CM = 2,000 − 1,200 = 800; EBIT = 800 − 600 = 200 — I true; (2) CM ratio = 40%; sales to cover fixed costs = 600/0.40 = 1,500 — II true; (3) III false: 'EBITDA is not explicitly reported because depreciation and amortization are incorporated into the Cost of Sales calculation'; (4) IV true; (5) V false: all three methods identify the same EBIT and do not modify reported earnings; (6) I, II and IV.",
+    "Second route for II: at 1,500 of sales, variable costs = 1,500 × 0.6 = 900 and CM = 600 = fixed costs."
+   ],
+   "citations": [
+    {
+     "deck": "S34",
+     "slide": "Reclassification by Cost of Sales: some Points of Interest",
+     "quote": "EBITDA is not explicitly reported because depreciation and amortization are incorporated into the Cost of Sales calculation;"
+    },
+    {
+     "deck": "S34",
+     "slide": "The Contribution Margin Income Statement: Definitions",
+     "quote": "estimate the level of sales required to cover fixed operating costs."
+    },
+    {
+     "deck": "S34",
+     "slide": "The three Methods: an Introduction",
+     "quote": "they all ultimately identify Operating Profit (EBIT or Earnings Before Interest and Taxes)."
+    }
+   ],
+   "slides": [],
+   "slide_groups": [
+    "S34C"
+   ],
+   "est_minutes": 4,
+   "created_at": "2026-09-24T18:00:00Z",
+   "negative_marking": null,
+   "hard_check": {
+    "shape_class": "concept MCQ",
+    "parts": [
+     {
+      "n": "1",
+      "steps": 7,
+      "concepts": 3
+     }
+    ],
+    "notches": [
+     "extra_step",
+     "near_true_statements",
+     "working_backwards"
+    ],
+    "no_ambiguity": true,
+    "in_syllabus": true,
+    "reviewed_by": "Claude (step counts listed in the mark scheme)",
+    "reviewed_at": "2026-09-24T18:00:00Z"
+   },
+   "units": [
+    "S34-U9",
+    "S34-U10",
+    "S34-U11",
+    "S34-U12"
+   ]
   }
  ],
  "courses": [
@@ -621,8 +2850,8 @@
    "format_profile": [
     {
      "item": "Final written exam (attending, Part A)",
-     "value": "MCQs plus an open quantitative essay (2023 mock: 15 MCQ + 10-point ratio essay, 1 hour); 50% of the grade",
-     "label": "SUPPORTING (2023 mock via Studocu; syllabus 2026-27)",
+     "value": "A mix of open essay questions, with and without calculations, and multiple choices (syllabus 2026-27); the 2023 mock had 15 MCQs and a 10-point quantitative essay in 1 hour. 50% of the grade",
+     "label": "COURSE-AUTHORITATIVE (syllabus 2026-27, section 6) for the mix; SUPPORTING (2023 mock) for the counts",
      "settle_with": "the exam direction sheet (late November)"
     },
     {
@@ -635,15 +2864,436 @@
    "decks": {
     "S1": {
      "title": "Session 1: Introduction and cases",
-     "file": "Slides/30024 - AM - Session 1 - Intro.pdf"
+     "file": "Slides/30024 - AM - Session 1 - Intro.pdf",
+     "sections": [
+      {
+       "id": "S1A",
+       "title": "Why accounting matters: from financial information to decisions"
+      },
+      {
+       "id": "S1B",
+       "title": "The cases (Juventus, Apple, GE, Carillion, Credit Suisse, Macy's, Armani, Prada–Versace)"
+      },
+      {
+       "id": "S1C",
+       "title": "Accounting refresh (Session 1 handout)"
+      }
+     ],
+     "units": [
+      {
+       "id": "S1-U1",
+       "section": "S1A",
+       "title": "Mission: FSA, accounting quality and valuation as complementary tools",
+       "where": "slides 2–3",
+       "examinable": true
+      },
+      {
+       "id": "S1-U2",
+       "section": "S1A",
+       "title": "Accounting is everywhere: decisions, incentives, controls, judgement",
+       "where": "slide 4",
+       "examinable": true
+      },
+      {
+       "id": "S1-U3",
+       "section": "S1B",
+       "title": "Juventus–Aston Villa: connected transactions across two reporting periods",
+       "where": "Juventus slides",
+       "examinable": true
+      },
+      {
+       "id": "S1-U4",
+       "section": "S1B",
+       "title": "Apple: the CFO as a strategic business partner",
+       "where": "Apple slide",
+       "examinable": true
+      },
+      {
+       "id": "S1-U5",
+       "section": "S1B",
+       "title": "General Electric and Carillion: delayed impairment and aggressive estimates",
+       "where": "GE and Carillion slides",
+       "examinable": true
+      },
+      {
+       "id": "S1-U6",
+       "section": "S1B",
+       "title": "Credit Suisse and Macy's: material misstatement vs material weakness; adverse ICFR opinion",
+       "where": "Credit Suisse and Macy's slides",
+       "examinable": true
+      },
+      {
+       "id": "S1-U7",
+       "section": "S1B",
+       "title": "Armani and Prada–Versace: multiples, price vs value",
+       "where": "Armani and Versace slides",
+       "examinable": true
+      },
+      {
+       "id": "S1-U8",
+       "section": "S1A",
+       "title": "Conclusion: what financial statements really tell us",
+       "where": "cases summary and conclusion",
+       "examinable": true
+      },
+      {
+       "id": "S1-U9",
+       "section": "S1A",
+       "title": "Course organisation: materials, attending status, assessment",
+       "where": "last slides",
+       "examinable": false,
+       "reason": "Course administration, not examinable content."
+      },
+      {
+       "id": "S1-U10",
+       "section": "S1C",
+       "title": "Share issue: par value, paid-in capital, contribution in kind",
+       "where": "handout Q1",
+       "examinable": true
+      },
+      {
+       "id": "S1-U11",
+       "section": "S1C",
+       "title": "Bond issue and accrued interest",
+       "where": "handout Q2",
+       "examinable": true
+      },
+      {
+       "id": "S1-U12",
+       "section": "S1C",
+       "title": "Rent paid in advance (pre-paid expense)",
+       "where": "handout Q3",
+       "examinable": true
+      },
+      {
+       "id": "S1-U13",
+       "section": "S1C",
+       "title": "Disposal of a non-current asset: gain or loss",
+       "where": "handout Q4",
+       "examinable": true
+      },
+      {
+       "id": "S1-U14",
+       "section": "S1C",
+       "title": "Inventory purchase with a note payable",
+       "where": "handout Q5",
+       "examinable": true
+      },
+      {
+       "id": "S1-U15",
+       "section": "S1C",
+       "title": "Cash collected in advance (unearned revenue)",
+       "where": "handout Q6",
+       "examinable": true
+      },
+      {
+       "id": "S1-U16",
+       "section": "S1C",
+       "title": "Credit sales and accounts receivable",
+       "where": "handout Q7",
+       "examinable": true
+      }
+     ],
+     "reading": [
+      "Session 1 - Accounting Refresh - TEXT.pdf"
+     ]
     },
     "S2": {
      "title": "Session 2: Accounting basics and financial statements",
-     "file": "Slides/30024 - AM - Session 2.pdf"
+     "file": "Slides/30024 - AM - Session 2.pdf",
+     "sections": [
+      {
+       "id": "S2A",
+       "title": "Accounting information, users and standards (with the Covid example)"
+      },
+      {
+       "id": "S2B",
+       "title": "Financial statement analysis, investors, price and value, market efficiency"
+      },
+      {
+       "id": "S2C",
+       "title": "The financial statements and how they connect"
+      },
+      {
+       "id": "S2D",
+       "title": "Accounting distortions"
+      }
+     ],
+     "units": [
+      {
+       "id": "S2-U1",
+       "section": "S2A",
+       "title": "The pandemic's effect on Italian listed companies (ROA, ROE, industries)",
+       "where": "slides 2–5",
+       "examinable": true
+      },
+      {
+       "id": "S2-U2",
+       "section": "S2A",
+       "title": "Accounting as valuable information: benefits of accounting quality",
+       "where": "slide 8",
+       "examinable": true
+      },
+      {
+       "id": "S2-U3",
+       "section": "S2A",
+       "title": "Financial vs managerial accounting",
+       "where": "slide 9",
+       "examinable": true
+      },
+      {
+       "id": "S2-U4",
+       "section": "S2A",
+       "title": "Purpose of financial statements, users, cost constraint and materiality",
+       "where": "slides 10–13",
+       "examinable": true
+      },
+      {
+       "id": "S2-U5",
+       "section": "S2A",
+       "title": "Accounting standards: purpose, convergence, IFRS and US GAAP",
+       "where": "slides 14–15",
+       "examinable": true
+      },
+      {
+       "id": "S2-U6",
+       "section": "S2B",
+       "title": "What FSA enables; fundamental analysis",
+       "where": "slide 16",
+       "examinable": true
+      },
+      {
+       "id": "S2-U7",
+       "section": "S2B",
+       "title": "Investment styles: intuitive, passive, fundamental",
+       "where": "slide 17",
+       "examinable": true
+      },
+      {
+       "id": "S2-U8",
+       "section": "S2B",
+       "title": "Price vs value (market, investment, intrinsic) and mispricing",
+       "where": "slides 18–19",
+       "examinable": true
+      },
+      {
+       "id": "S2-U9",
+       "section": "S2B",
+       "title": "Efficient markets, the semi-strong form and reporting",
+       "where": "slides 20–23",
+       "examinable": true
+      },
+      {
+       "id": "S2-U10",
+       "section": "S2C",
+       "title": "Which financial statements: consolidated statements",
+       "where": "slide 24",
+       "examinable": true
+      },
+      {
+       "id": "S2-U11",
+       "section": "S2C",
+       "title": "Balance sheet views and formats (IFRS, US practice), the accounting identity",
+       "where": "slides 25–28",
+       "examinable": true
+      },
+      {
+       "id": "S2-U12",
+       "section": "S2C",
+       "title": "Balance sheet items and measurement (cash, receivables, inventories, PP&E, financial assets, intangibles, liabilities)",
+       "where": "slides 29–33 (optional)",
+       "examinable": true
+      },
+      {
+       "id": "S2-U13",
+       "section": "S2C",
+       "title": "Equity: book vs market value, market premium",
+       "where": "slide 34",
+       "examinable": true
+      },
+      {
+       "id": "S2-U14",
+       "section": "S2C",
+       "title": "Income statement: definitions and the functional format",
+       "where": "slides 35–36",
+       "examinable": true
+      },
+      {
+       "id": "S2-U15",
+       "section": "S2C",
+       "title": "Income statement principles: revenue recognition, accruals, recognition uncertainty",
+       "where": "slide 37",
+       "examinable": true
+      },
+      {
+       "id": "S2-U16",
+       "section": "S2C",
+       "title": "Statement of shareholders' equity and retained earnings",
+       "where": "slide 38",
+       "examinable": true
+      },
+      {
+       "id": "S2-U17",
+       "section": "S2C",
+       "title": "Cash flow statement: CFO, CFI, CFF; direct and indirect methods",
+       "where": "slides 39–41",
+       "examinable": true
+      },
+      {
+       "id": "S2-U18",
+       "section": "S2C",
+       "title": "Reconciliation of cash and the interrelation of the statements",
+       "where": "slides 42–43",
+       "examinable": true
+      },
+      {
+       "id": "S2-U19",
+       "section": "S2C",
+       "title": "Fiat Chrysler: the statements of a real company",
+       "where": "slides 44–48",
+       "examinable": false,
+       "reason": "Illustration: the statements are shown as images with no figures in the text; the lesson (read the notes, connect the statements) is examined through S2-U18."
+      },
+      {
+       "id": "S2-U20",
+       "section": "S2D",
+       "title": "Reverse accounting distortions: judgement vs earnings management",
+       "where": "slide 49",
+       "examinable": true
+      },
+      {
+       "id": "S2-U21",
+       "section": "S2D",
+       "title": "Distortions in assets (leases, R&D, fair values, depreciation, allowances)",
+       "where": "slides 50–51",
+       "examinable": true
+      },
+      {
+       "id": "S2-U22",
+       "section": "S2D",
+       "title": "Distortions in liabilities and equity (provisions, leases, employment benefits, share-based payments)",
+       "where": "slide 52",
+       "examinable": true
+      },
+      {
+       "id": "S2-U23",
+       "section": "S2D",
+       "title": "Distortions in the income statement (revenue recognition, gift cards, deferred expenses)",
+       "where": "slide 53",
+       "examinable": true
+      },
+      {
+       "id": "S2-U24",
+       "section": "S2D",
+       "title": "Accrued and deferred revenues and expenses",
+       "where": "slides 54–55",
+       "examinable": true
+      }
+     ]
     },
     "S34": {
      "title": "Sessions 3-4: Financial statement reclassification",
-     "file": "Slides/30024 - AM - Session 3 - 4 Reclassification.pdf"
+     "file": "Slides/30024 - AM - Session 3 - 4 Reclassification.pdf",
+     "sections": [
+      {
+       "id": "S34A",
+       "title": "Balance sheet: the management account method (ONWC, NIC, NFP)"
+      },
+      {
+       "id": "S34B",
+       "title": "Balance sheet: the liquidity-based view"
+      },
+      {
+       "id": "S34C",
+       "title": "Income statement: cost of sales, value added, contribution margin"
+      }
+     ],
+     "units": [
+      {
+       "id": "S34-U1",
+       "section": "S34A",
+       "title": "Why reclassify; objectives; no prescribed format",
+       "where": "slides 3–8",
+       "examinable": true
+      },
+      {
+       "id": "S34-U2",
+       "section": "S34A",
+       "title": "Operating NWC: definition and interpretation (negative ONWC)",
+       "where": "slides 9–10",
+       "examinable": true
+      },
+      {
+       "id": "S34-U3",
+       "section": "S34A",
+       "title": "Net Invested Capital: asset side and financing side",
+       "where": "slides 11–13",
+       "examinable": true
+      },
+      {
+       "id": "S34-U4",
+       "section": "S34A",
+       "title": "Net Financial Position: items included and excluded",
+       "where": "slides 13, 20–23",
+       "examinable": true
+      },
+      {
+       "id": "S34-U5",
+       "section": "S34A",
+       "title": "Operating vs non-operating assets; non-operating fixed assets excluded from NIC; ROIC consistency",
+       "where": "slides 15–16",
+       "examinable": true
+      },
+      {
+       "id": "S34-U6",
+       "section": "S34A",
+       "title": "ONWC items included and excluded; borderline cases",
+       "where": "slides 24–28",
+       "examinable": true
+      },
+      {
+       "id": "S34-U7",
+       "section": "S34B",
+       "title": "Liquidity-based balance sheet: classification by liquidity and maturity",
+       "where": "slides 17–18",
+       "examinable": true
+      },
+      {
+       "id": "S34-U8",
+       "section": "S34B",
+       "title": "Financial NWC and treasury margin; interpretation",
+       "where": "slides 19–20",
+       "examinable": true
+      },
+      {
+       "id": "S34-U9",
+       "section": "S34C",
+       "title": "Income statement reclassification: the three methods and EBIT",
+       "where": "slides 29–32",
+       "examinable": true
+      },
+      {
+       "id": "S34-U10",
+       "section": "S34C",
+       "title": "Cost of sales (destination): COGS, cost drivers, gross margin %",
+       "where": "slides 33–37",
+       "examinable": true
+      },
+      {
+       "id": "S34-U11",
+       "section": "S34C",
+       "title": "Value added (nature): value of production, external/internal costs, distribution, VA ratio, outsourcing",
+       "where": "slides 38–46",
+       "examinable": true
+      },
+      {
+       "id": "S34-U12",
+       "section": "S34C",
+       "title": "Contribution margin (behaviour): variable/fixed costs, CVP uses",
+       "where": "slides 47–50",
+       "examinable": true
+      }
+     ]
     }
    },
    "fingerprint": {
@@ -651,7 +3301,9 @@
     "label": "SUPPORTING - scored by Claude from the course's own exam material and slide examples; not a real past-paper analysis",
     "sources": [
      "30024 Mock Exam Part A & B 2023 (ROE/ROA: 1-2 steps per value; %ΔROA: 2; industry match: 2)",
-     "Slide examples: Armani multiples (2), gross margin % (2)"
+     "Slide examples: Armani multiples (2), gross margin % (2)",
+     "2023 mock Part A, 15 MCQs (1-4 steps; median 3) - scored 2026-09-24 for the concept MCQ shape",
+     "2023 mock Part B open essays and the 2017 short essays (2-4 points; median 3) - scored 2026-09-24 for the qualitative essay shape"
     ],
     "by_shape": {
      "quantitative essay part": {
@@ -665,6 +3317,40 @@
       },
       "concepts_combined": {
        "median": 1,
+       "range": [
+        1,
+        2
+       ]
+      }
+     },
+     "concept MCQ": {
+      "n": 15,
+      "steps": {
+       "median": 3,
+       "range": [
+        1,
+        4
+       ]
+      },
+      "concepts_combined": {
+       "median": 1,
+       "range": [
+        1,
+        2
+       ]
+      }
+     },
+     "qualitative essay part": {
+      "n": 9,
+      "steps": {
+       "median": 3,
+       "range": [
+        2,
+        4
+       ]
+      },
+      "concepts_combined": {
+       "median": 2,
        "range": [
         1,
         2
@@ -698,6 +3384,16 @@
          2
         ]
        }
+      },
+      "qualitative essay part": {
+       "n": 3,
+       "steps": {
+        "median": 3,
+        "range": [
+         2,
+         3
+        ]
+       }
       }
      }
     },
@@ -720,6 +3416,14 @@
       "quantitative essay part": {
        "steps_min": 4,
        "concepts_min": 2
+      },
+      "concept MCQ": {
+       "steps_min": 4,
+       "concepts_min": 2
+      },
+      "qualitative essay part": {
+       "steps_min": 5,
+       "concepts_min": 2
       }
      }
     },
@@ -735,7 +3439,950 @@
      "settle_with": "your exam calendar (set it on the Courses screen)"
     }
    ],
-   "updated_at": "2026-09-24T18:00:00Z"
+   "updated_at": "2026-09-24T18:00:00Z",
+   "source_ledger": [
+    {
+     "file": "30024 - 2026-27 Syllabus FSA - Final.pdf",
+     "item": "Syllabus 2026-27",
+     "decision": "used",
+     "ids": [],
+     "reason": "Exam: 'a mix of open essay questions (with and without calculations), and multiple choices'; direction sheet in late November. Sets the three shapes."
+    },
+    {
+     "file": "Slides/30024 - AM - Session 1 - Intro.pdf",
+     "item": "Session 1 deck",
+     "decision": "units",
+     "ids": [],
+     "reason": "Sections S1A-S1B."
+    },
+    {
+     "file": "Session 1 - Accounting Refresh - TEXT.pdf",
+     "item": "Session 1 accounting-refresh handout",
+     "decision": "units",
+     "ids": [],
+     "reason": "Section S1C."
+    },
+    {
+     "file": "Session 1 - Accounting Refresh - TEXT.pdf",
+     "item": "Questions 1-7",
+     "decision": "included",
+     "ids": [
+      "30024-S1-10",
+      "30024-S1-11",
+      "30024-S1-12",
+      "30024-S1-13",
+      "30024-S1-14",
+      "30024-S1-15",
+      "30024-S1-16"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Slides/30024 - AM - Session 2.pdf",
+     "item": "Session 2 deck",
+     "decision": "units",
+     "ids": [],
+     "reason": "Sections S2A-S2D."
+    },
+    {
+     "file": "Slides/30024 - AM - Session 3 - 4 Reclassification.pdf",
+     "item": "Sessions 3-4 deck",
+     "decision": "units",
+     "ids": [],
+     "reason": "Sections S34A-S34C."
+    },
+    {
+     "file": "Slides/30024 - AM - Session 2.pdf",
+     "item": "Fiat Chrysler statements (slides 44-48)",
+     "decision": "not_examinable",
+     "ids": [],
+     "reason": "Images only; see unit S2-U19."
+    },
+    {
+     "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+     "item": "Part A MC4, MC6, MC9, MC13",
+     "decision": "included",
+     "ids": [
+      "30024-S2-10",
+      "30024-S2-11",
+      "30024-S2-12",
+      "30024-S2-13"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+     "item": "Part A MC1, MC5 (accounting-quality studies)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after Session 5 (earnings quality and its determinants); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+     "item": "Part A MC12",
+     "decision": "duplicate",
+     "ids": [],
+     "reason": "Same question as MC5 (repeated in the source)."
+    },
+    {
+     "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+     "item": "Part A MC2 (multi-business valuation)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after Session 5 (accounting and valuation, sessions 18-21); that deck is not in the folder yet. Held until it arrives. The table is also scrambled in the text layer."
+    },
+    {
+     "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+     "item": "Part A MC3, MC7 (guest speakers)",
+     "decision": "excluded",
+     "ids": [],
+     "reason": "About the 2023 guest speakers' talks; the 2026-27 guest sessions are different."
+    },
+    {
+     "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+     "item": "Part A MC8, MC10, MC11 (P/E, recommendations, price-to-sales)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after Session 5 (accounting and valuation, sessions 18-21); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+     "item": "Part A MC14 (ROCE)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after Session 5 (ratio analysis: profitability, liquidity and solvency, sessions 6-9); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+     "item": "Part A MC15 (qualities of financial information)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Primary/secondary qualities are not in the 2026-27 decks so far, and the key depends on which framework is used; recheck when the book chapter or a deck covers it."
+    },
+    {
+     "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+     "item": "Part A Open Essay (ROE/ROA and Covid-19)",
+     "decision": "included_adapted",
+     "ids": [
+      "30024-S2-14"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+     "item": "Part B MC1 (Basu), MC2 (CapEx ratio)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after Session 5 (earnings quality and its determinants); that deck is not in the folder yet. Held until it arrives. MC2's formula is also garbled in the text layer."
+    },
+    {
+     "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+     "item": "Part B MC3-MC5 (FIFO/LIFO ratios, DuPont, vertical analysis)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after Session 5 (ratio analysis: profitability, liquidity and solvency, sessions 6-9); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+     "item": "Part B Open Essay 1 (Leuz, Nanda and Wysocki)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after Session 5 (earnings quality and its determinants); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+     "item": "Part B Open Essay 2 (operating vs financial liabilities)",
+     "decision": "included",
+     "ids": [
+      "30024-S34-10"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Exam Material/Clean/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+     "item": "Whole file",
+     "decision": "duplicate",
+     "ids": [],
+     "reason": "Byte-identical copy of the 2023 mock (same size) in Exam Material/Clean."
+    },
+    {
+     "file": "Exam Material/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+     "item": "Esercizio 4 (cash-flow dynamics)",
+     "decision": "included_adapted",
+     "ids": [
+      "30024-S2-15"
+     ],
+     "reason": ""
+    },
+    {
+     "file": "Exam Material/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+     "item": "Questions 1, 2, 5, 6, 8, 9 (AEG, earnings growth, DDM, value creation, RIM, IRR)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after Session 5 (accounting and valuation, sessions 18-21); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Exam Material/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+     "item": "Question 3 and Esercizi 1, 5 (ROE leverage, ROIC decomposition)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after Session 5 (ratio analysis: profitability, liquidity and solvency, sessions 6-9); that deck is not in the folder yet. Held until it arrives. Esercizio 1 also reclassifies a balance sheet; it comes in with the ratio deck."
+    },
+    {
+     "file": "Exam Material/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+     "item": "Esercizio 2 (Residual Income Model)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after Session 5 (accounting and valuation, sessions 18-21); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Exam Material/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+     "item": "Esercizio 3 (forecast financial statements)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Taught after Session 5 (forecasting, sessions 10-13); that deck is not in the folder yet. Held until it arrives."
+    },
+    {
+     "file": "Exam Material/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+     "item": "Question 4 (margin of safety)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Needs the degree of operating leverage, which the Sessions 3-4 contribution-margin slides do not cover; recheck with the forecasting or ratio decks."
+    },
+    {
+     "file": "Exam Material/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+     "item": "Question 7 (US analyst's adjustment for development costs)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Needs the US GAAP treatment of development costs, which is not in the 2026-27 slides so far."
+    },
+    {
+     "file": "Exam Material/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+     "item": "Question 10 (inflation revaluation of plant)",
+     "decision": "held",
+     "ids": [],
+     "reason": "Not in the 2026-27 decks so far."
+    },
+    {
+     "file": "Exam Material/Clean/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+     "item": "Whole file",
+     "decision": "duplicate",
+     "ids": [],
+     "reason": "Same text as the Exam Material copy (checked 2026-09-24)."
+    },
+    {
+     "file": "Mock Exam/30024 Mock Exam - Lecture 1, PART A Lecture 1, Lecture 2, Lectures 3-4 (paper, mark scheme, question bank)",
+     "item": "All items",
+     "decision": "excluded",
+     "ids": [],
+     "reason": "Claude-written mocks are not evidence."
+    },
+    {
+     "file": "Claude outputs/ (RemNote decks: lectures 3-4; COGS and Value Added)",
+     "item": "All items",
+     "decision": "excluded",
+     "ids": [],
+     "reason": "Claude-written study decks are not evidence."
+    }
+   ]
   }
- ]
+ ],
+ "coverage": {
+  "course": "30024",
+  "sections": {
+   "S1": [
+    {
+     "id": "S1A",
+     "title": "Why accounting matters: from financial information to decisions"
+    },
+    {
+     "id": "S1B",
+     "title": "The cases (Juventus, Apple, GE, Carillion, Credit Suisse, Macy's, Armani, Prada–Versace)"
+    },
+    {
+     "id": "S1C",
+     "title": "Accounting refresh (Session 1 handout)"
+    }
+   ],
+   "S2": [
+    {
+     "id": "S2A",
+     "title": "Accounting information, users and standards (with the Covid example)"
+    },
+    {
+     "id": "S2B",
+     "title": "Financial statement analysis, investors, price and value, market efficiency"
+    },
+    {
+     "id": "S2C",
+     "title": "The financial statements and how they connect"
+    },
+    {
+     "id": "S2D",
+     "title": "Accounting distortions"
+    }
+   ],
+   "S34": [
+    {
+     "id": "S34A",
+     "title": "Balance sheet: the management account method (ONWC, NIC, NFP)"
+    },
+    {
+     "id": "S34B",
+     "title": "Balance sheet: the liquidity-based view"
+    },
+    {
+     "id": "S34C",
+     "title": "Income statement: cost of sales, value added, contribution margin"
+    }
+   ]
+  },
+  "units": {
+   "S1": [
+    {
+     "id": "S1-U1",
+     "section": "S1A",
+     "title": "Mission: FSA, accounting quality and valuation as complementary tools",
+     "where": "slides 2–3",
+     "examinable": true
+    },
+    {
+     "id": "S1-U2",
+     "section": "S1A",
+     "title": "Accounting is everywhere: decisions, incentives, controls, judgement",
+     "where": "slide 4",
+     "examinable": true
+    },
+    {
+     "id": "S1-U3",
+     "section": "S1B",
+     "title": "Juventus–Aston Villa: connected transactions across two reporting periods",
+     "where": "Juventus slides",
+     "examinable": true
+    },
+    {
+     "id": "S1-U4",
+     "section": "S1B",
+     "title": "Apple: the CFO as a strategic business partner",
+     "where": "Apple slide",
+     "examinable": true
+    },
+    {
+     "id": "S1-U5",
+     "section": "S1B",
+     "title": "General Electric and Carillion: delayed impairment and aggressive estimates",
+     "where": "GE and Carillion slides",
+     "examinable": true
+    },
+    {
+     "id": "S1-U6",
+     "section": "S1B",
+     "title": "Credit Suisse and Macy's: material misstatement vs material weakness; adverse ICFR opinion",
+     "where": "Credit Suisse and Macy's slides",
+     "examinable": true
+    },
+    {
+     "id": "S1-U7",
+     "section": "S1B",
+     "title": "Armani and Prada–Versace: multiples, price vs value",
+     "where": "Armani and Versace slides",
+     "examinable": true
+    },
+    {
+     "id": "S1-U8",
+     "section": "S1A",
+     "title": "Conclusion: what financial statements really tell us",
+     "where": "cases summary and conclusion",
+     "examinable": true
+    },
+    {
+     "id": "S1-U9",
+     "section": "S1A",
+     "title": "Course organisation: materials, attending status, assessment",
+     "where": "last slides",
+     "examinable": false,
+     "reason": "Course administration, not examinable content."
+    },
+    {
+     "id": "S1-U10",
+     "section": "S1C",
+     "title": "Share issue: par value, paid-in capital, contribution in kind",
+     "where": "handout Q1",
+     "examinable": true
+    },
+    {
+     "id": "S1-U11",
+     "section": "S1C",
+     "title": "Bond issue and accrued interest",
+     "where": "handout Q2",
+     "examinable": true
+    },
+    {
+     "id": "S1-U12",
+     "section": "S1C",
+     "title": "Rent paid in advance (pre-paid expense)",
+     "where": "handout Q3",
+     "examinable": true
+    },
+    {
+     "id": "S1-U13",
+     "section": "S1C",
+     "title": "Disposal of a non-current asset: gain or loss",
+     "where": "handout Q4",
+     "examinable": true
+    },
+    {
+     "id": "S1-U14",
+     "section": "S1C",
+     "title": "Inventory purchase with a note payable",
+     "where": "handout Q5",
+     "examinable": true
+    },
+    {
+     "id": "S1-U15",
+     "section": "S1C",
+     "title": "Cash collected in advance (unearned revenue)",
+     "where": "handout Q6",
+     "examinable": true
+    },
+    {
+     "id": "S1-U16",
+     "section": "S1C",
+     "title": "Credit sales and accounts receivable",
+     "where": "handout Q7",
+     "examinable": true
+    }
+   ],
+   "S2": [
+    {
+     "id": "S2-U1",
+     "section": "S2A",
+     "title": "The pandemic's effect on Italian listed companies (ROA, ROE, industries)",
+     "where": "slides 2–5",
+     "examinable": true
+    },
+    {
+     "id": "S2-U2",
+     "section": "S2A",
+     "title": "Accounting as valuable information: benefits of accounting quality",
+     "where": "slide 8",
+     "examinable": true
+    },
+    {
+     "id": "S2-U3",
+     "section": "S2A",
+     "title": "Financial vs managerial accounting",
+     "where": "slide 9",
+     "examinable": true
+    },
+    {
+     "id": "S2-U4",
+     "section": "S2A",
+     "title": "Purpose of financial statements, users, cost constraint and materiality",
+     "where": "slides 10–13",
+     "examinable": true
+    },
+    {
+     "id": "S2-U5",
+     "section": "S2A",
+     "title": "Accounting standards: purpose, convergence, IFRS and US GAAP",
+     "where": "slides 14–15",
+     "examinable": true
+    },
+    {
+     "id": "S2-U6",
+     "section": "S2B",
+     "title": "What FSA enables; fundamental analysis",
+     "where": "slide 16",
+     "examinable": true
+    },
+    {
+     "id": "S2-U7",
+     "section": "S2B",
+     "title": "Investment styles: intuitive, passive, fundamental",
+     "where": "slide 17",
+     "examinable": true
+    },
+    {
+     "id": "S2-U8",
+     "section": "S2B",
+     "title": "Price vs value (market, investment, intrinsic) and mispricing",
+     "where": "slides 18–19",
+     "examinable": true
+    },
+    {
+     "id": "S2-U9",
+     "section": "S2B",
+     "title": "Efficient markets, the semi-strong form and reporting",
+     "where": "slides 20–23",
+     "examinable": true
+    },
+    {
+     "id": "S2-U10",
+     "section": "S2C",
+     "title": "Which financial statements: consolidated statements",
+     "where": "slide 24",
+     "examinable": true
+    },
+    {
+     "id": "S2-U11",
+     "section": "S2C",
+     "title": "Balance sheet views and formats (IFRS, US practice), the accounting identity",
+     "where": "slides 25–28",
+     "examinable": true
+    },
+    {
+     "id": "S2-U12",
+     "section": "S2C",
+     "title": "Balance sheet items and measurement (cash, receivables, inventories, PP&E, financial assets, intangibles, liabilities)",
+     "where": "slides 29–33 (optional)",
+     "examinable": true
+    },
+    {
+     "id": "S2-U13",
+     "section": "S2C",
+     "title": "Equity: book vs market value, market premium",
+     "where": "slide 34",
+     "examinable": true
+    },
+    {
+     "id": "S2-U14",
+     "section": "S2C",
+     "title": "Income statement: definitions and the functional format",
+     "where": "slides 35–36",
+     "examinable": true
+    },
+    {
+     "id": "S2-U15",
+     "section": "S2C",
+     "title": "Income statement principles: revenue recognition, accruals, recognition uncertainty",
+     "where": "slide 37",
+     "examinable": true
+    },
+    {
+     "id": "S2-U16",
+     "section": "S2C",
+     "title": "Statement of shareholders' equity and retained earnings",
+     "where": "slide 38",
+     "examinable": true
+    },
+    {
+     "id": "S2-U17",
+     "section": "S2C",
+     "title": "Cash flow statement: CFO, CFI, CFF; direct and indirect methods",
+     "where": "slides 39–41",
+     "examinable": true
+    },
+    {
+     "id": "S2-U18",
+     "section": "S2C",
+     "title": "Reconciliation of cash and the interrelation of the statements",
+     "where": "slides 42–43",
+     "examinable": true
+    },
+    {
+     "id": "S2-U19",
+     "section": "S2C",
+     "title": "Fiat Chrysler: the statements of a real company",
+     "where": "slides 44–48",
+     "examinable": false,
+     "reason": "Illustration: the statements are shown as images with no figures in the text; the lesson (read the notes, connect the statements) is examined through S2-U18."
+    },
+    {
+     "id": "S2-U20",
+     "section": "S2D",
+     "title": "Reverse accounting distortions: judgement vs earnings management",
+     "where": "slide 49",
+     "examinable": true
+    },
+    {
+     "id": "S2-U21",
+     "section": "S2D",
+     "title": "Distortions in assets (leases, R&D, fair values, depreciation, allowances)",
+     "where": "slides 50–51",
+     "examinable": true
+    },
+    {
+     "id": "S2-U22",
+     "section": "S2D",
+     "title": "Distortions in liabilities and equity (provisions, leases, employment benefits, share-based payments)",
+     "where": "slide 52",
+     "examinable": true
+    },
+    {
+     "id": "S2-U23",
+     "section": "S2D",
+     "title": "Distortions in the income statement (revenue recognition, gift cards, deferred expenses)",
+     "where": "slide 53",
+     "examinable": true
+    },
+    {
+     "id": "S2-U24",
+     "section": "S2D",
+     "title": "Accrued and deferred revenues and expenses",
+     "where": "slides 54–55",
+     "examinable": true
+    }
+   ],
+   "S34": [
+    {
+     "id": "S34-U1",
+     "section": "S34A",
+     "title": "Why reclassify; objectives; no prescribed format",
+     "where": "slides 3–8",
+     "examinable": true
+    },
+    {
+     "id": "S34-U2",
+     "section": "S34A",
+     "title": "Operating NWC: definition and interpretation (negative ONWC)",
+     "where": "slides 9–10",
+     "examinable": true
+    },
+    {
+     "id": "S34-U3",
+     "section": "S34A",
+     "title": "Net Invested Capital: asset side and financing side",
+     "where": "slides 11–13",
+     "examinable": true
+    },
+    {
+     "id": "S34-U4",
+     "section": "S34A",
+     "title": "Net Financial Position: items included and excluded",
+     "where": "slides 13, 20–23",
+     "examinable": true
+    },
+    {
+     "id": "S34-U5",
+     "section": "S34A",
+     "title": "Operating vs non-operating assets; non-operating fixed assets excluded from NIC; ROIC consistency",
+     "where": "slides 15–16",
+     "examinable": true
+    },
+    {
+     "id": "S34-U6",
+     "section": "S34A",
+     "title": "ONWC items included and excluded; borderline cases",
+     "where": "slides 24–28",
+     "examinable": true
+    },
+    {
+     "id": "S34-U7",
+     "section": "S34B",
+     "title": "Liquidity-based balance sheet: classification by liquidity and maturity",
+     "where": "slides 17–18",
+     "examinable": true
+    },
+    {
+     "id": "S34-U8",
+     "section": "S34B",
+     "title": "Financial NWC and treasury margin; interpretation",
+     "where": "slides 19–20",
+     "examinable": true
+    },
+    {
+     "id": "S34-U9",
+     "section": "S34C",
+     "title": "Income statement reclassification: the three methods and EBIT",
+     "where": "slides 29–32",
+     "examinable": true
+    },
+    {
+     "id": "S34-U10",
+     "section": "S34C",
+     "title": "Cost of sales (destination): COGS, cost drivers, gross margin %",
+     "where": "slides 33–37",
+     "examinable": true
+    },
+    {
+     "id": "S34-U11",
+     "section": "S34C",
+     "title": "Value added (nature): value of production, external/internal costs, distribution, VA ratio, outsourcing",
+     "where": "slides 38–46",
+     "examinable": true
+    },
+    {
+     "id": "S34-U12",
+     "section": "S34C",
+     "title": "Contribution margin (behaviour): variable/fixed costs, CVP uses",
+     "where": "slides 47–50",
+     "examinable": true
+    }
+   ]
+  },
+  "existing_units": {
+   "30024-S1-01": [
+    "S1-U3",
+    "S1-U7"
+   ],
+   "30024-S2-01": [
+    "S2-U16",
+    "S2-U17",
+    "S2-U18"
+   ],
+   "30024-S2-02": [
+    "S2-U24",
+    "S2-U23",
+    "S2-U13"
+   ],
+   "30024-S34-01": [
+    "S34-U2",
+    "S34-U3",
+    "S34-U4",
+    "S34-U5",
+    "S34-U6"
+   ],
+   "30024-S34-02": [
+    "S34-U7",
+    "S34-U8",
+    "S34-U11"
+   ]
+  },
+  "ledger": [
+   {
+    "file": "30024 - 2026-27 Syllabus FSA - Final.pdf",
+    "item": "Syllabus 2026-27",
+    "decision": "used",
+    "ids": [],
+    "reason": "Exam: 'a mix of open essay questions (with and without calculations), and multiple choices'; direction sheet in late November. Sets the three shapes."
+   },
+   {
+    "file": "Slides/30024 - AM - Session 1 - Intro.pdf",
+    "item": "Session 1 deck",
+    "decision": "units",
+    "ids": [],
+    "reason": "Sections S1A-S1B."
+   },
+   {
+    "file": "Session 1 - Accounting Refresh - TEXT.pdf",
+    "item": "Session 1 accounting-refresh handout",
+    "decision": "units",
+    "ids": [],
+    "reason": "Section S1C."
+   },
+   {
+    "file": "Session 1 - Accounting Refresh - TEXT.pdf",
+    "item": "Questions 1-7",
+    "decision": "included",
+    "ids": [
+     "30024-S1-10",
+     "30024-S1-11",
+     "30024-S1-12",
+     "30024-S1-13",
+     "30024-S1-14",
+     "30024-S1-15",
+     "30024-S1-16"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Slides/30024 - AM - Session 2.pdf",
+    "item": "Session 2 deck",
+    "decision": "units",
+    "ids": [],
+    "reason": "Sections S2A-S2D."
+   },
+   {
+    "file": "Slides/30024 - AM - Session 3 - 4 Reclassification.pdf",
+    "item": "Sessions 3-4 deck",
+    "decision": "units",
+    "ids": [],
+    "reason": "Sections S34A-S34C."
+   },
+   {
+    "file": "Slides/30024 - AM - Session 2.pdf",
+    "item": "Fiat Chrysler statements (slides 44-48)",
+    "decision": "not_examinable",
+    "ids": [],
+    "reason": "Images only; see unit S2-U19."
+   },
+   {
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "item": "Part A MC4, MC6, MC9, MC13",
+    "decision": "included",
+    "ids": [
+     "30024-S2-10",
+     "30024-S2-11",
+     "30024-S2-12",
+     "30024-S2-13"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "item": "Part A MC1, MC5 (accounting-quality studies)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after Session 5 (earnings quality and its determinants); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "item": "Part A MC12",
+    "decision": "duplicate",
+    "ids": [],
+    "reason": "Same question as MC5 (repeated in the source)."
+   },
+   {
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "item": "Part A MC2 (multi-business valuation)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after Session 5 (accounting and valuation, sessions 18-21); that deck is not in the folder yet. Held until it arrives. The table is also scrambled in the text layer."
+   },
+   {
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "item": "Part A MC3, MC7 (guest speakers)",
+    "decision": "excluded",
+    "ids": [],
+    "reason": "About the 2023 guest speakers' talks; the 2026-27 guest sessions are different."
+   },
+   {
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "item": "Part A MC8, MC10, MC11 (P/E, recommendations, price-to-sales)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after Session 5 (accounting and valuation, sessions 18-21); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "item": "Part A MC14 (ROCE)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after Session 5 (ratio analysis: profitability, liquidity and solvency, sessions 6-9); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "item": "Part A MC15 (qualities of financial information)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Primary/secondary qualities are not in the 2026-27 decks so far, and the key depends on which framework is used; recheck when the book chapter or a deck covers it."
+   },
+   {
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "item": "Part A Open Essay (ROE/ROA and Covid-19)",
+    "decision": "included_adapted",
+    "ids": [
+     "30024-S2-14"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "item": "Part B MC1 (Basu), MC2 (CapEx ratio)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after Session 5 (earnings quality and its determinants); that deck is not in the folder yet. Held until it arrives. MC2's formula is also garbled in the text layer."
+   },
+   {
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "item": "Part B MC3-MC5 (FIFO/LIFO ratios, DuPont, vertical analysis)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after Session 5 (ratio analysis: profitability, liquidity and solvency, sessions 6-9); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "item": "Part B Open Essay 1 (Leuz, Nanda and Wysocki)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after Session 5 (earnings quality and its determinants); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Exam Material/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "item": "Part B Open Essay 2 (operating vs financial liabilities)",
+    "decision": "included",
+    "ids": [
+     "30024-S34-10"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Exam Material/Clean/[studocu.com] - 30024 FINANCIAL STATEMENT ANALYSIS MOCK EXAM PART A & B 2023.pdf",
+    "item": "Whole file",
+    "decision": "duplicate",
+    "ids": [],
+    "reason": "Byte-identical copy of the 2023 mock (same size) in Exam Material/Clean."
+   },
+   {
+    "file": "Exam Material/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+    "item": "Esercizio 4 (cash-flow dynamics)",
+    "decision": "included_adapted",
+    "ids": [
+     "30024-S2-15"
+    ],
+    "reason": ""
+   },
+   {
+    "file": "Exam Material/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+    "item": "Questions 1, 2, 5, 6, 8, 9 (AEG, earnings growth, DDM, value creation, RIM, IRR)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after Session 5 (accounting and valuation, sessions 18-21); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Exam Material/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+    "item": "Question 3 and Esercizi 1, 5 (ROE leverage, ROIC decomposition)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after Session 5 (ratio analysis: profitability, liquidity and solvency, sessions 6-9); that deck is not in the folder yet. Held until it arrives. Esercizio 1 also reclassifies a balance sheet; it comes in with the ratio deck."
+   },
+   {
+    "file": "Exam Material/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+    "item": "Esercizio 2 (Residual Income Model)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after Session 5 (accounting and valuation, sessions 18-21); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Exam Material/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+    "item": "Esercizio 3 (forecast financial statements)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Taught after Session 5 (forecasting, sessions 10-13); that deck is not in the folder yet. Held until it arrives."
+   },
+   {
+    "file": "Exam Material/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+    "item": "Question 4 (margin of safety)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Needs the degree of operating leverage, which the Sessions 3-4 contribution-margin slides do not cover; recheck with the forecasting or ratio decks."
+   },
+   {
+    "file": "Exam Material/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+    "item": "Question 7 (US analyst's adjustment for development costs)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Needs the US GAAP treatment of development costs, which is not in the 2026-27 slides so far."
+   },
+   {
+    "file": "Exam Material/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+    "item": "Question 10 (inflation revaluation of plant)",
+    "decision": "held",
+    "ids": [],
+    "reason": "Not in the 2026-27 decks so far."
+   },
+   {
+    "file": "Exam Material/Clean/[studocu.com] - Soluzioni Prova Generale 30024 - 30 Maggio 2017.pdf",
+    "item": "Whole file",
+    "decision": "duplicate",
+    "ids": [],
+    "reason": "Same text as the Exam Material copy (checked 2026-09-24)."
+   },
+   {
+    "file": "Mock Exam/30024 Mock Exam - Lecture 1, PART A Lecture 1, Lecture 2, Lectures 3-4 (paper, mark scheme, question bank)",
+    "item": "All items",
+    "decision": "excluded",
+    "ids": [],
+    "reason": "Claude-written mocks are not evidence."
+   },
+   {
+    "file": "Claude outputs/ (RemNote decks: lectures 3-4; COGS and Value Added)",
+    "item": "All items",
+    "decision": "excluded",
+    "ids": [],
+    "reason": "Claude-written study decks are not evidence."
+   }
+  ]
+ }
 }
