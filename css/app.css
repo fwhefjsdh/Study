@@ -57,7 +57,7 @@ kbd{font-family:var(--mono);font-size:.72em;padding:1px 5px;border-radius:4px;bo
 .cardlink:hover h3{color:var(--accent)}
 
 /* top bar */
-.topbar{position:sticky;top:0;z-index:20;background:color-mix(in oklab,var(--bg) 92%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding:calc(10px + env(safe-area-inset-top,0px)) 0 10px;border-bottom:1px solid var(--line);margin-bottom:18px}
+.topbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in oklab,var(--bg) 92%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);padding-block:10px;border-bottom:1px solid var(--line);margin-bottom:18px}
 .topbar .row{justify-content:space-between}
 .brand{display:flex;align-items:baseline;gap:10px}
 .brand small{color:var(--muted);font-size:.85rem}
@@ -250,7 +250,7 @@ dialog::backdrop{background:rgba(10,16,28,.45)}
 #exForm>.row:last-child{position:sticky;bottom:-20px;background:var(--surface);padding:12px 0 4px;margin-top:-4px;border-top:1px solid var(--line)}
 @media (max-width:640px){
   nav{flex-wrap:nowrap;overflow-x:auto;gap:0}nav a{padding:0 8px;font-size:.92rem;min-height:38px}
-  .topbar{padding-top:calc(6px + env(safe-area-inset-top,0px))}
+  .topbar{padding-block:6px}
   .md{font-size:.97rem}
   .actionbar .seg button{padding:0 10px}
   dialog{padding:16px}

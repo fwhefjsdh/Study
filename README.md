@@ -3,8 +3,11 @@
 Spaced-repetition practice for exam questions, as a website you can open in any browser.
 It is built from the Answer Grid Claude artifact and comes with the 30178 International Banking bank (30 questions and your progress so far).
 
-**Open it:** double-click `index.html`, or host the folder anywhere static (GitHub Pages: *Settings → Pages → Deploy from branch*, root folder).
-Your data stays in that browser (IndexedDB). Use **Settings → Download full backup** to move it or keep it safe.
+**Use it:** the site runs as your private Answer Grid artifact on claude.ai, at https://claude.ai/artifact/Y7qKUys3BN7prnBe6q2gXL.
+There, data lives in the artifact's database (the one Cowork writes to), so it works on any device, and Claude marking uses your claude.ai account.
+`python3 tools/build-artifact.py` builds the single-file page (`dist/answer-grid-artifact.html`) that is published there.
+
+Opening `index.html` directly also works as a standalone, offline copy. Its data stays in that one browser, and it starts from the bundled bank.
 
 ## What it does
 
