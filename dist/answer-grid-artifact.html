@@ -1225,7 +1225,7 @@ function checkImport(text){
   const asMap=v=>Array.isArray(v)?Object.fromEntries(v.filter(x=>x&&x.id!=null).map(x=>[x.id,x])):(v&&typeof v==="object"?v:{});
   let qs=Array.isArray(data)?data:Array.isArray(data&&data.questions)?data.questions:(data&&data.questions&&typeof data.questions==="object"?Object.values(data.questions):null);
   if(!qs)return {fileError:"Expected an array of questions, {questions:[…]} or an Answer Grid backup."};
-  const inCourses=asMap(data.courses);if(data.course&&typeof data.course==="object"&&data.course.code)inCourses[data.course.code]=data.course;
+  const inCourses=Array.isArray(data.courses)?Object.fromEntries(data.courses.filter(c=>c&&(c.code||c.id)).map(c=>[c.code||c.id,c])):asMap(data.courses);if(data.course&&typeof data.course==="object"&&data.course.code)inCourses[data.course.code]=data.course;
   const courses=Object.values(inCourses).filter(c=>c&&c.code);
   const courseFor=q=>inCourses[q.course]||S.courses[q.course]||null;
   const seen=new Set(),ok=[],bad=[],skip=[];

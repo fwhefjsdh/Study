@@ -21,7 +21,13 @@ If any point fails, fix the question or drop it. Do not relabel it or lower the 
    |---|---|---|---|
    | exercise part (any `shape` containing "exercise") | 3 | 3 | steps ≥ 4, concepts ≥ 2 |
    | concept MCQ (everything else) | — | 1.5 | steps ≥ 2.5, concepts ≥ 2 |
-   (30178 values. For other courses, read that course's own `fingerprint`.)
+   (30178 values.) The other subjects' thresholds (PROXY, scored on 2026-09-24 from each course's own mock/practice exam and slide examples):
+   | Course | Shape class | Slide max | Exam median | Each answer needs | Minutes per answer |
+   |---|---|---|---|---|---|
+   | 30257 Corporate Valuation | short problem (written) | 6 | 5.5 | steps ≥ 7, concepts ≥ 2 | ≤ 10 |
+   | 30285 Empirical Methods | calc MCQ | 5 | 3 | steps ≥ 6, concepts ≥ 2 | ≤ 5 |
+   | 30024 Financial Statement Analysis | quantitative essay part | 2 | 2 | steps ≥ 4, concepts ≥ 2 | ≤ 8 |
+   Always read the course's own `fingerprint` in the Answer Grid database first: it wins over this table.
 3. **Notches.** Use at least **2 distinct** ones from this list: `extra_step`, `extra_classification`, `working_backwards`,
    `cross_section`, `what_if_followon`, `extraneous_data`, `chain`, `near_true_statements`.
 4. **Time.** `est_minutes ÷ number of answer parts ≤ 4.5` (the course's `minutes_per_answer_cap`).
@@ -37,6 +43,12 @@ If any point fails, fix the question or drop it. Do not relabel it or lower the 
      "in_syllabus": true
    }
    ```
+
+**Review before creating.** Build banks with `banks/build_banks.py` (every number computed and solved a second way with an assert;
+scenario sanity asserts such as "the run is not covered by liquid assets"), then run `node banks/review.js`. It applies the site's
+validator and harder-rule check with each course's fingerprint and must print "20/20 pass" (or all N) before anything is written to
+the Answer Grid database. Then read every key and option set yourself: check the key is not always the same letter, that distractors
+come from named mistakes, and that the scheme text uses the computed numbers.
 
 The site applies the same rule (`reviewHarder` in `js/logic.js`). **Imports block** any generated question that fails it or
 has no `hard_check`. Real and adapted course questions are exempt, because they are the evidence the rule is measured against.
